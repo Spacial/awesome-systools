@@ -4,6 +4,10 @@ Collection of Sysadmins daily handy tools
 
 # Linux
 
+## Kernel
+
+* [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
+
 ## Red Hat/Fedora
 
 * Yum to DNF [Cheatsheet](https://fedoraproject.org/wiki/Yum_to_DNF_Cheatsheet)
