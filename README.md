@@ -26,3 +26,7 @@ Collection of Sysadmins daily handy tools
 ### Controllers
 
 * LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
+
+# Ansible
+
+Some usefull ansible scripts and tips on [ansible](./ansible) dir.
