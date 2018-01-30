@@ -1,0 +1,186 @@
+###### Work In Progress
+###### 
+---
+- hosts: notebook
+  connection: local
+  become: true
+  pre_tasks:
+  - name: Configurado Git email
+    git_config:
+      name: user.email
+      scope: system
+      value: 'username@github.com'
+  - name: Configurando git name
+    git_config:
+      name: user.name
+      scope: system
+      value: 'USERNAME'
+  tasks:
+    #- name: instalando o powerline
+      #dnf:
+        #name: powerline
+        #state: latest
+    #- name: install the 'admin ' package group
+      #dnf:
+        #name: '@admin-tools'
+        #state: present
+    - name: Instala os pacotes
+      dnf: pkg={{item}} state=installed
+      with_items:
+        # basic
+        - redhat-rpm-config
+        - platform-python-devel
+        - python3-pyproj
+        # sysadmin
+        - argbash
+        #  dnf copr enable szpak/netactview
+        #- netactview
+        # dev cli
+        # sudo dnf copr enable eclipseo/powerline-go
+        - powerline
+        - powerline-fonts
+        - vim-powerline
+        - tmux-powerline
+        - pss
+        - multitail
+        # python dev
+        - ninja-ide
+        # dnf copr enable aivarannamaa/thonny
+        - thonny
+        # latex
+        - kile
+        - okular
+        - texlive-babel-portuges
+        - texlive-hyphen-portuguese
+        - texlive-hyphenat
+        - texlive-import
+        - texlive-lipsum
+        - texlive-moreverb
+        - texlive-newtx
+        - texlive-oberdiek
+        - texlive-pgf-umlsd
+        - texlive-pst-tools
+        - texlive-pstricks
+        - texlive-tocbibind
+        - texlive-wallpaper
+        - texlive-ulem
+        - texlive-draftwatermark
+        # graphics
+        - inkscape
+        - gimp
+        # Video
+        - kdenlive
+        - ffmpeg
+        # sec
+        - python-firewall
+        - python3-firewall
+        - nmap-ncat
+        - nmap
+        - python3-nmap
+        - nmap-ndiff
+        # performance
+        # dnf copr enable tartare/glances
+        - sysstat
+        - htop
+        # yubikey
+        - qca-qt5-gnupg
+        - pam_yubico
+        - python3-yubico
+        - yubico-piv-tool
+        - ykclient
+        - ykpers
+        - yubikey-personalization-gui
+        - python3-yubikey-manager
+        - yubikey-manager
+        - keychain
+        - gnupg2
+        - pinentry
+        - pinentry-qt
+        # web pages
+        - python3-pelican
+        # audio
+        - audacity
+        - clementine
+        # web
+        - python3-pelican
+        # boot
+        - plymouth-theme-spinner
+        # escritorio
+        - libreoffice
+        - python3-openoffice
+        - libreoffice-nlpsolver
+        - libreoffice-langpack-pt-BR
+        - libreoffice-writer2latex
+        - libreoffice-writer2xhtml
+        - libreoffice-pyuno
+        - libreoffice-bsh
+        - libreoffice-opensymbol-fonts
+        - libreoffice-kde4
+        - libreoffice-help-pt-BR
+        - libreoffice-pdfimport
+        - libreoffice-math
+        - libreoffice-TexMaths
+        - libreoffice-ogltrans
+        - libreoffice-filters
+    - name: Autoremove unneeded packages installed as dependencies
+      dnf:
+        autoremove: yes
+  roles:
+    - role: dmae3.galaxy-sudoers
+      #wheel_group_enabled: True
+      sudoers:
+        - {name: USERNAME, line: "USERNAME ALL=(ALL) NOPASSWD: ALL"}
+        #- { name: bar, line: "%fuga ALL=(ALL) NOPASSWD: ALL" }
+  post_tasks:
+    - name: sshd service state
+      service: name=sshd state=started enabled=yes
+      # para teste do pelican
+    - name: liberando portas no firewall pra rede local
+      firewalld:
+        port: 8000/tcp
+        permanent: true
+        source: 192.168.1.0/24
+        #zone: internal
+        state: enabled
+    - name: powerline append bashrc
+      blockinfile:
+        path: /home/USERNAME/.bashrc
+        marker: "## {mark} Ansible: don't change "
+        content: |
+          if [ -f `which powerline-daemon` ]; then
+             powerline-daemon -q
+             POWERLINE_BASH_CONTINUATION=1
+             POWERLINE_BASH_SELECT=1
+             . /usr/share/powerline/bash/powerline.sh
+          fi
+    - name: powerline append bashrc (root)
+      blockinfile:
+        path: /root/.bashrc
+        marker: "## {mark} Ansible: don't change "
+        content: |
+          if [ -f `which powerline-daemon` ]; then
+             powerline-daemon -q
+             POWERLINE_BASH_CONTINUATION=1
+             POWERLINE_BASH_SELECT=1
+             . /usr/share/powerline/bash/powerline.sh
+          fi
+    - name: powerline tmux
+      lineinfile:
+        path: /tmp/testfile/.tmux.conf
+        state: present
+        create: yes
+        line: 'source "/usr/share/tmux/powerline.conf"'
+    - name: powerline append vimrc
+      blockinfile:
+        path: /home/USERNAME/.vimrc
+        state: present
+        create: yes
+        marker: '" {mark} Ansible: don`t change '
+        content: |
+            python3 from powerline.vim import setup as powerline_setup
+            python3 powerline_setup()
+            python3 del powerline_setup
+            set laststatus=2 " Always display the statusline in all windows
+            set showtabline=2 " Always display the tabline, even if there is only one tab
+            set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+            set t_Co=256

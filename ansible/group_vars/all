@@ -1,0 +1,4 @@
+ansible_ssh_user: USERNAME 
+ansible_ssh_pass: YOURPASSWORD
+ansible_sudo_pass: PASSWORDIFNEEDED
+
