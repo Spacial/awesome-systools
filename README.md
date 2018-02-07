@@ -30,3 +30,9 @@ Collection of Sysadmins daily handy tools
 # Ansible
 
 Some usefull ansible scripts and tips on [ansible](./ansible) dir.
+
+# Hardening
+
+* [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
+* See your site config with [Hardenize](https://www.hardenize.com/)
+* Nice article with a lot of resources: [Common approaches to securing Linux servers and what runs on them.](https://medium.com/@ageis/common-approaches-to-securing-linux-servers-and-what-runs-on-them-dadcacc5388b)
