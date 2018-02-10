@@ -30,6 +30,8 @@ Collection of Sysadmins daily handy tools
 # Ansible
 
 Some usefull ansible scripts and tips on [ansible](./ansible) dir.
+* [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
+* [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
 
 # Hardening
 
