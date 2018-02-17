@@ -35,6 +35,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 # Security
 
+## Auditing
+
+* [A UNIX security auditing tool based on several security frameworks](https://github.com/lateralblast/lunar)
+
 ## Hardening
 
 * [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
