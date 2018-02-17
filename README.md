@@ -53,6 +53,11 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * [Apache Web Server Hardening & Security Guide](https://geekflare.com/apache-web-server-hardening-security/) (broken!??)
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 
+
+# Troubleshooting
+
+* [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
+
 # Other Resources
 
   * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
