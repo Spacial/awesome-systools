@@ -53,6 +53,13 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * [Apache Web Server Hardening & Security Guide](https://geekflare.com/apache-web-server-hardening-security/) (broken!??)
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 
+# Containers
+
+* [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
+
+# Interfaces
+
+* [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 
 # Troubleshooting
 
@@ -65,3 +72,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # VMware
 
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
+
+# Support
+
+## Video Conference
+
+* [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
