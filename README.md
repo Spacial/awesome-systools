@@ -74,6 +74,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
    * [rkirti/bashrc](https://github.com/rkirti/bashrc)
 * DotFiles: 
    * Amazing collection by [jessfraz](https://github.com/jessfraz/dotfiles/)
+   * Some [dotfile](https://github.com/maitesin/dot-files) by maitesin
+* Powerline:
+   * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
    
 # Other Resources
 
