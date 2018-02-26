@@ -56,6 +56,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Containers
 
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
+* [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR)
 
 # Interfaces
 
@@ -65,6 +66,15 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
 
+# Shell
+
+* [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
+* Bashrc files:
+   * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
+   * [rkirti/bashrc](https://github.com/rkirti/bashrc)
+* DotFiles: 
+   * Amazing collection by [jessfraz](https://github.com/jessfraz/dotfiles/)
+   
 # Other Resources
 
   * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
