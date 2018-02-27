@@ -56,7 +56,17 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Containers
 
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
-* [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR)
+* [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
+* [google chrome](https://github.com/c0b/chrome-in-docker) dockerized and [headless google chrome](https://github.com/eirslett/chrome-karma-docker)
+* Some [fedora](https://github.com/fedora-cloud/docker-brew-fedora/) and [docker](https://docs.docker.com/samples/) links:
+  * [Webapps with Docker](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
+  * Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
+* [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
+
+# CI
+
+* [Danger](https://github.com/danger/danger) runs after your CI, automating your team's conventions surrounding code review.
+* [The centralized Danger server, freeing Danger from running on CI.](https://github.com/danger/peril)
 
 # Interfaces
 
