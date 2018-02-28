@@ -102,3 +102,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 ## Video Conference
 
 * [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
+
+# Management
+
+* [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
