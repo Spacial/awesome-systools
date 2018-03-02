@@ -75,6 +75,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [Danger](https://github.com/danger/danger) runs after your CI, automating your team's conventions surrounding code review.
 * [The centralized Danger server, freeing Danger from running on CI.](https://github.com/danger/peril)
+* [OSS-Fuzz](https://github.com/google/oss-fuzz) - Continuous Fuzzing for Open Source Software
 
 # Interfaces
 
