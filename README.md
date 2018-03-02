@@ -27,11 +27,17 @@ Collection of Sysadmins daily handy tools
 
 * LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
 
-# Ansible
+# Automation
+
+## Ansible
 
 Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
 * [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
+
+## Puppet
+
+* [running puppet on openwrt](https://github.com/solarkennedy/puppet-on-openwrt) (dead!)
 
 # Security
 
@@ -106,3 +112,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Management
 
 * [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
+
+---
+
+# Organization
+
+* [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
