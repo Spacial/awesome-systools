@@ -70,7 +70,6 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
 * [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
 
-
 # CI
 
 * [Danger](https://github.com/danger/danger) runs after your CI, automating your team's conventions surrounding code review.
@@ -96,6 +95,8 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
    * Some [dotfile](https://github.com/maitesin/dot-files) by maitesin
 * Powerline:
    * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
+* Zsh files:
+   * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
    
 # Other Resources
 
