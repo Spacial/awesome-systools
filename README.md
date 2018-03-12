@@ -81,7 +81,6 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [OSS-Fuzz](https://github.com/google/oss-fuzz) - Continuous Fuzzing for Open Source Software
 * [Fedora's](http://fedoraproject.org/wiki/CI/Standard_Test_Interface) CI/Standard Test Interface
 
-
 # Interfaces
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
@@ -131,6 +130,12 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Organization
 
 * [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
+
+---
+
+# WebTools
+
+* [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
 
 ---
 
