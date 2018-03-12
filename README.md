@@ -11,6 +11,7 @@ Collection of Sysadmins daily handy tools
 ## Kernel
 
 * [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
+* [eBPF Utilities, Maps, and more](https://github.com/nathanjsweet/ebpf)
 
 ## Red Hat/Fedora
 
