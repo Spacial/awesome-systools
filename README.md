@@ -2,6 +2,10 @@
 
 Collection of Sysadmins daily handy tools
 
+# Licensing
+
+* [A New Social Contract for Open Source](https://hueniverse.com/a-new-social-contract-for-open-source-86d1fcf3e353)
+
 # Linux
 
 ## Kernel
@@ -118,8 +122,18 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
 
+# Career
+
+* [A Career Cold Start Algorithm](http://boz.com/articles/career-cold-start.html)
+
 ---
 
 # Organization
 
 * [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
+
+---
+
+# Fun
+
+* [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
