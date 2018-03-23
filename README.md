@@ -90,6 +90,16 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
 
+## Logs
+
+* [Sigma](https://github.com/Neo23x0/sigma): Generic Signature Format for SIEM Systems
+
+# Network
+
+* [TCP Tracepoints](http://www.brendangregg.com/blog/2018-03-22/tcp-tracepoints.html)
+* [BCC](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+
+
 # Shell
 
 * [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
@@ -133,8 +143,11 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
 
 ---
+# Tools
 
-# WebTools
+* [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+
+## WebTools
 
 * [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
 
