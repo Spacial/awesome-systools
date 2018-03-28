@@ -93,6 +93,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 ## Logs
 
 * [Sigma](https://github.com/Neo23x0/sigma): Generic Signature Format for SIEM Systems
+* [fluent-bit](https://github.com/fluent/fluent-bit): Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX 
 
 # Network
 
