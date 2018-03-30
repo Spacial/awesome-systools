@@ -12,7 +12,9 @@ Collection of Sysadmins daily handy tools
 
 * [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
 * [eBPF Utilities, Maps, and more](https://github.com/nathanjsweet/ebpf)
-
+* [lsof to graphviz](https://github.com/zevv/lsofgraph) 
+* [Making Sense of Hexdump](https://www.suse.com/c/making-sense-hexdump/), [man](https://www.systutorials.com/docs/linux/man/1-hexdump/)
+ 
 ## Red Hat/Fedora
 
 * Yum to DNF [Cheatsheet](https://fedoraproject.org/wiki/Yum_to_DNF_Cheatsheet)
@@ -27,6 +29,7 @@ Collection of Sysadmins daily handy tools
 ## Storage
 
 * [Mounting a hard disk image including partitions using Linux](http://www.andremiller.net/content/mounting-hard-disk-image-including-partitions-using-linux)
+* 
 
 ### Controllers
 
@@ -99,6 +102,8 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [TCP Tracepoints](http://www.brendangregg.com/blog/2018-03-22/tcp-tracepoints.html)
 * [BCC](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+* [dhcpcd](https://roy.marples.name/git/dhcpcd.git/)
+* [concurrency-limits](https://github.com/Netflix/concurrency-limits): Java Library that implements and integrates concepts from TCP congestion control to auto-detect concurrency limits to achieve optimal throughput with optimal latency [ [article](https://medium.com/@NetflixTechBlog/performance-under-load-3e6fa9a60581) ].
 
 
 # Shell
@@ -123,11 +128,16 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
 
+# Mac
+
+* [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
+
 # Support
 
 ## Video Conference
 
 * [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
+* [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
 
 # Management
 
@@ -136,6 +146,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Career
 
 * [A Career Cold Start Algorithm](http://boz.com/articles/career-cold-start.html)
+
+# Presentations
+
+* [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
 
 ---
 
@@ -151,6 +165,8 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 ## WebTools
 
 * [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
+* [The new Turtl server](https://github.com/turtl/server): evernote [alternative](https://tavernalinux.com/turtl-alternativa-open-source-ao-evernote-instalação-e-review-e84f7aa2d483) free software.
+* [OPENBAZAAR](https://www.openbazaar.org/): decentralized marketplace server in go ([repo](https://github.com/OpenBazaar/openbazaar-go))
 
 ---
 
