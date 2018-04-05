@@ -14,6 +14,7 @@ Collection of Sysadmins daily handy tools
 * [eBPF Utilities, Maps, and more](https://github.com/nathanjsweet/ebpf)
 * [lsof to graphviz](https://github.com/zevv/lsofgraph) 
 * [Making Sense of Hexdump](https://www.suse.com/c/making-sense-hexdump/), [man](https://www.systutorials.com/docs/linux/man/1-hexdump/)
+* [Interactive map of Linux Kernel](http://www.makelinux.net/kernel_map/)
  
 ## Red Hat/Fedora
 
@@ -29,13 +30,15 @@ Collection of Sysadmins daily handy tools
 ## Storage
 
 * [Mounting a hard disk image including partitions using Linux](http://www.andremiller.net/content/mounting-hard-disk-image-including-partitions-using-linux)
-* 
+
 
 ### Controllers
 
 * LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
 
 # Automation
+
+* [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
 
 ## Ansible
 
@@ -84,6 +87,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [The centralized Danger server, freeing Danger from running on CI.](https://github.com/danger/peril)
 * [OSS-Fuzz](https://github.com/google/oss-fuzz) - Continuous Fuzzing for Open Source Software
 * [Fedora's](http://fedoraproject.org/wiki/CI/Standard_Test_Interface) CI/Standard Test Interface
+* [Do continuous deployment with Github and Python](https://fedoramagazine.org/continuous-deployment-github-python/)
 
 # Interfaces
 
@@ -92,6 +96,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Troubleshooting
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
+* [rbspy](https://rbspy.github.io/): Have a running Ruby program that you want to profile without restarting it? Want to profile a Ruby command line program really easily? You want rbspy! rbspy can profile any Ruby program by running 1 command.
 
 ## Logs
 
@@ -161,6 +166,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Tools
 
 * [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+* [gron](https://github.com/tomnomnom/gron/): Make JSON greppable! 
 
 ## WebTools
 
