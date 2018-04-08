@@ -136,6 +136,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Mac
 
 * [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
+* [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
 
 # Support
 
