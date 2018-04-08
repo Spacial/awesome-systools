@@ -124,6 +124,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
    * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
 * Zsh files:
    * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
+* [Spotify integration for vim](https://github.com/mattpenney89/vimify)
    
 # Other Resources
 
