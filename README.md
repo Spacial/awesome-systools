@@ -109,7 +109,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [BCC](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 * [dhcpcd](https://roy.marples.name/git/dhcpcd.git/)
 * [concurrency-limits](https://github.com/Netflix/concurrency-limits): Java Library that implements and integrates concepts from TCP congestion control to auto-detect concurrency limits to achieve optimal throughput with optimal latency [ [article](https://medium.com/@NetflixTechBlog/performance-under-load-3e6fa9a60581) ].
-
+* [Debugging HTTPS](http://vafer.org/blog/20080221152526/)
+  * Some [tcpdump](https://security.stackexchange.com/questions/65178/tcpdump-filter-expression-post-packets) examples.
+      
 
 # Shell
 
