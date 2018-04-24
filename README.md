@@ -37,7 +37,7 @@ Collection of Sysadmins daily handy tools
 ## Storage
 
 * [Mounting a hard disk image including partitions using Linux](http://www.andremiller.net/content/mounting-hard-disk-image-including-partitions-using-linux)
-
+* [How to full encrypt your linux system with lvm on luks](https://www.linux.com/blog/how-full-encrypt-your-linux-system-lvm-luks)
 
 ### Controllers
 
