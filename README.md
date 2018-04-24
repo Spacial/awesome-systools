@@ -16,9 +16,15 @@ Collection of Sysadmins daily handy tools
 * [Making Sense of Hexdump](https://www.suse.com/c/making-sense-hexdump/), [man](https://www.systutorials.com/docs/linux/man/1-hexdump/)
 * [Interactive map of Linux Kernel](http://www.makelinux.net/kernel_map/)
  
+## Performance
+
+* [Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools](https://github.com/sahilshekhawat/Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools?files=1)
+
 ## Red Hat/Fedora
 
 * Yum to DNF [Cheatsheet](https://fedoraproject.org/wiki/Yum_to_DNF_Cheatsheet)
+* [How to reset a root password on Fedora](https://fedoramagazine.org/reset-root-password-fedora/)
+* [Use restic on Fedora for encrypted backups](https://fedoramagazine.org/use-restic-encrypted-backups/)
 
 ### RPM
 
@@ -80,6 +86,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * [Webapps with Docker](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
   * Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
 * [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
+* [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
 
 # CI
 
@@ -111,11 +118,12 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [concurrency-limits](https://github.com/Netflix/concurrency-limits): Java Library that implements and integrates concepts from TCP congestion control to auto-detect concurrency limits to achieve optimal throughput with optimal latency [ [article](https://medium.com/@NetflixTechBlog/performance-under-load-3e6fa9a60581) ].
 * [Debugging HTTPS](http://vafer.org/blog/20080221152526/)
   * Some [tcpdump](https://security.stackexchange.com/questions/65178/tcpdump-filter-expression-post-packets) examples.
-      
+* [Building my ideal router for $50]( https://blog.tjll.net/building-my-perfect-router/)     
 
 # Shell
 
 * [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
+* [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
 * Bashrc files:
    * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
    * [rkirti/bashrc](https://github.com/rkirti/bashrc)
