@@ -97,6 +97,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Fedora's](http://fedoraproject.org/wiki/CI/Standard_Test_Interface) CI/Standard Test Interface
 * [Do continuous deployment with Github and Python](https://fedoramagazine.org/continuous-deployment-github-python/)
 * [Jenkinsfile](https://github.com/vivitc/learning-jenkinsfile) example by [vivitc](https://github.com/vivitc/)
+* [Terraform](https://www.terraform.io/intro/index.html) ([github repo](https://github.com/hashicorp/terraform))
 
 # Interfaces
 
