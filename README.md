@@ -159,6 +159,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
 * [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
+* [Vialer-js](https://github.com/vialer/vialer-js): Open-source WebRTC communication platform.
 
 # Management
 
