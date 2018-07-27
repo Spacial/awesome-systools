@@ -38,6 +38,7 @@ Collection of Sysadmins daily handy tools
 
 * [Mounting a hard disk image including partitions using Linux](http://www.andremiller.net/content/mounting-hard-disk-image-including-partitions-using-linux)
 * [How to full encrypt your linux system with lvm on luks](https://www.linux.com/blog/how-full-encrypt-your-linux-system-lvm-luks)
+* [Tutorial: ClamAV-Antivirus-Scanning in Nextcloud implementieren](https://ollis.blog/tutorial-clamav-antivirus-scanning-in-nextcloud-implementieren/)
 
 ### Controllers
 
@@ -99,6 +100,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Do continuous deployment with Github and Python](https://fedoramagazine.org/continuous-deployment-github-python/)
 * [Jenkinsfile](https://github.com/vivitc/learning-jenkinsfile) example by [vivitc](https://github.com/vivitc/)
 * [Terraform](https://www.terraform.io/intro/index.html) ([github repo](https://github.com/hashicorp/terraform))
+* [Best way to do linux clones for your CI](https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html)
 
 # Interfaces
 
