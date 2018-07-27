@@ -12,3 +12,15 @@
   * [Files](http://vonger.cn/misc/vocore2/)
   * [remote debug with GDB](http://vonger.cn/?paged=3)
   * [VoCore2 Ultimate](http://vocore.io/v2u.html)
+
+## Projects
+
+Nice projects to try. Let's do it!
+
+* [Weather Forecast Clock Using Old Alarm and Arduino](https://create.arduino.cc/projecthub/LenkaDesign/weather-forecast-clock-using-old-alarm-and-arduino-c1bb67?ref=user&ref_id=548039&offset=0)
+
+
+# Comparison
+
+* [What are the best Raspberry Pi alternatives? Everything you need to know about Pi rivals](https://www.zdnet.com/article/what-are-the-best-raspberry-pi-alternatives-everything-you-need-to-know-about-pi-rivals/) (2018)
+
