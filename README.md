@@ -44,6 +44,12 @@ Collection of Sysadmins daily handy tools
 
 * LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
 
+# Caching
+
+* [Evolution of Application Data Caching : From RAM to SSD](https://medium.com/netflix-techblog/evolution-of-application-data-caching-from-ram-to-ssd-a33d6fa7a690) 
+   * [EVCache](https://github.com/Netflix/EVCache): A distributed in-memory data store for the cloud
+   * [extstore](https://github.com/memcached/memcached/wiki/Extstore): is an addition to memcached which leaves the hash table and keys in memory, but moves values to external storage (usually flash).
+
 # Automation
 
 * [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
@@ -201,3 +207,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Fun
 
 * [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
+
+# Stuff
+
+* [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
