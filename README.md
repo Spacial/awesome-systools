@@ -149,6 +149,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * DotFiles: 
    * Amazing collection by [jessfraz](https://github.com/jessfraz/dotfiles/)
    * Some [dotfile](https://github.com/maitesin/dot-files) by maitesin
+   * [pedrohenriquebr](https://github.com/pedrohenriquebr/dotfiles)
 * Powerline:
    * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
 * Zsh files:
@@ -168,6 +169,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
 * [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
+* [iTerm2](https://github.com/gnachman/iTerm2) is a terminal emulator for Mac OS X that does amazing things. 
 
 # Support
 
