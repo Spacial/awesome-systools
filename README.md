@@ -2,6 +2,10 @@
 
 Collection of Sysadmins daily handy tools
 
+# Reliability
+
+* [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
+
 # Licensing
 
 * [A New Social Contract for Open Source](https://hueniverse.com/a-new-social-contract-for-open-source-86d1fcf3e353)
@@ -113,6 +117,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 
+
 # Troubleshooting
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
@@ -122,6 +127,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [Sigma](https://github.com/Neo23x0/sigma): Generic Signature Format for SIEM Systems
 * [fluent-bit](https://github.com/fluent/fluent-bit): Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX 
+* [GoAccess - Visual Web Log Analyzer](https://goaccess.io/)
 
 # Network
 
@@ -195,12 +201,16 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 * [gron](https://github.com/tomnomnom/gron/): Make JSON greppable! 
+* [octalmage/robotjs: Node.js Desktop Automation.](https://github.com/octalmage/robotjs)
+
 
 ## WebTools
 
 * [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
 * [The new Turtl server](https://github.com/turtl/server): evernote [alternative](https://tavernalinux.com/turtl-alternativa-open-source-ao-evernote-instalação-e-review-e84f7aa2d483) free software.
 * [OPENBAZAAR](https://www.openbazaar.org/): decentralized marketplace server in go ([repo](https://github.com/OpenBazaar/openbazaar-go))
+* [octalmage/robotjs: Node.js Desktop Automation.](https://github.com/octalmage/robotjs)
+* [MapTiler - map overlay, cut map tiles for Google Maps, GIS layers and mobile apps – MapTiler](https://www.maptiler.com/)
 
 ---
 
@@ -211,3 +221,4 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Stuff
 
 * [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
+* [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
