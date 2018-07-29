@@ -216,6 +216,30 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 ---
 
+## Little notes
+
+* [Auto index html bash script](http://www.alecjacobson.com/weblog/?p=192)
+```bash
+#!/bin/bash
+# usage: auto-index [dir]
+INDEX=`ls -1 $1 | sed "s/^.*/      <li\>\<a\ href=\"&\"\>&\<\\/a\>\<\\/li\>/"`
+echo "<html>
+  <head><title>Index of $1</title></head>
+  <body>
+    <h2>Index of $1</h2>
+    <hr>
+    <ui>
+$INDEX
+    <ui>
+  </body>
+</html>"
+```
+
+Run it as:
+  ./auto-index.sh [path to dir] > index.html
+
+---
+
 # Fun
 
 * [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
