@@ -19,6 +19,10 @@ Collection of Sysadmins daily handy tools
 * [lsof to graphviz](https://github.com/zevv/lsofgraph) 
 * [Making Sense of Hexdump](https://www.suse.com/c/making-sense-hexdump/), [man](https://www.systutorials.com/docs/linux/man/1-hexdump/)
 * [Interactive map of Linux Kernel](http://www.makelinux.net/kernel_map/)
+* [How to prevent unprivileged users from viewing dmesg command output on Linux](https://www.cyberciti.biz/faq/how-to-prevent-unprivileged-users-from-viewing-dmesg-command-output-on-linux/):
+```bash
+$ sudo sysctl -w kernel.dmesg_restrict=1
+```
  
 ## Performance
 
@@ -243,6 +247,7 @@ Run it as:
 # Fun
 
 * [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
+* [wtf](https://github.com/senorprogrammer/wtf): The personal information dashboard for your terminal. 
 
 # Stuff
 
