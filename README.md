@@ -142,6 +142,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Debugging HTTPS](http://vafer.org/blog/20080221152526/)
   * Some [tcpdump](https://security.stackexchange.com/questions/65178/tcpdump-filter-expression-post-packets) examples.
 * [Building my ideal router for $50]( https://blog.tjll.net/building-my-perfect-router/)     
+* [Detecting the use of "curl | bash" server side | Application Security](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
 
 # Shell
 
