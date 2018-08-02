@@ -161,6 +161,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
    * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
 * [Spotify integration for vim](https://github.com/mattpenney89/vimify)
 * [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
+* [Vim plugin: Highlight columns in CSV and TSV files and run queries in SQL-like language](https://github.com/mechatroner/rainbow_csv)
    
 # Other Resources
 
