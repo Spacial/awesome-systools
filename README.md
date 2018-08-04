@@ -121,7 +121,6 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 
-
 # Troubleshooting
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
@@ -210,7 +209,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 * [gron](https://github.com/tomnomnom/gron/): Make JSON greppable! 
 * [octalmage/robotjs: Node.js Desktop Automation.](https://github.com/octalmage/robotjs)
-
+* [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
 
 ## WebTools
 
