@@ -95,6 +95,15 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server 
 
+## VPN
+
+* [How I made my own WireGuard VPN server | TechCrunch](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
+
+## Messaging
+
+* [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client.
+
+
 # Containers
 
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
@@ -164,8 +173,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
    
 # Other Resources
 
-  * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
-  
+* [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
+* [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
+
 # VMware
 
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
