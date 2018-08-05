@@ -13,6 +13,10 @@
   * [remote debug with GDB](http://vonger.cn/?paged=3)
   * [VoCore2 Ultimate](http://vocore.io/v2u.html)
 
+## Kindle
+
+* [Kindle4NTHacking](https://wiki.mobileread.com/wiki/Kindle4NTHacking#Jailbreak)
+
 ## Projects
 
 Nice projects to try. Let's do it!
