@@ -19,8 +19,7 @@ Nice projects to try. Let's do it!
 
 * [Weather Forecast Clock Using Old Alarm and Arduino](https://create.arduino.cc/projecthub/LenkaDesign/weather-forecast-clock-using-old-alarm-and-arduino-c1bb67?ref=user&ref_id=548039&offset=0)
 * [8x8x8 LED CUBE WITH ARDUINO UNO - YouTube](https://www.youtube.com/watch?v=T5Aq7cRc-mU)
-
-
+* [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
 
 # Comparison
 
