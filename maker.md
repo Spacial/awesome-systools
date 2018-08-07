@@ -24,6 +24,7 @@ Nice projects to try. Let's do it!
 * [Weather Forecast Clock Using Old Alarm and Arduino](https://create.arduino.cc/projecthub/LenkaDesign/weather-forecast-clock-using-old-alarm-and-arduino-c1bb67?ref=user&ref_id=548039&offset=0)
 * [8x8x8 LED CUBE WITH ARDUINO UNO - YouTube](https://www.youtube.com/watch?v=T5Aq7cRc-mU)
 * [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
+* [The Beginning of the End of WPA-2 — Cracking WPA-2 Just Got a Whole Lot Easier](https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a)
 
 # Comparison
 
