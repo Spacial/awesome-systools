@@ -23,6 +23,7 @@ Collection of Sysadmins daily handy tools
 ```bash
 $ sudo sysctl -w kernel.dmesg_restrict=1
 ```
+* [darling](https://github.com/darlinghq/darling): Darwin/macOS emulation layer for Linux
  
 ## Performance
 
