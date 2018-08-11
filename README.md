@@ -227,13 +227,18 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 ## WebTools
 
-* [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
 * [The new Turtl server](https://github.com/turtl/server): evernote [alternative](https://tavernalinux.com/turtl-alternativa-open-source-ao-evernote-instalação-e-review-e84f7aa2d483) free software.
 * [OPENBAZAAR](https://www.openbazaar.org/): decentralized marketplace server in go ([repo](https://github.com/OpenBazaar/openbazaar-go))
 * [octalmage/robotjs: Node.js Desktop Automation.](https://github.com/octalmage/robotjs)
 * [MapTiler - map overlay, cut map tiles for Google Maps, GIS layers and mobile apps – MapTiler](https://www.maptiler.com/)
-* [pH7-Social-Dating-CMS](https://github.com/pH7Software/pH7-Social-Dating-CMS)
 * [typegram](http://pt.tgr.am/)
+
+### CMS
+
+* [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
+* [pH7-Social-Dating-CMS](https://github.com/pH7Software/pH7-Social-Dating-CMS)
+* [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework. 
+* [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
 
 ---
 
