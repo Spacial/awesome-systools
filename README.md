@@ -35,6 +35,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * Yum to DNF [Cheatsheet](https://fedoraproject.org/wiki/Yum_to_DNF_Cheatsheet)
 * [How to reset a root password on Fedora](https://fedoramagazine.org/reset-root-password-fedora/)
 * [Use restic on Fedora for encrypted backups](https://fedoramagazine.org/use-restic-encrypted-backups/)
+* [Software Galaxies](https://github.com/anvaka/pm): package managers visualization, [see it](https://anvaka.github.io/pm/).
 
 ### RPM
 
@@ -156,6 +157,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
 * [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
+* [bash-oo-framework](https://github.com/niieani/bash-oo-framework): Bash Infinity is a modern boilerplate / framework / standard library for bash
 * Bashrc files:
    * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
    * [rkirti/bashrc](https://github.com/rkirti/bashrc)
@@ -179,6 +181,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Unix
 
 * [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
+* [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 
 # VMware
 
@@ -232,6 +235,8 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [octalmage/robotjs: Node.js Desktop Automation.](https://github.com/octalmage/robotjs)
 * [MapTiler - map overlay, cut map tiles for Google Maps, GIS layers and mobile apps – MapTiler](https://www.maptiler.com/)
 * [typegram](http://pt.tgr.am/)
+* [Ultralight](https://ultralig.ht/)-  HTML UI Engine
+
 
 ### CMS
 
