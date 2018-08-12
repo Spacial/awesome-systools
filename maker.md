@@ -4,6 +4,7 @@
 
 * [Building my ideal router for $50](https://blog.tjll.net/building-my-perfect-router/)
 * [gopro-py-api](https://github.com/konradit/gopro-py-api): Unofficial GoPro API Library for Python - connect to HERO3/3+/4/5/+/6 via WiFi.
+* [Tomu](https://tomu.im/) - A tiny ARM microprocessor which fits in your USB port.
 
 ### VoCore
 
@@ -25,6 +26,7 @@ Nice projects to try. Let's do it!
 * [8x8x8 LED CUBE WITH ARDUINO UNO - YouTube](https://www.youtube.com/watch?v=T5Aq7cRc-mU)
 * [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
 * [The Beginning of the End of WPA-2 — Cracking WPA-2 Just Got a Whole Lot Easier](https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a)
+* [Blink an LED With Arduino in Tinkercad: 6 Steps (with Pictures)](https://www.instructables.com/id/Blink-an-LED-With-Arduino-in-Tinkercad/)
 
 # Comparison
 
