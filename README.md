@@ -142,6 +142,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Sigma](https://github.com/Neo23x0/sigma): Generic Signature Format for SIEM Systems
 * [fluent-bit](https://github.com/fluent/fluent-bit): Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX 
 * [GoAccess - Visual Web Log Analyzer](https://goaccess.io/)
+* [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator 
 
 # Network
 
@@ -153,6 +154,11 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * Some [tcpdump](https://security.stackexchange.com/questions/65178/tcpdump-filter-expression-post-packets) examples.
 * [Building my ideal router for $50]( https://blog.tjll.net/building-my-perfect-router/)     
 * [Detecting the use of "curl | bash" server side | Application Security](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
+* [Scapy](https://github.com/secdev/scapy/): the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3. 
+
+## LoadBalancers
+
+* [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling. 
 
 # Shell
 
@@ -281,3 +287,7 @@ Run it as:
 
 * [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
 * [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
+
+# News
+
+* [Systemd's DynamicUser feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)
