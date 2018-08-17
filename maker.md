@@ -27,6 +27,7 @@ Nice projects to try. Let's do it!
 * [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
 * [The Beginning of the End of WPA-2 — Cracking WPA-2 Just Got a Whole Lot Easier](https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a)
 * [Blink an LED With Arduino in Tinkercad: 6 Steps (with Pictures)](https://www.instructables.com/id/Blink-an-LED-With-Arduino-in-Tinkercad/)
+* [Building a network attached storage device with a Raspberry Pi](https://opensource.com/article/18/7/network-attached-storage-Raspberry-Pi) 
 
 # Comparison
 
