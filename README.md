@@ -130,6 +130,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Interfaces
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
+* [tinywm](http://incise.org/tinywm.html): The tiniest window manager. [github](https://github.com/mackstann/tinywm)
 
 # Troubleshooting
 
