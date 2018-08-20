@@ -178,6 +178,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * Zsh files:
    * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
    * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
+ * Fish:
+  * [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
+  * [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
 
 ## Editors
 
