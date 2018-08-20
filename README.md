@@ -164,6 +164,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
 * [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
+* [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
 * [bash-oo-framework](https://github.com/niieani/bash-oo-framework): Bash Infinity is a modern boilerplate / framework / standard library for bash
 * Bashrc files:
    * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
@@ -176,9 +177,18 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
    * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
 * Zsh files:
    * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
+   * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
+
+## Editors
+
+### Vim/vi 
+
 * [Spotify integration for vim](https://github.com/mattpenney89/vimify)
-* [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
-* [Vim plugin: Highlight columns in CSV and TSV files and run queries in SQL-like language](https://github.com/mechatroner/rainbow_csv)
+* [Vim plugin](https://github.com/mechatroner/rainbow_csv): Highlight columns in CSV and TSV files and run queries in SQL-like language
+* [vim-prettier](https://github.com/prettier/vim-prettier): A Vim plugin for Prettier 
+* [vimium](https://github.com/philc/vimium):  Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
+* [vimari](https://github.com/guyht/vimari): Safari port of vimium 
+
    
 # Other Resources
 
