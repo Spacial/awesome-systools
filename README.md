@@ -193,7 +193,6 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [vim-prettier](https://github.com/prettier/vim-prettier): A Vim plugin for Prettier 
 * [vimium](https://github.com/philc/vimium):  Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 * [vimari](https://github.com/guyht/vimari): Safari port of vimium 
-
    
 # Other Resources
 
@@ -208,8 +207,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Virtualization
 
 * [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
+* [Windows 2000 on your browser](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
 
 ## VMware
+
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
 
 # Mac
