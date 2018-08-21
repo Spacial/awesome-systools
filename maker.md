@@ -34,3 +34,7 @@ Nice projects to try. Let's do it!
 
 * [What are the best Raspberry Pi alternatives? Everything you need to know about Pi rivals](https://www.zdnet.com/article/what-are-the-best-raspberry-pi-alternatives-everything-you-need-to-know-about-pi-rivals/) (2018)
 
+# Microcontrollers
+
+* [Programming SPI flash with an FT232H breakout](https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout)
+
