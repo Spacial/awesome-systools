@@ -96,6 +96,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * [Apache Web Server Hardening & Security Guide](https://geekflare.com/apache-web-server-hardening-security/) (broken!??)
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server 
+* [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
 
 ## VPN
 
@@ -143,6 +144,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [fluent-bit](https://github.com/fluent/fluent-bit): Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX 
 * [GoAccess - Visual Web Log Analyzer](https://goaccess.io/)
 * [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator 
+* [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
 
 # Network
 
@@ -203,8 +205,11 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 * [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 
-# VMware
+# Virtualization
 
+* [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
+
+## VMware
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
 
 # Mac
@@ -229,6 +234,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Career
 
 * [A Career Cold Start Algorithm](http://boz.com/articles/career-cold-start.html)
+* [How to say “no” to your boss, your boss’s boss, and even the CEO](https://codewithoutrules.com/2018/08/16/how-to-say-no/)
 
 # Presentations
 
@@ -257,6 +263,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [typegram](http://pt.tgr.am/)
 * [Ultralight](https://ultralig.ht/)-  HTML UI Engine
 * [Retool](https://tryretool.com/): Custom internal tools have the same building blocks. Retool gives you those building blocks, so you can build them much faster.
+* [GRID: A simple visual cheatsheet for CSS Grid Layout](http://grid.malven.co/)
 
 ### CMS
 
