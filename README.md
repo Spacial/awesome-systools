@@ -183,6 +183,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
  * Fish:
   * [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   * [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
+* [15 Tips On How to Use 'Curl' Command in Linux](https://www.tecmint.com/linux-curl-command-examples/)
+* [GoAWK](https://github.com/benhoyt/goawk): an AWK interpreter written in Go
+* [Lambda Shell](http://www.lambdashell.com/)
+* [Understanding Bash fork() Bomb ~ :(){ :|:& };:](https://www.cyberciti.biz/faq/understanding-bash-fork-bomb/)
 
 ## Editors
 
@@ -198,6 +202,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 * [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
+
+# Filesystems
+
+* [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 
 # Unix
 
