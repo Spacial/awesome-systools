@@ -228,6 +228,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
 * [iTerm2](https://github.com/gnachman/iTerm2) is a terminal emulator for Mac OS X that does amazing things. 
 
+# Windows 
+
+* [coreclr](https://github.com/dotnet/coreclr): This repo contains the .NET Core runtime, called CoreCLR, and the base library, called System.Private.Corelib (or mscorlib).
+
 # Support
 
 ## Video Conference
@@ -274,6 +278,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Ultralight](https://ultralig.ht/)-  HTML UI Engine
 * [Retool](https://tryretool.com/): Custom internal tools have the same building blocks. Retool gives you those building blocks, so you can build them much faster.
 * [GRID: A simple visual cheatsheet for CSS Grid Layout](http://grid.malven.co/)
+* [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
 
 ### CMS
 
