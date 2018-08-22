@@ -29,6 +29,7 @@ Nice projects to try. Let's do it!
 * [Blink an LED With Arduino in Tinkercad: 6 Steps (with Pictures)](https://www.instructables.com/id/Blink-an-LED-With-Arduino-in-Tinkercad/)
 * [Building a network attached storage device with a Raspberry Pi](https://opensource.com/article/18/7/network-attached-storage-Raspberry-Pi) 
 * [Pixelblaze](https://www.bhencke.com/pixelblaze/) by Ben Hencke
+* [Build a social media follower counter](https://www.raspberrypi.org/blog/build-social-media-follower-counter/)
 
 # Comparison
 
