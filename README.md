@@ -190,6 +190,8 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 ## Editors
 
+* [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools): Official repository for filing issues against and getting support for the Microsoft C/C++ extension for VS Code 
+
 ### Vim/vi 
 
 * [Spotify integration for vim](https://github.com/mattpenney89/vimify)
@@ -197,6 +199,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [vim-prettier](https://github.com/prettier/vim-prettier): A Vim plugin for Prettier 
 * [vimium](https://github.com/philc/vimium):  Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 * [vimari](https://github.com/guyht/vimari): Safari port of vimium 
+* [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager 
    
 # Other Resources
 
@@ -217,6 +220,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
 * [Windows 2000 on your browser](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
 * [hvpp](https://github.com/wbenny/hvpp) is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system 
+* [Windows 95](https://github.com/felixrieseberg/windows95) in Electron. Runs on macOS, Linux, and Windows. 
 
 ## VMware
 
@@ -232,6 +236,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [coreclr](https://github.com/dotnet/coreclr): This repo contains the .NET Core runtime, called CoreCLR, and the base library, called System.Private.Corelib (or mscorlib).
 * [Monitoring and Observability in the .NET Runtime](http://mattwarren.org/2018/08/21/Monitoring-and-Observability-in-the-.NET-Runtime/)
+* [Powershell-SSHTools](https://github.com/fridgehead/Powershell-SSHTools): A bunch of useful SSH tools for powershell 
 
 # Support
 
@@ -318,6 +323,7 @@ Run it as:
 
 * [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
 * [wtf](https://github.com/senorprogrammer/wtf): The personal information dashboard for your terminal. 
+* [lolcat](https://github.com/jaseg/lolcat): High-performance implementation of lolcat
 
 # Stuff
 
