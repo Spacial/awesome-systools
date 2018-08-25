@@ -31,7 +31,7 @@ Nice projects to try. Let's do it!
 * [Pixelblaze](https://www.bhencke.com/pixelblaze/) by Ben Hencke
 * [Build a social media follower counter](https://www.raspberrypi.org/blog/build-social-media-follower-counter/)
 * [Designing Solo, a new U2F/FIDO2 Token](https://conorpp.com/designing-solo-a-new-u2ffido2-token)
-
+* [Circlean](https://github.com/CIRCL/Circlean): USB key cleaner 
 
 # Comparison
 
