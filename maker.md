@@ -40,4 +40,5 @@ Nice projects to try. Let's do it!
 # Microcontrollers
 
 * [Programming SPI flash with an FT232H breakout](https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout)
+* [Oops, I Wrote a C++ Compiler](https://praeclarum.org/2018/08/27/oops-i-wrote-a-c-compiler.html): TLDR; I wrote a .NET library that can compile C/C++ code into a byte code that it can also interpret. It is used in my app iCircuit to simulate Arduinos. You can use it yourself with the nuget package CLanguage. [CLanguage](https://github.com/praeclarum/CLanguage): C parser, compiler, and interpreter for .NET
 
