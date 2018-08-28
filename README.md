@@ -159,6 +159,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Detecting the use of "curl | bash" server side | Application Security](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
 * [Scapy](https://github.com/secdev/scapy/): the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3. 
 
+## NetServices
+
+* [salmon](https://github.com/moggers87/salmon): Pythonic Mail Application Server forked from the last GPL'd release of Lamson 
+
 ## LoadBalancers
 
 * [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling. 
@@ -201,6 +205,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [vimium](https://github.com/philc/vimium):  Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 * [vimari](https://github.com/guyht/vimari): Safari port of vimium 
 * [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager 
+   
    
 # Other Resources
 
@@ -256,6 +261,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [A Career Cold Start Algorithm](http://boz.com/articles/career-cold-start.html)
 * [How to say “no” to your boss, your boss’s boss, and even the CEO](https://codewithoutrules.com/2018/08/16/how-to-say-no/)
+* [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). 
 
 # Presentations
 
