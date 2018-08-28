@@ -299,6 +299,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [pH7-Social-Dating-CMS](https://github.com/pH7Software/pH7-Social-Dating-CMS)
 * [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework. 
 * [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
+* (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento. 
 
 ---
 
