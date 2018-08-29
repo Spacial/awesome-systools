@@ -162,6 +162,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 ## NetServices
 
 * [salmon](https://github.com/moggers87/salmon): Pythonic Mail Application Server forked from the last GPL'd release of Lamson 
+* [fast-cli](https://github.com/sindresorhus/fast-cli): Test your download speed using fast.com 
+* [speedtest-linux](https://github.com/rsvp/speedtest-linux): Get download/upload speeds via speedtest.net or fast.com from command line using Bash script -- suitable for logs. POSIX OSX Linux 
+* [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net 
 
 ## LoadBalancers
 
@@ -206,7 +209,6 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [vimari](https://github.com/guyht/vimari): Safari port of vimium 
 * [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager 
    
-   
 # Other Resources
 
 * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
@@ -227,6 +229,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Windows 2000 on your browser](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
 * [hvpp](https://github.com/wbenny/hvpp) is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system 
 * [Windows 95](https://github.com/felixrieseberg/windows95) in Electron. Runs on macOS, Linux, and Windows. 
+* [q3vm](https://github.com/jnz/q3vm): Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input 
 
 ## VMware
 
