@@ -117,6 +117,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
   * Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
 * [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
 * [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
+* [Test containers with Python and Conu](https://fedoramagazine.org/test-containers-python-conu/)
 
 # CI
 
@@ -165,6 +166,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [fast-cli](https://github.com/sindresorhus/fast-cli): Test your download speed using fast.com 
 * [speedtest-linux](https://github.com/rsvp/speedtest-linux): Get download/upload speeds via speedtest.net or fast.com from command line using Bash script -- suitable for logs. POSIX OSX Linux 
 * [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net 
+
+## DNS
+
+* [lexicon](https://github.com/AnalogJ/lexicon): Manipulate DNS records on various DNS providers in a standardized way. 
 
 ## LoadBalancers
 
@@ -230,6 +235,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [hvpp](https://github.com/wbenny/hvpp) is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system 
 * [Windows 95](https://github.com/felixrieseberg/windows95) in Electron. Runs on macOS, Linux, and Windows. 
 * [q3vm](https://github.com/jnz/q3vm): Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input 
+* [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 
 ## VMware
 
@@ -246,6 +252,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [coreclr](https://github.com/dotnet/coreclr): This repo contains the .NET Core runtime, called CoreCLR, and the base library, called System.Private.Corelib (or mscorlib).
 * [Monitoring and Observability in the .NET Runtime](http://mattwarren.org/2018/08/21/Monitoring-and-Observability-in-the-.NET-Runtime/)
 * [Powershell-SSHTools](https://github.com/fridgehead/Powershell-SSHTools): A bunch of useful SSH tools for powershell 
+* [PowerShellAtomicHarness](https://github.com/caseysmithrc/PowerShellAtomicHarness): Execute Test Cases In PowerShell 
 
 # Support
 
@@ -265,6 +272,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [A Career Cold Start Algorithm](http://boz.com/articles/career-cold-start.html)
 * [How to say “no” to your boss, your boss’s boss, and even the CEO](https://codewithoutrules.com/2018/08/16/how-to-say-no/)
 * [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). 
+* [Careers outside of academia with a PhD in volcanology](https://volcanologistsoutsideacademia.wordpress.com/2018/08/29/spotlight-john-a-stevenson-ph-d/)
 
 # Presentations
 
