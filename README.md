@@ -304,6 +304,10 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [GRID: A simple visual cheatsheet for CSS Grid Layout](http://grid.malven.co/)
 * [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
 
+### Graphics
+
+* [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
+
 ### CMS
 
 * [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
