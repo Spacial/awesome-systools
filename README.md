@@ -240,6 +240,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 ## VMware
 
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
+* [Concord-BFT](https://github.com/vmware/concord-bft): a Distributed Trust Infrastructure
 
 # Mac
 
