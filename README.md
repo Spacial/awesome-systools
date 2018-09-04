@@ -353,6 +353,7 @@ Run it as:
 
 * [How to save LibreOffice documents to your Nextcloud server](https://www.techrepublic.com/article/how-to-save-libreoffice-documents-to-your-nextcloud-server/)
 * [LibreOffice NextCloud WebDAV Configuration](https://hitman101.wordpress.com/2018/04/09/libreoffice-nextcloud-webdav-configuration/)
+* [NextCloud on OpenBSD](https://h3artbl33d.nl/blog/nextcloud-on-openbsd)
 
 # Fun
 
