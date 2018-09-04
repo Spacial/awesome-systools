@@ -200,6 +200,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [GoAWK](https://github.com/benhoyt/goawk): an AWK interpreter written in Go
 * [Lambda Shell](http://www.lambdashell.com/)
 * [Understanding Bash fork() Bomb ~ :(){ :|:& };:](https://www.cyberciti.biz/faq/understanding-bash-fork-bomb/)
+* [bat](https://github.com/sharkdp/bat): A cat(1) clone with wings. 
 
 ## Editors
 
@@ -236,6 +237,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Windows 95](https://github.com/felixrieseberg/windows95) in Electron. Runs on macOS, Linux, and Windows. 
 * [q3vm](https://github.com/jnz/q3vm): Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input 
 * [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
+* [anbox](https://github.com/anbox/anbox): Anbox is a container-based approach to boot a full Android system on a regular GNU/Linux system
 
 ## VMware
 
@@ -286,6 +288,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
 
 ---
+
 # Tools
 
 * [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
@@ -342,6 +345,13 @@ Run it as:
   ./auto-index.sh [path to dir] > index.html
 
 ---
+
+# Cloud
+
+## Nextcloud
+
+* [How to save LibreOffice documents to your Nextcloud server](https://www.techrepublic.com/article/how-to-save-libreoffice-documents-to-your-nextcloud-server/)
+* [LibreOffice NextCloud WebDAV Configuration](https://hitman101.wordpress.com/2018/04/09/libreoffice-nextcloud-webdav-configuration/)
 
 # Fun
 
