@@ -118,6 +118,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
 * [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
 * [Test containers with Python and Conu](https://fedoramagazine.org/test-containers-python-conu/)
+* [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests 
 
 # CI
 
@@ -201,6 +202,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Lambda Shell](http://www.lambdashell.com/)
 * [Understanding Bash fork() Bomb ~ :(){ :|:& };:](https://www.cyberciti.biz/faq/understanding-bash-fork-bomb/)
 * [bat](https://github.com/sharkdp/bat): A cat(1) clone with wings. 
+* [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
 ## Editors
 
