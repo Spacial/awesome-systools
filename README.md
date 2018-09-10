@@ -72,6 +72,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
 * [Ansible role to install and manage nginx configuration](https://github.com/jdauphant/ansible-role-nginx)
 * [ansible-playbook-gitlab](https://github.com/tingtun/ansible-playbook-gitlab)
+* [ansible-cloudflare](https://github.com/arachnys/ansible-cloudflare)
 
 ## Puppet
 
@@ -119,6 +120,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
 * [Test containers with Python and Conu](https://fedoramagazine.org/test-containers-python-conu/)
 * [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests 
+* [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
 
 # CI
 
@@ -140,6 +142,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
 * [rbspy](https://rbspy.github.io/): Have a running Ruby program that you want to profile without restarting it? Want to profile a Ruby command line program really easily? You want rbspy! rbspy can profile any Ruby program by running 1 command.
+* [drltrace](https://github.com/mxmssh/drltrace): Drltrace is a library calls tracer for Windows and Linux applications.
 
 ## Logs
 
@@ -167,6 +170,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [fast-cli](https://github.com/sindresorhus/fast-cli): Test your download speed using fast.com 
 * [speedtest-linux](https://github.com/rsvp/speedtest-linux): Get download/upload speeds via speedtest.net or fast.com from command line using Bash script -- suitable for logs. POSIX OSX Linux 
 * [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net 
+* [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
 
 ## DNS
 
@@ -175,6 +179,11 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 ## LoadBalancers
 
 * [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling. 
+
+## Browsers
+
+* [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
+* [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
 
 # Shell
 
@@ -204,7 +213,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [bat](https://github.com/sharkdp/bat): A cat(1) clone with wings. 
 * [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 * [kitty](https://sw.kovidgoyal.net/kitty/) - the fast, featureful, GPU based terminal emulator. [github](https://github.com/kovidgoyal/kitty)
-
+* [xsv](https://github.com/BurntSushi/xsv): A fast CSV command line toolkit written in Rust.
+* [PaperTTY](https://github.com/joukos/PaperTTY): PaperTTY - Python module to render a TTY on e-ink
+* [smenu](https://github.com/p-gen/smenu): Terminal utility that allows you to use words coming from the standard input to create a nice selection wi
 
 ## Editors
 
@@ -223,6 +234,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 * [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
+* [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
 
 # Filesystems
 
@@ -253,6 +265,8 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
 * [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
 * [iTerm2](https://github.com/gnachman/iTerm2) is a terminal emulator for Mac OS X that does amazing things. 
+* [kemon](https://github.com/didi/kemon): An Open-Source Pre and Post Callback-Based Framework for macOS Kernel Monitoring.
+* [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 
 # Windows 
 
@@ -261,6 +275,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Powershell-SSHTools](https://github.com/fridgehead/Powershell-SSHTools): A bunch of useful SSH tools for powershell 
 * [PowerShellAtomicHarness](https://github.com/caseysmithrc/PowerShellAtomicHarness): Execute Test Cases In PowerShell 
 * [The early history of Windows file attributes, and why there is a gap between System and Directory](https://blogs.msdn.microsoft.com/oldnewthing/20180830-00/?p=99615)
+* [SysmonTools](https://github.com/nshalabi/SysmonTools): Utilities for Sysmon
 
 # Support
 
@@ -281,6 +296,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [How to say “no” to your boss, your boss’s boss, and even the CEO](https://codewithoutrules.com/2018/08/16/how-to-say-no/)
 * [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). 
 * [Careers outside of academia with a PhD in volcanology](https://volcanologistsoutsideacademia.wordpress.com/2018/08/29/spotlight-john-a-stevenson-ph-d/)
+* [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade): Tools of The Trade, from Hacker News.
 
 # Presentations
 
@@ -291,6 +307,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 # Organization
 
 * [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
+* [reminiscence](https://github.com/kanishka-linux/reminiscence): Self-Hosted Bookmark and Archive Manager
 
 ---
 
@@ -364,6 +381,7 @@ Run it as:
 * [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
 * [wtf](https://github.com/senorprogrammer/wtf): The personal information dashboard for your terminal. 
 * [lolcat](https://github.com/jaseg/lolcat): High-performance implementation of lolcat
+* (pt-br) [ligar-cobranca](https://github.com/GtOkAi/ligar-cobranca): Ligue automaticamente para empresas de cobrança e deixe uma voz falando "Alô?" sem parar.
 
 # Stuff
 
