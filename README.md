@@ -330,6 +330,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [Retool](https://tryretool.com/): Custom internal tools have the same building blocks. Retool gives you those building blocks, so you can build them much faster.
 * [GRID: A simple visual cheatsheet for CSS Grid Layout](http://grid.malven.co/)
 * [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
+* [strest](https://github.com/eykhagen/strest): ⚡️ Set up tests for REST in seconds with YAML
 
 ### Graphics
 
