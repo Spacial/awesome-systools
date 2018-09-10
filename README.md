@@ -315,8 +315,9 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 * [gron](https://github.com/tomnomnom/gron/): Make JSON greppable! 
-* [octalmage/robotjs: Node.js Desktop Automation.](https://github.com/octalmage/robotjs)
+* [robotjs](https://github.com/octalmage/robotjs): Node.js Desktop Automation.
 * [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
+* [pbec](https://github.com/wilvk/pbec): Polaris Bios Editor for the Console
 
 ## WebTools
 
