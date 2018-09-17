@@ -67,12 +67,14 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 ## Ansible
 
-Some usefull ansible scripts and tips on [ansible](./ansible) dir.
-* [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
-* [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
-* [Ansible role to install and manage nginx configuration](https://github.com/jdauphant/ansible-role-nginx)
-* [ansible-playbook-gitlab](https://github.com/tingtun/ansible-playbook-gitlab)
-* [ansible-cloudflare](https://github.com/arachnys/ansible-cloudflare)
+* Some usefull ansible scripts and tips on [ansible](./ansible) dir.
+ * [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
+ * [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
+ * [Ansible role to install and manage nginx configuration](https://github.com/jdauphant/ansible-role-nginx)
+ * [ansible-playbook-gitlab](https://github.com/tingtun/ansible-playbook-gitlab)
+ * [ansible-cloudflare](https://github.com/arachnys/ansible-cloudflare)
+ * [ansible-pelican](https://github.com/talaniz/ansible-pelican): Ansible playbooks for deploying and updating a pelican blog
+* [Automating Python with Ansible](https://tdhopper.com/blog/automating-python-with-ansible/)
 
 ## Puppet
 
@@ -137,6 +139,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 * [tinywm](http://incise.org/tinywm.html): The tiniest window manager. [github](https://github.com/mackstann/tinywm)
+* [nextspace](https://github.com/trunkmaster/nextspace): NeXTSTEP-like desktop environment for Linux 
 
 # Troubleshooting
 
@@ -216,6 +219,7 @@ Some usefull ansible scripts and tips on [ansible](./ansible) dir.
 * [xsv](https://github.com/BurntSushi/xsv): A fast CSV command line toolkit written in Rust.
 * [PaperTTY](https://github.com/joukos/PaperTTY): PaperTTY - Python module to render a TTY on e-ink
 * [smenu](https://github.com/p-gen/smenu): Terminal utility that allows you to use words coming from the standard input to create a nice selection wi
+* [shark](https://github.com/satyarohith/shark): A CLI to Interact with DigitalOcean
 
 ## Editors
 
