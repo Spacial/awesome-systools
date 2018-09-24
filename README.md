@@ -187,6 +187,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 * [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
 * [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
+* [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
 
 # Shell
 
@@ -322,6 +323,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [robotjs](https://github.com/octalmage/robotjs): Node.js Desktop Automation.
 * [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
 * [pbec](https://github.com/wilvk/pbec): Polaris Bios Editor for the Console
+* [zero](https://github.com/KonstantinSchubert/zero): Local file system transparently swapping to the cloud
+
 
 ## WebTools
 
@@ -335,6 +338,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [GRID: A simple visual cheatsheet for CSS Grid Layout](http://grid.malven.co/)
 * [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
 * [strest](https://github.com/eykhagen/strest): ⚡️ Set up tests for REST in seconds with YAML
+* [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
 
 ### Graphics
 
