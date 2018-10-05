@@ -32,6 +32,7 @@ Nice projects to try. Let's do it!
 * [Build a social media follower counter](https://www.raspberrypi.org/blog/build-social-media-follower-counter/)
 * [Designing Solo, a new U2F/FIDO2 Token](https://conorpp.com/designing-solo-a-new-u2ffido2-token)
 * [Circlean](https://github.com/CIRCL/Circlean): USB key cleaner 
+* [How to turn on an LED with Fedora IoT](https://fedoramagazine.org/turnon-led-fedora-iot/)
 
 # Comparison
 
