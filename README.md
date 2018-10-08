@@ -24,7 +24,8 @@ Collection of Sysadmins daily handy tools
 $ sudo sysctl -w kernel.dmesg_restrict=1
 ```
 * [darling](https://github.com/darlinghq/darling): Darwin/macOS emulation layer for Linux
- 
+* [Dmesg under the hood](https://ops.tips/blog/dmesg-under-the-hood/): Dmesg allows us to grasp what's going on under the hood when the kernel gets bad. Check out how dmesg is able to read kernel logs and show to the user.
+
 ## Performance
 
 * [Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools](https://github.com/sahilshekhawat/Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools?files=1)
@@ -339,6 +340,13 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
 * [strest](https://github.com/eykhagen/strest): ⚡️ Set up tests for REST in seconds with YAML
 * [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
+
+### Themes
+
+* [Themes for Pelican](https://github.com/getpelican/pelican-themes)
+* [Pelican theme based on html5-dopetrope design.](https://github.com/PierrePaul/html5-dopetrope)
+* [Flex](https://github.com/alexandrevicenzi/Flex): The minimalist Pelican theme.
+* [pelican theme Dev-Random3](https://github.com/22decembre/dev-random3) 
 
 ### Graphics
 
