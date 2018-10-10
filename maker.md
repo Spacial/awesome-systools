@@ -47,3 +47,7 @@ Nice projects to try. Let's do it!
 ## Cli
 
 * [arduino-cli](https://github.com/arduino/arduino-cli): Arduino command line interface
+
+# Enclosures (3D files)
+
+* [Swimming IoT satellite](https://www.thingiverse.com/thing:3064986)
