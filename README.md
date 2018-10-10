@@ -104,6 +104,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server 
 * [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
+* [Use YubiKey security key to sign into AWS Management Console with YubiKey for multi-factor authentication](https://aws.amazon.com/pt/blogs/security/use-yubikey-security-key-sign-into-aws-management-console/)
 
 ## VPN
 
