@@ -25,12 +25,14 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 ```
 * [darling](https://github.com/darlinghq/darling): Darwin/macOS emulation layer for Linux
 * [Dmesg under the hood](https://ops.tips/blog/dmesg-under-the-hood/): Dmesg allows us to grasp what's going on under the hood when the kernel gets bad. Check out how dmesg is able to read kernel logs and show to the user.
+* [Petitboot](https://github.com/open-power/petitboot): is an operating system bootloader based on Linux kexec. It can load any operating system image that supports the Linux kexec re-boot mechanism like Linux and FreeBSD.
 
 ## Performance
 
 * [Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools](https://github.com/sahilshekhawat/Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools?files=1)
 * [Why is the kernel community replacing iptables with BPF?](https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/)
 * [bcc](https://github.com/iovisor/bcc/): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+* [bpftrace](http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html)(DTrace 2.0) for Linux 2018
 
 ## Red Hat/Fedora
 
@@ -135,6 +137,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Jenkinsfile](https://github.com/vivitc/learning-jenkinsfile) example by [vivitc](https://github.com/vivitc/)
 * [Terraform](https://www.terraform.io/intro/index.html) ([github repo](https://github.com/hashicorp/terraform))
 * [Best way to do linux clones for your CI](https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html)
+* [Terratest](https://github.com/gruntwork-io/terratest): is a Go library that makes it easier to write automated tests for your infrastructure code. 
 
 # Interfaces
 
@@ -167,6 +170,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Building my ideal router for $50]( https://blog.tjll.net/building-my-perfect-router/)     
 * [Detecting the use of "curl | bash" server side | Application Security](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
 * [Scapy](https://github.com/secdev/scapy/): the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3. 
+* [Ping test in a shell script](http://jeromejaglale.com/doc/unix/shell_scripts/ping)
 
 ## NetServices
 
@@ -222,6 +226,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [PaperTTY](https://github.com/joukos/PaperTTY): PaperTTY - Python module to render a TTY on e-ink
 * [smenu](https://github.com/p-gen/smenu): Terminal utility that allows you to use words coming from the standard input to create a nice selection wi
 * [shark](https://github.com/satyarohith/shark): A CLI to Interact with DigitalOcean
+* [t](https://github.com/sferik/t): A command-line power tool for Twitter. 
 
 ## Editors
 
@@ -326,7 +331,6 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [pbec](https://github.com/wilvk/pbec): Polaris Bios Editor for the Console
 * [zero](https://github.com/KonstantinSchubert/zero): Local file system transparently swapping to the cloud
 
-
 ## WebTools
 
 * [The new Turtl server](https://github.com/turtl/server): evernote [alternative](https://tavernalinux.com/turtl-alternativa-open-source-ao-evernote-instalação-e-review-e84f7aa2d483) free software.
@@ -340,6 +344,14 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
 * [strest](https://github.com/eykhagen/strest): ⚡️ Set up tests for REST in seconds with YAML
 * [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
+* [responder](https://github.com/kennethreitz/responder): a Sorta Familar HTTP Framework for Python (prototype) 
+* [Design faster web pages, part 1: Image compression](https://fedoramagazine.org/design-faster-web-pages-part-1-image-compression/)
+* [Nebular](https://github.com/akveo/nebular): Angular 6 Components, Auth and Security
+* [sourcegraph](https://github.com/sourcegraph/sourcegraph): Code search and intelligence, self-hosted and scalable
+
+### Web
+
+* [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
 
 ### Themes
 
