@@ -44,8 +44,12 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Use restic on Fedora for encrypted backups](https://fedoramagazine.org/use-restic-encrypted-backups/)
 * [Software Galaxies](https://github.com/anvaka/pm): package managers visualization, [see it](https://anvaka.github.io/pm/).
 
-### RPM
+## Packaging
 
+* [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
+* [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
+
+### RPM
 #### Build
 
 * [Creating RPM Packages with Fedora](https://fedoraproject.org/wiki/How_to_create_an_RPM_package)
@@ -280,11 +284,16 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 * [anbox](https://github.com/anbox/anbox): Anbox is a container-based approach to boot a full Android system on a regular GNU/Linux system
 * [UNSAT](https://unsat.cs.washington.edu/projects/hyperkernel/): Hyperkernel
+* [Largest small system emulator](http://ioccc.org/2013/cable3/hint.html)
 
 ## VMware
 
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
 * [Concord-BFT](https://github.com/vmware/concord-bft): a Distributed Trust Infrastructure
+
+# Android
+
+* Android Developers Blog - [Introducing Oboe](https://android-developers.googleblog.com/2018/10/introducing-oboe-c-library-for-low.html): A C++ library for low latency audio
 
 # Mac
 
@@ -293,6 +302,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [iTerm2](https://github.com/gnachman/iTerm2) is a terminal emulator for Mac OS X that does amazing things. 
 * [kemon](https://github.com/didi/kemon): An Open-Source Pre and Post Callback-Based Framework for macOS Kernel Monitoring.
 * [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
+* [MicroMDM](https://micromdm.io/)
 
 # Windows 
 
@@ -366,6 +376,9 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [sourcegraph](https://github.com/sourcegraph/sourcegraph): Code search and intelligence, self-hosted and scalable
 * [md-page](https://github.com/oscarmorrison/md-page): 📝 create a webpage with just markdown
 * [Avatars, identicons, and hash visualization](https://barro.github.io/2018/02/avatars-identicons-and-hash-visualization/)
+* [Plus codes](https://plus.codes/)
+* [share and discover links - appread.me](http://appread.me/)
+* [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 
 ### Web
 
