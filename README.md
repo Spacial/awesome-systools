@@ -26,6 +26,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [darling](https://github.com/darlinghq/darling): Darwin/macOS emulation layer for Linux
 * [Dmesg under the hood](https://ops.tips/blog/dmesg-under-the-hood/): Dmesg allows us to grasp what's going on under the hood when the kernel gets bad. Check out how dmesg is able to read kernel logs and show to the user.
 * [Petitboot](https://github.com/open-power/petitboot): is an operating system bootloader based on Linux kexec. It can load any operating system image that supports the Linux kexec re-boot mechanism like Linux and FreeBSD.
+* [Killing processes that don't want to die](https://lwn.net/Articles/754980/)
 
 ## Performance
 
@@ -33,6 +34,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Why is the kernel community replacing iptables with BPF?](https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/)
 * [bcc](https://github.com/iovisor/bcc/): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 * [bpftrace](http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html)(DTrace 2.0) for Linux 2018
+* [What's a CPU to do when it has nothing to do?](https://lwn.net/SubscriberLink/767630/594421f913c3d00a/)
+* [How new-lines affect Linux performance](https://nadav.amit.zone/blog/linux-inline)
 
 ## Red Hat/Fedora
 
@@ -104,7 +107,14 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server 
 * [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
+
+### Tokens
+
 * [Use YubiKey security key to sign into AWS Management Console with YubiKey for multi-factor authentication](https://aws.amazon.com/pt/blogs/security/use-yubikey-security-key-sign-into-aws-management-console/)
+* [Introducing the Qubes U2F Proxy](https://www.qubes-os.org/news/2018/09/11/qubes-u2f-proxy/)
+* [YubiKey-Guide](https://github.com/drduh/YubiKey-Guide): Guide to using YubiKey for GPG and SSH
+* [Using a Yubikey for GPG and SSH](https://0day.work/using-a-yubikey-for-gpg-and-ssh/): Sebastian Neef - 0day.work
+* [PIN and Management Key](https://developers.yubico.com/yubikey-piv-manager/PIN_and_Management_Key.html)
 
 ## VPN
 
@@ -188,6 +198,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 ## LoadBalancers
 
 * [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling. 
+* [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/): HAProxy Technologies
 
 ## Browsers
 
@@ -266,6 +277,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [q3vm](https://github.com/jnz/q3vm): Q3VM - Embeddable bytecode virtual machine/interpreter for C-language input 
 * [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 * [anbox](https://github.com/anbox/anbox): Anbox is a container-based approach to boot a full Android system on a regular GNU/Linux system
+* [UNSAT](https://unsat.cs.washington.edu/projects/hyperkernel/): Hyperkernel
 
 ## VMware
 
@@ -309,6 +321,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). 
 * [Careers outside of academia with a PhD in volcanology](https://volcanologistsoutsideacademia.wordpress.com/2018/08/29/spotlight-john-a-stevenson-ph-d/)
 * [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade): Tools of The Trade, from Hacker News.
+* [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). Test your knowledge in different fields with these Q/A.
 
 # Presentations
 
@@ -349,6 +362,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Design faster web pages, part 1: Image compression](https://fedoramagazine.org/design-faster-web-pages-part-1-image-compression/)
 * [Nebular](https://github.com/akveo/nebular): Angular 6 Components, Auth and Security
 * [sourcegraph](https://github.com/sourcegraph/sourcegraph): Code search and intelligence, self-hosted and scalable
+* [md-page](https://github.com/oscarmorrison/md-page): 📝 create a webpage with just markdown
 
 ### Web
 
@@ -406,6 +420,7 @@ Run it as:
 * [How to save LibreOffice documents to your Nextcloud server](https://www.techrepublic.com/article/how-to-save-libreoffice-documents-to-your-nextcloud-server/)
 * [LibreOffice NextCloud WebDAV Configuration](https://hitman101.wordpress.com/2018/04/09/libreoffice-nextcloud-webdav-configuration/)
 * [NextCloud on OpenBSD](https://h3artbl33d.nl/blog/nextcloud-on-openbsd)
+* [Improved AppPasswords in Nextcloud 14](https://rullzer.com/2018/09/05/improved-apppasswords-in-nextcloud-14/): rullzers blog
 
 # Fun
 
