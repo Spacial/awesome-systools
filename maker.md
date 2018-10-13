@@ -5,6 +5,7 @@
 * [Building my ideal router for $50](https://blog.tjll.net/building-my-perfect-router/)
 * [gopro-py-api](https://github.com/konradit/gopro-py-api): Unofficial GoPro API Library for Python - connect to HERO3/3+/4/5/+/6 via WiFi.
 * [Tomu](https://tomu.im/) - A tiny ARM microprocessor which fits in your USB port.
+* [ESP32-Paxcounter](https://github.com/cyberman54/ESP32-Paxcounter/): Wifi & BLE driven passenger flow metering with cheap ESP32 boards
 
 ### VoCore
 
