@@ -56,6 +56,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Mounting a hard disk image including partitions using Linux](http://www.andremiller.net/content/mounting-hard-disk-image-including-partitions-using-linux)
 * [How to full encrypt your linux system with lvm on luks](https://www.linux.com/blog/how-full-encrypt-your-linux-system-lvm-luks)
 * [Tutorial: ClamAV-Antivirus-Scanning in Nextcloud implementieren](https://ollis.blog/tutorial-clamav-antivirus-scanning-in-nextcloud-implementieren/)
+* [Mapping UID and GID of local user to the mounted NFS share - Server Fault](https://serverfault.com/questions/514118/mapping-uid-and-gid-of-local-user-to-the-mounted-nfs-share)
 
 ### Controllers
 
@@ -149,6 +150,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Terraform](https://www.terraform.io/intro/index.html) ([github repo](https://github.com/hashicorp/terraform))
 * [Best way to do linux clones for your CI](https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html)
 * [Terratest](https://github.com/gruntwork-io/terratest): is a Go library that makes it easier to write automated tests for your infrastructure code. 
+* [Creating a Faster Jekyll](https://sigpipe.macromates.com/2018/creating-a-faster-jekyll/)
 
 # Interfaces
 
@@ -363,6 +365,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Nebular](https://github.com/akveo/nebular): Angular 6 Components, Auth and Security
 * [sourcegraph](https://github.com/sourcegraph/sourcegraph): Code search and intelligence, self-hosted and scalable
 * [md-page](https://github.com/oscarmorrison/md-page): 📝 create a webpage with just markdown
+* [Avatars, identicons, and hash visualization](https://barro.github.io/2018/02/avatars-identicons-and-hash-visualization/)
 
 ### Web
 
