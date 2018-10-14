@@ -247,6 +247,10 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [shark](https://github.com/satyarohith/shark): A CLI to Interact with DigitalOcean
 * [t](https://github.com/sferik/t): A command-line power tool for Twitter. 
 
+## Regex
+
+* [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
+
 ## Editors
 
 * [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools): Official repository for filing issues against and getting support for the Microsoft C/C++ extension for VS Code 
@@ -287,6 +291,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [anbox](https://github.com/anbox/anbox): Anbox is a container-based approach to boot a full Android system on a regular GNU/Linux system
 * [UNSAT](https://unsat.cs.washington.edu/projects/hyperkernel/): Hyperkernel
 * [Largest small system emulator](http://ioccc.org/2013/cable3/hint.html)
+* [Intel Virtualisation](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/): How VT-x, KVM and QEMU Work Together
 
 ## VMware
 
