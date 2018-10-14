@@ -196,6 +196,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [speedtest-linux](https://github.com/rsvp/speedtest-linux): Get download/upload speeds via speedtest.net or fast.com from command line using Bash script -- suitable for logs. POSIX OSX Linux 
 * [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net 
 * [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
+* [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
 
 ## DNS
 
