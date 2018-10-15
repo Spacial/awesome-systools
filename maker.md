@@ -34,6 +34,7 @@ Nice projects to try. Let's do it!
 * [Designing Solo, a new U2F/FIDO2 Token](https://conorpp.com/designing-solo-a-new-u2ffido2-token)
 * [Circlean](https://github.com/CIRCL/Circlean): USB key cleaner 
 * [How to turn on an LED with Fedora IoT](https://fedoramagazine.org/turnon-led-fedora-iot/)
+* [HDMI Light V2](http://hacks.esar.org.uk/hdmi-light-v2/), [github](https://github.com/esar/hdmilight-v2): FPGA based Ambilight clone with direct HDMI input 
 
 # Comparison
 
