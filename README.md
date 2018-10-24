@@ -164,6 +164,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 * [tinywm](http://incise.org/tinywm.html): The tiniest window manager. [github](https://github.com/mackstann/tinywm)
 * [nextspace](https://github.com/trunkmaster/nextspace): NeXTSTEP-like desktop environment for Linux 
+* [Term VM](https://gitlab.com/jD91mZM2/termwm): A floating WM of terminals inside your terminal
 
 # Troubleshooting
 
