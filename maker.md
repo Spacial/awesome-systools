@@ -35,6 +35,7 @@ Nice projects to try. Let's do it!
 * [Circlean](https://github.com/CIRCL/Circlean): USB key cleaner 
 * [How to turn on an LED with Fedora IoT](https://fedoramagazine.org/turnon-led-fedora-iot/)
 * [HDMI Light V2](http://hacks.esar.org.uk/hdmi-light-v2/), [github](https://github.com/esar/hdmilight-v2): FPGA based Ambilight clone with direct HDMI input 
+* [esp8266_honeypot](https://github.com/gbafana25/esp8266_honeypot): THE ESP8266 HONEYPOT: A PROJECT TO TRAP SCRIPT KIDDIES EVERYWHRE!! 
 
 # Comparison
 
