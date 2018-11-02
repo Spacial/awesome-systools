@@ -2,17 +2,17 @@
 
 Collection of Sysadmins daily handy tools
 
-# Reliability
+## Reliability
 
 * [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
 
-# Licensing
+## Licensing
 
 * [A New Social Contract for Open Source](https://hueniverse.com/a-new-social-contract-for-open-source-86d1fcf3e353)
 
-# Linux
+## Linux
 
-## Kernel
+### Kernel
 
 * [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
 * [eBPF Utilities, Maps, and more](https://github.com/nathanjsweet/ebpf)
@@ -28,7 +28,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Petitboot](https://github.com/open-power/petitboot): is an operating system bootloader based on Linux kexec. It can load any operating system image that supports the Linux kexec re-boot mechanism like Linux and FreeBSD.
 * [Killing processes that don't want to die](https://lwn.net/Articles/754980/)
 
-## Performance
+### Performance
 
 * [Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools](https://github.com/sahilshekhawat/Optimizing-Linux-Performance-A-Hands-On-Guide-to-Linux-Performance-Tools?files=1)
 * [Why is the kernel community replacing iptables with BPF?](https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/)
@@ -40,25 +40,26 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Hooking Linux Kernel Functions, Part 2: How to Hook Functions with Ftrace](https://www.apriorit.com/dev-blog/546-hooking-linux-functions-2)
 * [Hooking Linux Kernel Functions, Part 3: What Are the Main Pros and Cons of Ftrace?](https://www.apriorit.com/dev-blog/547-hooking-linux-functions-3)
 
-## Red Hat/Fedora
+### Red Hat/Fedora
 
 * Yum to DNF [Cheatsheet](https://fedoraproject.org/wiki/Yum_to_DNF_Cheatsheet)
 * [How to reset a root password on Fedora](https://fedoramagazine.org/reset-root-password-fedora/)
 * [Use restic on Fedora for encrypted backups](https://fedoramagazine.org/use-restic-encrypted-backups/)
 * [Software Galaxies](https://github.com/anvaka/pm): package managers visualization, [see it](https://anvaka.github.io/pm/).
 
-## Packaging
+### Packaging
 
 * [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
 * [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
 
-### RPM
-#### Build
+#### RPM
+
+##### Build
 
 * [Creating RPM Packages with Fedora](https://fedoraproject.org/wiki/How_to_create_an_RPM_package)
 * Spec file, to create lsutil rpm: [here](https://github.com/pld-linux/lsiutil)
 
-## Storage
+### Storage
 
 * [Mounting a hard disk image including partitions using Linux](http://www.andremiller.net/content/mounting-hard-disk-image-including-partitions-using-linux)
 * [How to full encrypt your linux system with lvm on luks](https://www.linux.com/blog/how-full-encrypt-your-linux-system-lvm-luks)
@@ -69,38 +70,38 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 * LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
 
-# Caching
+## Caching
 
 * [Evolution of Application Data Caching : From RAM to SSD](https://medium.com/netflix-techblog/evolution-of-application-data-caching-from-ram-to-ssd-a33d6fa7a690) 
    * [EVCache](https://github.com/Netflix/EVCache): A distributed in-memory data store for the cloud
    * [extstore](https://github.com/memcached/memcached/wiki/Extstore): is an addition to memcached which leaves the hash table and keys in memory, but moves values to external storage (usually flash).
 
-# Automation
+## Automation
 
 * [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
 
-## Ansible
+### Ansible
 
 * Some usefull ansible scripts and tips on [ansible](./ansible) dir.
- * [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
- * [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
- * [Ansible role to install and manage nginx configuration](https://github.com/jdauphant/ansible-role-nginx)
- * [ansible-playbook-gitlab](https://github.com/tingtun/ansible-playbook-gitlab)
- * [ansible-cloudflare](https://github.com/arachnys/ansible-cloudflare)
- * [ansible-pelican](https://github.com/talaniz/ansible-pelican): Ansible playbooks for deploying and updating a pelican blog
+  * [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
+  * [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
+  * [Ansible role to install and manage nginx configuration](https://github.com/jdauphant/ansible-role-nginx)
+  * [ansible-playbook-gitlab](https://github.com/tingtun/ansible-playbook-gitlab)
+  * [ansible-cloudflare](https://github.com/arachnys/ansible-cloudflare)
+  * [ansible-pelican](https://github.com/talaniz/ansible-pelican): Ansible playbooks for deploying and updating a pelican blog
 * [Automating Python with Ansible](https://tdhopper.com/blog/automating-python-with-ansible/)
 
-## Puppet
+### Puppet
 
 * [running puppet on openwrt](https://github.com/solarkennedy/puppet-on-openwrt) (dead!)
 
-# Security
+## Security
 
-## Auditing
+### Auditing
 
 * [A UNIX security auditing tool based on several security frameworks](https://github.com/lateralblast/lunar)
 
-## Hardening
+### Hardening
 
 * [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
 * See your site config with [Hardenize](https://www.hardenize.com/)
@@ -116,23 +117,24 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server 
 * [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
 
-### Tokens
+#### Tokens
 
 * [Use YubiKey security key to sign into AWS Management Console with YubiKey for multi-factor authentication](https://aws.amazon.com/pt/blogs/security/use-yubikey-security-key-sign-into-aws-management-console/)
 * [Introducing the Qubes U2F Proxy](https://www.qubes-os.org/news/2018/09/11/qubes-u2f-proxy/)
 * [YubiKey-Guide](https://github.com/drduh/YubiKey-Guide): Guide to using YubiKey for GPG and SSH
 * [Using a Yubikey for GPG and SSH](https://0day.work/using-a-yubikey-for-gpg-and-ssh/): Sebastian Neef - 0day.work
 * [PIN and Management Key](https://developers.yubico.com/yubikey-piv-manager/PIN_and_Management_Key.html)
+* [Improve login security with challenge-response authentication](https://fedoramagazine.org/login-challenge-response-authentication/)
 
-## VPN
+### VPN
 
 * [How I made my own WireGuard VPN server | TechCrunch](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
 
-## Messaging
+### Messaging
 
 * [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
 
-# Containers
+## Containers
 
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
 * [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
@@ -146,7 +148,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests 
 * [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
 
-# CI
+## CI
 
 * [Danger](https://github.com/danger/danger) runs after your CI, automating your team's conventions surrounding code review.
 * [The centralized Danger server, freeing Danger from running on CI.](https://github.com/danger/peril)
@@ -156,23 +158,25 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Jenkinsfile](https://github.com/vivitc/learning-jenkinsfile) example by [vivitc](https://github.com/vivitc/)
 * [Terraform](https://www.terraform.io/intro/index.html) ([github repo](https://github.com/hashicorp/terraform))
 * [Best way to do linux clones for your CI](https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html)
-* [Terratest](https://github.com/gruntwork-io/terratest): is a Go library that makes it easier to write automated tests for your infrastructure code. 
+* [Terratest](https://github.com/gruntwork-io/terratest): is a Go library that makes it easier to write automated tests for your infrastructure code.
 * [Creating a Faster Jekyll](https://sigpipe.macromates.com/2018/creating-a-faster-jekyll/)
+* [Vespene](https://github.com/vespene-io/vespene): A modern continuous integration, deployment, and self-service automation platform
+* [pytest-picked](https://github.com/anapaulagomes/pytest-picked): Run the tests related to the changed files (according to Git).
 
-# Interfaces
+## Interfaces
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 * [tinywm](http://incise.org/tinywm.html): The tiniest window manager. [github](https://github.com/mackstann/tinywm)
 * [nextspace](https://github.com/trunkmaster/nextspace): NeXTSTEP-like desktop environment for Linux 
 * [Term VM](https://gitlab.com/jD91mZM2/termwm): A floating WM of terminals inside your terminal
 
-# Troubleshooting
+## Troubleshooting
 
 * [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
 * [rbspy](https://rbspy.github.io/): Have a running Ruby program that you want to profile without restarting it? Want to profile a Ruby command line program really easily? You want rbspy! rbspy can profile any Ruby program by running 1 command.
 * [drltrace](https://github.com/mxmssh/drltrace): Drltrace is a library calls tracer for Windows and Linux applications.
 
-## Logs
+### Logs
 
 * [Sigma](https://github.com/Neo23x0/sigma): Generic Signature Format for SIEM Systems
 * [fluent-bit](https://github.com/fluent/fluent-bit): Fast and Lightweight Log processor and forwarder for Linux, BSD and OSX 
@@ -180,7 +184,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator 
 * [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
 
-# Network
+## Network
 
 * [TCP Tracepoints](http://www.brendangregg.com/blog/2018-03-22/tcp-tracepoints.html)
 * [BCC](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
@@ -193,7 +197,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Scapy](https://github.com/secdev/scapy/): the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3. 
 * [Ping test in a shell script](http://jeromejaglale.com/doc/unix/shell_scripts/ping)
 
-## NetServices
+### NetServices
 
 * [salmon](https://github.com/moggers87/salmon): Pythonic Mail Application Server forked from the last GPL'd release of Lamson 
 * [fast-cli](https://github.com/sindresorhus/fast-cli): Test your download speed using fast.com 
@@ -202,40 +206,40 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
 * [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
 
-## DNS
+### DNS
 
 * [lexicon](https://github.com/AnalogJ/lexicon): Manipulate DNS records on various DNS providers in a standardized way. 
 
-## LoadBalancers
+### LoadBalancers
 
 * [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling. 
 * [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/): HAProxy Technologies
 
-## Browsers
+### Browsers
 
 * [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
 * [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
 * [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
 
-# Shell
+## Shell
 
 * [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
 * [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
 * [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
 * [bash-oo-framework](https://github.com/niieani/bash-oo-framework): Bash Infinity is a modern boilerplate / framework / standard library for bash
 * Bashrc files:
-   * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
-   * [rkirti/bashrc](https://github.com/rkirti/bashrc)
+  * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
+  * [rkirti/bashrc](https://github.com/rkirti/bashrc)
 * DotFiles: 
-   * Amazing collection by [jessfraz](https://github.com/jessfraz/dotfiles/)
-   * Some [dotfile](https://github.com/maitesin/dot-files) by maitesin
-   * [pedrohenriquebr](https://github.com/pedrohenriquebr/dotfiles)
+  * Amazing collection by [jessfraz](https://github.com/jessfraz/dotfiles/)
+  * Some [dotfile](https://github.com/maitesin/dot-files) by maitesin
+  * [pedrohenriquebr](https://github.com/pedrohenriquebr/dotfiles)
 * Powerline:
-   * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
+  * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
 * Zsh files:
-   * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
-   * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
- * Fish:
+  * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
+  * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
+* Fish:
   * [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   * [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
 * [15 Tips On How to Use 'Curl' Command in Linux](https://www.tecmint.com/linux-curl-command-examples/)
@@ -249,42 +253,43 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [PaperTTY](https://github.com/joukos/PaperTTY): PaperTTY - Python module to render a TTY on e-ink
 * [smenu](https://github.com/p-gen/smenu): Terminal utility that allows you to use words coming from the standard input to create a nice selection wi
 * [shark](https://github.com/satyarohith/shark): A CLI to Interact with DigitalOcean
-* [t](https://github.com/sferik/t): A command-line power tool for Twitter. 
+* [t](https://github.com/sferik/t): A command-line power tool for Twitter.
+* [up](https://github.com/akavel/up): Ultimate Plumber is a tool for writing Linux pipes with instant live preview
 
-## Regex
+### Regex
 
 * [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 
-## Editors
+### Editors
 
 * [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools): Official repository for filing issues against and getting support for the Microsoft C/C++ extension for VS Code 
 
-### Vim/vi 
+#### Vim/vi 
 
 * [Spotify integration for vim](https://github.com/mattpenney89/vimify)
 * [Vim plugin](https://github.com/mechatroner/rainbow_csv): Highlight columns in CSV and TSV files and run queries in SQL-like language
 * [vim-prettier](https://github.com/prettier/vim-prettier): A Vim plugin for Prettier 
 * [vimium](https://github.com/philc/vimium):  Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 * [vimari](https://github.com/guyht/vimari): Safari port of vimium 
-* [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager 
-   
-# Other Resources
+* [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager
+
+## Other Resources
 
 * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 * [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 * [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
 
-# Filesystems
+## Filesystems
 
 * [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 * [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
 
-# Unix
+## Unix
 
 * [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 * [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 
-# Virtualization
+## Virtualization
 
 * [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
 * [Windows 2000 on your browser](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
@@ -297,16 +302,17 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Largest small system emulator](http://ioccc.org/2013/cable3/hint.html)
 * [Intel Virtualisation](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/): How VT-x, KVM and QEMU Work Together
 
-## VMware
+### VMware
 
 * [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
 * [Concord-BFT](https://github.com/vmware/concord-bft): a Distributed Trust Infrastructure
 
-# Android
+## Android
 
 * Android Developers Blog - [Introducing Oboe](https://android-developers.googleblog.com/2018/10/introducing-oboe-c-library-for-low.html): A C++ library for low latency audio
+* [My Homeassistant configuration ](https://github.com/eifinger/homeassistant-config)
 
-# Mac
+## Mac
 
 * [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
 * [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
@@ -315,7 +321,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 * [MicroMDM](https://micromdm.io/)
 
-# Windows 
+## Windows
 
 * [coreclr](https://github.com/dotnet/coreclr): This repo contains the .NET Core runtime, called CoreCLR, and the base library, called System.Private.Corelib (or mscorlib).
 * [Monitoring and Observability in the .NET Runtime](http://mattwarren.org/2018/08/21/Monitoring-and-Observability-in-the-.NET-Runtime/)
@@ -324,42 +330,45 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [The early history of Windows file attributes, and why there is a gap between System and Directory](https://blogs.msdn.microsoft.com/oldnewthing/20180830-00/?p=99615)
 * [SysmonTools](https://github.com/nshalabi/SysmonTools): Utilities for Sysmon
 
-# Support
+---
 
-## Video Conference
+## Support
+
+### Video Conference
 
 * [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
 * [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
 * [Vialer-js](https://github.com/vialer/vialer-js): Open-source WebRTC communication platform.
+* [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet)
 
-# Management
+## Management
 
 * [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
-* [Zulip server](https://github.com/zulip/zulip/) - powerful open source team chat 
+* [Zulip server](https://github.com/zulip/zulip/) - powerful open source team chat
 
-# Career
+## Career
 
 * [A Career Cold Start Algorithm](http://boz.com/articles/career-cold-start.html)
 * [How to say “no” to your boss, your boss’s boss, and even the CEO](https://codewithoutrules.com/2018/08/16/how-to-say-no/)
-* [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). 
+* [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition).
 * [Careers outside of academia with a PhD in volcanology](https://volcanologistsoutsideacademia.wordpress.com/2018/08/29/spotlight-john-a-stevenson-ph-d/)
 * [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade): Tools of The Trade, from Hacker News.
 * [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). Test your knowledge in different fields with these Q/A.
 
-# Presentations
+## Presentations
 
 * [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
 
 ---
 
-# Organization
+## Organization
 
 * [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
 * [reminiscence](https://github.com/kanishka-linux/reminiscence): Self-Hosted Bookmark and Archive Manager
 
 ---
 
-# Tools
+## Tools
 
 * [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 * [gron](https://github.com/tomnomnom/gron/): Make JSON greppable! 
@@ -367,8 +376,9 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
 * [pbec](https://github.com/wilvk/pbec): Polaris Bios Editor for the Console
 * [zero](https://github.com/KonstantinSchubert/zero): Local file system transparently swapping to the cloud
+* [pdiary](https://github.com/manipuladordedados/pdiary)
 
-## WebTools
+### WebTools
 
 * [The new Turtl server](https://github.com/turtl/server): evernote [alternative](https://tavernalinux.com/turtl-alternativa-open-source-ao-evernote-instalação-e-review-e84f7aa2d483) free software.
 * [OPENBAZAAR](https://www.openbazaar.org/): decentralized marketplace server in go ([repo](https://github.com/OpenBazaar/openbazaar-go))
@@ -390,23 +400,27 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Plus codes](https://plus.codes/)
 * [share and discover links - appread.me](http://appread.me/)
 * [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
-
-### Web
+* [PyRoles](https://github.com/juditecypreste/PyRoles): Este é um bot no Telegram que faz upload automático de todas as fotos dos rolês que rolaram durante a PyBR!
+* [Twitter-Bots](https://github.com/internetlab-br/Twitter-Bots): Códigos utilizados para pesquisar sobre bots em perfis do Twitter
+  
+#### Webdev
 
 * [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
+* [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web. 
+* [fontello](https://github.com/fontello/fontello):Iconic fonts scissors
 
-### Themes
+#### Themes
 
 * [Themes for Pelican](https://github.com/getpelican/pelican-themes)
 * [Pelican theme based on html5-dopetrope design.](https://github.com/PierrePaul/html5-dopetrope)
 * [Flex](https://github.com/alexandrevicenzi/Flex): The minimalist Pelican theme.
 * [pelican theme Dev-Random3](https://github.com/22decembre/dev-random3) 
 
-### Graphics
+#### Graphics
 
 * [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
 
-### CMS
+#### CMS
 
 * [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers. 
 * [pH7-Social-Dating-CMS](https://github.com/pH7Software/pH7-Social-Dating-CMS)
@@ -416,9 +430,10 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 ---
 
-## Little notes
+### Little notes
 
 * [Auto index html bash script](http://www.alecjacobson.com/weblog/?p=192)
+  
 ```bash
 #!/bin/bash
 # usage: auto-index [dir]
@@ -435,33 +450,45 @@ $INDEX
 </html>"
 ```
 
-Run it as:
-  ./auto-index.sh [path to dir] > index.html
+  * Run it as:
+
+ ``` 
+ ./auto-index.sh [path to dir] > index.html
+ ```
 
 ---
 
-# Cloud
+## Cloud
 
-## Nextcloud
+### Nextcloud
 
 * [How to save LibreOffice documents to your Nextcloud server](https://www.techrepublic.com/article/how-to-save-libreoffice-documents-to-your-nextcloud-server/)
 * [LibreOffice NextCloud WebDAV Configuration](https://hitman101.wordpress.com/2018/04/09/libreoffice-nextcloud-webdav-configuration/)
 * [NextCloud on OpenBSD](https://h3artbl33d.nl/blog/nextcloud-on-openbsd)
 * [Improved AppPasswords in Nextcloud 14](https://rullzer.com/2018/09/05/improved-apppasswords-in-nextcloud-14/): rullzers blog
+* [Installing Integration Edition Document Server for Docker on a local server](https://helpcenter.onlyoffice.com/server/integration-edition/docker/docker-installation.aspx)
 
-# Fun
+---
+
+## IoT
+
+* [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
+
+---
+
+## Fun
 
 * [VIM Clutch](https://github.com/alevchuk/vim-clutch) is a hardware pedal for improved text editing speed for users of the magnificent VIM text editor
 * [wtf](https://github.com/senorprogrammer/wtf): The personal information dashboard for your terminal. 
 * [lolcat](https://github.com/jaseg/lolcat): High-performance implementation of lolcat
 * (pt-br) [ligar-cobranca](https://github.com/GtOkAi/ligar-cobranca): Ligue automaticamente para empresas de cobrança e deixe uma voz falando "Alô?" sem parar.
 
-# Stuff
+## Stuff
 
 * [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
 * [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 * [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 
-# News
+## News
 
 * [Systemd's DynamicUser feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)
