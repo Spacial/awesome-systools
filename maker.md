@@ -1,5 +1,9 @@
 # Maker
 
+## Boot
+
+* [Micronucleus](https://github.com/micronucleus/micronucleus): ATTiny usb bootloader with a strong emphasis on bootloader compactness.
+
 ## Hardware
 
 * [Building my ideal router for $50](https://blog.tjll.net/building-my-perfect-router/)
@@ -15,14 +19,15 @@
   * [remote debug with GDB](http://vonger.cn/?paged=3)
   * [VoCore2 Ultimate](http://vocore.io/v2u.html)
 
-## Kindle
+### Kindle
 
 * [Kindle4NTHacking](https://wiki.mobileread.com/wiki/Kindle4NTHacking#Jailbreak)
 
-## Projects
+### Projects
 
 Nice projects to try. Let's do it!
 
+* (pt-br)[Documentação Franzininho DIY](https://franzininho.gitbook.io/franzininho-docs/)
 * [Weather Forecast Clock Using Old Alarm and Arduino](https://create.arduino.cc/projecthub/LenkaDesign/weather-forecast-clock-using-old-alarm-and-arduino-c1bb67?ref=user&ref_id=548039&offset=0)
 * [8x8x8 LED CUBE WITH ARDUINO UNO - YouTube](https://www.youtube.com/watch?v=T5Aq7cRc-mU)
 * [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
@@ -37,21 +42,30 @@ Nice projects to try. Let's do it!
 * [HDMI Light V2](http://hacks.esar.org.uk/hdmi-light-v2/), [github](https://github.com/esar/hdmilight-v2): FPGA based Ambilight clone with direct HDMI input 
 * [esp8266_honeypot](https://github.com/gbafana25/esp8266_honeypot): THE ESP8266 HONEYPOT: A PROJECT TO TRAP SCRIPT KIDDIES EVERYWHRE!! 
 * [Build Your Own Professional-Grade Audio Amp on the Sort of Cheap](https://spectrum.ieee.org/consumer-electronics/audiovideo/build-your-own-professionalgrade-audio-amp-on-the-sort-of-cheap)
+* [H2HC 2018 Badge](https://security-bits.de/electronics/badges/h2hc_18)
 
-# Comparison
+## Comparison
 
 * [What are the best Raspberry Pi alternatives? Everything you need to know about Pi rivals](https://www.zdnet.com/article/what-are-the-best-raspberry-pi-alternatives-everything-you-need-to-know-about-pi-rivals/) (2018)
 
-# Microcontrollers
+## Microcontrollers
 
 * [Programming SPI flash with an FT232H breakout](https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout)
 * [Oops, I Wrote a C++ Compiler](https://praeclarum.org/2018/08/27/oops-i-wrote-a-c-compiler.html): TLDR; I wrote a .NET library that can compile C/C++ code into a byte code that it can also interpret. It is used in my app iCircuit to simulate Arduinos. You can use it yourself with the nuget package CLanguage. [CLanguage](https://github.com/praeclarum/CLanguage): C parser, compiler, and interpreter for .NET
- * [The MOnSter 6502](https://monster6502.com/): A dis-integrated circuit project to make a complete, working transistor-scale replica of the classic MOS 6502 microprocessor.
- 
-## Cli
+  * [The MOnSter 6502](https://monster6502.com/): A dis-integrated circuit project to make a complete, working transistor-scale replica of the classic MOS 6502 microprocessor.
+
+### Cli
 
 * [arduino-cli](https://github.com/arduino/arduino-cli): Arduino command line interface
 
-# Enclosures (3D files)
+## Enclosures (3D files)
 
 * [Swimming IoT satellite](https://www.thingiverse.com/thing:3064986)
+
+## NFC
+
+* [Mifare Classic & NFC](https://security-bits.de/research/various/nfc_mifare)
+  
+## Radio
+
+* [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
