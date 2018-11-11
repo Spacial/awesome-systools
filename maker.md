@@ -1,5 +1,10 @@
 # Maker
 
+## Basics
+
+* [Introduction | Breadboards for Beginners](https://learn.adafruit.com/breadboards-for-beginners?view=all)
+* [Anatomy of a Mini Breadboard - Pimoroni Yarr-niversity](https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard)
+
 ## Boot
 
 * [Micronucleus](https://github.com/micronucleus/micronucleus): ATTiny usb bootloader with a strong emphasis on bootloader compactness.
@@ -69,3 +74,9 @@ Nice projects to try. Let's do it!
 ## Radio
 
 * [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
+
+## Sensors
+
+* [Basic Photocell Reading | Basic Resistor Sensor Reading on Raspberry Pi](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
+* [Adding a shutdown button to raspberry pi with Adafruit RGB Matrix HAT](https://medium.com/@dannielum/adding-a-shutdown-button-to-raspberry-pi-with-adafruit-rgb-matrix-hat-ba886e1fe23c)
+
