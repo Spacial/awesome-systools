@@ -93,6 +93,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 ## Automation
 
 * [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
+* [HomelabOS](https://gitlab.com/NickBusey/HomelabOS): Your very own offline-first privacy-centric open-source data-center!
 
 ### Ansible
 
@@ -138,6 +139,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
 * [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
 * [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
+* [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
 
 #### Tokens
 
@@ -293,6 +295,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 * [TRE](http://ducktape.blot.im/tre-a-regex-engine-with-approximate-matching): A Regex Engine with Approximate Matching
+* [Deu match: limpando dados com expressões regulares](http://turicas.info/slides/expressoes-regulares/)
 
 ### Editors
 
@@ -317,6 +320,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 * [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
+* [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation 
 
 ## Unix
 
@@ -357,6 +361,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 * [MicroMDM](https://micromdm.io/)
 * [Package Config](https://github.com/orta/PackageConfig): A Swift Package that allows you to define configuration settings inside a Package.swift
+* [iSh](https://github.com/tbodt/ish): Linux shell for iOS
 
 ## Windows
 
@@ -371,6 +376,8 @@ ansible_python_interpreter=/usr/bin/python3
 ---
 
 ## Support
+
+* [Open MCT](https://nasa.github.io/openmct/): is a next-generation mission control framework for visualization of data on desktop and mobile devices - [github](https://github.com/nasa/openmct)
 
 ### Video Conference
 
@@ -443,15 +450,18 @@ ansible_python_interpreter=/usr/bin/python3
 * [thelounge](https://github.com/thelounge/thelounge): Modern, responsive, cross-platform, self-hosted web IRC client.
 * [qr-image](https://github.com/alexeyten/qr-image): This is yet another QR Code generator.
 * [gogs](https://github.com/gogs/gogs): Gogs is a painless self-hosted Git service.
-    
+* [bitwarden](https://bitwarden.com/): online and free password manager. [core](https://github.com/bitwarden/core) on github.
+* [writefreely](https://github.com/writeas/writefreely): A painless, simple, federated blogging platform.
+  
 #### Webdev
 
 * [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
 * [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web.
 * [fontello](https://github.com/fontello/fontello):Iconic fonts scissors
 * [Automate a web browser with Selenium](https://fedoramagazine.org/automate-web-browser-selenium/)
-* [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework 
-* 
+* [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
+* [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
+  
 #### Themes
 
 * [Themes for Pelican](https://github.com/getpelican/pelican-themes)
@@ -493,9 +503,9 @@ $INDEX
 </html>"
 ```
 
-  * Run it as:
+* Run it as:
 
-``` 
+```
  ./auto-index.sh [path to dir] > index.html
 ```
 
@@ -525,7 +535,9 @@ $INDEX
 * [wtf](https://github.com/senorprogrammer/wtf): The personal information dashboard for your terminal.
 * [lolcat](https://github.com/jaseg/lolcat): High-performance implementation of lolcat
 * (pt-br) [ligar-cobranca](https://github.com/GtOkAi/ligar-cobranca): Ligue automaticamente para empresas de cobrança e deixe uma voz falando "Alô?" sem parar.
-
+* [Trump2Ca$h](https://github.com/maxbbraun/trump2cash): A stock trading bot powered by Trump tweets
+* [paint 16b](http://www.sizecoding.org/wiki/Paint16b): was created by Hellmood and is 16 bytes in size. paint16b implements a mouse-driven drawing program which has the ability to exit back to DOS and also display the mouse cursor, [screenshot](http://www.pouet.net/prod.php?which=63826).
+  
 ## Stuff
 
 * [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)

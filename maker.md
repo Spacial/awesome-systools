@@ -1,10 +1,5 @@
 # Maker
 
-## Basics
-
-* [Introduction | Breadboards for Beginners](https://learn.adafruit.com/breadboards-for-beginners?view=all)
-* [Anatomy of a Mini Breadboard - Pimoroni Yarr-niversity](https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard)
-
 ## Boot
 
 * [Micronucleus](https://github.com/micronucleus/micronucleus): ATTiny usb bootloader with a strong emphasis on bootloader compactness.
@@ -15,6 +10,8 @@
 * [gopro-py-api](https://github.com/konradit/gopro-py-api): Unofficial GoPro API Library for Python - connect to HERO3/3+/4/5/+/6 via WiFi.
 * [Tomu](https://tomu.im/) - A tiny ARM microprocessor which fits in your USB port.
 * [ESP32-Paxcounter](https://github.com/cyberman54/ESP32-Paxcounter/): Wifi & BLE driven passenger flow metering with cheap ESP32 boards
+* [OpenWRT em Mikrotik Routerboard 750](https://wiki.hackstore.com.br/OpenWRT_em_Mikrotik_Routerboard_750_(Linux_on_MIPS_AR7xxx/AR9xxx))
+* [Lexra](https://www.linux-mips.org/wiki/Lexra): Lexra did implement a 32-bit variant of the MIPS architecture.
 
 ### VoCore
 
@@ -49,6 +46,7 @@ Nice projects to try. Let's do it!
 * [Build Your Own Professional-Grade Audio Amp on the Sort of Cheap](https://spectrum.ieee.org/consumer-electronics/audiovideo/build-your-own-professionalgrade-audio-amp-on-the-sort-of-cheap)
 * [H2HC 2018 Badge](https://security-bits.de/electronics/badges/h2hc_18)
 * [Build your own ADS-B receiver – Pi24](https://www.flightradar24.com/build-your-own)
+* [96-core ARM supercomputer using the NanoPi-Fire3](https://climbers.net/sbc/nanopi-fire3-arm-supercomputer/)
 
 ## Comparison
 
@@ -81,3 +79,7 @@ Nice projects to try. Let's do it!
 * [Basic Photocell Reading | Basic Resistor Sensor Reading on Raspberry Pi](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 * [Adding a shutdown button to raspberry pi with Adafruit RGB Matrix HAT](https://medium.com/@dannielum/adding-a-shutdown-button-to-raspberry-pi-with-adafruit-rgb-matrix-hat-ba886e1fe23c)
 * [ADS-B USB Dongle (R820T2) + Small Indoor Antenna](https://shop.jetvision.de/epages/64807909.mobile/en_GB/?ObjectPath=/Shops/64807909/Products/53200)
+
+## Test List
+
+* [CubieBoard](http://cubieboard.org/): A series of open source hardware
