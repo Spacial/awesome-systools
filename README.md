@@ -1,6 +1,6 @@
 # systools
 
-Collection of Sysadmins daily handy tools
+Collection of Sysadmins daily handy tools [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## Reliability
 
@@ -42,6 +42,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Hooking Linux Kernel Functions, Part 1: Looking for the Perfect Solution](https://www.apriorit.com/dev-blog/544-hooking-linux-functions-1)
 * [Hooking Linux Kernel Functions, Part 2: How to Hook Functions with Ftrace](https://www.apriorit.com/dev-blog/546-hooking-linux-functions-2)
 * [Hooking Linux Kernel Functions, Part 3: What Are the Main Pros and Cons of Ftrace?](https://www.apriorit.com/dev-blog/547-hooking-linux-functions-3)
+* [Heatmaps Make Ops Better](https://www.honeycomb.io/blog/heatmaps-make-ops-better/)
 
 ### Red Hat/Fedora
 
@@ -135,6 +136,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
 * [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
+* [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
 
 #### Tokens
 
@@ -166,6 +168,13 @@ ansible_python_interpreter=/usr/bin/python3
 * [Test containers with Python and Conu](https://fedoramagazine.org/test-containers-python-conu/)
 * [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests
 * [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
+* [tsuru](https://github.com/tsuru/tsuru): Open source, extensible and Docker-based Platform as a Service (PaaS).
+* [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
+
+### Lambda
+
+* [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
+
 
 ## CI
 
@@ -278,6 +287,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [shark](https://github.com/satyarohith/shark): A CLI to Interact with DigitalOcean
 * [t](https://github.com/sferik/t): A command-line power tool for Twitter.
 * [up](https://github.com/akavel/up): Ultimate Plumber is a tool for writing Linux pipes with instant live preview
+* [tztail](https://github.com/thecasualcoder/tztail): tztail (TimeZoneTAIL) allows you to view logs in the timezone you want.
 
 ### Regex
 
@@ -307,6 +317,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 * [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
+* [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation 
 
 ## Unix
 
@@ -429,8 +440,9 @@ ansible_python_interpreter=/usr/bin/python3
 * [PyRoles](https://github.com/juditecypreste/PyRoles): Este é um bot no Telegram que faz upload automático de todas as fotos dos rolês que rolaram durante a PyBR!
 * [Twitter-Bots](https://github.com/internetlab-br/Twitter-Bots): Códigos utilizados para pesquisar sobre bots em perfis do Twitter
 * [thelounge](https://github.com/thelounge/thelounge): Modern, responsive, cross-platform, self-hosted web IRC client.
-* [qr-image](https://github.com/alexeyten/qr-image):
-  
+* [qr-image](https://github.com/alexeyten/qr-image): This is yet another QR Code generator.
+* [gogs](https://github.com/gogs/gogs): Gogs is a painless self-hosted Git service.
+
 #### Webdev
 
 * [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
