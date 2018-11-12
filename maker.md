@@ -1,10 +1,5 @@
 # Maker
 
-## Basics
-
-* [Introduction | Breadboards for Beginners](https://learn.adafruit.com/breadboards-for-beginners?view=all)
-* [Anatomy of a Mini Breadboard - Pimoroni Yarr-niversity](https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard)
-
 ## Boot
 
 * [Micronucleus](https://github.com/micronucleus/micronucleus): ATTiny usb bootloader with a strong emphasis on bootloader compactness.
@@ -48,6 +43,7 @@ Nice projects to try. Let's do it!
 * [esp8266_honeypot](https://github.com/gbafana25/esp8266_honeypot): THE ESP8266 HONEYPOT: A PROJECT TO TRAP SCRIPT KIDDIES EVERYWHRE!! 
 * [Build Your Own Professional-Grade Audio Amp on the Sort of Cheap](https://spectrum.ieee.org/consumer-electronics/audiovideo/build-your-own-professionalgrade-audio-amp-on-the-sort-of-cheap)
 * [H2HC 2018 Badge](https://security-bits.de/electronics/badges/h2hc_18)
+* [96-core ARM supercomputer using the NanoPi-Fire3](https://climbers.net/sbc/nanopi-fire3-arm-supercomputer/)
 
 ## Comparison
 
@@ -74,9 +70,3 @@ Nice projects to try. Let's do it!
 ## Radio
 
 * [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
-
-## Sensors
-
-* [Basic Photocell Reading | Basic Resistor Sensor Reading on Raspberry Pi](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
-* [Adding a shutdown button to raspberry pi with Adafruit RGB Matrix HAT](https://medium.com/@dannielum/adding-a-shutdown-button-to-raspberry-pi-with-adafruit-rgb-matrix-hat-ba886e1fe23c)
-
