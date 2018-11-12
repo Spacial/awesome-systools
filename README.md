@@ -119,6 +119,8 @@ ansible_python_interpreter=/usr/bin/python3
 
 ## Security
 
+* [andOTP](https://github.com/andOTP/andOTP): Open source two-factor authentication for Android
+
 ### Auditing
 
 * [A UNIX security auditing tool based on several security frameworks](https://github.com/lateralblast/lunar)
@@ -362,6 +364,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [MicroMDM](https://micromdm.io/)
 * [Package Config](https://github.com/orta/PackageConfig): A Swift Package that allows you to define configuration settings inside a Package.swift
 * [iSh](https://github.com/tbodt/ish): Linux shell for iOS
+* [osxfuse](https://github.com/osxfuse/osxfuse): FUSE extends macOS by adding support for user space file systems
+* [MacPass](https://github.com/MacPass/MacPass): A native OS X KeePass client
 
 ## Windows
 
@@ -512,6 +516,8 @@ $INDEX
 ---
 
 ## Cloud
+
+* [no more google](https://nomoregoogle.com)
 
 ### Nextcloud
 
