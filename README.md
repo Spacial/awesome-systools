@@ -429,15 +429,17 @@ ansible_python_interpreter=/usr/bin/python3
 * [PyRoles](https://github.com/juditecypreste/PyRoles): Este é um bot no Telegram que faz upload automático de todas as fotos dos rolês que rolaram durante a PyBR!
 * [Twitter-Bots](https://github.com/internetlab-br/Twitter-Bots): Códigos utilizados para pesquisar sobre bots em perfis do Twitter
 * [thelounge](https://github.com/thelounge/thelounge): Modern, responsive, cross-platform, self-hosted web IRC client.
-* [qr-image](https://github.com/alexeyten/qr-image): 
+* [qr-image](https://github.com/alexeyten/qr-image):
+  
 #### Webdev
 
 * [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
 * [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web.
 * [fontello](https://github.com/fontello/fontello):Iconic fonts scissors
 * [Automate a web browser with Selenium](https://fedoramagazine.org/automate-web-browser-selenium/)
-* [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework 
-* 
+* [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
+* [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
+  
 #### Themes
 
 * [Themes for Pelican](https://github.com/getpelican/pelican-themes)
@@ -479,9 +481,9 @@ $INDEX
 </html>"
 ```
 
-  * Run it as:
+* Run it as:
 
-``` 
+```
  ./auto-index.sh [path to dir] > index.html
 ```
 
@@ -511,7 +513,9 @@ $INDEX
 * [wtf](https://github.com/senorprogrammer/wtf): The personal information dashboard for your terminal.
 * [lolcat](https://github.com/jaseg/lolcat): High-performance implementation of lolcat
 * (pt-br) [ligar-cobranca](https://github.com/GtOkAi/ligar-cobranca): Ligue automaticamente para empresas de cobrança e deixe uma voz falando "Alô?" sem parar.
-
+* [Trump2Ca$h](https://github.com/maxbbraun/trump2cash): A stock trading bot powered by Trump tweets
+* [paint 16b](http://www.sizecoding.org/wiki/Paint16b): was created by Hellmood and is 16 bytes in size. paint16b implements a mouse-driven drawing program which has the ability to exit back to DOS and also display the mouse cursor, [screenshot](http://www.pouet.net/prod.php?which=63826).
+  
 ## Stuff
 
 * [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
