@@ -53,6 +53,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [United RPMs repo](https://unitedrpms.sourceforge.io/x86_64/repoview/)
 * [chromium on pkgs.org](https://pkgs.org/download/chromium) (or you can build it [on your own](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_build_instructions.md#Instructions-for-Google-Employees))
 * [Planet CCRMA at home](http://ccrma.stanford.edu/planetccrma/software/) (SuperCollider home)
+* [Fedora Scientific Vagrant boxes are here!](https://echorand.me/fedora-scientific-vagrant-boxes-are-here.html)
 * [Install VLC on Fedora](https://www.kaizenuslife.com/2018/10/31/install-vlc-media-player-in-fedora-28-29/):
   
   ```
@@ -174,7 +175,6 @@ ansible_python_interpreter=/usr/bin/python3
 ### Lambda
 
 * [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
-
 
 ## CI
 
@@ -322,7 +322,8 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 * [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
-
+* [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
+ 
 ## Virtualization
 
 * [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
@@ -355,6 +356,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [kemon](https://github.com/didi/kemon): An Open-Source Pre and Post Callback-Based Framework for macOS Kernel Monitoring.
 * [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 * [MicroMDM](https://micromdm.io/)
+* [Package Config](https://github.com/orta/PackageConfig): A Swift Package that allows you to define configuration settings inside a Package.swift
 
 ## Windows
 

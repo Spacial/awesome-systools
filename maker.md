@@ -48,6 +48,7 @@ Nice projects to try. Let's do it!
 * [esp8266_honeypot](https://github.com/gbafana25/esp8266_honeypot): THE ESP8266 HONEYPOT: A PROJECT TO TRAP SCRIPT KIDDIES EVERYWHRE!! 
 * [Build Your Own Professional-Grade Audio Amp on the Sort of Cheap](https://spectrum.ieee.org/consumer-electronics/audiovideo/build-your-own-professionalgrade-audio-amp-on-the-sort-of-cheap)
 * [H2HC 2018 Badge](https://security-bits.de/electronics/badges/h2hc_18)
+* [Build your own ADS-B receiver – Pi24](https://www.flightradar24.com/build-your-own)
 
 ## Comparison
 
@@ -79,4 +80,4 @@ Nice projects to try. Let's do it!
 
 * [Basic Photocell Reading | Basic Resistor Sensor Reading on Raspberry Pi](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 * [Adding a shutdown button to raspberry pi with Adafruit RGB Matrix HAT](https://medium.com/@dannielum/adding-a-shutdown-button-to-raspberry-pi-with-adafruit-rgb-matrix-hat-ba886e1fe23c)
-
+* [ADS-B USB Dongle (R820T2) + Small Indoor Antenna](https://shop.jetvision.de/epages/64807909.mobile/en_GB/?ObjectPath=/Shops/64807909/Products/53200)
