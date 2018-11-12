@@ -10,6 +10,8 @@
 * [gopro-py-api](https://github.com/konradit/gopro-py-api): Unofficial GoPro API Library for Python - connect to HERO3/3+/4/5/+/6 via WiFi.
 * [Tomu](https://tomu.im/) - A tiny ARM microprocessor which fits in your USB port.
 * [ESP32-Paxcounter](https://github.com/cyberman54/ESP32-Paxcounter/): Wifi & BLE driven passenger flow metering with cheap ESP32 boards
+* [OpenWRT em Mikrotik Routerboard 750](https://wiki.hackstore.com.br/OpenWRT_em_Mikrotik_Routerboard_750_(Linux_on_MIPS_AR7xxx/AR9xxx))
+* [Lexra](https://www.linux-mips.org/wiki/Lexra): Lexra did implement a 32-bit variant of the MIPS architecture.
 
 ### VoCore
 
@@ -70,3 +72,7 @@ Nice projects to try. Let's do it!
 ## Radio
 
 * [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
+
+## Test List
+
+* [CubieBoard](http://cubieboard.org/): A series of open source hardware

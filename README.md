@@ -92,6 +92,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 ## Automation
 
 * [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
+* [HomelabOS](https://gitlab.com/NickBusey/HomelabOS): Your very own offline-first privacy-centric open-source data-center!
 
 ### Ansible
 
@@ -137,6 +138,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
 * [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
 * [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
+* [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
 
 #### Tokens
 
@@ -293,6 +295,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 * [TRE](http://ducktape.blot.im/tre-a-regex-engine-with-approximate-matching): A Regex Engine with Approximate Matching
+* [Deu match: limpando dados com expressões regulares](http://turicas.info/slides/expressoes-regulares/)
 
 ### Editors
 
@@ -356,6 +359,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [kemon](https://github.com/didi/kemon): An Open-Source Pre and Post Callback-Based Framework for macOS Kernel Monitoring.
 * [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 * [MicroMDM](https://micromdm.io/)
+* [iSh](https://github.com/tbodt/ish): Linux shell for iOS
 
 ## Windows
 
@@ -370,6 +374,8 @@ ansible_python_interpreter=/usr/bin/python3
 ---
 
 ## Support
+
+* [Open MCT](https://nasa.github.io/openmct/): is a next-generation mission control framework for visualization of data on desktop and mobile devices - [github](https://github.com/nasa/openmct)
 
 ### Video Conference
 
@@ -442,7 +448,9 @@ ansible_python_interpreter=/usr/bin/python3
 * [thelounge](https://github.com/thelounge/thelounge): Modern, responsive, cross-platform, self-hosted web IRC client.
 * [qr-image](https://github.com/alexeyten/qr-image): This is yet another QR Code generator.
 * [gogs](https://github.com/gogs/gogs): Gogs is a painless self-hosted Git service.
-
+* [bitwarden](https://bitwarden.com/): online and free password manager. [core](https://github.com/bitwarden/core) on github.
+* [writefreely](https://github.com/writeas/writefreely): A painless, simple, federated blogging platform.
+  
 #### Webdev
 
 * [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
