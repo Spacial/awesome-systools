@@ -20,8 +20,9 @@ Collection of Sysadmins daily handy tools [![Awesome](https://cdn.rawgit.com/sin
 * [Making Sense of Hexdump](https://www.suse.com/c/making-sense-hexdump/), [man](https://www.systutorials.com/docs/linux/man/1-hexdump/)
 * [Interactive map of Linux Kernel](http://www.makelinux.net/kernel_map/)
 * [How to prevent unprivileged users from viewing dmesg command output on Linux](https://www.cyberciti.biz/faq/how-to-prevent-unprivileged-users-from-viewing-dmesg-command-output-on-linux/):
-  
+
 ```bash
+# changing dmesg option
 $ sudo sysctl -w kernel.dmesg_restrict=1
 ```
 
@@ -55,11 +56,12 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Planet CCRMA at home](http://ccrma.stanford.edu/planetccrma/software/) (SuperCollider home)
 * [Fedora Scientific Vagrant boxes are here!](https://echorand.me/fedora-scientific-vagrant-boxes-are-here.html)
 * [Install VLC on Fedora](https://www.kaizenuslife.com/2018/10/31/install-vlc-media-player-in-fedora-28-29/):
-  
-  ```
-  $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+```bash
+ # installing the repo
+ $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
   $ sudo dnf install vlc
-  ```
+```
 
 ### Packaging
 
@@ -79,6 +81,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [How to full encrypt your linux system with lvm on luks](https://www.linux.com/blog/how-full-encrypt-your-linux-system-lvm-luks)
 * [Tutorial: ClamAV-Antivirus-Scanning in Nextcloud implementieren](https://ollis.blog/tutorial-clamav-antivirus-scanning-in-nextcloud-implementieren/)
 * [Mapping UID and GID of local user to the mounted NFS share - Server Fault](https://serverfault.com/questions/514118/mapping-uid-and-gid-of-local-user-to-the-mounted-nfs-share)
+* [RAMCloud](https://github.com/PlatformLab/RAMCloud): RAMCloud is a new class of super-high-speed storage for large-scale datacenter applications. It is designed for applications in which a large number of servers in a datacenter need low-latency access to a large durable datastore. [Overview](https://ramcloud.atlassian.net/wiki/spaces/RAM/overview)
 
 ### Controllers
 
@@ -86,7 +89,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 ## Caching
 
-* [Evolution of Application Data Caching : From RAM to SSD](https://medium.com/netflix-techblog/evolution-of-application-data-caching-from-ram-to-ssd-a33d6fa7a690) 
+* [Evolution of Application Data Caching : From RAM to SSD](https://medium.com/netflix-techblog/evolution-of-application-data-caching-from-ram-to-ssd-a33d6fa7a690)
   * [EVCache](https://github.com/Netflix/EVCache): A distributed in-memory data store for the cloud
   * [extstore](https://github.com/memcached/memcached/wiki/Extstore): is an addition to memcached which leaves the hash table and keys in memory, but moves values to external storage (usually flash).
 
@@ -108,11 +111,11 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [dnf module](https://docs.ansible.com/ansible/2.3/dnf_module.html)
 * [Python 3 Support](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html): On your hosts ansible file, include a var subsection on your hosts group:
 
-```
+```config
 [group:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
-  
+
 ### Puppet
 
 * [running puppet on openwrt](https://github.com/solarkennedy/puppet-on-openwrt) (dead!)
@@ -251,6 +254,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
 * [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
 * [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
+* [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
 
 ## Shell
 
@@ -320,14 +324,14 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 * [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
-* [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation 
+* [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation
 
 ## Unix
 
 * [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 * [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 * [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
- 
+
 ## Virtualization
 
 * [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
@@ -361,7 +365,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 * [MicroMDM](https://micromdm.io/)
 * [Package Config](https://github.com/orta/PackageConfig): A Swift Package that allows you to define configuration settings inside a Package.swift
-* [iSh](https://github.com/tbodt/ish): Linux shell for iOS
+* [iSh](https://github.com/tbodt/ish): Linux shell for iOS.
+* [CoreXLSX](https://github.com/MaxDesiatov/CoreXLSX): Excel spreadsheet (XLSX) format support in pure Swift, by [max desiatov](https://desiatov.com/swift-codable-xlsx/#title)
 
 ## Windows
 
@@ -385,6 +390,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
 * [Vialer-js](https://github.com/vialer/vialer-js): Open-source WebRTC communication platform.
 * [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet)
+* [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
+* [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 
 ## Management
 
@@ -444,7 +451,6 @@ ansible_python_interpreter=/usr/bin/python3
 * [Avatars, identicons, and hash visualization](https://barro.github.io/2018/02/avatars-identicons-and-hash-visualization/)
 * [Plus codes](https://plus.codes/)
 * [share and discover links - appread.me](http://appread.me/)
-* [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 * [PyRoles](https://github.com/juditecypreste/PyRoles): Este é um bot no Telegram que faz upload automático de todas as fotos dos rolês que rolaram durante a PyBR!
 * [Twitter-Bots](https://github.com/internetlab-br/Twitter-Bots): Códigos utilizados para pesquisar sobre bots em perfis do Twitter
 * [thelounge](https://github.com/thelounge/thelounge): Modern, responsive, cross-platform, self-hosted web IRC client.
@@ -452,7 +458,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [gogs](https://github.com/gogs/gogs): Gogs is a painless self-hosted Git service.
 * [bitwarden](https://bitwarden.com/): online and free password manager. [core](https://github.com/bitwarden/core) on github.
 * [writefreely](https://github.com/writeas/writefreely): A painless, simple, federated blogging platform.
-  
+* [markdownlint](https://github.com/DavidAnson/markdownlint): A Node.js style checker and lint tool for Markdown/CommonMark files.
+
 #### Webdev
 
 * [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
@@ -461,7 +468,9 @@ ansible_python_interpreter=/usr/bin/python3
 * [Automate a web browser with Selenium](https://fedoramagazine.org/automate-web-browser-selenium/)
 * [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
 * [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
-  
+* [Google web.dev](https://web.dev/measure): Review performance and get detailed guidance on how to improve it. Sign-in to monitor your progress over time.
+
+
 #### Themes
 
 * [Themes for Pelican](https://github.com/getpelican/pelican-themes)
@@ -486,7 +495,7 @@ ansible_python_interpreter=/usr/bin/python3
 ### Little notes
 
 * [Auto index html bash script](http://www.alecjacobson.com/weblog/?p=192)
-  
+
 ```bash
 #!/bin/bash
 # usage: auto-index [dir]
@@ -505,7 +514,7 @@ $INDEX
 
 * Run it as:
 
-```
+```bash
  ./auto-index.sh [path to dir] > index.html
 ```
 
