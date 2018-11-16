@@ -68,6 +68,10 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
 * [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
 
+#### DEB
+
+* [Limiting the power of package installation in Debian](https://lwn.net/Articles/770784/)
+
 #### RPM
 
 ##### Build
@@ -473,7 +477,6 @@ ansible_python_interpreter=/usr/bin/python3
 * [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
 * [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
 * [Google web.dev](https://web.dev/measure): Review performance and get detailed guidance on how to improve it. Sign-in to monitor your progress over time.
-
 
 #### Themes
 
