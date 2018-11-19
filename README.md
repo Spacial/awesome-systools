@@ -183,7 +183,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
 
-## CI
+## Continuous Integration
 
 * [Danger](https://github.com/danger/danger) runs after your CI, automating your team's conventions surrounding code review.
 * [The centralized Danger server, freeing Danger from running on CI.](https://github.com/danger/peril)
@@ -198,7 +198,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Vespene](https://github.com/vespene-io/vespene): A modern continuous integration, deployment, and self-service automation platform
 * [pytest-picked](https://github.com/anapaulagomes/pytest-picked): Run the tests related to the changed files (according to Git).
 * [Quality Checking Infrastructure-as-Code](https://theithollow.com/2018/11/05/quality-checking-infrastructure-as-code/)
-
+* [PyUP](https://pyup.io/): Automated Python Security and Dependency Updates. [github](https://github.com/pyupio/pyup)
 ## Interfaces
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
@@ -371,6 +371,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [osxfuse](https://github.com/osxfuse/osxfuse): FUSE extends macOS by adding support for user space file systems
 * [MacPass](https://github.com/MacPass/MacPass): A native OS X KeePass client
 * [CoreXLSX](https://github.com/MaxDesiatov/CoreXLSX): Excel spreadsheet (XLSX) format support in pure Swift, by [max desiatov](https://desiatov.com/swift-codable-xlsx/#title)
+* [istatserverlinux](https://github.com/bjango/istatserverlinux): A system monitoring daemon that sends stats to Send stats to iStat View for iOS and iStat View for macOS. 
+* [istatserver-dsm](https://bitbucket.org/jpboivin/istatserver-dsm): iStatserver for Synology DSM.
 
 ## Windows
 
@@ -473,7 +475,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
 * [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
 * [Google web.dev](https://web.dev/measure): Review performance and get detailed guidance on how to improve it. Sign-in to monitor your progress over time.
-
+* [VisBug](https://github.com/GoogleChromeLabs/projectvisbug): 🎨 Make any webpage feel like an artboard, download extension here
+* [DoodleMaster](https://github.com/karanchahal/DoodleMaster): The Doodle Master seeks to turn your UI mockups into real code. Currently this repository just serves to demonstrate a Proof Of Concept of Artificially Intelligent Design Tools.
 
 #### Themes
 
@@ -541,6 +544,7 @@ $INDEX
 ## IoT
 
 * [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
+* (pt-br) [A Internet das Coisas no Brasil](https://igarape.org.br/a-internet-das-coisas-no-brasil/) - Instituto Igarapé
 
 ---
 

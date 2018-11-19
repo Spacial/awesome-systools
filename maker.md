@@ -73,13 +73,16 @@ Nice projects to try. Let's do it!
 ## Radio
 
 * [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
+* [IMSI-catcher](https://github.com/Oros42/IMSI-catcher): This program show you IMSI numbers of cellphones around you.
 
 ## Sensors
 
 * [Basic Photocell Reading | Basic Resistor Sensor Reading on Raspberry Pi](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 * [Adding a shutdown button to raspberry pi with Adafruit RGB Matrix HAT](https://medium.com/@dannielum/adding-a-shutdown-button-to-raspberry-pi-with-adafruit-rgb-matrix-hat-ba886e1fe23c)
 * [ADS-B USB Dongle (R820T2) + Small Indoor Antenna](https://shop.jetvision.de/epages/64807909.mobile/en_GB/?ObjectPath=/Shops/64807909/Products/53200)
+* [OpenBCI](https://openbci.com/): Open Source Biosensing Tools (EEG, EMG, EKG, and more)
 
 ## Test List
 
 * [CubieBoard](http://cubieboard.org/): A series of open source hardware
+* [Build a do-it-yourself home air purifier for about $25](https://www.uofmhealth.org/news/sinus-hepa-0630)
