@@ -68,6 +68,10 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
 * [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
 
+#### DEB
+
+* [Limiting the power of package installation in Debian](https://lwn.net/Articles/770784/)
+
 #### RPM
 
 ##### Build
@@ -475,11 +479,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
 * [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
 * [Google web.dev](https://web.dev/measure): Review performance and get detailed guidance on how to improve it. Sign-in to monitor your progress over time.
-* [VisBug](https://github.com/GoogleChromeLabs/projectvisbug): 🎨 Make any webpage feel like an artboard, download extension here
 * [DoodleMaster](https://github.com/karanchahal/DoodleMaster): The Doodle Master seeks to turn your UI mockups into real code. Currently this repository just serves to demonstrate a Proof Of Concept of Artificially Intelligent Design Tools.
-
-#### Themes
-
 * [Themes for Pelican](https://github.com/getpelican/pelican-themes)
 * [Pelican theme based on html5-dopetrope design.](https://github.com/PierrePaul/html5-dopetrope)
 * [Flex](https://github.com/alexandrevicenzi/Flex): The minimalist Pelican theme.

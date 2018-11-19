@@ -12,6 +12,7 @@
 * [ESP32-Paxcounter](https://github.com/cyberman54/ESP32-Paxcounter/): Wifi & BLE driven passenger flow metering with cheap ESP32 boards
 * [OpenWRT em Mikrotik Routerboard 750](https://wiki.hackstore.com.br/OpenWRT_em_Mikrotik_Routerboard_750_(Linux_on_MIPS_AR7xxx/AR9xxx))
 * [Lexra](https://www.linux-mips.org/wiki/Lexra): Lexra did implement a 32-bit variant of the MIPS architecture.
+* [EspressoBin](http://espressobin.net/)
 
 ### VoCore
 
