@@ -67,6 +67,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 * [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
 * [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
+* [Linux brew](https://linuxbrew.sh/): Linuxbrew is a fork of Homebrew, the macOS package manager, for Linux. [github](https://github.com/Linuxbrew/brew)
 
 #### DEB
 
@@ -182,6 +183,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
 * [tsuru](https://github.com/tsuru/tsuru): Open source, extensible and Docker-based Platform as a Service (PaaS).
 * [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
+* [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
 
 ### Lambda
 
@@ -203,6 +205,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [pytest-picked](https://github.com/anapaulagomes/pytest-picked): Run the tests related to the changed files (according to Git).
 * [Quality Checking Infrastructure-as-Code](https://theithollow.com/2018/11/05/quality-checking-infrastructure-as-code/)
 * [PyUP](https://pyup.io/): Automated Python Security and Dependency Updates. [github](https://github.com/pyupio/pyup)
+* [Circle CI](https://circleci.com/)
+
 ## Interfaces
 
 * [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
@@ -223,6 +227,10 @@ ansible_python_interpreter=/usr/bin/python3
 * [GoAccess - Visual Web Log Analyzer](https://goaccess.io/)
 * [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator
 * [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
+
+### Benchmarks
+
+* [test-profiles](https://github.com/phoronix-test-suite/test-profiles): A read-only Git copy of the OpenBenchmarking.org test profiles.
 
 ## Network
 
@@ -260,11 +268,12 @@ ansible_python_interpreter=/usr/bin/python3
 * [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
 * [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
 * [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
+  * [Chromium & Netflix (and other DRM video websites)](https://ubuntu-mate.community/t/tutorial-chromium-netflix-and-other-drm-video-websites/7185)
 * [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
 
 ## Shell
 
-<img src="https://www.cyberciti.biz/files/Linux%20Bash%20Shell%20Poster.jpg"  width="100" height="140" />
+<img src="https://www.cyberciti.biz/files/Linux%20Bash%20Shell%20Poster.jpg"  width="100" height="140"/>
 
 * [Linux Shell Poster](https://www.cyberciti.biz/files/Linux%20Bash%20Shell%20Poster.jpg)
 * [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
@@ -300,6 +309,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [t](https://github.com/sferik/t): A command-line power tool for Twitter.
 * [up](https://github.com/akavel/up): Ultimate Plumber is a tool for writing Linux pipes with instant live preview
 * [tztail](https://github.com/thecasualcoder/tztail): tztail (TimeZoneTAIL) allows you to view logs in the timezone you want.
+* [Command-Line Snippets](https://snippets.shodan.io/): A place to share useful, one-line commands that make your life easier.
+* [Writing Safe Shell Scripts](https://sipb.mit.edu/doc/safe-shell/)
 
 ### Regex
 
@@ -350,7 +361,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [UNSAT](https://unsat.cs.washington.edu/projects/hyperkernel/): Hyperkernel
 * [Largest small system emulator](http://ioccc.org/2013/cable3/hint.html)
 * [Intel Virtualisation](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/): How VT-x, KVM and QEMU Work Together
-* [IncludeOS](https://github.com/hioa-cs/IncludeOS): is an includable, minimal unikernel operating system for C++ services running in the cloud. Starting a program with #include <os> will literally include a tiny operating system into your service during link-time.
+* [IncludeOS](https://github.com/hioa-cs/IncludeOS): is an includable, minimal unikernel operating system for C++ services running in the cloud.
 
 ### VMware
 
@@ -375,7 +386,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [osxfuse](https://github.com/osxfuse/osxfuse): FUSE extends macOS by adding support for user space file systems
 * [MacPass](https://github.com/MacPass/MacPass): A native OS X KeePass client
 * [CoreXLSX](https://github.com/MaxDesiatov/CoreXLSX): Excel spreadsheet (XLSX) format support in pure Swift, by [max desiatov](https://desiatov.com/swift-codable-xlsx/#title)
-* [istatserverlinux](https://github.com/bjango/istatserverlinux): A system monitoring daemon that sends stats to Send stats to iStat View for iOS and iStat View for macOS. 
+* [istatserverlinux](https://github.com/bjango/istatserverlinux): A system monitoring daemon that sends stats to Send stats to iStat View for iOS and iStat View for macOS.
 * [istatserver-dsm](https://bitbucket.org/jpboivin/istatserver-dsm): iStatserver for Synology DSM.
 
 ## Windows
@@ -416,7 +427,9 @@ ansible_python_interpreter=/usr/bin/python3
 * [Careers outside of academia with a PhD in volcanology](https://volcanologistsoutsideacademia.wordpress.com/2018/08/29/spotlight-john-a-stevenson-ph-d/)
 * [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade): Tools of The Trade, from Hacker News.
 * [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). Test your knowledge in different fields with these Q/A.
-
+* [Don’t work “remotely”](http://blairreeves.me/2018/11/09/dont-work-remotely/)
+* [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers.
+  
 ## Presentations
 
 * [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
@@ -439,6 +452,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [pbec](https://github.com/wilvk/pbec): Polaris Bios Editor for the Console
 * [zero](https://github.com/KonstantinSchubert/zero): Local file system transparently swapping to the cloud
 * [pdiary](https://github.com/manipuladordedados/pdiary)
+* [jabcode](https://github.com/jabcode/jabcode): color bar code.
 
 ### WebTools
 
