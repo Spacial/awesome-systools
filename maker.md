@@ -48,6 +48,7 @@ Nice projects to try. Let's do it!
 * [H2HC 2018 Badge](https://security-bits.de/electronics/badges/h2hc_18)
 * [Build your own ADS-B receiver – Pi24](https://www.flightradar24.com/build-your-own)
 * [96-core ARM supercomputer using the NanoPi-Fire3](https://climbers.net/sbc/nanopi-fire3-arm-supercomputer/)
+* [Repurpose Optical Drive With RPi](https://www.instructables.com/id/Re-purpose-Optical-Drive-With-)
 
 ## Comparison
 

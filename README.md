@@ -151,6 +151,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
 * [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
 * [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
+* [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
 
 #### Tokens
 
@@ -312,7 +313,9 @@ ansible_python_interpreter=/usr/bin/python3
 * [up](https://github.com/akavel/up): Ultimate Plumber is a tool for writing Linux pipes with instant live preview
 * [tztail](https://github.com/thecasualcoder/tztail): tztail (TimeZoneTAIL) allows you to view logs in the timezone you want.
 * [Command-Line Snippets](https://snippets.shodan.io/): A place to share useful, one-line commands that make your life easier.
-* [Writing Safe Shell Scripts](https://sipb.mit.edu/doc/safe-shell/)
+* [Writing Safe Shell Scripts](https://sipb.mit.edu/doc/safe-shell/): Writing shell scripts leaves a lot of room to make mistakes, in ways that will cause your scripts to break on certain input, or (if some input is untrusted) open up security vulnerabilities. Here are some tips on how to make your shell scripts safer.
+* [funky](https://github.com/bbugyi200/funky):Funky takes shell functions to the next level by making them easier to define, more flexible, and more interactive.
+* [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml).
 
 ### Regex
 
