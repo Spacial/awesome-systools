@@ -256,6 +256,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net
 * [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
 * [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
+* [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads 
 
 ### DNS
 
