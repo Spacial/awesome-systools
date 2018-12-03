@@ -293,6 +293,7 @@ ansible_python_interpreter=/usr/bin/python3
   * [pedrohenriquebr](https://github.com/pedrohenriquebr/dotfiles)
 * Powerline:
   * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
+  * [How to Jazz Up Your Bash Terminal](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)— A Step By Step Guide With Pictures
 * Zsh files:
   * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
   * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
@@ -490,6 +491,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [bitwarden](https://bitwarden.com/): online and free password manager. [core](https://github.com/bitwarden/core) on github.
 * [writefreely](https://github.com/writeas/writefreely): A painless, simple, federated blogging platform.
 * [markdownlint](https://github.com/DavidAnson/markdownlint): A Node.js style checker and lint tool for Markdown/CommonMark files.
+* [Notepin](https://notepin.co/): Extremely simple note taking
 
 #### Webdev
 
@@ -506,6 +508,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Pelican theme based on html5-dopetrope design.](https://github.com/PierrePaul/html5-dopetrope)
 * [Flex](https://github.com/alexandrevicenzi/Flex): The minimalist Pelican theme.
 * [pelican theme Dev-Random3](https://github.com/22decembre/dev-random3)
+* [HOW TO CENTER IN CSS](http://howtocenterincss.com/): Centering in CSS is a pain in the ass. There seems to be a gazillion ways to do it, depending on a variety of factors. This consolidates them and gives you the code you need for each situation.
 
 #### Graphics
 
@@ -578,7 +581,8 @@ $INDEX
 * (pt-br) [ligar-cobranca](https://github.com/GtOkAi/ligar-cobranca): Ligue automaticamente para empresas de cobrança e deixe uma voz falando "Alô?" sem parar.
 * [Trump2Ca$h](https://github.com/maxbbraun/trump2cash): A stock trading bot powered by Trump tweets
 * [paint 16b](http://www.sizecoding.org/wiki/Paint16b): was created by Hellmood and is 16 bytes in size. paint16b implements a mouse-driven drawing program which has the ability to exit back to DOS and also display the mouse cursor, [screenshot](http://www.pouet.net/prod.php?which=63826).
-  
+* [Boss as a Service | Hire a boss, get stuff done](https://bossasaservice.life/)
+
 ## Stuff
 
 * [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
