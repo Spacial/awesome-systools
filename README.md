@@ -209,6 +209,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [PyUP](https://pyup.io/): Automated Python Security and Dependency Updates. [github](https://github.com/pyupio/pyup)
 * [Circle CI](https://circleci.com/)
 * [Overalls](https://coveralls.io/): We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.
+* [Pythran as a bridge between fast prototyping and code deployment](http://serge-sans-paille.github.io/pythran-stories/pythran-as-a-bridge-between-fast-prototyping-and-code-deployment.html)
 
 ## Interfaces
 
@@ -335,6 +336,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [vimium](https://github.com/philc/vimium):  Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 * [vimari](https://github.com/guyht/vimari): Safari port of vimium
 * [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager
+* [gruvbox](https://github.com/morhetz/gruvbox): Retro groove color scheme for Vim
 
 ## Other Resources
 
@@ -367,6 +369,9 @@ ansible_python_interpreter=/usr/bin/python3
 * [Largest small system emulator](http://ioccc.org/2013/cable3/hint.html)
 * [Intel Virtualisation](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/): How VT-x, KVM and QEMU Work Together
 * [IncludeOS](https://github.com/hioa-cs/IncludeOS): is an includable, minimal unikernel operating system for C++ services running in the cloud.
+* [kubectl trace](https://github.com/fntlnz/kubectl-trace): Schedule bpftrace programs on your kubernetes cluster using the kubectl
+* [dive](https://github.com/wagoodman/dive): A tool for exploring each layer in a docker image
+* [Firecracker](https://github.com/firecracker-microvm/firecracker): Secure and fast microVMs for serverless computing.
 
 ### VMware
 
@@ -435,7 +440,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). Test your knowledge in different fields with these Q/A.
 * [Don’t work “remotely”](http://blairreeves.me/2018/11/09/dont-work-remotely/)
 * [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers.
-  
+* [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
+ 
 ## Presentations
 
 * [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
@@ -505,7 +511,11 @@ ansible_python_interpreter=/usr/bin/python3
 * [Pelican theme based on html5-dopetrope design.](https://github.com/PierrePaul/html5-dopetrope)
 * [Flex](https://github.com/alexandrevicenzi/Flex): The minimalist Pelican theme.
 * [pelican theme Dev-Random3](https://github.com/22decembre/dev-random3)
-
+* [Vaadin Tutorial application](https://github.com/vaadin/tutorial): Introduction to Vaadin Framework 8
+* [NES.css](https://bcrikko.github.io/NES.css/) - [github](https://github.com/BcRikko/NES.css)
+* [wedding-website](https://github.com/rampatra/wedding-website)
+* 
+  
 #### Graphics
 
 * [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
@@ -587,3 +597,4 @@ $INDEX
 ## News
 
 * [Systemd's DynamicUser feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)
+* [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9)
