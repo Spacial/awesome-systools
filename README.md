@@ -236,6 +236,10 @@ ansible_python_interpreter=/usr/bin/python3
 
 * [test-profiles](https://github.com/phoronix-test-suite/test-profiles): A read-only Git copy of the OpenBenchmarking.org test profiles.
 
+## Services
+
+* [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
+
 ## Network
 
 * [TCP Tracepoints](http://www.brendangregg.com/blog/2018-03-22/tcp-tracepoints.html)
@@ -248,6 +252,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Detecting the use of "curl | bash" server side | Application Security](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
 * [Scapy](https://github.com/secdev/scapy/): the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3.
 * [Ping test in a shell script](http://jeromejaglale.com/doc/unix/shell_scripts/ping)
+* [OpenBGPD](https://labs.ripe.net/Members/claudio_jeker/openbgpd-adding-diversity-to-route-server-landscape): Adding Diversity to the Route Server Landscape
 
 ### NetServices
 
@@ -257,7 +262,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net
 * [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
 * [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
-* [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads 
+* [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads
 
 ### DNS
 
@@ -275,6 +280,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
   * [Chromium & Netflix (and other DRM video websites)](https://ubuntu-mate.community/t/tutorial-chromium-netflix-and-other-drm-video-websites/7185)
 * [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
+* [Firefox Profilemaker](https://ffprofile.com/)
 
 ## Shell
 
@@ -285,6 +291,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
 * [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
 * [bash-oo-framework](https://github.com/niieani/bash-oo-framework): Bash Infinity is a modern boilerplate / framework / standard library for bash
+* [sensible bash](https://github.com/mrzool/bash-sensible)
 * Bashrc files:
   * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
   * [rkirti/bashrc](https://github.com/rkirti/bashrc)
@@ -329,6 +336,7 @@ ansible_python_interpreter=/usr/bin/python3
 ### Editors
 
 * [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools): Official repository for filing issues against and getting support for the Microsoft C/C++ extension for VS Code
+* [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
 
 #### Vim/vi
 
@@ -351,6 +359,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 * [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
 * [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation
+* [Share NFS Home Directories Securely with Kerberos](https://fedoramagazine.org/secure-nfs-home-directories-kerberos/)
 
 ## Unix
 
@@ -374,6 +383,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [kubectl trace](https://github.com/fntlnz/kubectl-trace): Schedule bpftrace programs on your kubernetes cluster using the kubectl
 * [dive](https://github.com/wagoodman/dive): A tool for exploring each layer in a docker image
 * [Firecracker](https://github.com/firecracker-microvm/firecracker): Secure and fast microVMs for serverless computing.
+* [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
 
 ### VMware
 
@@ -443,7 +453,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Don’t work “remotely”](http://blairreeves.me/2018/11/09/dont-work-remotely/)
 * [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers.
 * [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
- 
+
 ## Presentations
 
 * [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
@@ -467,6 +477,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [zero](https://github.com/KonstantinSchubert/zero): Local file system transparently swapping to the cloud
 * [pdiary](https://github.com/manipuladordedados/pdiary)
 * [jabcode](https://github.com/jabcode/jabcode): color bar code.
+* [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
 
 ### WebTools
 
@@ -498,6 +509,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [writefreely](https://github.com/writeas/writefreely): A painless, simple, federated blogging platform.
 * [markdownlint](https://github.com/DavidAnson/markdownlint): A Node.js style checker and lint tool for Markdown/CommonMark files.
 * [Notepin](https://notepin.co/): Extremely simple note taking
+* [Startpage](https://www.startpage.com/): privacy search.
+* [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-engineer/next)
 
 #### Webdev
 
@@ -602,3 +615,7 @@ $INDEX
 
 * [Systemd's DynamicUser feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)
 * [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9)
+
+## Making Conferences
+
+* [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
