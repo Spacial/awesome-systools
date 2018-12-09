@@ -115,6 +115,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Automating Python with Ansible](https://tdhopper.com/blog/automating-python-with-ansible/).
 * [dnf module](https://docs.ansible.com/ansible/2.3/dnf_module.html)
 * [Python 3 Support](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html): On your hosts ansible file, include a var subsection on your hosts group:
+* [CHANGING THE SSH PORT WITH ANSIBLE](https://dmsimard.com/2016/03/15/changing-the-ssh-port-with-ansible/)
 
 ```config
 [group:vars]
