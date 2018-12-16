@@ -1,10 +1,9 @@
-# systools
-
-Collection of Sysadmins daily handy tools [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## Reliability
 
 * [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
+* [Istio on GKE](https://www.linkedin.com/pulse/istio-gke-googles-sre-box-ganesan-janarthanam-jana-/)- Google's SRE in a Box!
 
 ## Licensing
 
@@ -56,6 +55,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Planet CCRMA at home](http://ccrma.stanford.edu/planetccrma/software/) (SuperCollider home)
 * [Fedora Scientific Vagrant boxes are here!](https://echorand.me/fedora-scientific-vagrant-boxes-are-here.html)
 * [Install VLC on Fedora](https://www.kaizenuslife.com/2018/10/31/install-vlc-media-player-in-fedora-28-29/):
+* [How to install and activate Cockpit web console on RHEL 8](https://www.cyberciti.biz/faq/install-activate-cockpit-the-web-console-on-rhel-8/)
 
 ```bash
  # installing the repo
@@ -87,6 +87,11 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 * [Tutorial: ClamAV-Antivirus-Scanning in Nextcloud implementieren](https://ollis.blog/tutorial-clamav-antivirus-scanning-in-nextcloud-implementieren/)
 * [Mapping UID and GID of local user to the mounted NFS share - Server Fault](https://serverfault.com/questions/514118/mapping-uid-and-gid-of-local-user-to-the-mounted-nfs-share)
 * [RAMCloud](https://github.com/PlatformLab/RAMCloud): RAMCloud is a new class of super-high-speed storage for large-scale datacenter applications. It is designed for applications in which a large number of servers in a datacenter need low-latency access to a large durable datastore. [Overview](https://ramcloud.atlassian.net/wiki/spaces/RAM/overview)
+* Synology Resources:
+  * [Synomon](http://dottoremoe.com/synomon/)
+  * [SynoCommunity](https://synocommunity.com/)
+  * [spksrc](https://github.com/SynoCommunity/spksrc): Cross compilation framework to create native packages for the Synology's NAS
+
 
 ### Controllers
 
@@ -102,6 +107,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 * [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
 * [HomelabOS](https://gitlab.com/NickBusey/HomelabOS): Your very own offline-first privacy-centric open-source data-center!
+* [5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1)
 
 ### Ansible
 
@@ -139,6 +145,15 @@ ansible_python_interpreter=/usr/bin/python3
 * [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
 * See your site config with [Hardenize](https://www.hardenize.com/)
 * Nice article with a lot of resources: [Common approaches to securing Linux servers and what runs on them.](https://medium.com/@ageis/common-approaches-to-securing-linux-servers-and-what-runs-on-them-dadcacc5388b)
+* [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
+* [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
+* [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
+* [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
+* [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
+* [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
+
+#### Webservers
+
 * A lot of good posts by geek flare:
   * [How to Configure SSL Certificate on Google Cloud Load Balancer?](https://geekflare.com/google-load-balancer-enable-ssl/)
   * [Nginx Web Server Security & Hardening Guide](https://geekflare.com/nginx-webserver-security-hardening-guide/)
@@ -147,12 +162,10 @@ ansible_python_interpreter=/usr/bin/python3
   * [How to Enable TLS 1.3 in Nginx, Cloudflare?](https://geekflare.com/enable-tls-1-3/)
   * [Apache Web Server Hardening & Security Guide](https://geekflare.com/apache-web-server-hardening-security/) (broken!??)
 * [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
-* [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
-* [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
-* [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
-* [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
-* [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
-* [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
+* [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
+* [How to Configure Nginx SSL Certifcate Chain](https://futurestud.io/tutorials/how-to-configure-nginx-ssl-certifcate-chain)
+* [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
+* [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
 
 #### Tokens
 
@@ -187,10 +200,12 @@ ansible_python_interpreter=/usr/bin/python3
 * [tsuru](https://github.com/tsuru/tsuru): Open source, extensible and Docker-based Platform as a Service (PaaS).
 * [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
 * [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
+* [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
 
 ### Lambda
 
 * [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
+* [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
 
 ## Continuous Integration
 
@@ -199,7 +214,6 @@ ansible_python_interpreter=/usr/bin/python3
 * [OSS-Fuzz](https://github.com/google/oss-fuzz) - Continuous Fuzzing for Open Source Software
 * [Fedora's](http://fedoraproject.org/wiki/CI/Standard_Test_Interface) CI/Standard Test Interface
 * [Do continuous deployment with Github and Python](https://fedoramagazine.org/continuous-deployment-github-python/)
-* [Jenkinsfile](https://github.com/vivitc/learning-jenkinsfile) example by [vivitc](https://github.com/vivitc/)
 * [Terraform](https://www.terraform.io/intro/index.html) ([github repo](https://github.com/hashicorp/terraform))
 * [Best way to do linux clones for your CI](https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html)
 * [Terratest](https://github.com/gruntwork-io/terratest): is a Go library that makes it easier to write automated tests for your infrastructure code.
@@ -210,7 +224,17 @@ ansible_python_interpreter=/usr/bin/python3
 * [PyUP](https://pyup.io/): Automated Python Security and Dependency Updates. [github](https://github.com/pyupio/pyup)
 * [Circle CI](https://circleci.com/)
 * [Overalls](https://coveralls.io/): We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.
+
+### Jenkins
+
+* [Jenkinsfile](https://github.com/vivitc/learning-jenkinsfile) example by [vivitc](https://github.com/vivitc/)
 * [Pythran as a bridge between fast prototyping and code deployment](http://serge-sans-paille.github.io/pythran-stories/pythran-as-a-bridge-between-fast-prototyping-and-code-deployment.html)
+* [Adding a GitHub Webhook in Your Jenkins Pipeline](https://dzone.com/articles/adding-a-github-webhook-in-your-jenkins-pipeline)
+* [Troubleshooting GitHub WebHooks SSL Verification](http://steve-jansen.github.io/blog/2014/12/03/troubleshooting-github-webhooks-ssl-verification/)
+* [github - misconfigured SSL using webhooks](https://stackoverflow.com/questions/44337920/misconfigured-ssl-using-webhooks)
+* [GitHub Plugin - Jenkins](https://wiki.jenkins.io/display/JENKINS/Github+Plugin)
+* [Trigger Jenkins builds by pushing to Github](https://www.fourkitchens.com/blog/article/trigger-jenkins-builds-pushing-github/)
+* [Add Users to Jenkins with "Allow users to sign up" Disabled](https://stackoverflow.com/questions/12056851/add-users-to-jenkins-with-allow-users-to-sign-up-disabled)
 
 ## Interfaces
 
@@ -236,6 +260,7 @@ ansible_python_interpreter=/usr/bin/python3
 ### Benchmarks
 
 * [test-profiles](https://github.com/phoronix-test-suite/test-profiles): A read-only Git copy of the OpenBenchmarking.org test profiles.
+* [hardware-effects](https://github.com/Kobzol/hardware-effects): Demonstration of various hardware effects.
 
 ## Services
 
@@ -254,6 +279,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Scapy](https://github.com/secdev/scapy/): the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3.
 * [Ping test in a shell script](http://jeromejaglale.com/doc/unix/shell_scripts/ping)
 * [OpenBGPD](https://labs.ripe.net/Members/claudio_jeker/openbgpd-adding-diversity-to-route-server-landscape): Adding Diversity to the Route Server Landscape
+* [netbox](https://github.com/digitalocean/netbox): IP address management (IPAM) and data center infrastructure management (DCIM) tool.
 
 ### NetServices
 
@@ -262,7 +288,6 @@ ansible_python_interpreter=/usr/bin/python3
 * [speedtest-linux](https://github.com/rsvp/speedtest-linux): Get download/upload speeds via speedtest.net or fast.com from command line using Bash script -- suitable for logs. POSIX OSX Linux
 * [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net
 * [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
-* [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
 * [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads
 
 ### DNS
@@ -293,6 +318,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
 * [bash-oo-framework](https://github.com/niieani/bash-oo-framework): Bash Infinity is a modern boilerplate / framework / standard library for bash
 * [sensible bash](https://github.com/mrzool/bash-sensible)
+* [How to Jazz Up Your Bash Terminal](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22): A Step By Step Guide With Pictures
 * Bashrc files:
   * [Paul's .bashrc](https://github.com/paulkaefer/.bashrc)
   * [rkirti/bashrc](https://github.com/rkirti/bashrc)
@@ -303,9 +329,11 @@ ansible_python_interpreter=/usr/bin/python3
 * Powerline:
   * [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
   * [How to Jazz Up Your Bash Terminal](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)— A Step By Step Guide With Pictures
+  * [powerline-shell](https://github.com/b-ryan/powerline-shell): A beautiful and useful prompt for your shell
 * Zsh files:
   * [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
   * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
+  * [powerlevel9k](https://github.com/bhilburn/powerlevel9k): The most awesome Powerline theme for ZSH around!
 * Fish:
   * [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   * [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
@@ -385,6 +413,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [dive](https://github.com/wagoodman/dive): A tool for exploring each layer in a docker image
 * [Firecracker](https://github.com/firecracker-microvm/firecracker): Secure and fast microVMs for serverless computing.
 * [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
+* [Introducing Crossplane](https://blog.upbound.io/introducing-crossplane-open-source-multicloud-control-plane/): Open Source Multicloud Control Plane. [github](https://github.com/crossplaneio/crossplane)
 
 ### VMware
 
@@ -422,6 +451,10 @@ ansible_python_interpreter=/usr/bin/python3
 * [The early history of Windows file attributes, and why there is a gap between System and Directory](https://blogs.msdn.microsoft.com/oldnewthing/20180830-00/?p=99615)
 * [SysmonTools](https://github.com/nshalabi/SysmonTools): Utilities for Sysmon
 * [WoW64 internals](https://wbenny.github.io/2018/11/04/wow64-internals.html): aka Windows (32-bit) on Windows (64-bit) - is a subsystem that enables 32-bit Windows applications to run on 64-bit Windows.
+* [Installing sqlcmd without SQL Server](http://daveslog.com/2017/03/19/installing-sqlcmd-without-sql-server/)
+* [Running vROpsCLI on Windows](http://www.vmspot.com/vropscli-on-windows/)
+* [windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
+* [qemu-img for WIndows](https://cloudbase.it/qemu-img-windows/)
 
 ---
 
@@ -536,6 +569,7 @@ ansible_python_interpreter=/usr/bin/python3
 #### Graphics
 
 * [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
+* [Rexpaint](https://www.gridsagegames.com/rexpaint/): is a powerful and user-friendly ASCII art editor. Use a wide variety of tools to create ANSI block/line art, roguelike mockups and maps, UI layouts, and for other game development needs.
 
 #### CMS
 
@@ -593,7 +627,7 @@ $INDEX
 
 * [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
 * (pt-br) [A Internet das Coisas no Brasil](https://igarape.org.br/a-internet-das-coisas-no-brasil/) - Instituto Igarapé
-
+* [jerryscript](https://github.com/jerryscript-project/jerryscript): Ultra-lightweight JavaScript engine for the Internet of Things.
 ---
 
 ## Fun
@@ -620,3 +654,7 @@ $INDEX
 ## Making Conferences
 
 * [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
+
+## Articles
+
+* [Serverless Computing: One Step Forward, Two Steps Back](https://arxiv.org/abs/1812.03651)

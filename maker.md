@@ -14,6 +14,8 @@
 * [Lexra](https://www.linux-mips.org/wiki/Lexra): Lexra did implement a 32-bit variant of the MIPS architecture.
 * [EspressoBin](http://espressobin.net/)
 * [particle.io](https://store.particle.io): MEET THE ONLY ALL-IN-ONE IOT PLATFORM ON THE MARKET. [particle cli ](https://github.com/particle-iot/particle-cli)
+* [Raptor Computing Systems::BK1B01 Intro](https://secure.raptorcs.com/content/BK1B01/intro.html)
+* [Teensy 3.1 bare metal: Writing a USB driver](http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/) and [github](https://github.com/kcuzner/teensy-oscilloscope)
 
 ### VoCore
 
@@ -90,3 +92,4 @@ Nice projects to try. Let's do it!
 
 * [CubieBoard](http://cubieboard.org/): A series of open source hardware
 * [Build a do-it-yourself home air purifier for about $25](https://www.uofmhealth.org/news/sinus-hepa-0630)
+* [smart-base](https://goodiebox.co/products/smart-base?variant=18587654389849)
