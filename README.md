@@ -57,7 +57,6 @@
 - [Cloud](#cloud)
   - [Nextcloud](#nextcloud)
 - [IoT](#iot)
-- [* jerryscript: Ultra-lightweight JavaScript engine for the Internet of Things.](#jerryscript-ultra-lightweight-javascript-engine-for-the-internet-of-things)
 - [Fun](#fun)
 - [Stuff](#stuff)
 - [News](#news)
@@ -694,6 +693,7 @@ $INDEX
 * [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
 * (pt-br) [A Internet das Coisas no Brasil](https://igarape.org.br/a-internet-das-coisas-no-brasil/) - Instituto Igarapé
 * [jerryscript](https://github.com/jerryscript-project/jerryscript): Ultra-lightweight JavaScript engine for the Internet of Things.
+
 ---
 
 ## Fun
