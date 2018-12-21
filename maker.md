@@ -13,7 +13,7 @@
 * [OpenWRT em Mikrotik Routerboard 750](https://wiki.hackstore.com.br/OpenWRT_em_Mikrotik_Routerboard_750_(Linux_on_MIPS_AR7xxx/AR9xxx))
 * [Lexra](https://www.linux-mips.org/wiki/Lexra): Lexra did implement a 32-bit variant of the MIPS architecture.
 * [EspressoBin](http://espressobin.net/)
-* [particle.io](https://store.particle.io): MEET THE ONLY ALL-IN-ONE IOT PLATFORM ON THE MARKET. [particle cli ](https://github.com/particle-iot/particle-cli)
+* [particle.io](https://store.particle.io): MEET THE ONLY ALL-IN-ONE IOT PLATFORM ON THE MARKET. [particle cli](https://github.com/particle-iot/particle-cli)
 * [Raptor Computing Systems::BK1B01 Intro](https://secure.raptorcs.com/content/BK1B01/intro.html)
 * [Teensy 3.1 bare metal: Writing a USB driver](http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/) and [github](https://github.com/kcuzner/teensy-oscilloscope)
 
@@ -39,19 +39,20 @@ Nice projects to try. Let's do it!
 * [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
 * [The Beginning of the End of WPA-2 — Cracking WPA-2 Just Got a Whole Lot Easier](https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a)
 * [Blink an LED With Arduino in Tinkercad: 6 Steps (with Pictures)](https://www.instructables.com/id/Blink-an-LED-With-Arduino-in-Tinkercad/)
-* [Building a network attached storage device with a Raspberry Pi](https://opensource.com/article/18/7/network-attached-storage-Raspberry-Pi) 
+* [Building a network attached storage device with a Raspberry Pi](https://opensource.com/article/18/7/network-attached-storage-Raspberry-Pi)
 * [Pixelblaze](https://www.bhencke.com/pixelblaze/) by Ben Hencke
 * [Build a social media follower counter](https://www.raspberrypi.org/blog/build-social-media-follower-counter/)
 * [Designing Solo, a new U2F/FIDO2 Token](https://conorpp.com/designing-solo-a-new-u2ffido2-token)
-* [Circlean](https://github.com/CIRCL/Circlean): USB key cleaner 
+* [Circlean](https://github.com/CIRCL/Circlean): USB key cleaner
 * [How to turn on an LED with Fedora IoT](https://fedoramagazine.org/turnon-led-fedora-iot/)
-* [HDMI Light V2](http://hacks.esar.org.uk/hdmi-light-v2/), [github](https://github.com/esar/hdmilight-v2): FPGA based Ambilight clone with direct HDMI input 
-* [esp8266_honeypot](https://github.com/gbafana25/esp8266_honeypot): THE ESP8266 HONEYPOT: A PROJECT TO TRAP SCRIPT KIDDIES EVERYWHRE!! 
+* [HDMI Light V2](http://hacks.esar.org.uk/hdmi-light-v2/), [github](https://github.com/esar/hdmilight-v2): FPGA based Ambilight clone with direct HDMI input
+* [esp8266_honeypot](https://github.com/gbafana25/esp8266_honeypot): THE ESP8266 HONEYPOT: A PROJECT TO TRAP SCRIPT KIDDIES EVERYWHRE!!
 * [Build Your Own Professional-Grade Audio Amp on the Sort of Cheap](https://spectrum.ieee.org/consumer-electronics/audiovideo/build-your-own-professionalgrade-audio-amp-on-the-sort-of-cheap)
 * [H2HC 2018 Badge](https://security-bits.de/electronics/badges/h2hc_18)
 * [Build your own ADS-B receiver – Pi24](https://www.flightradar24.com/build-your-own)
 * [96-core ARM supercomputer using the NanoPi-Fire3](https://climbers.net/sbc/nanopi-fire3-arm-supercomputer/)
 * [Repurpose Optical Drive With RPi](https://www.instructables.com/id/Re-purpose-Optical-Drive-With-)
+* [Apple Airplay on Raspberry Pi in 7 Easy Steps](https://appcodelabs.com/7-easy-steps-to-apple-airplay-on-raspberry-pi) [shairport](https://github.com/mikebrady/shairport-sync)
 
 ## Comparison
 
