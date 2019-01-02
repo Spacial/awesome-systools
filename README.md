@@ -1,80 +1,6 @@
 # Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<!-- TOC -->
-
-- [Awesome Systools![Awesome](https://github.com/sindresorhus/awesome)](#awesome-systoolsawesomehttpsgithubcomsindresorhusawesome)
-  - [Reliability](#reliability)
-  - [Licensing](#licensing)
-  - [Linux](#linux)
-    - [Kernel](#kernel)
-    - [Performance](#performance)
-      - [Monitoring](#monitoring)
-    - [Red Hat/Fedora](#red-hatfedora)
-    - [Packaging](#packaging)
-      - [DEB](#deb)
-      - [RPM](#rpm)
-        - [Build](#build)
-    - [Storage](#storage)
-    - [Controllers](#controllers)
-  - [Caching](#caching)
-  - [Automation](#automation)
-    - [Ansible](#ansible)
-    - [Puppet](#puppet)
-  - [Security](#security)
-    - [Auditing](#auditing)
-    - [Hardening](#hardening)
-      - [Webservers](#webservers)
-      - [Tokens](#tokens)
-    - [VPN](#vpn)
-    - [Messaging](#messaging)
-  - [Continuous Integration](#continuous-integration)
-    - [Jenkins](#jenkins)
-  - [Interfaces](#interfaces)
-  - [Troubleshooting](#troubleshooting)
-    - [Logs](#logs)
-    - [Benchmarks](#benchmarks)
-  - [Services](#services)
-  - [Network](#network)
-    - [NetServices](#netservices)
-    - [DNS](#dns)
-    - [LoadBalancers](#loadbalancers)
-    - [Browsers](#browsers)
-  - [Shell](#shell)
-    - [Regex](#regex)
-    - [Editors](#editors)
-      - [Vim/vi](#vimvi)
-  - [Other Resources](#other-resources)
-  - [Filesystems](#filesystems)
-  - [Unix](#unix)
-  - [Virtualization](#virtualization)
-    - [VMware](#vmware)
-    - [Containers](#containers)
-      - [Lambda](#lambda)
-  - [Android](#android)
-  - [Mac](#mac)
-  - [Windows](#windows)
-  - [Support](#support)
-    - [Video Conference](#video-conference)
-  - [Management](#management)
-  - [Career](#career)
-  - [Presentations](#presentations)
-  - [Organization](#organization)
-  - [Tools](#tools)
-    - [WebTools](#webtools)
-      - [Webdev](#webdev)
-      - [Graphics](#graphics)
-      - [CMS](#cms)
-    - [Little notes](#little-notes)
-  - [Cloud](#cloud)
-    - [Nextcloud](#nextcloud)
-  - [IoT](#iot)
-  - [Fun](#fun)
-  - [Stuff](#stuff)
-  - [News](#news)
-  - [Making Conferences](#making-conferences)
-  - [Articles](#articles)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)](#awesome-systoolsawesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome)auto    - [Reliability](#reliability)auto    - [Licensing](#licensing)auto    - [Linux](#linux)auto        - [Kernel](#kernel)auto        - [Performance](#performance)auto            - [Monitoring](#monitoring)auto        - [Red Hat/Fedora](#red-hatfedora)auto        - [Packaging](#packaging)auto            - [DEB](#deb)auto            - [RPM](#rpm)auto                - [Build](#build)auto        - [Storage](#storage)auto        - [Controllers](#controllers)auto    - [Caching](#caching)auto    - [Automation](#automation)auto        - [Ansible](#ansible)auto        - [Puppet](#puppet)auto    - [Security](#security)auto        - [Auditing](#auditing)auto        - [Hardening](#hardening)auto            - [Webservers](#webservers)auto            - [Tokens](#tokens)auto        - [VPN](#vpn)auto        - [Messaging](#messaging)auto    - [Continuous Integration](#continuous-integration)auto        - [Jenkins](#jenkins)auto    - [Interfaces](#interfaces)auto    - [Troubleshooting](#troubleshooting)auto        - [Logs](#logs)auto        - [Benchmarks](#benchmarks)auto    - [Services](#services)auto    - [Network](#network)auto        - [NetServices](#netservices)auto        - [DNS](#dns)auto        - [LoadBalancers](#loadbalancers)auto        - [Browsers](#browsers)auto    - [Shell](#shell)auto        - [Regex](#regex)auto        - [Editors](#editors)auto            - [Vim/vi](#vimvi)auto    - [Other Resources](#other-resources)auto    - [Filesystems](#filesystems)auto    - [Unix](#unix)auto    - [Virtualization](#virtualization)auto        - [VMware](#vmware)auto        - [Containers](#containers)auto            - [Lambda](#lambda)auto    - [Android](#android)auto    - [Mac](#mac)auto    - [Windows](#windows)auto    - [Support](#support)auto        - [Video Conference](#video-conference)auto    - [Management](#management)auto    - [Career](#career)auto    - [Presentations](#presentations)auto    - [Organization](#organization)auto    - [Tools](#tools)auto        - [WebTools](#webtools)auto            - [Webdev](#webdev)auto            - [Graphics](#graphics)auto            - [CMS](#cms)auto        - [Little notes](#little-notes)auto    - [Cloud](#cloud)auto        - [Nextcloud](#nextcloud)auto    - [IoT](#iot)auto    - [Fun](#fun)auto    - [Stuff](#stuff)auto    - [News](#news)auto    - [Making Conferences](#making-conferences)auto    - [Articles](#articles)autoauto<!-- /TOC -->
 
 ## Reliability
 
@@ -123,6 +49,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 #### Monitoring
 
 - [netdata](https://my-netdata.io/): Real-time performance monitoring, done right! [github](https://github.com/netdata/netdata).
+- [Watchman](https://github.com/facebook/watchman): Watches files and records, or triggers actions, when they change.
 
 ### Red Hat/Fedora
 
@@ -187,6 +114,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Script to convert a Debian installation on DigitalOcean to Arch Linux](https://github.com/gh2o/digitalocean-debian-to-arch)
 - [HomelabOS](https://gitlab.com/NickBusey/HomelabOS): Your very own offline-first privacy-centric open-source data-center!
 - [5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1)
+- [ieturk](https://github.com/varal7/ieturk): Intuitive Annotation Tool for Information / Named Entity Recognition using localturk / Amazon Mechanical Turk
 
 ### Ansible
 
@@ -230,6 +158,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
 - [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
 - [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
+- [Using a Hardened Container Image for Secure Applications in the Cloud](https://www.cisecurity.org/blog/using-hardened-container-image-secure-applications-cloud/)
 
 #### Webservers
 
@@ -245,6 +174,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to Configure Nginx SSL Certifcate Chain](https://futurestud.io/tutorials/how-to-configure-nginx-ssl-certifcate-chain)
 - [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
+- [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
 
 #### Tokens
 
@@ -280,6 +210,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [PyUP](https://pyup.io/): Automated Python Security and Dependency Updates. [github](https://github.com/pyupio/pyup)
 - [Circle CI](https://circleci.com/)
 - [Overalls](https://coveralls.io/): We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.
+- [opsmop](https://opsmop.io/): next-gen automation. [github](https://github.com/opsmop/opsmop)
 
 ### Jenkins
 
@@ -438,6 +369,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 - [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
+- [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 
 ## Filesystems
 
@@ -471,6 +403,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
 - [Introducing Crossplane](https://blog.upbound.io/introducing-crossplane-open-source-multicloud-control-plane/): Open Source Multicloud Control Plane. [github](https://github.com/crossplaneio/crossplane)
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
+- [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
 
 ### VMware
 
@@ -494,6 +427,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
 - [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
 - [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
+- [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
 
 #### Lambda
 
@@ -567,6 +501,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Don’t work “remotely”](http://blairreeves.me/2018/11/09/dont-work-remotely/)
 - [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers.
 - [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
+- [4 Mentorship Archetypes](https://g-rand.com/2018/12/04/4-mentorship-archetypes/)
+- [On Shutting Down](https://blog.ycombinator.com/shutting-down/).
 
 ## Presentations
 
@@ -592,6 +528,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [pdiary](https://github.com/manipuladordedados/pdiary)
 - [jabcode](https://github.com/jabcode/jabcode): color bar code.
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
+- [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html): 
 
 ### WebTools
 
@@ -625,6 +562,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Notepin](https://notepin.co/): Extremely simple note taking
 - [Startpage](https://www.startpage.com/): privacy search.
 - [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-engineer/next)
+- [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 
 #### Webdev
 
@@ -700,6 +638,7 @@ $INDEX
 - [NextCloud on OpenBSD](https://h3artbl33d.nl/blog/nextcloud-on-openbsd)
 - [Improved AppPasswords in Nextcloud 14](https://rullzer.com/2018/09/05/improved-apppasswords-in-nextcloud-14/): rullzers blog
 - [Installing Integration Edition Document Server for Docker on a local server](https://helpcenter.onlyoffice.com/server/integration-edition/docker/docker-installation.aspx)
+- [How to fix PHP 7 bash error to update Nextcloud on Synology?](https://hackabee.fr/2018/12/12/how-to-solve-php-7-bash-error-to-update-nextcloud-on-synology/)
 
 ---
 
@@ -719,7 +658,8 @@ $INDEX
 - (pt-br) [ligar-cobranca](https://github.com/GtOkAi/ligar-cobranca): Ligue automaticamente para empresas de cobrança e deixe uma voz falando "Alô?" sem parar.
 - [Trump2Ca$h](https://github.com/maxbbraun/trump2cash): A stock trading bot powered by Trump tweets
 - [paint 16b](http://www.sizecoding.org/wiki/Paint16b): was created by Hellmood and is 16 bytes in size. paint16b implements a mouse-driven drawing program which has the ability to exit back to DOS and also display the mouse cursor, [screenshot](http://www.pouet.net/prod.php?which=63826).
-- [Boss as a Service | Hire a boss, get stuff done](https://bossasaservice.life/)
+- [Boss as a Service](https://bossasaservice.life/): Hire a boss, get stuff done
+- [Craft Crown SDK](https://github.com/Logitech/logi_craft_sdk): Provide (API) SDK specifications to map your app functions to Logitech Craft dial controller called "Crown".
 
 ## Stuff
 
