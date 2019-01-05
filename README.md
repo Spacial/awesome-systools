@@ -131,6 +131,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [dnf module](https://docs.ansible.com/ansible/2.3/dnf_module.html)
 - [Python 3 Support](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html): On your hosts ansible file, include a var subsection on your hosts group:
 - [CHANGING THE SSH PORT WITH ANSIBLE](https://dmsimard.com/2016/03/15/changing-the-ssh-port-with-ansible/)
+- [How to set and use sudo password for Ansible Vault](https://www.cyberciti.biz/faq/how-to-set-and-use-sudo-password-for-ansible-vault/)
 
 ```config
 [group:vars]
@@ -177,6 +178,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
+- [ngx_brotli](https://github.com/eustas/ngx_brotli): NGINX module for Brotli compression
 
 #### Tokens
 
@@ -186,7 +188,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Using a Yubikey for GPG and SSH](https://0day.work/using-a-yubikey-for-gpg-and-ssh/): Sebastian Neef - 0day.work
 - [PIN and Management Key](https://developers.yubico.com/yubikey-piv-manager/PIN_and_Management_Key.html)
 - [Improve login security with challenge-response authentication](https://fedoramagazine.org/login-challenge-response-authentication/)
-
+- [Zero-knowledge attestation](https://www.imperialviolet.org/2019/01/01/zkattestation.html)
+  
 ### VPN
 
 - [How I made my own WireGuard VPN server | TechCrunch](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
@@ -194,31 +197,6 @@ ansible_python_interpreter=/usr/bin/python3
 ### Messaging
 
 * [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
-
-## Containers
-
-* [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
-* [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
-* [google chrome](https://github.com/c0b/chrome-in-docker) dockerized and [headless google chrome](https://github.com/eirslett/chrome-karma-docker), [another](https://github.com/miyakogi/pyppeteer)
-* Some [fedora](https://github.com/fedora-cloud/docker-brew-fedora/) and [docker](https://docs.docker.com/samples/) links:
-  * [Webapps with Docker](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
-  * Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
-* [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
-* [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
-* [Test containers with Python and Conu](https://fedoramagazine.org/test-containers-python-conu/)
-* [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests
-* [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
-* [tsuru](https://github.com/tsuru/tsuru): Open source, extensible and Docker-based Platform as a Service (PaaS).
-* [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
-* [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
-* [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
-* [binctr](https://github.com/genuinetools/binctr): Fully static, unprivileged, self-contained, containers as executable binaries. [Getting Towards Real Sandbox Containers](https://blog.jessfraz.com/post/getting-towards-real-sandbox-containers/)
-
-### Lambda
-
-- [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
-- [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
-- [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
 
 ## Continuous Integration
 
@@ -297,6 +275,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [OpenBGPD](https://labs.ripe.net/Members/claudio_jeker/openbgpd-adding-diversity-to-route-server-landscape): Adding Diversity to the Route Server Landscape
 - [netbox](https://github.com/digitalocean/netbox): IP address management (IPAM) and data center infrastructure management (DCIM) tool.
 - [LibreMesh](https://libremesh.org) is a modular framework for creating OpenWrt/LEDE-based firmwares for wireless mesh nodes.
+- [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
 ### NetServices
 
@@ -324,6 +303,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Chromium & Netflix (and other DRM video websites)](https://ubuntu-mate.community/t/tutorial-chromium-netflix-and-other-drm-video-websites/7185)
 - [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
 - [Firefox Profilemaker](https://ffprofile.com/)
+- [Otter Browser](https://otter-browser.org/): Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.
 
 ## Shell
 
@@ -351,6 +331,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
   - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
   - [powerlevel9k](https://github.com/bhilburn/powerlevel9k): The most awesome Powerline theme for ZSH around!
+  - [antigen](https://github.com/zsh-users/antigen): The plugin manager for zsh.
 - Fish:
   - [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   - [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
@@ -373,6 +354,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [funky](https://github.com/bbugyi200/funky):Funky takes shell functions to the next level by making them easier to define, more flexible, and more interactive.
 - [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml).
 - [A guide to learn bash](https://github.com/Idnan/bash-guide).
+- [Launching LiteCLI](https://www.pgcli.com/launching-litecli.html): CLI for SQLite Databases with auto-completion and syntax highlighting. [github](https://github.com/dbcli/litecli)
+- [Mosh](https://mosh.org/): the mobile shell
 
 ### Regex
 
@@ -437,6 +420,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Introducing Crossplane](https://blog.upbound.io/introducing-crossplane-open-source-multicloud-control-plane/): Open Source Multicloud Control Plane. [github](https://github.com/crossplaneio/crossplane)
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
 - [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
+- [Contemporary Views on Serverless and Implications](https://m.subbu.org/contemporary-views-on-serverless-and-implications-1c5907c611d8)
 
 ### VMware
 
@@ -461,9 +445,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
 - [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
 - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
+- [binctr](https://github.com/genuinetools/binctr): Fully static, unprivileged, self-contained, containers as executable binaries. [Getting Towards Real Sandbox Containers](https://blog.jessfraz.com/post/getting-towards-real-sandbox-containers/)
 
-#### Lambda
+### Lambda
 
+- [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
+- [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
+- [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
 - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
 - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
 
@@ -488,6 +476,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [istatserverlinux](https://github.com/bjango/istatserverlinux): A system monitoring daemon that sends stats to Send stats to iStat View for iOS and iStat View for macOS.
 - [istatserver-dsm](https://bitbucket.org/jpboivin/istatserver-dsm): iStatserver for Synology DSM.
 - [Shell scripts for customized macOS machine setup and configuration.](https://github.com/bkuhlmann/mac_os-config)
+- [ISO-8601, YYYY, yyyy, and why your year may be wrong](https://ericasadun.com/2018/12/25/iso-8601-yyyy-yyyy-and-why-your-year-may-be-wrong/)— Erica Sadun
 
 ## Windows
 
@@ -503,6 +492,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
 - [qemu-img for WIndows](https://cloudbase.it/qemu-img-windows/)
 - [Active Directory as Code](https://medium.com/palantir/active-directory-as-code-e9666a2e548d)
+- (fr) [Dans les coulisses de Microsoft Windows](http://ntoskrnl.org/)
 
 ---
 
@@ -565,6 +555,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
 - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html): 
 - [instabot.py](https://github.com/instabot-py/instabot.py): Instagram bot. It works without instagram api, need only login and password. Write on python.
+- [crev](https://github.com/dpc/crev): Scalable, social, Code REView and recommendation system that we desperately need.
 
 ### WebTools
 
@@ -600,6 +591,18 @@ ansible_python_interpreter=/usr/bin/python3
 - [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-engineer/next)
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 
+#### Domains
+
+- [Check domain name availability with bash and whois](https://linuxconfig.org/check-domain-name-availability-with-bash-and-whois)
+- [namegrep](https://namegrep.com/)
+- [10 Fantastic Tools to Find Smart Domain Name for Your Business](https://geekflare.com/find-domain-name/)
+- [dnstwist](https://github.com/elceef/dnstwist): Domain name permutation engine for detecting typo squatting, phishing and corporate espionage
+- [Dictionary Domains](http://www.dictionarydomains.co/)
+- [Python Script for Getting Data You Need From Domain Names Lists](https://domains-index.com/tips-using-domains-indexs-lists/)
+- [Creating python dictionary that maps each domain to multiple coded values in File Geodatabase?](https://gis.stackexchange.com/questions/197834/creating-python-dictionary-that-maps-each-domain-to-multiple-coded-values-in-fil)
+- [dnsimple-python](https://github.com/onlyhavecans/dnsimple-python): Python API client for DNSimple's Domain Management Automation
+
+
 #### Webdev
 
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
@@ -619,7 +622,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Vaadin Tutorial application](https://github.com/vaadin/tutorial): Introduction to Vaadin Framework 8
 - [NES.css](https://bcrikko.github.io/NES.css/) - [github](https://github.com/BcRikko/NES.css)
 - [wedding-website](https://github.com/rampatra/wedding-website)
-  
+- [jetpack](https://github.com/KidkArolis/jetpack): 🚀 Jetpack – webpack made more convenient.
+ 
 #### Graphics
 
 - [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
@@ -711,6 +715,7 @@ $INDEX
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
+- [opencfp](https://github.com/opencfp/opencfp): Repo for OpenCFP project, a PHP-based conference talk submission system
 
 ## Articles
 
