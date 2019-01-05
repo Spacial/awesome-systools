@@ -1,84 +1,15 @@
 # Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<!-- TOC -->
-
-- [Awesome Systools![Awesome](https://github.com/sindresorhus/awesome)](#awesome-systoolsawesomehttpsgithubcomsindresorhusawesome)
-  - [Reliability](#reliability)
-  - [Licensing](#licensing)
-  - [Linux](#linux)
-    - [Kernel](#kernel)
-    - [Performance](#performance)
-    - [Red Hat/Fedora](#red-hatfedora)
-    - [Packaging](#packaging)
-      - [DEB](#deb)
-      - [RPM](#rpm)
-        - [Build](#build)
-    - [Storage](#storage)
-    - [Controllers](#controllers)
-  - [Caching](#caching)
-  - [Automation](#automation)
-    - [Ansible](#ansible)
-    - [Puppet](#puppet)
-  - [Security](#security)
-    - [Auditing](#auditing)
-    - [Hardening](#hardening)
-      - [Webservers](#webservers)
-      - [Tokens](#tokens)
-    - [VPN](#vpn)
-    - [Messaging](#messaging)
-  - [Containers](#containers)
-    - [Lambda](#lambda)
-  - [Continuous Integration](#continuous-integration)
-    - [Jenkins](#jenkins)
-  - [Interfaces](#interfaces)
-  - [Troubleshooting](#troubleshooting)
-    - [Logs](#logs)
-    - [Benchmarks](#benchmarks)
-  - [Services](#services)
-  - [Network](#network)
-    - [NetServices](#netservices)
-    - [DNS](#dns)
-    - [LoadBalancers](#loadbalancers)
-    - [Browsers](#browsers)
-  - [Shell](#shell)
-    - [Regex](#regex)
-    - [Editors](#editors)
-      - [Vim/vi](#vimvi)
-  - [Other Resources](#other-resources)
-  - [Filesystems](#filesystems)
-  - [Unix](#unix)
-  - [Virtualization](#virtualization)
-    - [VMware](#vmware)
-  - [Android](#android)
-  - [Mac](#mac)
-  - [Windows](#windows)
-  - [Support](#support)
-    - [Video Conference](#video-conference)
-  - [Management](#management)
-  - [Career](#career)
-  - [Presentations](#presentations)
-  - [Organization](#organization)
-  - [Tools](#tools)
-    - [WebTools](#webtools)
-      - [Webdev](#webdev)
-      - [Graphics](#graphics)
-      - [CMS](#cms)
-    - [Little notes](#little-notes)
-  - [Cloud](#cloud)
-    - [Nextcloud](#nextcloud)
-  - [IoT](#iot)
-  - [Fun](#fun)
-  - [Stuff](#stuff)
-  - [News](#news)
-  - [Making Conferences](#making-conferences)
-  - [Articles](#articles)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)](#awesome-systoolsawesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome)auto    - [Reliability](#reliability)auto        - [Scalability](#scalability)auto    - [Licensing](#licensing)auto    - [Linux](#linux)auto        - [Kernel](#kernel)auto        - [Performance](#performance)auto        - [Red Hat/Fedora](#red-hatfedora)auto        - [Packaging](#packaging)auto            - [DEB](#deb)auto            - [RPM](#rpm)auto                - [Build](#build)auto        - [Storage](#storage)auto        - [Controllers](#controllers)auto    - [Caching](#caching)auto    - [Automation](#automation)auto        - [Ansible](#ansible)auto        - [Puppet](#puppet)auto    - [Security](#security)auto        - [Auditing](#auditing)auto        - [Hardening](#hardening)auto            - [Webservers](#webservers)auto            - [Tokens](#tokens)auto        - [VPN](#vpn)auto        - [Messaging](#messaging)auto    - [Containers](#containers)auto        - [Lambda](#lambda)auto    - [Continuous Integration](#continuous-integration)auto        - [Jenkins](#jenkins)auto    - [Interfaces](#interfaces)auto    - [Troubleshooting](#troubleshooting)auto        - [Logs](#logs)auto        - [Benchmarks](#benchmarks)auto    - [Services](#services)auto    - [Network](#network)auto        - [NetServices](#netservices)auto        - [DNS](#dns)auto        - [LoadBalancers](#loadbalancers)auto        - [Browsers](#browsers)auto    - [Shell](#shell)auto        - [Regex](#regex)auto        - [Editors](#editors)auto            - [Vim/vi](#vimvi)auto    - [Other Resources](#other-resources)auto    - [Filesystems](#filesystems)auto    - [Unix](#unix)auto    - [Virtualization](#virtualization)auto        - [VMware](#vmware)auto    - [Android](#android)auto    - [Mac](#mac)auto    - [Windows](#windows)auto    - [Support](#support)auto        - [Video Conference](#video-conference)auto    - [Management](#management)auto    - [Career](#career)auto    - [Presentations](#presentations)auto    - [Organization](#organization)auto    - [Tools](#tools)auto        - [WebTools](#webtools)auto            - [Webdev](#webdev)auto            - [Graphics](#graphics)auto            - [CMS](#cms)auto        - [Little notes](#little-notes)auto    - [Cloud](#cloud)auto        - [Nextcloud](#nextcloud)auto    - [IoT](#iot)auto    - [Fun](#fun)auto    - [Stuff](#stuff)auto    - [News](#news)auto    - [Making Conferences](#making-conferences)auto    - [Articles](#articles)autoauto<!-- /TOC -->
 
 ## Reliability
 
 * [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
 * [Istio on GKE](https://www.linkedin.com/pulse/istio-gke-googles-sre-box-ganesan-janarthanam-jana-/)- Google's SRE in a Box!
+
+### Scalability
+
+- [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
 
 ## Licensing
 
@@ -276,6 +207,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
 * [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
 * [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
+* [binctr](https://github.com/genuinetools/binctr): Fully static, unprivileged, self-contained, containers as executable binaries. [Getting Towards Real Sandbox Containers](https://blog.jessfraz.com/post/getting-towards-real-sandbox-containers/)
 
 ### Lambda
 
@@ -317,6 +249,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [tinywm](http://incise.org/tinywm.html): The tiniest window manager. [github](https://github.com/mackstann/tinywm)
 * [nextspace](https://github.com/trunkmaster/nextspace): NeXTSTEP-like desktop environment for Linux
 * [Term VM](https://gitlab.com/jD91mZM2/termwm): A floating WM of terminals inside your terminal
+- [Deepin](https://github.com/FZUG/deepin-desktop): FZUG repo of Deepin Desktop Environment
 
 ## Troubleshooting
 
@@ -339,7 +272,9 @@ ansible_python_interpreter=/usr/bin/python3
 
 ## Services
 
-* [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
+- [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
+- (pt-br) [como-instalar-xyz](https://github.com/backend-br/como-instalar-xyz): Lista com vários tutoriais para desenvolvedores!
+
 
 ## Network
 
@@ -355,6 +290,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [Ping test in a shell script](http://jeromejaglale.com/doc/unix/shell_scripts/ping)
 * [OpenBGPD](https://labs.ripe.net/Members/claudio_jeker/openbgpd-adding-diversity-to-route-server-landscape): Adding Diversity to the Route Server Landscape
 * [netbox](https://github.com/digitalocean/netbox): IP address management (IPAM) and data center infrastructure management (DCIM) tool.
+* [ntop](http://www.ntop.org): Web-based Traffic and Security Network Traffic Monitoring. [github](https://github.com/ntop/ntopng)
+* [LibreMesh](https://libremesh.org) is a modular framework for creating OpenWrt/LEDE-based firmwares for wireless mesh nodes.
 
 ### NetServices
 
@@ -458,13 +395,15 @@ ansible_python_interpreter=/usr/bin/python3
 * [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 * [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 * [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
-
+* [My one-liner Linux Dropbox client](http://lpan.io/one-liner-dropbox-client/).
+  
 ## Filesystems
 
 * [diskover](https://n0where.net/file-system-crawler-diskover): File System Crawler. [github](https://github.com/shirosaidev/diskover)
 * [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
 * [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation
 * [Share NFS Home Directories Securely with Kerberos](https://fedoramagazine.org/secure-nfs-home-directories-kerberos/)
+* [ZFS on Linux](https://github.com/zfsonlinux/zfs): the official OpenZFS implementation for Linux.
 
 ## Unix
 
@@ -531,6 +470,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Running vROpsCLI on Windows](http://www.vmspot.com/vropscli-on-windows/)
 * [windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
 * [qemu-img for WIndows](https://cloudbase.it/qemu-img-windows/)
+* [Active Directory as Code](https://medium.com/palantir/active-directory-as-code-e9666a2e548d)
 
 ---
 
@@ -563,6 +503,7 @@ ansible_python_interpreter=/usr/bin/python3
 * [Don’t work “remotely”](http://blairreeves.me/2018/11/09/dont-work-remotely/)
 * [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers.
 * [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
+- [Analysis of 2018 Hacker News "Who is Hiring" Job Posts](https://letstalkalgorithms.com/analysis-of-2018-hacker-news-who-is-hiring-job-posts/)
 
 ## Presentations
 
@@ -588,7 +529,8 @@ ansible_python_interpreter=/usr/bin/python3
 * [pdiary](https://github.com/manipuladordedados/pdiary)
 * [jabcode](https://github.com/jabcode/jabcode): color bar code.
 * [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
-
+* [instabot.py](https://github.com/instabot-py/instabot.py): Instagram bot. It works without instagram api, need only login and password. Write on python.
+  
 ### WebTools
 
 * [The new Turtl server](https://github.com/turtl/server): evernote [alternative](https://tavernalinux.com/turtl-alternativa-open-source-ao-evernote-instalação-e-review-e84f7aa2d483) free software.
