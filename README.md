@@ -1,7 +1,5 @@
 # Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<!-- TOC -->autoauto- [Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)](#awesome-systoolsawesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome)auto    - [Reliability](#reliability)auto    - [Licensing](#licensing)auto    - [Linux](#linux)auto        - [Kernel](#kernel)auto        - [Performance](#performance)auto            - [Monitoring](#monitoring)auto        - [Red Hat/Fedora](#red-hatfedora)auto        - [Packaging](#packaging)auto            - [DEB](#deb)auto            - [RPM](#rpm)auto                - [Build](#build)auto        - [Storage](#storage)auto        - [Controllers](#controllers)auto    - [Caching](#caching)auto    - [Automation](#automation)auto        - [Ansible](#ansible)auto        - [Puppet](#puppet)auto    - [Security](#security)auto        - [Auditing](#auditing)auto        - [Hardening](#hardening)auto            - [Webservers](#webservers)auto            - [Tokens](#tokens)auto        - [VPN](#vpn)auto        - [Messaging](#messaging)auto    - [Continuous Integration](#continuous-integration)auto        - [Jenkins](#jenkins)auto    - [Interfaces](#interfaces)auto    - [Troubleshooting](#troubleshooting)auto        - [Logs](#logs)auto        - [Benchmarks](#benchmarks)auto    - [Services](#services)auto    - [Network](#network)auto        - [NetServices](#netservices)auto        - [DNS](#dns)auto        - [LoadBalancers](#loadbalancers)auto        - [Browsers](#browsers)auto    - [Shell](#shell)auto        - [Regex](#regex)auto        - [Editors](#editors)auto            - [Vim/vi](#vimvi)auto    - [Other Resources](#other-resources)auto    - [Filesystems](#filesystems)auto    - [Unix](#unix)auto    - [Virtualization](#virtualization)auto        - [VMware](#vmware)auto        - [Containers](#containers)auto            - [Lambda](#lambda)auto    - [Android](#android)auto    - [Mac](#mac)auto    - [Windows](#windows)auto    - [Support](#support)auto        - [Video Conference](#video-conference)auto    - [Management](#management)auto    - [Career](#career)auto    - [Presentations](#presentations)auto    - [Organization](#organization)auto    - [Tools](#tools)auto        - [WebTools](#webtools)auto            - [Webdev](#webdev)auto            - [Graphics](#graphics)auto            - [CMS](#cms)auto        - [Little notes](#little-notes)auto    - [Cloud](#cloud)auto        - [Nextcloud](#nextcloud)auto    - [IoT](#iot)auto    - [Fun](#fun)auto    - [Stuff](#stuff)auto    - [News](#news)auto    - [Making Conferences](#making-conferences)auto    - [Articles](#articles)autoauto<!-- /TOC -->
-
 ## Reliability
 
 - [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
@@ -98,7 +96,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
   - [Synomon](http://dottoremoe.com/synomon/)
   - [SynoCommunity](https://synocommunity.com/)
   - [spksrc](https://github.com/SynoCommunity/spksrc): Cross compilation framework to create native packages for the Synology's NAS
-
+- [ssdWearOut](https://github.com/Sid-Sun/ssdWearOut): Do you want to wear out your SSD before the warranty expires?
+  
 ### Controllers
 
 - LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
@@ -383,7 +382,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 - [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 - [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
-
+- (pt-br) [hoc](https://github.com/ramalho/hoc): A mini-linguagem do livro 'The Unix Programming Environment", com explicações em PT-BR
+  
 ## Virtualization
 
 - [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)

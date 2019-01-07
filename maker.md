@@ -71,6 +71,7 @@ Nice projects to try. Let's do it!
 - [Programming SPI flash with an FT232H breakout](https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout)
 - [Oops, I Wrote a C++ Compiler](https://praeclarum.org/2018/08/27/oops-i-wrote-a-c-compiler.html): TLDR; I wrote a .NET library that can compile C/C++ code into a byte code that it can also interpret. It is used in my app iCircuit to simulate Arduinos. You can use it yourself with the nuget package CLanguage. [CLanguage](https://github.com/praeclarum/CLanguage): C parser, compiler, and interpreter for .NET
   - [The MOnSter 6502](https://monster6502.com/): A dis-integrated circuit project to make a complete, working transistor-scale replica of the classic MOS 6502 microprocessor.
+- [Arduino Wave Shield 01](https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01): I bought the Adafruit Wave Shield and thought it would be a funny first project to have an entrance theme play every time I get home from work.
 
 ### Cli
 
@@ -102,3 +103,6 @@ Nice projects to try. Let's do it!
 - [CubieBoard](http://cubieboard.org/): A series of open source hardware
 - [Build a do-it-yourself home air purifier for about $25](https://www.uofmhealth.org/news/sinus-hepa-0630)
 - [smart-base](https://goodiebox.co/products/smart-base?variant=18587654389849)
+
+
+https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01
