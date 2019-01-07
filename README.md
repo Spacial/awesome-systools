@@ -404,6 +404,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Introducing Crossplane](https://blog.upbound.io/introducing-crossplane-open-source-multicloud-control-plane/): Open Source Multicloud Control Plane. [github](https://github.com/crossplaneio/crossplane)
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
 - [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
+- [applepie](https://github.com/gamozolabs/applepie): A hypervisor for fuzzing built with WHVP and Bochs.
 
 ### VMware
 
@@ -529,6 +530,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [jabcode](https://github.com/jabcode/jabcode): color bar code.
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
 - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html): 
+- [JSON Web Tokens (JWT)](https://github.com/dwyl/learn-json-web-tokens): 🔐 Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
 
 ### WebTools
 
@@ -583,7 +585,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Vaadin Tutorial application](https://github.com/vaadin/tutorial): Introduction to Vaadin Framework 8
 - [NES.css](https://bcrikko.github.io/NES.css/) - [github](https://github.com/BcRikko/NES.css)
 - [wedding-website](https://github.com/rampatra/wedding-website)
-  
+- [Favicon Generator](https://realfavicongenerator.net/). For real.
+
 #### Graphics
 
 - [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
