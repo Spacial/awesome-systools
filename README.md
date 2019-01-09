@@ -515,7 +515,8 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
 - [reminiscence](https://github.com/kanishka-linux/reminiscence): Self-Hosted Bookmark and Archive Manager
-
+- [Photograph Your Work](https://etbe.coker.com.au/2019/01/06/photograph-your-work/)
+  
 ---
 
 ## Tools
@@ -565,7 +566,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Startpage](https://www.startpage.com/): privacy search.
 - [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-engineer/next)
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
-
+- [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
+  
 #### Webdev
 
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
@@ -586,6 +588,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [NES.css](https://bcrikko.github.io/NES.css/) - [github](https://github.com/BcRikko/NES.css)
 - [wedding-website](https://github.com/rampatra/wedding-website)
 - [Favicon Generator](https://realfavicongenerator.net/). For real.
+- [Are You a Blogger or Publisher?](https://websitevoice.com/): Turn your articles to high-quality audio for your audience to listen while they’re busy multitasking or on the go.
+- [Inside look at modern web browser (part 1)](https://developers.google.com/web/updates/2018/09/inside-browser-part1): In this 4-part blog series, we’ll look inside the Chrome browser from high-level architecture to the specifics of the rendering pipeline.
 
 #### Graphics
 

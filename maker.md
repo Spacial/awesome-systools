@@ -61,6 +61,7 @@ Nice projects to try. Let's do it!
 - [96-core ARM supercomputer using the NanoPi-Fire3](https://climbers.net/sbc/nanopi-fire3-arm-supercomputer/)
 - [Repurpose Optical Drive With RPi](https://www.instructables.com/id/Re-purpose-Optical-Drive-With-)
 - [Apple Airplay on Raspberry Pi in 7 Easy Steps](https://appcodelabs.com/7-easy-steps-to-apple-airplay-on-raspberry-pi) [shairport](https://github.com/mikebrady/shairport-sync)
+- [Easy Motion and Gesture Detection by PIR Sensor & Arduino](https://create.arduino.cc/projecthub/electropeak/easy-motion-and-gesture-detection-by-pir-sensor-arduino-101fcc)
 
 ## Comparison
 
@@ -103,6 +104,9 @@ Nice projects to try. Let's do it!
 - [CubieBoard](http://cubieboard.org/): A series of open source hardware
 - [Build a do-it-yourself home air purifier for about $25](https://www.uofmhealth.org/news/sinus-hepa-0630)
 - [smart-base](https://goodiebox.co/products/smart-base?variant=18587654389849)
-
-
+- [The Mysterious ESP-EYE Development Board from Espressif?](https://blog.hackster.io/the-mysterious-esp-eye-development-board-from-espressif-2d5b4ffd2b9)
+- [Seeed](https://www.seeedstudio.com/): Seeed is the IoT hardware enabler providing services that empower makers to realize their projects and products.
+- [Banggood](https://www.banggood.com/): Your favorite supplier of clothing, accessories, electronics, RC, LED lights and much more. We offer the Best Bang for your Buck.
+- [Espressif](https://www.espressif.com/en/products/hardware/modules): Espressif Systems is a multinational, fabless semiconductor company established in 2008, with headquarters in Shanghai and offices in Greater China, India and Europe.
+  
 https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01
