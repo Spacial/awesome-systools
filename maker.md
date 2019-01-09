@@ -16,6 +16,11 @@
 - [particle.io](https://store.particle.io): MEET THE ONLY ALL-IN-ONE IOT PLATFORM ON THE MARKET. [particle cli](https://github.com/particle-iot/particle-cli)
 - [Raptor Computing Systems::BK1B01 Intro](https://secure.raptorcs.com/content/BK1B01/intro.html)
 - [Teensy 3.1 bare metal: Writing a USB driver](http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/) and [github](https://github.com/kcuzner/teensy-oscilloscope)
+- [Linux maker boards learn how to specialize](http://linuxgizmos.com/linux-maker-boards-learn-how-to-specialize/)
+
+### Arduino
+
+- [FX-SaberOS](https://github.com/Protonerd/FX-SaberOS): System code for Arduino based Lightsaber replicas for DIYino family boards
 - Lessons from Running a Small-Scale Electronics Factory in my Guest Bedroom, part 1: [Design](https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/)
 - [ALL THE BADGES OF DEF CON 26 (VOL 1)](https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/)
 
@@ -62,6 +67,8 @@ Nice projects to try. Let's do it!
 - [Repurpose Optical Drive With RPi](https://www.instructables.com/id/Re-purpose-Optical-Drive-With-)
 - [Apple Airplay on Raspberry Pi in 7 Easy Steps](https://appcodelabs.com/7-easy-steps-to-apple-airplay-on-raspberry-pi) [shairport](https://github.com/mikebrady/shairport-sync)
 - [Easy Motion and Gesture Detection by PIR Sensor & Arduino](https://create.arduino.cc/projecthub/electropeak/easy-motion-and-gesture-detection-by-pir-sensor-arduino-101fcc)
+- [Franzininho](https://github.com/Franzininho/franzininho-diy-board/): Placa Franzininho DIY - Repositório da placa Franzininho DIY
+- [raspberry-pi-dramble](https://github.com/geerlingguy/raspberry-pi-dramble/): RGB LEDs controlled via GPIO
 
 ## Comparison
 
@@ -109,4 +116,9 @@ Nice projects to try. Let's do it!
 - [Banggood](https://www.banggood.com/): Your favorite supplier of clothing, accessories, electronics, RC, LED lights and much more. We offer the Best Bang for your Buck.
 - [Espressif](https://www.espressif.com/en/products/hardware/modules): Espressif Systems is a multinational, fabless semiconductor company established in 2008, with headquarters in Shanghai and offices in Greater China, India and Europe.
   
+## Teardowns
+
+- [Xiaomi Mi Band Teardown - iFixit](https://www.ifixit.com/Teardown/Xiaomi+Mi+Band+Teardown/45844)
+- [Xiaomi Mi Band 3 Teardown - Mi Band](https://in.c.mi.com/thread-1717322-1-0.html)
+
 https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01
