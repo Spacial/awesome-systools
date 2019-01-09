@@ -21,7 +21,9 @@
 ### Arduino
 
 - [FX-SaberOS](https://github.com/Protonerd/FX-SaberOS): System code for Arduino based Lightsaber replicas for DIYino family boards
-  
+- Lessons from Running a Small-Scale Electronics Factory in my Guest Bedroom, part 1: [Design](https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/)
+- [ALL THE BADGES OF DEF CON 26 (VOL 1)](https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/)
+
 ### Router
 
 - [Libremesh](https://libremesh.org/)
@@ -44,7 +46,7 @@
 
 Nice projects to try. Let's do it!
 
-* (pt-br)[Documentação Franzininho DIY](https://franzininho.gitbook.io/franzininho-docs/)
+- (pt-br)[Documentação Franzininho DIY](https://franzininho.gitbook.io/franzininho-docs/)
 - [Weather Forecast Clock Using Old Alarm and Arduino](https://create.arduino.cc/projecthub/LenkaDesign/weather-forecast-clock-using-old-alarm-and-arduino-c1bb67?ref=user&ref_id=548039&offset=0)
 - [8x8x8 LED CUBE WITH ARDUINO UNO - YouTube](https://www.youtube.com/watch?v=T5Aq7cRc-mU)
 - [Literary Clock Made From E-reader: 6 Steps (with Pictures)](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/)
@@ -76,6 +78,7 @@ Nice projects to try. Let's do it!
 - [Programming SPI flash with an FT232H breakout](https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout)
 - [Oops, I Wrote a C++ Compiler](https://praeclarum.org/2018/08/27/oops-i-wrote-a-c-compiler.html): TLDR; I wrote a .NET library that can compile C/C++ code into a byte code that it can also interpret. It is used in my app iCircuit to simulate Arduinos. You can use it yourself with the nuget package CLanguage. [CLanguage](https://github.com/praeclarum/CLanguage): C parser, compiler, and interpreter for .NET
   - [The MOnSter 6502](https://monster6502.com/): A dis-integrated circuit project to make a complete, working transistor-scale replica of the classic MOS 6502 microprocessor.
+- [Arduino Wave Shield 01](https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01): I bought the Adafruit Wave Shield and thought it would be a funny first project to have an entrance theme play every time I get home from work.
 
 ### Cli
 
@@ -112,3 +115,5 @@ Nice projects to try. Let's do it!
 
 - [Xiaomi Mi Band Teardown - iFixit](https://www.ifixit.com/Teardown/Xiaomi+Mi+Band+Teardown/45844)
 - [Xiaomi Mi Band 3 Teardown - Mi Band](https://in.c.mi.com/thread-1717322-1-0.html)
+
+https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01

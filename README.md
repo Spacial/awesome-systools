@@ -5,10 +5,6 @@
 - [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
 - [Istio on GKE](https://www.linkedin.com/pulse/istio-gke-googles-sre-box-ganesan-janarthanam-jana-/)- Google's SRE in a Box!
 
-### Scalability
-
-- [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
-
 ## Licensing
 
 - [A New Social Contract for Open Source](https://hueniverse.com/a-new-social-contract-for-open-source-86d1fcf3e353)
@@ -100,7 +96,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
   - [Synomon](http://dottoremoe.com/synomon/)
   - [SynoCommunity](https://synocommunity.com/)
   - [spksrc](https://github.com/SynoCommunity/spksrc): Cross compilation framework to create native packages for the Synology's NAS
-
+- [ssdWearOut](https://github.com/Sid-Sun/ssdWearOut): Do you want to wear out your SSD before the warranty expires?
+  
 ### Controllers
 
 - LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
@@ -196,7 +193,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 ### Messaging
 
-* [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
+- [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
 
 ## Continuous Integration
 
@@ -230,7 +227,6 @@ ansible_python_interpreter=/usr/bin/python3
 
 ## Interfaces
 
-- [Deepin](https://github.com/FZUG/deepin-desktop): FZUG repo of Deepin Desktop Environment
 - [A sysadmin login session in a web browser](https://github.com/cockpit-project/cockpit)
 - [tinywm](http://incise.org/tinywm.html): The tiniest window manager. [github](https://github.com/mackstann/tinywm)
 - [nextspace](https://github.com/trunkmaster/nextspace): NeXTSTEP-like desktop environment for Linux
@@ -258,7 +254,6 @@ ansible_python_interpreter=/usr/bin/python3
 ## Services
 
 - [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
-- (pt-br) [como-instalar-xyz](https://github.com/backend-br/como-instalar-xyz): Lista com vários tutoriais para desenvolvedores!
 
 ## Network
 
@@ -383,7 +378,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 - [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
-- [My one-liner Linux Dropbox client](http://lpan.io/one-liner-dropbox-client/).
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 
 ## Filesystems
@@ -392,14 +386,14 @@ ansible_python_interpreter=/usr/bin/python3
 - [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
 - [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation
 - [Share NFS Home Directories Securely with Kerberos](https://fedoramagazine.org/secure-nfs-home-directories-kerberos/)
-- [ZFS on Linux](https://github.com/zfsonlinux/zfs): the official OpenZFS implementation for Linux.
-  
+
 ## Unix
 
 - [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 - [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 - [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
-
+- (pt-br) [hoc](https://github.com/ramalho/hoc): A mini-linguagem do livro 'The Unix Programming Environment", com explicações em PT-BR
+  
 ## Virtualization
 
 - [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
@@ -421,6 +415,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
 - [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
 - [Contemporary Views on Serverless and Implications](https://m.subbu.org/contemporary-views-on-serverless-and-implications-1c5907c611d8)
+- [applepie](https://github.com/gamozolabs/applepie): A hypervisor for fuzzing built with WHVP and Bochs.
 
 ### VMware
 
@@ -527,7 +522,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
 - [4 Mentorship Archetypes](https://g-rand.com/2018/12/04/4-mentorship-archetypes/)
 - [On Shutting Down](https://blog.ycombinator.com/shutting-down/).
-- [Analysis of 2018 Hacker News "Who is Hiring" Job Posts](https://letstalkalgorithms.com/analysis-of-2018-hacker-news-who-is-hiring-job-posts/)
 
 ## Presentations
 
@@ -556,6 +550,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html): 
 - [instabot.py](https://github.com/instabot-py/instabot.py): Instagram bot. It works without instagram api, need only login and password. Write on python.
 - [crev](https://github.com/dpc/crev): Scalable, social, Code REView and recommendation system that we desperately need.
+- [JSON Web Tokens (JWT)](https://github.com/dwyl/learn-json-web-tokens): 🔐 Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
 
 ### WebTools
 
@@ -623,7 +618,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [NES.css](https://bcrikko.github.io/NES.css/) - [github](https://github.com/BcRikko/NES.css)
 - [wedding-website](https://github.com/rampatra/wedding-website)
 - [jetpack](https://github.com/KidkArolis/jetpack): 🚀 Jetpack – webpack made more convenient.
- 
+- [Favicon Generator](https://realfavicongenerator.net/). For real.
+
 #### Graphics
 
 - [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
