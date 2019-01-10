@@ -289,6 +289,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling.
 - [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/): HAProxy Technologies
+- [skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
 
 ### Browsers
 
@@ -299,6 +300,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
 - [Firefox Profilemaker](https://ffprofile.com/)
 - [Otter Browser](https://otter-browser.org/): Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.
+- [thor](https://github.com/cisco/thor): Cisco's Thor Video Codec
 
 ## Shell
 
@@ -533,6 +535,12 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
 - [reminiscence](https://github.com/kanishka-linux/reminiscence): Self-Hosted Bookmark and Archive Manager
+- [How I Manage My Time](https://zwischenzugs.com/2017/12/03/how-i-manage-my-time/): by zwischenzugs
+- [Ask HN: How do you keep track of your creative thoughts? | Hacker News](https://news.ycombinator.com/item?id=18837345)
+
+## Knowlegde
+
+- [trilium](https://github.com/zadam/trilium): Build your personal knowledge base with Trilium Notes
 
 ---
 
@@ -596,7 +604,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [Python Script for Getting Data You Need From Domain Names Lists](https://domains-index.com/tips-using-domains-indexs-lists/)
 - [Creating python dictionary that maps each domain to multiple coded values in File Geodatabase?](https://gis.stackexchange.com/questions/197834/creating-python-dictionary-that-maps-each-domain-to-multiple-coded-values-in-fil)
 - [dnsimple-python](https://github.com/onlyhavecans/dnsimple-python): Python API client for DNSimple's Domain Management Automation
-
 
 #### Webdev
 
@@ -702,6 +709,7 @@ $INDEX
 - [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
 - [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
+- [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
 
 ## News
 

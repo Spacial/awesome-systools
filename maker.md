@@ -117,3 +117,6 @@ Nice projects to try. Let's do it!
 - [Xiaomi Mi Band 3 Teardown - Mi Band](https://in.c.mi.com/thread-1717322-1-0.html)
 
 https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01
+
+
+- [Tutoriais com sensores e Arduino](http://eletronworld.com.br/arduino/37-sensores-37-tutoriais-arduino-parte-1/)
