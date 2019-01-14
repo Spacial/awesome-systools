@@ -1,5 +1,9 @@
 # Awesome Systools[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+## Lists
+
+- [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+
 ## Reliability
 
 - [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
@@ -149,6 +153,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 ### Hardening
 
+- [ERNW Repository of Hardening Guides](https://github.com/ernw/hardening): This repository contains various hardening guides compiled by ERNW for various purposes.
 - [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
 - See your site config with [Hardenize](https://www.hardenize.com/)
 - Nice article with a lot of resources: [Common approaches to securing Linux servers and what runs on them.](https://medium.com/@ageis/common-approaches-to-securing-linux-servers-and-what-runs-on-them-dadcacc5388b)
@@ -388,7 +393,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
 - [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
 - (pt-br) [hoc](https://github.com/ramalho/hoc): A mini-linguagem do livro 'The Unix Programming Environment", com explicações em PT-BR
-  
+- [s-tui](https://amanusk.github.io/s-tui/): s-tui is a terminal UI for monitoring your computer. [github](https://github.com/amanusk/s-tui), [news](https://www.cyberciti.biz/python-tutorials/monitor-linux-cpu-temperature-frequency-power-in-a-graphical-way/)
+
 ## Virtualization
 
 - [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
@@ -434,6 +440,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
 - [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
 - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
+- [Docker Immutable Workstation](https://github.com/mikadosoftware/workstation): Docker based portable Workstation
 
 #### Lambda
 
@@ -444,6 +451,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - Android Developers Blog - [Introducing Oboe](https://android-developers.googleblog.com/2018/10/introducing-oboe-c-library-for-low.html): A C++ library for low latency audio
 - [My Homeassistant configuration](https://github.com/eifinger/homeassistant-config)
+- [Don't kill my app!](https://dontkillmyapp.com/): To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless.
 
 ## Mac
 
@@ -461,6 +469,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [istatserverlinux](https://github.com/bjango/istatserverlinux): A system monitoring daemon that sends stats to Send stats to iStat View for iOS and iStat View for macOS.
 - [istatserver-dsm](https://bitbucket.org/jpboivin/istatserver-dsm): iStatserver for Synology DSM.
 - [Shell scripts for customized macOS machine setup and configuration.](https://github.com/bkuhlmann/mac_os-config)
+- [SourceKit-LSP](https://github.com/apple/sourcekit-lsp): Language Server Protocol implementation for Swift and C-based languages.
 
 ## Windows
 
@@ -477,6 +486,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [qemu-img for WIndows](https://cloudbase.it/qemu-img-windows/)
 
 ---
+
+## Datacenter
+
+- [The Datacenter as a Computer: Designing Warehouse-Scale Machines, Third Edition](https://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046)
 
 ## Support
 
@@ -619,8 +632,9 @@ ansible_python_interpreter=/usr/bin/python3
   - [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form): A React component for building Web forms from JSON Schema.
   - [json-forms](https://github.com/brutusin/json-forms): JSON Schema to HTML form generator, supporting dynamic subschemas (on the fly resolution). Extensible and customizable library with zero dependencies. Bootstrap add-ons provided.
   - [schemaform](http://schemaform.io/): Generate forms from a JSON schema, with AngularJS! [github](https://github.com/json-schema-form/angular-schema-form)
-- Presentantios:
-- [markdeck](https://github.com/arnehilmann/markdeck): presentations as code - author cool slide decks, text-only, offline-ready, collaborative.
+  - [Formasaurus](https://github.com/TeamHG-Memex/Formasaurus): Formasaurus tells you the type of an HTML form and its fields using machine learning.
+- Presentantions:
+  - [markdeck](https://github.com/arnehilmann/markdeck): presentations as code - author cool slide decks, text-only, offline-ready, collaborative.
 - [PHP Apprentice](https://phpapprentice.com/): An online book for learning PHP. [github](https://github.com/restoreddev/phpapprentice)
 
 #### Graphics
@@ -678,6 +692,7 @@ $INDEX
 - [Improved AppPasswords in Nextcloud 14](https://rullzer.com/2018/09/05/improved-apppasswords-in-nextcloud-14/): rullzers blog
 - [Installing Integration Edition Document Server for Docker on a local server](https://helpcenter.onlyoffice.com/server/integration-edition/docker/docker-installation.aspx)
 - [How to fix PHP 7 bash error to update Nextcloud on Synology?](https://hackabee.fr/2018/12/12/how-to-solve-php-7-bash-error-to-update-nextcloud-on-synology/)
+- [Nextcloud With Cloudflare SSL Easy Install Bash script](https://github.com/bajpangosh/Nextcloud-With-Cloudflare-SSL-Easy-Install-script)
 
 ---
 
@@ -686,7 +701,9 @@ $INDEX
 - [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
 - (pt-br) [A Internet das Coisas no Brasil](https://igarape.org.br/a-internet-das-coisas-no-brasil/) - Instituto Igarapé
 - [jerryscript](https://github.com/jerryscript-project/jerryscript): Ultra-lightweight JavaScript engine for the Internet of Things.
-
+- [UNDERCLOCKING THE ESP8266 LEADS TO WIFI WEIRDNESS](https://hackaday.com/2019/01/04/underclocking-the-esp8266-leads-to-wifi-weirdness/): Sometimes the best hacks come from the most basic of questions. In this case, [CNLohr] was wondering what would happen if he started to reduce the clock speed of the ESP8266’s Baseband PLL (BBPLL) while still trying to communicate with it.
+- [Saleae](https://www.saleae.com/): Saleae builds the world’s most loved logic analyzers.
+  
 ---
 
 ## Fun
@@ -699,6 +716,7 @@ $INDEX
 - [paint 16b](http://www.sizecoding.org/wiki/Paint16b): was created by Hellmood and is 16 bytes in size. paint16b implements a mouse-driven drawing program which has the ability to exit back to DOS and also display the mouse cursor, [screenshot](http://www.pouet.net/prod.php?which=63826).
 - [Boss as a Service](https://bossasaservice.life/): Hire a boss, get stuff done
 - [Craft Crown SDK](https://github.com/Logitech/logi_craft_sdk): Provide (API) SDK specifications to map your app functions to Logitech Craft dial controller called "Crown".
+- [Check out these projects featuring your favorite Cartoon Network characters and start making!](http://www.createwithcn.com/). [Cartoon Network + Ada Fruit](https://makecode.adafruit.com/projects/cartoon-network)
 
 ## Stuff
 
