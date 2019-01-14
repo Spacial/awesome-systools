@@ -342,6 +342,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Writing Safe Shell Scripts](https://sipb.mit.edu/doc/safe-shell/): Writing shell scripts leaves a lot of room to make mistakes, in ways that will cause your scripts to break on certain input, or (if some input is untrusted) open up security vulnerabilities. Here are some tips on how to make your shell scripts safer.
 - [funky](https://github.com/bbugyi200/funky):Funky takes shell functions to the next level by making them easier to define, more flexible, and more interactive.
 - [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml).
+- [hexyl](https://github.com/sharkdp/hexyl): A command-line hex viewer.
 
 ### Regex
 
@@ -491,6 +492,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
 - [Zulip server](https://github.com/zulip/zulip/) - powerful open source team chat
+- [awesome-leading-and-managing](https://github.com/LappleApple/awesome-leading-and-managing): Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
 
 ## Career
 
@@ -505,6 +507,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
 - [4 Mentorship Archetypes](https://g-rand.com/2018/12/04/4-mentorship-archetypes/)
 - [On Shutting Down](https://blog.ycombinator.com/shutting-down/).
+- [How I Built A $5,000 Per Month Side Project](https://campfirelabs.co/blog-1/2019/1/10/how-i-built-a-5000-per-month-side-project)
 
 ## Presentations
 
@@ -592,6 +595,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [Favicon Generator](https://realfavicongenerator.net/). For real.
 - [Are You a Blogger or Publisher?](https://websitevoice.com/): Turn your articles to high-quality audio for your audience to listen while they’re busy multitasking or on the go.
 - [Inside look at modern web browser (part 1)](https://developers.google.com/web/updates/2018/09/inside-browser-part1): In this 4-part blog series, we’ll look inside the Chrome browser from high-level architecture to the specifics of the rendering pipeline.
+- Forms:
+  - [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form): A React component for building Web forms from JSON Schema.
+  - [json-forms](https://github.com/brutusin/json-forms): JSON Schema to HTML form generator, supporting dynamic subschemas (on the fly resolution). Extensible and customizable library with zero dependencies. Bootstrap add-ons provided.
+  - [schemaform](http://schemaform.io/): Generate forms from a JSON schema, with AngularJS! [github](https://github.com/json-schema-form/angular-schema-form)
+- Presentantios:
+- [markdeck](https://github.com/arnehilmann/markdeck): presentations as code - author cool slide decks, text-only, offline-ready, collaborative.
+- [PHP Apprentice](https://phpapprentice.com/): An online book for learning PHP. [github](https://github.com/restoreddev/phpapprentice)
 
 #### Graphics
 
