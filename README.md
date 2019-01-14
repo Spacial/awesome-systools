@@ -285,6 +285,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling.
 - [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/): HAProxy Technologies
+- [skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
 
 ### Browsers
 
@@ -294,6 +295,8 @@ ansible_python_interpreter=/usr/bin/python3
   - [Chromium & Netflix (and other DRM video websites)](https://ubuntu-mate.community/t/tutorial-chromium-netflix-and-other-drm-video-websites/7185)
 - [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
 - [Firefox Profilemaker](https://ffprofile.com/)
+- [Otter Browser](https://otter-browser.org/): Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.
+- [thor](https://github.com/cisco/thor): Cisco's Thor Video Codec
 
 ## Shell
 
@@ -520,7 +523,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [Shiori](https://github.com/RadhiFadlillah/shiori) is a simple bookmarks manager written in Go language
 - [reminiscence](https://github.com/kanishka-linux/reminiscence): Self-Hosted Bookmark and Archive Manager
 - [Photograph Your Work](https://etbe.coker.com.au/2019/01/06/photograph-your-work/)
-  
+- [How I Manage My Time](https://zwischenzugs.com/2017/12/03/how-i-manage-my-time/): by zwischenzugs
+- [Ask HN: How do you keep track of your creative thoughts? | Hacker News](https://news.ycombinator.com/item?id=18837345)
+
+## Knowlegde
+
+- [trilium](https://github.com/zadam/trilium): Build your personal knowledge base with Trilium Notes
+
 ---
 
 ## Tools
@@ -572,6 +581,17 @@ ansible_python_interpreter=/usr/bin/python3
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
+
+#### Domains
+
+- [Check domain name availability with bash and whois](https://linuxconfig.org/check-domain-name-availability-with-bash-and-whois)
+- [namegrep](https://namegrep.com/)
+- [10 Fantastic Tools to Find Smart Domain Name for Your Business](https://geekflare.com/find-domain-name/)
+- [dnstwist](https://github.com/elceef/dnstwist): Domain name permutation engine for detecting typo squatting, phishing and corporate espionage
+- [Dictionary Domains](http://www.dictionarydomains.co/)
+- [Python Script for Getting Data You Need From Domain Names Lists](https://domains-index.com/tips-using-domains-indexs-lists/)
+- [Creating python dictionary that maps each domain to multiple coded values in File Geodatabase?](https://gis.stackexchange.com/questions/197834/creating-python-dictionary-that-maps-each-domain-to-multiple-coded-values-in-fil)
+- [dnsimple-python](https://github.com/onlyhavecans/dnsimple-python): Python API client for DNSimple's Domain Management Automation
 
 #### Webdev
 
@@ -685,6 +705,7 @@ $INDEX
 - [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
 - [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
+- [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
 
 ## News
 
