@@ -102,7 +102,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
   - [SynoCommunity](https://synocommunity.com/)
   - [spksrc](https://github.com/SynoCommunity/spksrc): Cross compilation framework to create native packages for the Synology's NAS
 - [ssdWearOut](https://github.com/Sid-Sun/ssdWearOut): Do you want to wear out your SSD before the warranty expires?
-  
+- [ELSA](https://arxiv.org/pdf/1810.11888.pdf): Efficient Long-Term Secure Storage of Large Datasets
+
 ### Controllers
 
 - LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
@@ -216,6 +217,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Circle CI](https://circleci.com/)
 - [Overalls](https://coveralls.io/): We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.
 - [opsmop](https://opsmop.io/): next-gen automation. [github](https://github.com/opsmop/opsmop)
+- [Canary analysis](https://cloud.google.com/blog/products/devops-sre/canary-analysis-lessons-learned-and-best-practices-from-google-and-waze): Lessons learned and best practices from Google and Waze
+- [Spinnaker](https://github.com/spinnaker/spinnaker): is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. 
 
 ### Jenkins
 
@@ -321,6 +324,7 @@ ansible_python_interpreter=/usr/bin/python3
   - Amazing collection by [jessfraz](https://github.com/jessfraz/dotfiles/)
   - Some [dotfile](https://github.com/maitesin/dot-files) by maitesin
   - [pedrohenriquebr](https://github.com/pedrohenriquebr/dotfiles)
+  - [chezmoi](https://github.com/twpayne/chezmoi): Manage your dotfiles securely across multiple machines.
 - Powerline:
   - [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
   - [How to Jazz Up Your Bash Terminal](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)— A Step By Step Guide With Pictures
@@ -441,6 +445,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
 - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
 - [Docker Immutable Workstation](https://github.com/mikadosoftware/workstation): Docker based portable Workstation
+- [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
 
 #### Lambda
 
@@ -484,6 +489,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Running vROpsCLI on Windows](http://www.vmspot.com/vropscli-on-windows/)
 - [windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
 - [qemu-img for WIndows](https://cloudbase.it/qemu-img-windows/)
+- [OrgKit](https://github.com/SwiftOnSecurity/OrgKit): Provision a brand-new company with proper defaults in Windows, Offic365, and Azure
+- [example-azure-node](https://github.com/sdras/example-azure-node): An example Node webapp deployed with GitHub actions
 
 ---
 
@@ -703,7 +710,8 @@ $INDEX
 - [jerryscript](https://github.com/jerryscript-project/jerryscript): Ultra-lightweight JavaScript engine for the Internet of Things.
 - [UNDERCLOCKING THE ESP8266 LEADS TO WIFI WEIRDNESS](https://hackaday.com/2019/01/04/underclocking-the-esp8266-leads-to-wifi-weirdness/): Sometimes the best hacks come from the most basic of questions. In this case, [CNLohr] was wondering what would happen if he started to reduce the clock speed of the ESP8266’s Baseband PLL (BBPLL) while still trying to communicate with it.
 - [Saleae](https://www.saleae.com/): Saleae builds the world’s most loved logic analyzers.
-  
+- [openedge](https://github.com/baidu/openedge): Extend cloud computing, data and service seamlessly to edge devices.
+
 ---
 
 ## Fun
