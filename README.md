@@ -218,7 +218,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Overalls](https://coveralls.io/): We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.
 - [opsmop](https://opsmop.io/): next-gen automation. [github](https://github.com/opsmop/opsmop)
 - [Canary analysis](https://cloud.google.com/blog/products/devops-sre/canary-analysis-lessons-learned-and-best-practices-from-google-and-waze): Lessons learned and best practices from Google and Waze
-- [Spinnaker](https://github.com/spinnaker/spinnaker): is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. 
+- [Spinnaker](https://github.com/spinnaker/spinnaker): is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 
 ### Jenkins
 
@@ -276,6 +276,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [OpenBGPD](https://labs.ripe.net/Members/claudio_jeker/openbgpd-adding-diversity-to-route-server-landscape): Adding Diversity to the Route Server Landscape
 - [netbox](https://github.com/digitalocean/netbox): IP address management (IPAM) and data center infrastructure management (DCIM) tool.
 
+### Network Troubleshooting
+
+- [10 examples of Linux ss command to monitor network connections](https://www.binarytides.com/linux-ss-command/)
+- [Viewing HAProxy Statistics](http://www.networkinghowtos.com/howto/viewing-haproxy-statistics/)
+  
 ### NetServices
 
 - [salmon](https://github.com/moggers87/salmon): Pythonic Mail Application Server forked from the last GPL'd release of Lamson
