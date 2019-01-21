@@ -475,6 +475,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [istatserver-dsm](https://bitbucket.org/jpboivin/istatserver-dsm): iStatserver for Synology DSM.
 - [Shell scripts for customized macOS machine setup and configuration.](https://github.com/bkuhlmann/mac_os-config)
 - [SourceKit-LSP](https://github.com/apple/sourcekit-lsp): Language Server Protocol implementation for Swift and C-based languages.
+- [How To remove items from launching on MacOS (launchd/launchctl)](https://apple.stackexchange.com/questions/99865/how-is-adobe-update-notifier-auto-launched-on-mac-os-x))
 
 ## Windows
 
