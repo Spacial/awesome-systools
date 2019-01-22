@@ -41,6 +41,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Why is the kernel community replacing iptables with BPF?](https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/)
 - [bcc](https://github.com/iovisor/bcc/): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 - [bpftrace](http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html)(DTrace 2.0) for Linux 2018
+- [PyEBPF](https://medium.com/@dany74q/pyebpf-ebpf-proxy-routines-generation-and-python-callbacks-iovisor-bcc-wrapper-42d6cf558be4): eBPF proxy routines generation and Python callbacks (iovisor/bcc wrapper)
 - [What's a CPU to do when it has nothing to do?](https://lwn.net/SubscriberLink/767630/594421f913c3d00a/)
 - [How new-lines affect Linux performance](https://nadav.amit.zone/blog/linux-inline)
 - [Hooking Linux Kernel Functions, Part 1: Looking for the Perfect Solution](https://www.apriorit.com/dev-blog/544-hooking-linux-functions-1)
@@ -738,6 +739,7 @@ $INDEX
 - [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 - [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
+- [metamage_1](https://github.com/jjuran/metamage_1/): Metamage open source, general repository, iteration 1
 
 ## News
 
