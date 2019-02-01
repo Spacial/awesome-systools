@@ -622,6 +622,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 #### Webdev
 
+- [HTTP/3](https://blog.cloudflare.com/http-3-from-root-to-tip/): From root to tip
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
 - [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web.
 - [fontello](https://github.com/fontello/fontello):Iconic fonts scissors
