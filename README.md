@@ -41,7 +41,6 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Why is the kernel community replacing iptables with BPF?](https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/)
 - [bcc](https://github.com/iovisor/bcc/): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 - [bpftrace](http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html)(DTrace 2.0) for Linux 2018
-- [PyEBPF](https://medium.com/@dany74q/pyebpf-ebpf-proxy-routines-generation-and-python-callbacks-iovisor-bcc-wrapper-42d6cf558be4): eBPF proxy routines generation and Python callbacks (iovisor/bcc wrapper)
 - [What's a CPU to do when it has nothing to do?](https://lwn.net/SubscriberLink/767630/594421f913c3d00a/)
 - [How new-lines affect Linux performance](https://nadav.amit.zone/blog/linux-inline)
 - [Hooking Linux Kernel Functions, Part 1: Looking for the Perfect Solution](https://www.apriorit.com/dev-blog/544-hooking-linux-functions-1)
@@ -104,7 +103,9 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
   - [spksrc](https://github.com/SynoCommunity/spksrc): Cross compilation framework to create native packages for the Synology's NAS
 - [ssdWearOut](https://github.com/Sid-Sun/ssdWearOut): Do you want to wear out your SSD before the warranty expires?
 - [ELSA](https://arxiv.org/pdf/1810.11888.pdf): Efficient Long-Term Secure Storage of Large Datasets
-
+- [drbd](https://github.com/LINBIT/drbd-9.0): LINBIT DRBD-9.0 (new-stable)
+- [Analyzing Your File System and Folder Structures with Python](https://janakiev.com/blog/python-filesystem-analysis/)
+  
 ### Controllers
 
 - LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
@@ -166,6 +167,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
 - [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
 - [Using a Hardened Container Image for Secure Applications in the Cloud](https://www.cisecurity.org/blog/using-hardened-container-image-secure-applications-cloud/)
+- [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide): 🔥 This guide details the planning and the tools involved in creating a secure Linux production systems - work in progress.
 
 #### Webservers
 
@@ -182,6 +184,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
+- [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
 
 #### Tokens
 
@@ -194,8 +197,9 @@ ansible_python_interpreter=/usr/bin/python3
 
 ### VPN
 
-- [How I made my own WireGuard VPN server | TechCrunch](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
-
+- [How I made my own WireGuard VPN server](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
+- [Secure & Ad-free Internet Anywhere With Streisand and Pi Hole](https://ifelse.io/2019/01/12/secure-ad-free-internet-anywhere-with-streisand-and-pi-hole/)
+  
 ### Messaging
 
 - [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
@@ -220,6 +224,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [opsmop](https://opsmop.io/): next-gen automation. [github](https://github.com/opsmop/opsmop)
 - [Canary analysis](https://cloud.google.com/blog/products/devops-sre/canary-analysis-lessons-learned-and-best-practices-from-google-and-waze): Lessons learned and best practices from Google and Waze
 - [Spinnaker](https://github.com/spinnaker/spinnaker): is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
+- [Actions](https://github.com/maddox/actions): A collection of useful GitHub Actions.
 
 ### Jenkins
 
@@ -276,11 +281,16 @@ ansible_python_interpreter=/usr/bin/python3
 - [Ping test in a shell script](http://jeromejaglale.com/doc/unix/shell_scripts/ping)
 - [OpenBGPD](https://labs.ripe.net/Members/claudio_jeker/openbgpd-adding-diversity-to-route-server-landscape): Adding Diversity to the Route Server Landscape
 - [netbox](https://github.com/digitalocean/netbox): IP address management (IPAM) and data center infrastructure management (DCIM) tool.
+- [￼￼￼NETWORK PROTOCOLS](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147): for anyone who knows a programming language.
+- [My complete OpenWrt Setup Guide](http://www.jauu.net/2015/03/03/complete-openwrt-guide/)
+- [bnet](https://github.com/bkaradzic/bnet): Message oriented networking library using TCP transport.
 
 ### Network Troubleshooting
 
 - [10 examples of Linux ss command to monitor network connections](https://www.binarytides.com/linux-ss-command/)
 - [Viewing HAProxy Statistics](http://www.networkinghowtos.com/howto/viewing-haproxy-statistics/)
+- [List all IP addresses connected to your Server](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/)
+- [howmanypeoplearearound](https://github.com/schollz/howmanypeoplearearound): Count the number of people around you ￼ by monitoring wifi signals ￼
   
 ### NetServices
 
@@ -290,10 +300,17 @@ ansible_python_interpreter=/usr/bin/python3
 - [speedtest-cli](https://github.com/sivel/speedtest-cli): Command line interface for testing internet bandwidth using speedtest.net
 - [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
 - [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads
+- [websocketd](https://github.com/joewalnes/websocketd): Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.
+
+#### Email
+
+- [jmap](https://github.com/jmapio/jmap): JSON Meta Application Protocol Specification (JMAP)
+- [Cypht](https://github.com/jasonmunro/cypht): Lightweight Open Source webmail written in PHP and JavaScript
 
 ### DNS
 
 - [lexicon](https://github.com/AnalogJ/lexicon): Manipulate DNS records on various DNS providers in a standardized way.
+- [DNS flag day](https://dnsflagday.net/): The current DNS is unnecessarily slow and suffers from inability to deploy new features. To remediate these problems, vendors of DNS software and also big public DNS providers are going to remove certain workarounds on February 1st, 2019.
 
 ### LoadBalancers
 
@@ -320,6 +337,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Software development using Bash](https://oscarforner.com/2018/02/24/Software_development_using_Bash)
 - [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
 - [cheat.sh](https://cheat.sh/) The only cheat sheet you need, Unified access to the best community driven documentation repositories of the world
+- [cheatsheets](https://github.com/rstacruz/cheatsheets), and [bash](https://devhints.io/bash.html)
 - [bash-oo-framework](https://github.com/niieani/bash-oo-framework): Bash Infinity is a modern boilerplate / framework / standard library for bash
 - [sensible bash](https://github.com/mrzool/bash-sensible)
 - [How to Jazz Up Your Bash Terminal](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22): A Step By Step Guide With Pictures
@@ -361,6 +379,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [funky](https://github.com/bbugyi200/funky):Funky takes shell functions to the next level by making them easier to define, more flexible, and more interactive.
 - [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml).
 - [hexyl](https://github.com/sharkdp/hexyl): A command-line hex viewer.
+- [Bass](https://github.com/edc/bass): Make Bash utilities usable in Fish shell.
+- [Bash scripting cheatsheet](https://devhints.io/bash.html)
 
 ### Regex
 
@@ -396,6 +416,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [BetrFS](http://www.betrfs.org): The Bε-tree File System, or BetrFS, is an in-kernel file system that uses Bε trees to organize on-disk storage. Bε trees are a write-optimized dictionary, and offer the same asymptotic behavior for sequential I/O and point queries as a B-tree. [github](https://github.com/oscarlab/betrfs).
 - [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation
 - [Share NFS Home Directories Securely with Kerberos](https://fedoramagazine.org/secure-nfs-home-directories-kerberos/)
+- [folderstats](https://github.com/njanakiev/folderstats): Python module that creates statistics from a folder structure
 
 ## Unix
 
@@ -481,7 +502,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [istatserver-dsm](https://bitbucket.org/jpboivin/istatserver-dsm): iStatserver for Synology DSM.
 - [Shell scripts for customized macOS machine setup and configuration.](https://github.com/bkuhlmann/mac_os-config)
 - [SourceKit-LSP](https://github.com/apple/sourcekit-lsp): Language Server Protocol implementation for Swift and C-based languages.
-- [How To remove items from launching on MacOS (launchd/launchctl)](https://apple.stackexchange.com/questions/99865/how-is-adobe-update-notifier-auto-launched-on-mac-os-x))
+- [apple libc uses perl](https://github.com/Apple-FOSS-Mirror/Libc/blob/2ca2ae74647714acfc18674c3114b1a5d3325d7d/gen/wordexp.c#L192)
 
 ## Windows
 
@@ -504,6 +525,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Datacenter
 
 - [The Datacenter as a Computer: Designing Warehouse-Scale Machines, Third Edition](https://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046)
+- [Automating Datacenter Operations at Dropbox](https://blogs.dropbox.com/tech/2019/01/automating-datacenter-operations-at-dropbox/)
 
 ## Support
 
@@ -538,6 +560,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [4 Mentorship Archetypes](https://g-rand.com/2018/12/04/4-mentorship-archetypes/)
 - [On Shutting Down](https://blog.ycombinator.com/shutting-down/).
 - [How I Built A $5,000 Per Month Side Project](https://campfirelabs.co/blog-1/2019/1/10/how-i-built-a-5000-per-month-side-project)
+- [The Future of Work Framework](https://blogs.nasa.gov/futureofwork/2018/11/15/the-future-of-work-framework/)
 
 ## Presentations
 
@@ -649,7 +672,20 @@ ansible_python_interpreter=/usr/bin/python3
   - [Formasaurus](https://github.com/TeamHG-Memex/Formasaurus): Formasaurus tells you the type of an HTML form and its fields using machine learning.
 - Presentantions:
   - [markdeck](https://github.com/arnehilmann/markdeck): presentations as code - author cool slide decks, text-only, offline-ready, collaborative.
-- [PHP Apprentice](https://phpapprentice.com/): An online book for learning PHP. [github](https://github.com/restoreddev/phpapprentice)
+- PHP:
+  - [A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem](https://github.com/chiraggude/awesome-laravel)
+  - [PHP Apprentice](https://phpapprentice.com/): An online book for learning PHP. [github](https://github.com/restoreddev/phpapprentice)
+  - [JHRW](https://github.com/galvao/JHRW): JavaScript HTTP Request Wrapper.  A wrapper for so-called "AJAX" Requests.
+  - [My Modern PHP Development Setup](https://johnmackenzie.co.uk/post/my-modern-php-development-setup/): With this combination of formatters, linters and build tools I am able to create a fully testible, completely portable solution with adheres to PSR coding standards.
+- [shiny](https://github.com/rikschennink/shiny): Shiny reflections for mobile websites.
+- [splinter](https://github.com/cobrateam/splinter): python test framework for web applications.
+- [revery](https://github.com/revery-ui/revery): ⚡️ Native, high-performance, cross-platform desktop apps - built with Reason!
+
+### Web Services
+
+- [Notion](https://www.notion.so/): Write, plan, collaborate, and get organized.
+- [Postmake](https://postmake.io/): A directory of the best tools and resources for your projects
+- [nuclear](https://github.com/nukeop/nuclear): Popcorn Time for music. [github](https://github.com/nukeop/nuclear)
 
 #### Graphics
 
@@ -718,6 +754,11 @@ $INDEX
 - [UNDERCLOCKING THE ESP8266 LEADS TO WIFI WEIRDNESS](https://hackaday.com/2019/01/04/underclocking-the-esp8266-leads-to-wifi-weirdness/): Sometimes the best hacks come from the most basic of questions. In this case, [CNLohr] was wondering what would happen if he started to reduce the clock speed of the ESP8266’s Baseband PLL (BBPLL) while still trying to communicate with it.
 - [Saleae](https://www.saleae.com/): Saleae builds the world’s most loved logic analyzers.
 - [openedge](https://github.com/baidu/openedge): Extend cloud computing, data and service seamlessly to edge devices.
+- [OpenChirp](https://openchirp.io/): An Open Source Platform for IoT with support for LoRaWAN
+
+### RFID
+
+- [RFIDler](http://adamsblog.aperturelabs.com/2013/08/rfidler-open-source-software-defined.html?m=0) - An open source Software Defined RFID Reader/Writer/Emulator. [github](https://github.com/ApertureLabsLtd/RFIDler)
 
 ---
 
@@ -732,6 +773,7 @@ $INDEX
 - [Boss as a Service](https://bossasaservice.life/): Hire a boss, get stuff done
 - [Craft Crown SDK](https://github.com/Logitech/logi_craft_sdk): Provide (API) SDK specifications to map your app functions to Logitech Craft dial controller called "Crown".
 - [Check out these projects featuring your favorite Cartoon Network characters and start making!](http://www.createwithcn.com/). [Cartoon Network + Ada Fruit](https://makecode.adafruit.com/projects/cartoon-network)
+- [fx_cast](https://hensm.github.io/fx_cast/): chromecast for firefox. Enables Chromecast support for casting web apps (like Netflix or BBC iPlayer), HTML5 video and screen/tab sharing. [github](https://github.com/hensm/fx_cast)
 
 ## Stuff
 
@@ -739,12 +781,13 @@ $INDEX
 - [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 - [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
-- [metamage_1](https://github.com/jjuran/metamage_1/): Metamage open source, general repository, iteration 1
+- [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
 
 ## News
 
 - [Systemd's DynamicUser feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)
 - [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9)
+- [600 days of postmarketOS](https://postmarketos.org/blog/2019/01/16/600-days-of-postmarketOS/)
 
 ## Making Conferences
 
