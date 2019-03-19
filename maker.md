@@ -17,6 +17,7 @@
 - [Raptor Computing Systems::BK1B01 Intro](https://secure.raptorcs.com/content/BK1B01/intro.html)
 - [Teensy 3.1 bare metal: Writing a USB driver](http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/) and [github](https://github.com/kcuzner/teensy-oscilloscope)
 - [Linux maker boards learn how to specialize](http://linuxgizmos.com/linux-maker-boards-learn-how-to-specialize/)
+- [MicroPython pyboard D-series](https://blog.adafruit.com/2019/03/11/micropython-pyboard-d-series-update-micropython-micropython/)
 
 ### Arduino
 
@@ -69,7 +70,13 @@ Nice projects to try. Let's do it!
 - [Easy Motion and Gesture Detection by PIR Sensor & Arduino](https://create.arduino.cc/projecthub/electropeak/easy-motion-and-gesture-detection-by-pir-sensor-arduino-101fcc)
 - [Franzininho](https://github.com/Franzininho/franzininho-diy-board/): Placa Franzininho DIY - Repositório da placa Franzininho DIY
 - [raspberry-pi-dramble](https://github.com/geerlingguy/raspberry-pi-dramble/): RGB LEDs controlled via GPIO
+- [My Own DIY Smart Mirror](https://medium.com/@amyleeanne/from-0-to-a-smart-mirror-in-6-months-ee3b91f723b1). [github](https://github.com/albennett/magic-mirror-pi)
 
+## Prototyping
+
+- [e-radionica.com FRITZING](https://github.com/e-radionicacom/e-radionica.com-Fritzing-Library-parts-): bunch of common use sensors/modules for makers as well as e-radionica.com products prepared for Fritzing
+- [fritzing-parts](https://github.com/fritzing/fritzing-parts): Electronic components for use in the Fritzing app (aka the parts library)
+  
 ## Comparison
 
 - [What are the best Raspberry Pi alternatives? Everything you need to know about Pi rivals](https://www.zdnet.com/article/what-are-the-best-raspberry-pi-alternatives-everything-you-need-to-know-about-pi-rivals/) (2018)
@@ -117,7 +124,6 @@ Nice projects to try. Let's do it!
 - [Banggood](https://www.banggood.com/): Your favorite supplier of clothing, accessories, electronics, RC, LED lights and much more. We offer the Best Bang for your Buck.
 - [Espressif](https://www.espressif.com/en/products/hardware/modules): Espressif Systems is a multinational, fabless semiconductor company established in 2008, with headquarters in Shanghai and offices in Greater China, India and Europe.
   
-
 ## Teardowns
 
 - [Xiaomi Mi Band Teardown - iFixit](https://www.ifixit.com/Teardown/Xiaomi+Mi+Band+Teardown/45844)

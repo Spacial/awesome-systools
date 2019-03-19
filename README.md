@@ -105,6 +105,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [ELSA](https://arxiv.org/pdf/1810.11888.pdf): Efficient Long-Term Secure Storage of Large Datasets
 - [drbd](https://github.com/LINBIT/drbd-9.0): LINBIT DRBD-9.0 (new-stable)
 - [Analyzing Your File System and Folder Structures with Python](https://janakiev.com/blog/python-filesystem-analysis/)
+- [Algorithms behind Modern Storage Systems](https://www.infoq.com/presentations/storage-algorithms): Alex Petrov talks about modern storage system approaches, discussing storage internals, and evaluation techniques to choose a database with the optimal read, write or memory overhead, best suitable for a certain data.
+- [PrivateStorage.io](https://privatestorage.io/): Least Authority and Private Internet Access announce PrivateStorage.io. [paper](https://leastauthority.com/blog/least-authority-and-private-internet-access-announce-privatestorage-io-a-secure-and-privacy-focused-cloud-storage-solution/) (using Tahoe-LAFS)
   
 ### Controllers
 
@@ -122,6 +124,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [HomelabOS](https://gitlab.com/NickBusey/HomelabOS): Your very own offline-first privacy-centric open-source data-center!
 - [5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1)
 - [ieturk](https://github.com/varal7/ieturk): Intuitive Annotation Tool for Information / Named Entity Recognition using localturk / Amazon Mechanical Turk
+- [terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline): Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 
 ### Ansible
 
@@ -168,6 +171,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
 - [Using a Hardened Container Image for Secure Applications in the Cloud](https://www.cisecurity.org/blog/using-hardened-container-image-secure-applications-cloud/)
 - [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide): 🔥 This guide details the planning and the tools involved in creating a secure Linux production systems - work in progress.
+- [Set up two-factor authentication for SSH on Fedora](https://fedoramagazine.org/two-factor-authentication-ssh-fedora/)
+- [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
 
 #### Webservers
 
@@ -185,6 +190,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
+- [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
 
 #### Tokens
 
@@ -284,6 +290,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [￼￼￼NETWORK PROTOCOLS](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147): for anyone who knows a programming language.
 - [My complete OpenWrt Setup Guide](http://www.jauu.net/2015/03/03/complete-openwrt-guide/)
 - [bnet](https://github.com/bkaradzic/bnet): Message oriented networking library using TCP transport.
+- [openrsync](https://github.com/kristapsdz/openrsync): clean-room BSD-licensed implementation of rsync. [imported into the tree](https://undeadly.org/cgi?action=article;sid=20190211081518)
+- [Using the NetworkManager’s DNSMasq plugin](https://fedoramagazine.org/using-the-networkmanagers-dnsmasq-plugin/).
 
 ### Network Troubleshooting
 
@@ -311,12 +319,14 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [lexicon](https://github.com/AnalogJ/lexicon): Manipulate DNS records on various DNS providers in a standardized way.
 - [DNS flag day](https://dnsflagday.net/): The current DNS is unnecessarily slow and suffers from inability to deploy new features. To remediate these problems, vendors of DNS software and also big public DNS providers are going to remove certain workarounds on February 1st, 2019.
+- [DNS Servers You Should Have Memorized](https://danielmiessler.com/blog/dns-servers-you-should-have-memorized/): The latest DNS server IPs are easier to remember and offer privacy and filtering functionality
 
 ### LoadBalancers
 
 - [glb-director](https://github.com/github/glb-director): GitHub Load Balancer Director and supporting tooling.
 - [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/): HAProxy Technologies
 - [skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
+- [memcached](https://github.com/memcached/memcached/wiki/Extstore): Memcached is a high performance multithreaded event-based key/value cache store intended to be used in a distributed system. Nice discussion about: [Caching beyond RAM: Riding the cliff](https://memcached.org/blog/nvm-multidisk/)
 
 ### Browsers
 
@@ -380,13 +390,16 @@ ansible_python_interpreter=/usr/bin/python3
 - [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml).
 - [hexyl](https://github.com/sharkdp/hexyl): A command-line hex viewer.
 - [Bass](https://github.com/edc/bass): Make Bash utilities usable in Fish shell.
-- [Bash scripting cheatsheet](https://devhints.io/bash.html)
+- [Bash scripting cheatsheet](https://devhints.io/bash.html).
+- [Problem solving with Unix commands](http://vegardstikbakke.com/unix/): I am starting to realize that the Unix command-line toolbox can fix absolutely any problem related to text wrangling. Let me tell you about a problem I had, and how I used some Unix command-line utilities to solve it.
+- [Testing Bash with BATS](https://opensource.com/article/19/2/testing-bash-bats): The Bash Automated Testing System puts Bash code through the same types of testing processes used by Java, Ruby, and Python developers.
 
 ### Regex
 
 - [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 - [TRE](http://ducktape.blot.im/tre-a-regex-engine-with-approximate-matching): A Regex Engine with Approximate Matching
-- [Deu match: limpando dados com expressões regulares](http://turicas.info/slides/expressoes-regulares/)
+- [Deu match](http://turicas.info/slides/expressoes-regulares/): limpando dados com expressões regulares
+- [Rant](https://github.com/TheBerkin/rant): The all-purpose procedural text library
 
 ### Editors
 
@@ -473,6 +486,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
 - [Docker Immutable Workstation](https://github.com/mikadosoftware/workstation): Docker based portable Workstation
 - [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
+- [cilium](https://github.com/cilium/cilium/): API Aware Networking and Security using BPF and XDP
 
 #### Lambda
 
@@ -503,6 +517,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Shell scripts for customized macOS machine setup and configuration.](https://github.com/bkuhlmann/mac_os-config)
 - [SourceKit-LSP](https://github.com/apple/sourcekit-lsp): Language Server Protocol implementation for Swift and C-based languages.
 - [apple libc uses perl](https://github.com/Apple-FOSS-Mirror/Libc/blob/2ca2ae74647714acfc18674c3114b1a5d3325d7d/gen/wordexp.c#L192)
+- [Sloth](https://github.com/sveinbjornt/Sloth): Mac app that shows all open files and sockets in use by all running processes. Nice GUI for lsof.
 
 ## Windows
 
@@ -518,7 +533,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
 - [qemu-img for WIndows](https://cloudbase.it/qemu-img-windows/)
 - [OrgKit](https://github.com/SwiftOnSecurity/OrgKit): Provision a brand-new company with proper defaults in Windows, Offic365, and Azure
-- [example-azure-node](https://github.com/sdras/example-azure-node): An example Node webapp deployed with GitHub actions
+- [example-azure-node](https://github.com/sdras/example-azure-node): An example Node webapp deployed with GitHub actions.
+- [Reset a Windows 10 password](https://4sysops.com/archives/reset-a-windows-10-password/): The method to reset a Windows 10 password depends on the account type. A Microsoft account requires a different procedure than a local account requires.
 
 ---
 
@@ -561,7 +577,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [On Shutting Down](https://blog.ycombinator.com/shutting-down/).
 - [How I Built A $5,000 Per Month Side Project](https://campfirelabs.co/blog-1/2019/1/10/how-i-built-a-5000-per-month-side-project)
 - [The Future of Work Framework](https://blogs.nasa.gov/futureofwork/2018/11/15/the-future-of-work-framework/)
-
+- [Why work at Stripe when you could run your own business?](https://www.kalzumeus.com/2019/3/18/two-years-at-stripe/)
+  
 ## Presentations
 
 - [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
@@ -585,7 +602,6 @@ ansible_python_interpreter=/usr/bin/python3
 ## Tools
 
 - [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
-- [gron](https://github.com/tomnomnom/gron/): Make JSON greppable!
 - [robotjs](https://github.com/octalmage/robotjs): Node.js Desktop Automation.
 - [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
 - [pbec](https://github.com/wilvk/pbec): Polaris Bios Editor for the Console
@@ -594,7 +610,17 @@ ansible_python_interpreter=/usr/bin/python3
 - [jabcode](https://github.com/jabcode/jabcode): color bar code.
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
 - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html):
+- [Leon](https://github.com/leon-ai/leon): is your open-source personal assistant.
+- [Code Shelter](https://www.codeshelter.co/): Code Shelter is a collective of volunteer software developers that aims to help with maintaining popular open source projects whose authors need a hand or don't have the time to maintain them any more.
+- [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
+- [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
+- [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
+
+### JSON
+
+- [gron](https://github.com/tomnomnom/gron/): Make JSON greppable!
 - [JSON Web Tokens (JWT)](https://github.com/dwyl/learn-json-web-tokens): 🔐 Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
+- [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON per second.
 
 ### WebTools
 
@@ -681,12 +707,16 @@ ansible_python_interpreter=/usr/bin/python3
 - [shiny](https://github.com/rikschennink/shiny): Shiny reflections for mobile websites.
 - [splinter](https://github.com/cobrateam/splinter): python test framework for web applications.
 - [revery](https://github.com/revery-ui/revery): ⚡️ Native, high-performance, cross-platform desktop apps - built with Reason!
+- [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
+- [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
+- [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
 
 ### Web Services
 
 - [Notion](https://www.notion.so/): Write, plan, collaborate, and get organized.
 - [Postmake](https://postmake.io/): A directory of the best tools and resources for your projects
 - [nuclear](https://github.com/nukeop/nuclear): Popcorn Time for music. [github](https://github.com/nukeop/nuclear)
+- [TERRAPATTERN](http://www.terrapattern.com/): This is the alpha version of Terrapattern, a visual search tool for satellite imagery. The project provides journalists, citizen scientists, and other researchers with the ability to quickly scan large geographical regions for specific visual features.
 
 #### Graphics
 
@@ -756,6 +786,9 @@ $INDEX
 - [Saleae](https://www.saleae.com/): Saleae builds the world’s most loved logic analyzers.
 - [openedge](https://github.com/baidu/openedge): Extend cloud computing, data and service seamlessly to edge devices.
 - [OpenChirp](https://openchirp.io/): An Open Source Platform for IoT with support for LoRaWAN
+- [FindChips](https://www.findchips.com/): Get instant insight into any electronic component
+Access price, inventory, unique market intelligence and advanced analytics for all your parts.
+- Fedora's [InternetOfThings](https://fedoraproject.org/wiki/InternetOfThings)
 
 ### RFID
 
@@ -783,12 +816,17 @@ $INDEX
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 - [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
 - [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
+- [German for Programmers](https://wickedchicken.github.io/post/german-for-programmers/)
+- [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
+- [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 
 ## News
 
+- [GitNews](https://git.news/)
 - [Systemd's DynamicUser feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)
 - [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9)
 - [600 days of postmarketOS](https://postmarketos.org/blog/2019/01/16/600-days-of-postmarketOS/)
+- [Physicists reverse time using quantum computer](https://phys.org/news/2019-03-physicists-reverse-quantum.html)
 
 ## Making Conferences
 
