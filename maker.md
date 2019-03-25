@@ -1,5 +1,9 @@
 # Maker
 
+## JTAG
+
+- [rust-raspi3-OS-tutorials](https://github.com/rust-embedded/rust-raspi3-OS-tutorials): 📚 Rust bare-metal and OS tutorials on the Raspberry Pi 3
+
 ## Boot
 
 - [Micronucleus](https://github.com/micronucleus/micronucleus): ATTiny usb bootloader with a strong emphasis on bootloader compactness.
@@ -105,6 +109,7 @@ Nice projects to try. Let's do it!
 
 - [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
 - [IMSI-catcher](https://github.com/Oros42/IMSI-catcher): This program show you IMSI numbers of cellphones around you.
+- [NPR New Packet Radio](https://hackaday.io/project/164092-npr-new-packet-radio)
 
 ## Sensors
 

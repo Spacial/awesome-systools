@@ -47,6 +47,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Hooking Linux Kernel Functions, Part 2: How to Hook Functions with Ftrace](https://www.apriorit.com/dev-blog/546-hooking-linux-functions-2)
 - [Hooking Linux Kernel Functions, Part 3: What Are the Main Pros and Cons of Ftrace?](https://www.apriorit.com/dev-blog/547-hooking-linux-functions-3)
 - [Heatmaps Make Ops Better](https://www.honeycomb.io/blog/heatmaps-make-ops-better/)
+- [ARM and Intel have different performance characteristics: a case study in random number generation](https://lemire.me/blog/2019/03/20/arm-and-intel-have-different-performance-characteristics-a-case-study-in-random-number-generation/)
 
 #### Monitoring
 
@@ -66,6 +67,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Install VLC on Fedora](https://www.kaizenuslife.com/2018/10/31/install-vlc-media-player-in-fedora-28-29/):
 - [How to install and activate Cockpit web console on RHEL 8](https://www.cyberciti.biz/faq/install-activate-cockpit-the-web-console-on-rhel-8/)
 - [How to reset a root password on Fedora](https://fedoramagazine.org/reset-root-password-fedora/)
+- [Backup on Fedora Silverblue with Borg](https://fedoramagazine.org/backup-on-fedora-silverblue-with-borg/)
+- [Fedora 27 - Laptop won't suspend when closing lid](https://unix.stackexchange.com/questions/414297/fedora-27-laptop-wont-suspend-when-closing-lid)
 
 ```bash
  # installing the repo
@@ -393,6 +396,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Bash scripting cheatsheet](https://devhints.io/bash.html).
 - [Problem solving with Unix commands](http://vegardstikbakke.com/unix/): I am starting to realize that the Unix command-line toolbox can fix absolutely any problem related to text wrangling. Let me tell you about a problem I had, and how I used some Unix command-line utilities to solve it.
 - [Testing Bash with BATS](https://opensource.com/article/19/2/testing-bash-bats): The Bash Automated Testing System puts Bash code through the same types of testing processes used by Java, Ruby, and Python developers.
+- [4 cool terminal multiplexers](https://fedoramagazine.org/4-cool-terminal-multiplexers/)
+- [Set your terminal to automatically use tmux](https://fedoramagazine.org/4-tips-better-tmux-sessions/)
+- [Pretty PuTTY](https://github.com/jacktrocinski/pretty-putty): Make PuTTY pretty and apply modern PuTTY settings.
 
 ### Regex
 
@@ -438,6 +444,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
 - (pt-br) [hoc](https://github.com/ramalho/hoc): A mini-linguagem do livro 'The Unix Programming Environment", com explicações em PT-BR
 - [s-tui](https://amanusk.github.io/s-tui/): s-tui is a terminal UI for monitoring your computer. [github](https://github.com/amanusk/s-tui), [news](https://www.cyberciti.biz/python-tutorials/monitor-linux-cpu-temperature-frequency-power-in-a-graphical-way/)
+- [unix-history-repo](https://github.com/dspinellis/unix-history-repo): Continuous Unix commit history from 1970 until today.
 
 ## Virtualization
 
@@ -578,6 +585,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How I Built A $5,000 Per Month Side Project](https://campfirelabs.co/blog-1/2019/1/10/how-i-built-a-5000-per-month-side-project)
 - [The Future of Work Framework](https://blogs.nasa.gov/futureofwork/2018/11/15/the-future-of-work-framework/)
 - [Why work at Stripe when you could run your own business?](https://www.kalzumeus.com/2019/3/18/two-years-at-stripe/)
+- [Defining a Distinguished Engineer](https://blog.jessfraz.com/post/defining-a-distinguished-engineer/)
   
 ## Presentations
 
@@ -615,6 +623,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
 - [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
 - [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
+- [baxx.dev](https://txt.black/~jack/baxx-dev.txt): It is a backup service with unix philosophy in mind, and curl as main interface and (soon) machine learning alerting.
 
 ### JSON
 
@@ -657,6 +666,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
+- [TicketLens](https://www.ticketlens.com/en): Find the best tickets, tours, and activities and compare prices from different websites.
 
 #### Domains
 
@@ -717,6 +727,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Postmake](https://postmake.io/): A directory of the best tools and resources for your projects
 - [nuclear](https://github.com/nukeop/nuclear): Popcorn Time for music. [github](https://github.com/nukeop/nuclear)
 - [TERRAPATTERN](http://www.terrapattern.com/): This is the alpha version of Terrapattern, a visual search tool for satellite imagery. The project provides journalists, citizen scientists, and other researchers with the ability to quickly scan large geographical regions for specific visual features.
+- [Pixelfed](https://pixelfed.social/) is an image sharing platform, an ethical alternative to centralized platforms.
 
 #### Graphics
 
@@ -730,6 +741,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework.
 - [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
 - (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento.
+
+## Journalism
+
+- (pt-br) [Jornalismo Guiado por Dados 1](https://rodrigomenegat.github.io/jgd-1/).
 
 ---
 
@@ -789,6 +804,7 @@ $INDEX
 - [FindChips](https://www.findchips.com/): Get instant insight into any electronic component
 Access price, inventory, unique market intelligence and advanced analytics for all your parts.
 - Fedora's [InternetOfThings](https://fedoraproject.org/wiki/InternetOfThings)
+- [Connected camera cock up](https://www.pentestpartners.com/security-blog/connected-camera-cock-up/)
 
 ### RFID
 
@@ -827,7 +843,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9)
 - [600 days of postmarketOS](https://postmarketos.org/blog/2019/01/16/600-days-of-postmarketOS/)
 - [Physicists reverse time using quantum computer](https://phys.org/news/2019-03-physicists-reverse-quantum.html)
-
+- [AN EXCLUSIVE LOOK AT AN ORIGINAL IPHONE PROTOTYPE](https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
+- [Open Source Doesn’t Make Money Because It Isn’t Designed To Make Money](http://www.ianbicking.org/blog/2019/03/open-source-doesnt-make-money-by-design.html)
+  
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
