@@ -15,6 +15,11 @@
 
 ## Linux
 
+### Distros
+
+- [The Void (Linux) distribution](https://voidlinux.org/): Void is a general purpose operating system, based on the monolithic Linux® kernel. Its package system allows you to quickly install, update and remove software; software is provided in binary packages or can be built directly from sources with the help of the XBPS source packages collection.
+- [devuan](https://www.devuan.org/): Devuan GNU+Linux is a fork of Debian without systemd.
+
 ### Kernel
 
 - [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
@@ -155,6 +160,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Security
 
 - [andOTP](https://github.com/andOTP/andOTP): Open source two-factor authentication for Android
+- [Librefox](https://github.com/intika/Librefox): Firefox with privacy enhancements
 
 ### Auditing
 
@@ -194,6 +200,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
 - [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
+- [NFHTTP](https://github.com/spotify/NFHTTP): A cross platform C++ HTTP library that interfaces natively to other platforms.
 
 #### Tokens
 
@@ -266,6 +273,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [GoAccess - Visual Web Log Analyzer](https://goaccess.io/)
 - [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator
 - [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
+- [Logging best practices to get the most out of application level logging](https://geshan.com.np/blog/2019/03/follow-these-logging-best-practices-to-get-the-most-out-of-application-level-logging-slides/)
 
 ### Benchmarks
 
@@ -624,6 +632,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
 - [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
 - [baxx.dev](https://txt.black/~jack/baxx-dev.txt): It is a backup service with unix philosophy in mind, and curl as main interface and (soon) machine learning alerting.
+- [3 cool text-based email clients](https://fedoramagazine.org/3-cool-text-based-email-clients/): The Fedora OS provides a large choice of email clients and among these are text-based email applications.
+- [Setting kernel command line arguments with Fedora 30](https://fedoramagazine.org/setting-kernel-command-line-arguments-with-fedora-30/).
 
 ### JSON
 
@@ -667,6 +677,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
 - [TicketLens](https://www.ticketlens.com/en): Find the best tickets, tours, and activities and compare prices from different websites.
+- [WeasyPrint](https://github.com/Kozea/WeasyPrint): WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
 
 #### Domains
 
@@ -720,6 +731,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
 - [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
 - [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
+- [Sites inclusivos a pessoas com autismo](https://gaia.wiki.br/): O GAIA é um conjunto aberto e colaborativo de 28 recomendações de acessibilidade web focado nos aspectos do autismo, abordando desde a escrita de conteúdo até recursos programáveis.
 
 ### Web Services
 
@@ -834,7 +846,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
 - [German for Programmers](https://wickedchicken.github.io/post/german-for-programmers/)
 - [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
-- [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
+- (pt-br) [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 
 ## News
 
@@ -845,6 +857,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Physicists reverse time using quantum computer](https://phys.org/news/2019-03-physicists-reverse-quantum.html)
 - [AN EXCLUSIVE LOOK AT AN ORIGINAL IPHONE PROTOTYPE](https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
 - [Open Source Doesn’t Make Money Because It Isn’t Designed To Make Money](http://www.ianbicking.org/blog/2019/03/open-source-doesnt-make-money-by-design.html)
+- [STORING UTC IS NOT A SILVER BULLET](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
   
 ## Making Conferences
 
