@@ -131,6 +131,7 @@ Nice projects to try. Let's do it!
 - [Arduino](https://beardedmaker.com/wiki/index.php?title=Arduino_Wave_Shield_01)
 - [Tutoriais com sensores e Arduino](http://eletronworld.com.br/arduino/37-sensores-37-tutoriais-arduino-parte-1/)
 - [The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html): how we found, analyzed (with the help of Reddit) and in the end caught the culprit of a malicious device in our network
+- [Reverse Engineering of a Not-so-Secure IoT Device](https://mcuoneclipse.com/2019/05/26/reverse-engineering-of-a-not-so-secure-iot-device/)
 
 
 https://www.instructables.com/id/Arduino-Python-Communication-via-USB/

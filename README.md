@@ -34,6 +34,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Petitboot](https://github.com/open-power/petitboot): is an operating system bootloader based on Linux kexec. It can load any operating system image that supports the Linux kexec re-boot mechanism like Linux and FreeBSD.
 - [Killing processes that don't want to die](https://lwn.net/Articles/754980/)
 - [musl libc](https://www.musl-libc.org/): is lightweight, fast, simple, free, and strives to be correct in the sense of standards-conformance and safety.
+- [Introduction to Paging](https://os.phil-opp.com/paging-introduction/): Writing an OS in Rust
 
 ### Performance
 
@@ -47,6 +48,9 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Hooking Linux Kernel Functions, Part 2: How to Hook Functions with Ftrace](https://www.apriorit.com/dev-blog/546-hooking-linux-functions-2)
 - [Hooking Linux Kernel Functions, Part 3: What Are the Main Pros and Cons of Ftrace?](https://www.apriorit.com/dev-blog/547-hooking-linux-functions-3)
 - [Heatmaps Make Ops Better](https://www.honeycomb.io/blog/heatmaps-make-ops-better/)
+- [execution-trace-viewer](https://github.com/teemu-l/execution-trace-viewer): Tool for viewing and analyzing execution traces
+- [Program Profiling](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/ilec/progprof.htm)
+- [ebpf_exporter](https://github.com/cloudflare/ebpf_exporter): Prometheus exporter for custom eBPF metrics
 
 #### Monitoring
 
@@ -156,6 +160,7 @@ ansible_python_interpreter=/usr/bin/python3
 ### Auditing
 
 - [A UNIX security auditing tool based on several security frameworks](https://github.com/lateralblast/lunar)
+- [The 101 of ELF files on Linux](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/): Understanding and Analysis
 
 ### Hardening
 
@@ -393,6 +398,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Bash scripting cheatsheet](https://devhints.io/bash.html).
 - [Problem solving with Unix commands](http://vegardstikbakke.com/unix/): I am starting to realize that the Unix command-line toolbox can fix absolutely any problem related to text wrangling. Let me tell you about a problem I had, and how I used some Unix command-line utilities to solve it.
 - [Testing Bash with BATS](https://opensource.com/article/19/2/testing-bash-bats): The Bash Automated Testing System puts Bash code through the same types of testing processes used by Java, Ruby, and Python developers.
+- [How to remove duplicate lines from files keeping the original order](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html)
 
 ### Regex
 
@@ -460,6 +466,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
 - [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
 - [applepie](https://github.com/gamozolabs/applepie): A hypervisor for fuzzing built with WHVP and Bochs.
+- [V3VEE](http://v3vee.org/) - An Open Source Virtual Machine Monitor Framework For Modern Architectures
 
 ### VMware
 
@@ -615,6 +622,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
 - [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
 - [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
+- [Bloom](https://www.kerkour.fr/blog/bloom-a-free-and-open-source-google/): a free and open source Google
 
 ### JSON
 
@@ -657,6 +665,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
+- [DeleteFB](https://github.com/weskerfoot/DeleteFB): A Selenium script to delete your Facebook content.
 
 #### Domains
 
@@ -710,6 +719,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
 - [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
 - [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
+- [Flexible data tables with CSS Grid](https://adamlynch.com/flexible-data-tables-with-css-grid/?1)
 
 ### Web Services
 
@@ -808,17 +818,19 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Craft Crown SDK](https://github.com/Logitech/logi_craft_sdk): Provide (API) SDK specifications to map your app functions to Logitech Craft dial controller called "Crown".
 - [Check out these projects featuring your favorite Cartoon Network characters and start making!](http://www.createwithcn.com/). [Cartoon Network + Ada Fruit](https://makecode.adafruit.com/projects/cartoon-network)
 - [fx_cast](https://hensm.github.io/fx_cast/): chromecast for firefox. Enables Chromecast support for casting web apps (like Netflix or BBC iPlayer), HTML5 video and screen/tab sharing. [github](https://github.com/hensm/fx_cast)
+- [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers)
 
 ## Stuff
 
-- [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
-- [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
+- [The Free Stack](http://p.agnihotry.com/post/the_free_stack_aws/): Running your application for free on AWS
+- [The unreasonable effectiveness of Soccermatics?](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 - [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
 - [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
 - [German for Programmers](https://wickedchicken.github.io/post/german-for-programmers/)
 - [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
 - [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
+- [The DevOps Phenomenon](https://queue.acm.org/detail.cfm?id=3338532)
 
 ## News
 
