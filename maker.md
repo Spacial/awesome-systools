@@ -1,5 +1,9 @@
 # Maker
 
+## JTAG
+
+- [rust-raspi3-OS-tutorials](https://github.com/rust-embedded/rust-raspi3-OS-tutorials): 📚 Rust bare-metal and OS tutorials on the Raspberry Pi 3
+
 ## Boot
 
 - [Micronucleus](https://github.com/micronucleus/micronucleus): ATTiny usb bootloader with a strong emphasis on bootloader compactness.
@@ -71,6 +75,8 @@ Nice projects to try. Let's do it!
 - [Franzininho](https://github.com/Franzininho/franzininho-diy-board/): Placa Franzininho DIY - Repositório da placa Franzininho DIY
 - [raspberry-pi-dramble](https://github.com/geerlingguy/raspberry-pi-dramble/): RGB LEDs controlled via GPIO
 - [My Own DIY Smart Mirror](https://medium.com/@amyleeanne/from-0-to-a-smart-mirror-in-6-months-ee3b91f723b1). [github](https://github.com/albennett/magic-mirror-pi)
+- [DiY Lowcost Bluetooth Jammer](http://discourse.opentechschool.org/t/diy-lowcost-bluetooth-jammer/2241)
+- [PostgreSQL performance on Raspberry Pi](https://blog.rustprooflabs.com/2019/04/postgrseql-pgbench-raspberry-pi): Modern PostgreSQL (>=9.6), out-of-the-box, achieves around 200 TPS (TPC-B (sort of)) on a Raspberry Pi 3B. That's 17+ million transactions per day!
 
 ## Prototyping
 
@@ -105,6 +111,7 @@ Nice projects to try. Let's do it!
 
 - [HF Ham Radio on a Budget](https://www.ke6mt.us/2018/05/hf-ham-radio-on-a-budget-qrp-labs-and-qrpguys/): QRP Labs, QRPGuys, CW Academy
 - [IMSI-catcher](https://github.com/Oros42/IMSI-catcher): This program show you IMSI numbers of cellphones around you.
+- [NPR New Packet Radio](https://hackaday.io/project/164092-npr-new-packet-radio)
 
 ## Sensors
 

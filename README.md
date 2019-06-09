@@ -15,6 +15,11 @@
 
 ## Linux
 
+### Distros
+
+- [The Void (Linux) distribution](https://voidlinux.org/): Void is a general purpose operating system, based on the monolithic Linux® kernel. Its package system allows you to quickly install, update and remove software; software is provided in binary packages or can be built directly from sources with the help of the XBPS source packages collection.
+- [devuan](https://www.devuan.org/): Devuan GNU+Linux is a fork of Debian without systemd.
+
 ### Kernel
 
 - [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
@@ -51,6 +56,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [execution-trace-viewer](https://github.com/teemu-l/execution-trace-viewer): Tool for viewing and analyzing execution traces
 - [Program Profiling](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/ilec/progprof.htm)
 - [ebpf_exporter](https://github.com/cloudflare/ebpf_exporter): Prometheus exporter for custom eBPF metrics
+- [ARM and Intel have different performance characteristics: a case study in random number generation](https://lemire.me/blog/2019/03/20/arm-and-intel-have-different-performance-characteristics-a-case-study-in-random-number-generation/)
 
 #### Monitoring
 
@@ -70,6 +76,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Install VLC on Fedora](https://www.kaizenuslife.com/2018/10/31/install-vlc-media-player-in-fedora-28-29/):
 - [How to install and activate Cockpit web console on RHEL 8](https://www.cyberciti.biz/faq/install-activate-cockpit-the-web-console-on-rhel-8/)
 - [How to reset a root password on Fedora](https://fedoramagazine.org/reset-root-password-fedora/)
+- [Backup on Fedora Silverblue with Borg](https://fedoramagazine.org/backup-on-fedora-silverblue-with-borg/)
+- [Fedora 27 - Laptop won't suspend when closing lid](https://unix.stackexchange.com/questions/414297/fedora-27-laptop-wont-suspend-when-closing-lid)
 
 ```bash
  # installing the repo
@@ -156,6 +164,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Security
 
 - [andOTP](https://github.com/andOTP/andOTP): Open source two-factor authentication for Android
+- [Librefox](https://github.com/intika/Librefox): Firefox with privacy enhancements
 
 ### Auditing
 
@@ -196,6 +205,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
 - [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
+- [NFHTTP](https://github.com/spotify/NFHTTP): A cross platform C++ HTTP library that interfaces natively to other platforms.
 
 #### Tokens
 
@@ -268,6 +278,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [GoAccess - Visual Web Log Analyzer](https://goaccess.io/)
 - [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator
 - [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
+- [Logging best practices to get the most out of application level logging](https://geshan.com.np/blog/2019/03/follow-these-logging-best-practices-to-get-the-most-out-of-application-level-logging-slides/)
 
 ### Benchmarks
 
@@ -399,6 +410,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Problem solving with Unix commands](http://vegardstikbakke.com/unix/): I am starting to realize that the Unix command-line toolbox can fix absolutely any problem related to text wrangling. Let me tell you about a problem I had, and how I used some Unix command-line utilities to solve it.
 - [Testing Bash with BATS](https://opensource.com/article/19/2/testing-bash-bats): The Bash Automated Testing System puts Bash code through the same types of testing processes used by Java, Ruby, and Python developers.
 - [How to remove duplicate lines from files keeping the original order](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html)
+- [4 cool terminal multiplexers](https://fedoramagazine.org/4-cool-terminal-multiplexers/)
+- [Set your terminal to automatically use tmux](https://fedoramagazine.org/4-tips-better-tmux-sessions/)
+- [Pretty PuTTY](https://github.com/jacktrocinski/pretty-putty): Make PuTTY pretty and apply modern PuTTY settings.
 
 ### Regex
 
@@ -444,6 +458,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [SCCS](http://sccs.sourceforge.net): is an implementation of the POSIX standard Source Code Control System. It provides actively maintained code based on the original UNIX SCCS code OpenSourced by Sun as part of OpenSolaris and was made portable to other platforms.
 - (pt-br) [hoc](https://github.com/ramalho/hoc): A mini-linguagem do livro 'The Unix Programming Environment", com explicações em PT-BR
 - [s-tui](https://amanusk.github.io/s-tui/): s-tui is a terminal UI for monitoring your computer. [github](https://github.com/amanusk/s-tui), [news](https://www.cyberciti.biz/python-tutorials/monitor-linux-cpu-temperature-frequency-power-in-a-graphical-way/)
+- [unix-history-repo](https://github.com/dspinellis/unix-history-repo): Continuous Unix commit history from 1970 until today.
 
 ## Virtualization
 
@@ -585,6 +600,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How I Built A $5,000 Per Month Side Project](https://campfirelabs.co/blog-1/2019/1/10/how-i-built-a-5000-per-month-side-project)
 - [The Future of Work Framework](https://blogs.nasa.gov/futureofwork/2018/11/15/the-future-of-work-framework/)
 - [Why work at Stripe when you could run your own business?](https://www.kalzumeus.com/2019/3/18/two-years-at-stripe/)
+- [Defining a Distinguished Engineer](https://blog.jessfraz.com/post/defining-a-distinguished-engineer/)
   
 ## Presentations
 
@@ -623,6 +639,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
 - [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
 - [Bloom](https://www.kerkour.fr/blog/bloom-a-free-and-open-source-google/): a free and open source Google
+- [baxx.dev](https://txt.black/~jack/baxx-dev.txt): It is a backup service with unix philosophy in mind, and curl as main interface and (soon) machine learning alerting.
+- [3 cool text-based email clients](https://fedoramagazine.org/3-cool-text-based-email-clients/): The Fedora OS provides a large choice of email clients and among these are text-based email applications.
+- [Setting kernel command line arguments with Fedora 30](https://fedoramagazine.org/setting-kernel-command-line-arguments-with-fedora-30/).
 
 ### JSON
 
@@ -666,6 +685,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
 - [DeleteFB](https://github.com/weskerfoot/DeleteFB): A Selenium script to delete your Facebook content.
+- [TicketLens](https://www.ticketlens.com/en): Find the best tickets, tours, and activities and compare prices from different websites.
+- [WeasyPrint](https://github.com/Kozea/WeasyPrint): WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
 
 #### Domains
 
@@ -720,6 +741,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
 - [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
 - [Flexible data tables with CSS Grid](https://adamlynch.com/flexible-data-tables-with-css-grid/?1)
+- [Sites inclusivos a pessoas com autismo](https://gaia.wiki.br/): O GAIA é um conjunto aberto e colaborativo de 28 recomendações de acessibilidade web focado nos aspectos do autismo, abordando desde a escrita de conteúdo até recursos programáveis.
 
 ### Web Services
 
@@ -727,6 +749,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Postmake](https://postmake.io/): A directory of the best tools and resources for your projects
 - [nuclear](https://github.com/nukeop/nuclear): Popcorn Time for music. [github](https://github.com/nukeop/nuclear)
 - [TERRAPATTERN](http://www.terrapattern.com/): This is the alpha version of Terrapattern, a visual search tool for satellite imagery. The project provides journalists, citizen scientists, and other researchers with the ability to quickly scan large geographical regions for specific visual features.
+- [Pixelfed](https://pixelfed.social/) is an image sharing platform, an ethical alternative to centralized platforms.
 
 #### Graphics
 
@@ -740,6 +763,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework.
 - [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
 - (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento.
+
+## Journalism
+
+- (pt-br) [Jornalismo Guiado por Dados 1](https://rodrigomenegat.github.io/jgd-1/).
 
 ---
 
@@ -799,6 +826,7 @@ $INDEX
 - [FindChips](https://www.findchips.com/): Get instant insight into any electronic component
 Access price, inventory, unique market intelligence and advanced analytics for all your parts.
 - Fedora's [InternetOfThings](https://fedoraproject.org/wiki/InternetOfThings)
+- [Connected camera cock up](https://www.pentestpartners.com/security-blog/connected-camera-cock-up/)
 
 ### RFID
 
@@ -831,6 +859,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
 - [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 - [The DevOps Phenomenon](https://queue.acm.org/detail.cfm?id=3338532)
+- (pt-br) [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 
 ## News
 
@@ -839,7 +868,10 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9)
 - [600 days of postmarketOS](https://postmarketos.org/blog/2019/01/16/600-days-of-postmarketOS/)
 - [Physicists reverse time using quantum computer](https://phys.org/news/2019-03-physicists-reverse-quantum.html)
-
+- [AN EXCLUSIVE LOOK AT AN ORIGINAL IPHONE PROTOTYPE](https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
+- [Open Source Doesn’t Make Money Because It Isn’t Designed To Make Money](http://www.ianbicking.org/blog/2019/03/open-source-doesnt-make-money-by-design.html)
+- [STORING UTC IS NOT A SILVER BULLET](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
+  
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
