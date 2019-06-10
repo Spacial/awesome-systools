@@ -19,6 +19,7 @@
 
 - [The Void (Linux) distribution](https://voidlinux.org/): Void is a general purpose operating system, based on the monolithic Linux® kernel. Its package system allows you to quickly install, update and remove software; software is provided in binary packages or can be built directly from sources with the help of the XBPS source packages collection.
 - [devuan](https://www.devuan.org/): Devuan GNU+Linux is a fork of Debian without systemd.
+- [Linux distros without systemd](https://ungleich.ch/en-us/cms/blog/2019/05/20/linux-distros-without-systemd/).
 
 ### Kernel
 
@@ -39,6 +40,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Petitboot](https://github.com/open-power/petitboot): is an operating system bootloader based on Linux kexec. It can load any operating system image that supports the Linux kexec re-boot mechanism like Linux and FreeBSD.
 - [Killing processes that don't want to die](https://lwn.net/Articles/754980/)
 - [musl libc](https://www.musl-libc.org/): is lightweight, fast, simple, free, and strives to be correct in the sense of standards-conformance and safety.
+- [Modern USB gadget on Linux & how to integrate it with systemd (Part 2)](https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-(part-2)/)
 
 ### Performance
 
@@ -53,11 +55,14 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Hooking Linux Kernel Functions, Part 3: What Are the Main Pros and Cons of Ftrace?](https://www.apriorit.com/dev-blog/547-hooking-linux-functions-3)
 - [Heatmaps Make Ops Better](https://www.honeycomb.io/blog/heatmaps-make-ops-better/)
 - [ARM and Intel have different performance characteristics: a case study in random number generation](https://lemire.me/blog/2019/03/20/arm-and-intel-have-different-performance-characteristics-a-case-study-in-random-number-generation/)
+- [Estimating branch probability using Intel LBR feature](https://easyperf.net/blog/2019/05/06/Estimating-branch-probability): The underlying CPU feature that allows this to happen is called LBR(Last Branch Record). LBR feature is used to track control flow of the program. This feature uses MSRs (Model Specific Registers) to store history of last taken branches.
+- Linux Applications Performance: [Introduction](https://unixism.net/2019/04/linux-applications-performance-introduction/).
 
 #### Monitoring
 
 - [netdata](https://my-netdata.io/): Real-time performance monitoring, done right! [github](https://github.com/netdata/netdata).
 - [Watchman](https://github.com/facebook/watchman): Watches files and records, or triggers actions, when they change.
+- [cartography](https://github.com/lyft/cartography): Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 
 ### Red Hat/Fedora
 
@@ -147,6 +152,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [dnf module](https://docs.ansible.com/ansible/2.3/dnf_module.html)
 - [Python 3 Support](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html): On your hosts ansible file, include a var subsection on your hosts group:
 - [CHANGING THE SSH PORT WITH ANSIBLE](https://dmsimard.com/2016/03/15/changing-the-ssh-port-with-ansible/)
+- [Understanding Ansible Inventories](https://medium.com/devopslinks/understanding-ansible-inventories-db7b993b3c17): The key to understanding all of Ansible.
 
 ```config
 [group:vars]
@@ -419,6 +425,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools): Official repository for filing issues against and getting support for the Microsoft C/C++ extension for VS Code
 - [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
+- [Open source collaborative text editors](https://juretriglav.si/open-source-collaborative-text-editors/)
 
 #### Vim/vi
 
@@ -429,6 +436,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [vimari](https://github.com/guyht/vimari): Safari port of vimium
 - [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager
 - [gruvbox](https://github.com/morhetz/gruvbox): Retro groove color scheme for Vim
+- [vim-hue](https://foolcontrol.org/?p=3051): Thus “vim-hue” was born, featuring “vim-hue” dark Vim colorscheme and complete Vim configuration. Ideal for anyone using Vim and any of the following on daily basis: Shell (Bash), Golang, Python, Terraform, Ansible, Docker (Dockerfile), et cetera ... [github](https://github.com/AdnanHodzic/vim-hue)
 
 ## Other Resources
 
@@ -436,6 +444,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
+- [Power of SSH Tunneling](https://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67)
 
 ## Filesystems
 
@@ -576,6 +585,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
 - [Zulip server](https://github.com/zulip/zulip/) - powerful open source team chat
 - [awesome-leading-and-managing](https://github.com/LappleApple/awesome-leading-and-managing): Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
+- [Agile Lite](https://github.com/davebs/AgileLite): Agile without all the burnout
 
 ## Career
 
@@ -594,7 +604,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [The Future of Work Framework](https://blogs.nasa.gov/futureofwork/2018/11/15/the-future-of-work-framework/)
 - [Why work at Stripe when you could run your own business?](https://www.kalzumeus.com/2019/3/18/two-years-at-stripe/)
 - [Defining a Distinguished Engineer](https://blog.jessfraz.com/post/defining-a-distinguished-engineer/)
-  
+- [working for a startup makes increasingly less sense](https://jatins.gitlab.io/me/why-startup/)
+- [on internal engineering practices at amazon](https://jatins.gitlab.io/me/amazon-internal-tools/)
+- [Your Network Determines Success More than You Realize](https://medium.com/swlh/your-network-determines-success-more-than-you-realize-41a3e889ecea)
+- [How NOT to hire a software engineer](http://tonsky.me/blog/hiring/)  
+- [Productivity Isn’t About Time Management. It’s About Attention Management.](https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html)
+
 ## Presentations
 
 - [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
@@ -678,6 +693,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
 - [TicketLens](https://www.ticketlens.com/en): Find the best tickets, tours, and activities and compare prices from different websites.
 - [WeasyPrint](https://github.com/Kozea/WeasyPrint): WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
+- [grid-kiss playground](https://sylvainpolletvillard.github.io/grid-kiss-playground/index.html#multiple-span-zones)
 
 #### Domains
 
@@ -732,6 +748,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
 - [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
 - [Sites inclusivos a pessoas com autismo](https://gaia.wiki.br/): O GAIA é um conjunto aberto e colaborativo de 28 recomendações de acessibilidade web focado nos aspectos do autismo, abordando desde a escrita de conteúdo até recursos programáveis.
+- [Banish the � with Unifont](https://shkspr.mobi/blog/2019/04/banish-the-%EF%BF%BD-with-unifont/).
+- [Handsontable](https://github.com/handsontable/handsontable): JavaScript/HTML5 Data Grid Component with Spreadsheet Look & Feel. Available for React, Vue and Angular.
+- [Web development, illustrated.](https://illustrated.dev/)
+- [339 bytes of responsive CSS](https://blog.koley.in/2019/339-bytes-of-responsive-css)
 
 ### Web Services
 
@@ -757,6 +777,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Journalism
 
 - (pt-br) [Jornalismo Guiado por Dados 1](https://rodrigomenegat.github.io/jgd-1/).
+- [SourcedFact](https://sourcedfact.com/): Journalism with Open Sourced Fact Checking
 
 ---
 
@@ -836,6 +857,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Craft Crown SDK](https://github.com/Logitech/logi_craft_sdk): Provide (API) SDK specifications to map your app functions to Logitech Craft dial controller called "Crown".
 - [Check out these projects featuring your favorite Cartoon Network characters and start making!](http://www.createwithcn.com/). [Cartoon Network + Ada Fruit](https://makecode.adafruit.com/projects/cartoon-network)
 - [fx_cast](https://hensm.github.io/fx_cast/): chromecast for firefox. Enables Chromecast support for casting web apps (like Netflix or BBC iPlayer), HTML5 video and screen/tab sharing. [github](https://github.com/hensm/fx_cast)
+- [srsLTE](https://github.com/srsLTE/srsLTE): Open source SDR LTE software suite from Software Radio Systems (SRS)
+- [List of software-defined radios](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
 
 ## Stuff
 
@@ -858,6 +881,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [AN EXCLUSIVE LOOK AT AN ORIGINAL IPHONE PROTOTYPE](https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
 - [Open Source Doesn’t Make Money Because It Isn’t Designed To Make Money](http://www.ianbicking.org/blog/2019/03/open-source-doesnt-make-money-by-design.html)
 - [STORING UTC IS NOT A SILVER BULLET](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
+- [Patent exhaustion and open source](https://lwn.net/Articles/780078/)
+- [Adventures of putting 16 GB of RAM in a motherboard that doesn’t support it](https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/)
   
 ## Making Conferences
 
