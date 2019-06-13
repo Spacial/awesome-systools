@@ -41,6 +41,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Killing processes that don't want to die](https://lwn.net/Articles/754980/)
 - [musl libc](https://www.musl-libc.org/): is lightweight, fast, simple, free, and strives to be correct in the sense of standards-conformance and safety.
 - [Modern USB gadget on Linux & how to integrate it with systemd (Part 2)](https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-(part-2)/)
+- [Introduction to Paging](https://os.phil-opp.com/paging-introduction/): Writing an OS in Rust
 
 ### Performance
 
@@ -54,6 +55,9 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Hooking Linux Kernel Functions, Part 2: How to Hook Functions with Ftrace](https://www.apriorit.com/dev-blog/546-hooking-linux-functions-2)
 - [Hooking Linux Kernel Functions, Part 3: What Are the Main Pros and Cons of Ftrace?](https://www.apriorit.com/dev-blog/547-hooking-linux-functions-3)
 - [Heatmaps Make Ops Better](https://www.honeycomb.io/blog/heatmaps-make-ops-better/)
+- [execution-trace-viewer](https://github.com/teemu-l/execution-trace-viewer): Tool for viewing and analyzing execution traces
+- [Program Profiling](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/ilec/progprof.htm)
+- [ebpf_exporter](https://github.com/cloudflare/ebpf_exporter): Prometheus exporter for custom eBPF metrics
 - [ARM and Intel have different performance characteristics: a case study in random number generation](https://lemire.me/blog/2019/03/20/arm-and-intel-have-different-performance-characteristics-a-case-study-in-random-number-generation/)
 - [Estimating branch probability using Intel LBR feature](https://easyperf.net/blog/2019/05/06/Estimating-branch-probability): The underlying CPU feature that allows this to happen is called LBR(Last Branch Record). LBR feature is used to track control flow of the program. This feature uses MSRs (Model Specific Registers) to store history of last taken branches.
 - Linux Applications Performance: [Introduction](https://unixism.net/2019/04/linux-applications-performance-introduction/).
@@ -91,6 +95,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
 - [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
 - [Linux brew](https://linuxbrew.sh/): Linuxbrew is a fork of Homebrew, the macOS package manager, for Linux. [github](https://github.com/Linuxbrew/brew)
+- [Nixpkgs](https://github.com/NixOS/nixpkgs): is a collection of packages for the Nix package manager. It is periodically built and tested by the Hydra build daemon as so-called channels.
 
 #### DEB
 
@@ -171,6 +176,7 @@ ansible_python_interpreter=/usr/bin/python3
 ### Auditing
 
 - [A UNIX security auditing tool based on several security frameworks](https://github.com/lateralblast/lunar)
+- [The 101 of ELF files on Linux](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/): Understanding and Analysis
 
 ### Hardening
 
@@ -337,6 +343,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [lexicon](https://github.com/AnalogJ/lexicon): Manipulate DNS records on various DNS providers in a standardized way.
 - [DNS flag day](https://dnsflagday.net/): The current DNS is unnecessarily slow and suffers from inability to deploy new features. To remediate these problems, vendors of DNS software and also big public DNS providers are going to remove certain workarounds on February 1st, 2019.
 - [DNS Servers You Should Have Memorized](https://danielmiessler.com/blog/dns-servers-you-should-have-memorized/): The latest DNS server IPs are easier to remember and offer privacy and filtering functionality
+- [BeGoneAds](https://github.com/anned20/begoneads) is a script that puts some popular hosts file lists into the systems hosts file as a adblocker measure.
 
 ### LoadBalancers
 
@@ -355,6 +362,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Firefox Profilemaker](https://ffprofile.com/)
 - [Otter Browser](https://otter-browser.org/): Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.
 - [thor](https://github.com/cisco/thor): Cisco's Thor Video Codec
+- [OctoLinker](https://github.com/OctoLinker/OctoLinker): Links together, what belongs together
 
 ## Shell
 
@@ -410,6 +418,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Bash scripting cheatsheet](https://devhints.io/bash.html).
 - [Problem solving with Unix commands](http://vegardstikbakke.com/unix/): I am starting to realize that the Unix command-line toolbox can fix absolutely any problem related to text wrangling. Let me tell you about a problem I had, and how I used some Unix command-line utilities to solve it.
 - [Testing Bash with BATS](https://opensource.com/article/19/2/testing-bash-bats): The Bash Automated Testing System puts Bash code through the same types of testing processes used by Java, Ruby, and Python developers.
+- [How to remove duplicate lines from files keeping the original order](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html)
 - [4 cool terminal multiplexers](https://fedoramagazine.org/4-cool-terminal-multiplexers/)
 - [Set your terminal to automatically use tmux](https://fedoramagazine.org/4-tips-better-tmux-sessions/)
 - [Pretty PuTTY](https://github.com/jacktrocinski/pretty-putty): Make PuTTY pretty and apply modern PuTTY settings.
@@ -442,6 +451,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 - [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
+- [Maintaining your AWS infrastructure](https://medium.com/faun/maintaining-your-aws-infrastructure-a4ae6ced8a74)
 - [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 - [Power of SSH Tunneling](https://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67)
@@ -484,6 +494,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
 - [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
 - [applepie](https://github.com/gamozolabs/applepie): A hypervisor for fuzzing built with WHVP and Bochs.
+- [V3VEE](http://v3vee.org/) - An Open Source Virtual Machine Monitor Framework For Modern Architectures
+- [IceBox](https://github.com/thalium/icebox): Icebox is a Virtual Machine Introspection solution that enable you to stealthily trace and debug any process (kernel or user). It's based on project Winbagility.
 
 ### VMware
 
@@ -646,6 +658,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
 - [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
 - [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
+- [Bloom](https://www.kerkour.fr/blog/bloom-a-free-and-open-source-google/): a free and open source Google
 - [baxx.dev](https://txt.black/~jack/baxx-dev.txt): It is a backup service with unix philosophy in mind, and curl as main interface and (soon) machine learning alerting.
 - [3 cool text-based email clients](https://fedoramagazine.org/3-cool-text-based-email-clients/): The Fedora OS provides a large choice of email clients and among these are text-based email applications.
 - [Setting kernel command line arguments with Fedora 30](https://fedoramagazine.org/setting-kernel-command-line-arguments-with-fedora-30/).
@@ -691,6 +704,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
+- [DeleteFB](https://github.com/weskerfoot/DeleteFB): A Selenium script to delete your Facebook content.
 - [TicketLens](https://www.ticketlens.com/en): Find the best tickets, tours, and activities and compare prices from different websites.
 - [WeasyPrint](https://github.com/Kozea/WeasyPrint): WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
 - [grid-kiss playground](https://sylvainpolletvillard.github.io/grid-kiss-playground/index.html#multiple-span-zones)
@@ -747,11 +761,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
 - [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
 - [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
+- [Flexible data tables with CSS Grid](https://adamlynch.com/flexible-data-tables-with-css-grid/?1)
 - [Sites inclusivos a pessoas com autismo](https://gaia.wiki.br/): O GAIA é um conjunto aberto e colaborativo de 28 recomendações de acessibilidade web focado nos aspectos do autismo, abordando desde a escrita de conteúdo até recursos programáveis.
 - [Banish the � with Unifont](https://shkspr.mobi/blog/2019/04/banish-the-%EF%BF%BD-with-unifont/).
 - [Handsontable](https://github.com/handsontable/handsontable): JavaScript/HTML5 Data Grid Component with Spreadsheet Look & Feel. Available for React, Vue and Angular.
 - [Web development, illustrated.](https://illustrated.dev/)
 - [339 bytes of responsive CSS](https://blog.koley.in/2019/339-bytes-of-responsive-css)
+- [Making Tables Responsive With Minimal CSS](https://bradleytaunt.com/2019/06/11/responsive-tables/)
 
 ### Web Services
 
@@ -859,16 +875,19 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [fx_cast](https://hensm.github.io/fx_cast/): chromecast for firefox. Enables Chromecast support for casting web apps (like Netflix or BBC iPlayer), HTML5 video and screen/tab sharing. [github](https://github.com/hensm/fx_cast)
 - [srsLTE](https://github.com/srsLTE/srsLTE): Open source SDR LTE software suite from Software Radio Systems (SRS)
 - [List of software-defined radios](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
+- [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers)
 
 ## Stuff
 
-- [The Free Stack - Running your application for free on AWS](http://p.agnihotry.com/post/the_free_stack_aws/)
-- [The unreasonable effectiveness of Soccermatics? - Interalia Magazine](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
+- [The Free Stack](http://p.agnihotry.com/post/the_free_stack_aws/): Running your application for free on AWS
+- [The unreasonable effectiveness of Soccermatics?](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 - [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
 - [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
 - [German for Programmers](https://wickedchicken.github.io/post/german-for-programmers/)
 - [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
+- [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
+- [The DevOps Phenomenon](https://queue.acm.org/detail.cfm?id=3338532)
 - (pt-br) [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 
 ## News
@@ -883,7 +902,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [STORING UTC IS NOT A SILVER BULLET](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
 - [Patent exhaustion and open source](https://lwn.net/Articles/780078/)
 - [Adventures of putting 16 GB of RAM in a motherboard that doesn’t support it](https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/)
-  
+- [Upgrade Arbitrage](https://tedium.co/2019/06/04/used-workstation-computer-buying-strategy/): The charm of buying old workstation hardware on the cheap to support your modern computing needs. If it doesn’t work for them, it might just work for you.
+
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
