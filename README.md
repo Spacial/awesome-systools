@@ -253,6 +253,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Canary analysis](https://cloud.google.com/blog/products/devops-sre/canary-analysis-lessons-learned-and-best-practices-from-google-and-waze): Lessons learned and best practices from Google and Waze
 - [Spinnaker](https://github.com/spinnaker/spinnaker): is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [Actions](https://github.com/maddox/actions): A collection of useful GitHub Actions.
+- [When the going gets tough](https://lambdasec.github.io/When-the-going-gets-tough-Understanding-the-challenges-with-Product-commoditization-in-SCA/): Understanding the challenges with Product commoditization in SCA
 
 ### Jenkins
 
@@ -422,6 +423,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [4 cool terminal multiplexers](https://fedoramagazine.org/4-cool-terminal-multiplexers/)
 - [Set your terminal to automatically use tmux](https://fedoramagazine.org/4-tips-better-tmux-sessions/)
 - [Pretty PuTTY](https://github.com/jacktrocinski/pretty-putty): Make PuTTY pretty and apply modern PuTTY settings.
+- Getopts:
+  - [Parsing bash script options with getopts](https://sookocheff.com/post/bash/parsing-bash-script-arguments-with-shopts/)
+  - [Bash Getopts](https://linuxhint.com/bash_getopts_example/)
+  - [Com getopts, seus scripts ficam mais profissionais](https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/getopts_scripts_mais_profissionais?lang=en)
+  - [Fatiando opções com o getopts](https://www.dicas-l.com.br/arquivo/fatiando_opcoes_com_o_getopts.php)
+  - [Getopts - Opções em bash script](http://www.dicas-l.com.br/arquivo/getopts_opcoes_em_bash_script.php)
 
 ### Regex
 
@@ -463,6 +470,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [exFAT](https://github.com/relan/exfat): Free exFAT file system implementation
 - [Share NFS Home Directories Securely with Kerberos](https://fedoramagazine.org/secure-nfs-home-directories-kerberos/)
 - [folderstats](https://github.com/njanakiev/folderstats): Python module that creates statistics from a folder structure
+- [Rethinking files](https://www.devever.net/~hl/objectworld)
 
 ## Unix
 
@@ -523,6 +531,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Docker Immutable Workstation](https://github.com/mikadosoftware/workstation): Docker based portable Workstation
 - [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
 - [cilium](https://github.com/cilium/cilium/): API Aware Networking and Security using BPF and XDP
+- [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
 
 #### Lambda
 
@@ -625,7 +634,8 @@ ansible_python_interpreter=/usr/bin/python3
 ## Presentations
 
 - [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
-
+- (pt-br) [Guia para eventos acessíveis](https://medium.com/uxconfbr/guia-para-eventos-acessiveis-como-fazer-apresentacoes-parte-i-137317610631): como fazer apresentações (parte I)
+- (pt-br) [Guia para eventos acessíveis](https://medium.com/uxconfbr/guia-para-eventos-acess%C3%ADveis-como-fazer-apresenta%C3%A7%C3%B5es-parte-ii-ab84932bd8a2): como fazer apresentações (parte II)
 ---
 
 ## Organization
@@ -652,7 +662,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [pdiary](https://github.com/manipuladordedados/pdiary)
 - [jabcode](https://github.com/jabcode/jabcode): color bar code.
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
-- [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html):
+- [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html)
+- [rga](https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/):ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. [github repo](https://github.com/phiresky/ripgrep-all)
 - [Leon](https://github.com/leon-ai/leon): is your open-source personal assistant.
 - [Code Shelter](https://www.codeshelter.co/): Code Shelter is a collective of volunteer software developers that aims to help with maintaining popular open source projects whose authors need a hand or don't have the time to maintain them any more.
 - [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
@@ -662,6 +673,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [baxx.dev](https://txt.black/~jack/baxx-dev.txt): It is a backup service with unix philosophy in mind, and curl as main interface and (soon) machine learning alerting.
 - [3 cool text-based email clients](https://fedoramagazine.org/3-cool-text-based-email-clients/): The Fedora OS provides a large choice of email clients and among these are text-based email applications.
 - [Setting kernel command line arguments with Fedora 30](https://fedoramagazine.org/setting-kernel-command-line-arguments-with-fedora-30/).
+- [Pattern-dreamer](https://github.com/Andrew-Kang-G/pattern-dreamer): Get urls with missing protocol & uris with missing domain & emails etc. in texts and parse them.
 
 ### JSON
 
@@ -722,6 +734,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 #### Webdev
 
+- [Always. Own. Your platform.](http://www.alwaysownyourplatform.com/)
 - [HTTP/3](https://blog.cloudflare.com/http-3-from-root-to-tip/): From root to tip
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
 - [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web.
@@ -768,6 +781,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Web development, illustrated.](https://illustrated.dev/)
 - [339 bytes of responsive CSS](https://blog.koley.in/2019/339-bytes-of-responsive-css)
 - [Making Tables Responsive With Minimal CSS](https://bradleytaunt.com/2019/06/11/responsive-tables/)
+- [JSON-SERVER With Authorization JWT](https://github.com/valmirphp/json-server): sample json-server authorization token.
 
 ### Web Services
 
@@ -776,6 +790,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [nuclear](https://github.com/nukeop/nuclear): Popcorn Time for music. [github](https://github.com/nukeop/nuclear)
 - [TERRAPATTERN](http://www.terrapattern.com/): This is the alpha version of Terrapattern, a visual search tool for satellite imagery. The project provides journalists, citizen scientists, and other researchers with the ability to quickly scan large geographical regions for specific visual features.
 - [Pixelfed](https://pixelfed.social/) is an image sharing platform, an ethical alternative to centralized platforms.
+- [The IA Client](http://blog.archive.org/2019/06/05/the-ia-client-the-swiss-army-knife-of-internet-archive/): The Swiss Army Knife of Internet Archive. [python library](https://archive.org/services/docs/api/internetarchive/)
 
 #### Graphics
 
