@@ -636,6 +636,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
 - (pt-br) [Guia para eventos acessíveis](https://medium.com/uxconfbr/guia-para-eventos-acessiveis-como-fazer-apresentacoes-parte-i-137317610631): como fazer apresentações (parte I)
 - (pt-br) [Guia para eventos acessíveis](https://medium.com/uxconfbr/guia-para-eventos-acess%C3%ADveis-como-fazer-apresenta%C3%A7%C3%B5es-parte-ii-ab84932bd8a2): como fazer apresentações (parte II)
+
 ---
 
 ## Organization
