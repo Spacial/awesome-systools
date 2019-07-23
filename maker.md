@@ -23,6 +23,10 @@
 - [Linux maker boards learn how to specialize](http://linuxgizmos.com/linux-maker-boards-learn-how-to-specialize/)
 - [MicroPython pyboard D-series](https://blog.adafruit.com/2019/03/11/micropython-pyboard-d-series-update-micropython-micropython/)
 
+### Firmware
+
+- [RFStorm nRF24LU1+ Research Firmware](https://github.com/BastilleResearch/nrf-research-firmware): Firmware and research tools for Nordic Semiconductor nRF24LU1+ based USB dongles and breakout boards.
+
 ### Arduino
 
 - [FX-SaberOS](https://github.com/Protonerd/FX-SaberOS): System code for Arduino based Lightsaber replicas for DIYino family boards
@@ -78,12 +82,18 @@ Nice projects to try. Let's do it!
 - [My Own DIY Smart Mirror](https://medium.com/@amyleeanne/from-0-to-a-smart-mirror-in-6-months-ee3b91f723b1). [github](https://github.com/albennett/magic-mirror-pi)
 - [DiY Lowcost Bluetooth Jammer](http://discourse.opentechschool.org/t/diy-lowcost-bluetooth-jammer/2241)
 - [PostgreSQL performance on Raspberry Pi](https://blog.rustprooflabs.com/2019/04/postgrseql-pgbench-raspberry-pi): Modern PostgreSQL (>=9.6), out-of-the-box, achieves around 200 TPS (TPC-B (sort of)) on a Raspberry Pi 3B. That's 17+ million transactions per day!
+- [How to design a proper USB-C™ power sink](https://medium.com/@leung.benson/how-to-design-a-proper-usb-c-power-sink-hint-not-the-way-raspberry-pi-4-did-it-f470d7a5910)
 
 ## Prototyping
 
 - [e-radionica.com FRITZING](https://github.com/e-radionicacom/e-radionica.com-Fritzing-Library-parts-): bunch of common use sensors/modules for makers as well as e-radionica.com products prepared for Fritzing
 - [fritzing-parts](https://github.com/fritzing/fritzing-parts): Electronic components for use in the Fritzing app (aka the parts library)
   
+## PCB
+
+- [Digikey](https://www.digikey.com/)
+- [Mouser](https://www.mouser.com)
+
 ## Comparison
 
 - [What are the best Raspberry Pi alternatives? Everything you need to know about Pi rivals](https://www.zdnet.com/article/what-are-the-best-raspberry-pi-alternatives-everything-you-need-to-know-about-pi-rivals/) (2018)

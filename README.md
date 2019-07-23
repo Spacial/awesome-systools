@@ -83,6 +83,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [How to reset a root password on Fedora](https://fedoramagazine.org/reset-root-password-fedora/)
 - [Backup on Fedora Silverblue with Borg](https://fedoramagazine.org/backup-on-fedora-silverblue-with-borg/)
 - [Fedora 27 - Laptop won't suspend when closing lid](https://unix.stackexchange.com/questions/414297/fedora-27-laptop-wont-suspend-when-closing-lid)
+- [Installing alternative versions of RPMs in Fedora](https://fedoramagazine.org/installing-alternative-rpm-versions-in-fedora/) with [Modularity](https://docs.pagure.org/modularity/)
 
 ```bash
  # installing the repo
@@ -102,6 +103,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Limiting the power of package installation in Debian](https://lwn.net/Articles/770784/)
 
 #### RPM
+
+- [RPM packages explained](https://fedoramagazine.org/rpm-packages-explained/)
 
 ##### Build
 
@@ -143,6 +146,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1)
 - [ieturk](https://github.com/varal7/ieturk): Intuitive Annotation Tool for Information / Named Entity Recognition using localturk / Amazon Mechanical Turk
 - [terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline): Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
+- [cue](https://github.com/cuelang/cue): Validate and define text-based and dynamic configuration
 
 ### Ansible
 
@@ -194,6 +198,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide): 🔥 This guide details the planning and the tools involved in creating a secure Linux production systems - work in progress.
 - [Set up two-factor authentication for SSH on Fedora](https://fedoramagazine.org/two-factor-authentication-ssh-fedora/)
 - [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
+- [Get SSH login notification on Telegram](https://8192.one/post/ssh_login_notification_withtelegram/)
 
 #### Webservers
 
@@ -296,6 +301,8 @@ ansible_python_interpreter=/usr/bin/python3
 ## Services
 
 - [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
+- [LDAP Synchronization Connector](https://github.com/lsc-project/lsc)
+- [LDAP Plugin Documentation](http://mutonufoai.github.io/pgina/documentation/plugins/ldap.html)
 
 ## Network
 
@@ -316,6 +323,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [bnet](https://github.com/bkaradzic/bnet): Message oriented networking library using TCP transport.
 - [openrsync](https://github.com/kristapsdz/openrsync): clean-room BSD-licensed implementation of rsync. [imported into the tree](https://undeadly.org/cgi?action=article;sid=20190211081518)
 - [Using the NetworkManager’s DNSMasq plugin](https://fedoramagazine.org/using-the-networkmanagers-dnsmasq-plugin/).
+- [pure JS WiFi QR Code Generator](https://qifi.org/). [github](https://github.com/evgeni/qifi)
+- [Operating a Large, Distributed System in a Reliable Way](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/): Practices I Learned
+- [Bond WiFi and Ethernet for easier networking mobility](https://fedoramagazine.org/bond-wifi-and-ethernet-for-easier-networking-mobility/)
 
 ### Network Troubleshooting
 
@@ -345,6 +355,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [DNS flag day](https://dnsflagday.net/): The current DNS is unnecessarily slow and suffers from inability to deploy new features. To remediate these problems, vendors of DNS software and also big public DNS providers are going to remove certain workarounds on February 1st, 2019.
 - [DNS Servers You Should Have Memorized](https://danielmiessler.com/blog/dns-servers-you-should-have-memorized/): The latest DNS server IPs are easier to remember and offer privacy and filtering functionality
 - [BeGoneAds](https://github.com/anned20/begoneads) is a script that puts some popular hosts file lists into the systems hosts file as a adblocker measure.
+- [PR-DNSd](https://github.com/korc/PR-DNSd): Passive-Recursive DNS daemon
 
 ### LoadBalancers
 
@@ -429,7 +440,8 @@ ansible_python_interpreter=/usr/bin/python3
   - [Com getopts, seus scripts ficam mais profissionais](https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/getopts_scripts_mais_profissionais?lang=en)
   - [Fatiando opções com o getopts](https://www.dicas-l.com.br/arquivo/fatiando_opcoes_com_o_getopts.php)
   - [Getopts - Opções em bash script](http://www.dicas-l.com.br/arquivo/getopts_opcoes_em_bash_script.php)
-
+- [arg_parse_example](https://github.com/mattbryson/bash-arg-parse/blob/master/arg_parse_example)
+  
 ### Regex
 
 - [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
@@ -462,6 +474,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 - [Power of SSH Tunneling](https://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67)
+- [Fighting complexity in software development](https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md)
+
+### Books
+
+- [BPF Performance Tools](http://www.brendangregg.com/blog/2019-07-15/bpf-performance-tools-book.html): Linux System and Application Observability (book)
 
 ## Filesystems
 
@@ -484,6 +501,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Virtualization
 
 - [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
+- [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM/): Tools to set up a quick macOS VM in QEMU, accelerated by KVM.
 - [Windows 2000 on your browser](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
 - [hvpp](https://github.com/wbenny/hvpp) is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system
 - [Windows 95](https://github.com/felixrieseberg/windows95) in Electron. Runs on macOS, Linux, and Windows.
@@ -532,6 +550,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
 - [cilium](https://github.com/cilium/cilium/): API Aware Networking and Security using BPF and XDP
 - [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
+- [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
 
 #### Lambda
 
@@ -563,6 +582,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [SourceKit-LSP](https://github.com/apple/sourcekit-lsp): Language Server Protocol implementation for Swift and C-based languages.
 - [apple libc uses perl](https://github.com/Apple-FOSS-Mirror/Libc/blob/2ca2ae74647714acfc18674c3114b1a5d3325d7d/gen/wordexp.c#L192)
 - [Sloth](https://github.com/sveinbjornt/Sloth): Mac app that shows all open files and sockets in use by all running processes. Nice GUI for lsof.
+- [insert_dylib](https://github.com/Tyilo/insert_dylib): Command line utility for inserting a dylib load command into a Mach-O binary
 
 ## Windows
 
@@ -580,7 +600,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [OrgKit](https://github.com/SwiftOnSecurity/OrgKit): Provision a brand-new company with proper defaults in Windows, Offic365, and Azure
 - [example-azure-node](https://github.com/sdras/example-azure-node): An example Node webapp deployed with GitHub actions.
 - [Reset a Windows 10 password](https://4sysops.com/archives/reset-a-windows-10-password/): The method to reset a Windows 10 password depends on the account type. A Microsoft account requires a different procedure than a local account requires.
-
+- [Get SID from Linux ldapsearch in Active Directory](https://bgstack15.wordpress.com/2018/02/26/get-sid-from-linux-ldapsearch-in-active-directory/)
+- [ObjectSID Trouble](https://ldapwiki.com/wiki/ObjectSID)
+- [Gmail on NT 3.51 with IE 1.5](https://virtuallyfun.com/wordpress/2019/07/12/gmail-on-nt-3-51-with-ie1-5-via-wrp-4-1/) via [WRP](https://github.com/tenox7/wrp)
+- [Modifying Windows local accounts with Fedora and chntpw](https://fedoramagazine.org/modifying-windows-local-accounts-with-fedora-and-chntpw/)
+  
 ---
 
 ## Datacenter
@@ -606,7 +630,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [8 Patterns for Decentralised Organising](https://standupdev.com/wiki/doku.php?id=patterns_for_decentralised_organising)
 - [Zulip server](https://github.com/zulip/zulip/) - powerful open source team chat
 - [awesome-leading-and-managing](https://github.com/LappleApple/awesome-leading-and-managing): Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
-- [Agile Lite](https://github.com/davebs/AgileLite): Agile without all the burnout
+- [Agile Lite](https://github.com/davebs/AgileLite): Agile without all the burnout.
+- [7 rules of hiring a remote team for your project](https://cvcompiler.com/blog/7-rules-of-hiring-a-remote-team-for-your-project/)
 
 ## Career
 
@@ -630,6 +655,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Your Network Determines Success More than You Realize](https://medium.com/swlh/your-network-determines-success-more-than-you-realize-41a3e889ecea)
 - [How NOT to hire a software engineer](http://tonsky.me/blog/hiring/)  
 - [Productivity Isn’t About Time Management. It’s About Attention Management.](https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html)
+- [Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)
+- [What is a 1x Engineer?](https://1x.engineer/) - [github](https://github.com/cutenode/1x.engineer)
 
 ## Presentations
 
@@ -665,6 +692,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
 - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html)
 - [rga](https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/):ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. [github repo](https://github.com/phiresky/ripgrep-all)
+- [GNU GREP and RIPGREP](https://github.com/learnbyexample/learn_gnugrep_ripgrep): Example based guide to mastering GNU grep and ripgrep.
 - [Leon](https://github.com/leon-ai/leon): is your open-source personal assistant.
 - [Code Shelter](https://www.codeshelter.co/): Code Shelter is a collective of volunteer software developers that aims to help with maintaining popular open source projects whose authors need a hand or don't have the time to maintain them any more.
 - [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
@@ -675,6 +703,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [3 cool text-based email clients](https://fedoramagazine.org/3-cool-text-based-email-clients/): The Fedora OS provides a large choice of email clients and among these are text-based email applications.
 - [Setting kernel command line arguments with Fedora 30](https://fedoramagazine.org/setting-kernel-command-line-arguments-with-fedora-30/).
 - [Pattern-dreamer](https://github.com/Andrew-Kang-G/pattern-dreamer): Get urls with missing protocol & uris with missing domain & emails etc. in texts and parse them.
+- [Customizing pandoc to generate beautiful pdfs from markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/).
+- [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi): This tool remains available so long as I can keep it free and the bandwidth doesn't cost me too much.
 
 ### JSON
 
@@ -721,6 +751,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [TicketLens](https://www.ticketlens.com/en): Find the best tickets, tours, and activities and compare prices from different websites.
 - [WeasyPrint](https://github.com/Kozea/WeasyPrint): WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
 - [grid-kiss playground](https://sylvainpolletvillard.github.io/grid-kiss-playground/index.html#multiple-span-zones)
+- [OpenTeams](https://openteam.info/): Quick organizational mapping with email and survey data
 
 #### Domains
 
@@ -783,6 +814,23 @@ ansible_python_interpreter=/usr/bin/python3
 - [339 bytes of responsive CSS](https://blog.koley.in/2019/339-bytes-of-responsive-css)
 - [Making Tables Responsive With Minimal CSS](https://bradleytaunt.com/2019/06/11/responsive-tables/)
 - [JSON-SERVER With Authorization JWT](https://github.com/valmirphp/json-server): sample json-server authorization token.
+- [css-components](https://github.com/felipefialho/css-components): A set of common UI Components using the power of CSS and without Javascript.
+- [User Inyerface](https://userinyerface.com/): Hi and welcome to User Inyerface, a challenging exploration of user interactions and design patterns.
+- [gradient-path](https://github.com/mnsht/gradient-path): A small library to have any gradient follow along any SVG path.
+- [hostyoself](https://github.com/schollz/hostyoself): Host yo' self from your computer, your browser, your phone, etc.
+
+##### REST API
+
+- [REST API Testing Tutorial](https://www.guru99.com/testing-rest-api-manually.html): Sample Manual Test Case
+- [The Web API Checklist](https://mathieu.fenniak.net/the-api-checklist/): 43 Things To Think About When Designing, Testing, and Releasing your API
+- [API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist): Checklist of the most important security countermeasures when designing, testing, and releasing your API
+- [REST API Checklist](https://www.kennethlange.com/rest-api-checklist/)
+- [Your Comprehensive Web API Design Checklist](https://www.phase2technology.com/blog/your-comprehensive-web-api-design-checklist)
+- [REST Security Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/REST_Security_Cheat_Sheet.md): CheatSheetSeries
+- [API Security Testing](https://www.testbytes.net/blog/api-security-testing-rules-and-checklist/): Rules And Checklist
+- [Penetration Testing RESTful Web Services](http://blog.isecurion.com/2017/10/10/penetration-testing-restful-web-services/)
+- [RESTful web services penetation testing](https://hydrasky.com/network-security/restful-web-services-penetation-testing/)
+- [Astra](https://tech.flipkart.com/astra-automated-security-testing-for-rest-apis-a54b999dbfe9?gi=2af3bebcabc8): Automated Security Testing for REST API’s
 
 ### Web Services
 
