@@ -1,5 +1,13 @@
 # Maker
 
+## Resources
+
+- [Raspberry Pi Internet Thing Videos](https://github.com/adafruit/Pi_Internet_Thing_Videos): Example code to go along with video series on building an internet 'thing' with a Raspberry Pi. Demonstrates building a web app in Python that controls the Pi hardware with a web interface. 
+
+## Books
+
+- [Raspberry Pi 3 Home Automation Projects](https://www.oreilly.com/library/view/raspberry-pi-3/9781783283873/)
+
 ## JTAG
 
 - [rust-raspi3-OS-tutorials](https://github.com/rust-embedded/rust-raspi3-OS-tutorials): 📚 Rust bare-metal and OS tutorials on the Raspberry Pi 3
@@ -83,6 +91,9 @@ Nice projects to try. Let's do it!
 - [DiY Lowcost Bluetooth Jammer](http://discourse.opentechschool.org/t/diy-lowcost-bluetooth-jammer/2241)
 - [PostgreSQL performance on Raspberry Pi](https://blog.rustprooflabs.com/2019/04/postgrseql-pgbench-raspberry-pi): Modern PostgreSQL (>=9.6), out-of-the-box, achieves around 200 TPS (TPC-B (sort of)) on a Raspberry Pi 3B. That's 17+ million transactions per day!
 - [How to design a proper USB-C™ power sink](https://medium.com/@leung.benson/how-to-design-a-proper-usb-c-power-sink-hint-not-the-way-raspberry-pi-4-did-it-f470d7a5910)
+- [Build a Raspberry Pi powered live train station sign for your desk](https://www.balena.io/blog/build-a-raspberry-pi-powered-train-station-oled-sign-for-your-desk/)
+- [Flypi](https://github.com/amchagas/Flypi): An open source, modular, affordable tool for imaging experiments. [cheap microscope/experimental setup](https://hackaday.io/project/5059-flypi-cheap-microscopeexperimental-setup)
+- [Solar Powered Raspberry Pi Camera](https://kaspars.net/blog/solar-raspberry-pi-camera)
 
 ## Prototyping
 

@@ -84,6 +84,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Backup on Fedora Silverblue with Borg](https://fedoramagazine.org/backup-on-fedora-silverblue-with-borg/)
 - [Fedora 27 - Laptop won't suspend when closing lid](https://unix.stackexchange.com/questions/414297/fedora-27-laptop-wont-suspend-when-closing-lid)
 - [Installing alternative versions of RPMs in Fedora](https://fedoramagazine.org/installing-alternative-rpm-versions-in-fedora/) with [Modularity](https://docs.pagure.org/modularity/)
+- [Use Postfix to get email from your Fedora system](https://fedoramagazine.org/use-postfix-to-get-email-from-your-fedora-system/)
+- [Trace code in Fedora with bpftrace](https://fedoramagazine.org/trace-code-in-fedora-with-bpftrace/)
 
 ```bash
  # installing the repo
@@ -162,6 +164,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Python 3 Support](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html): On your hosts ansible file, include a var subsection on your hosts group:
 - [CHANGING THE SSH PORT WITH ANSIBLE](https://dmsimard.com/2016/03/15/changing-the-ssh-port-with-ansible/)
 - [Understanding Ansible Inventories](https://medium.com/devopslinks/understanding-ansible-inventories-db7b993b3c17): The key to understanding all of Ansible.
+- [How to install Ansible on Ubuntu 18.04 for IT automation](https://www.cyberciti.biz/faq/how-to-install-ansible-on-ubuntu-18-04-for-it-automation/)
 
 ```config
 [group:vars]
@@ -232,6 +235,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [How I made my own WireGuard VPN server](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
 - [Secure & Ad-free Internet Anywhere With Streisand and Pi Hole](https://ifelse.io/2019/01/12/secure-ad-free-internet-anywhere-with-streisand-and-pi-hole/)
+- [DSVPN](https://github.com/jedisct1/dsvpn): A Dead Simple VPN.
   
 ### Messaging
 
@@ -259,6 +263,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Spinnaker](https://github.com/spinnaker/spinnaker): is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [Actions](https://github.com/maddox/actions): A collection of useful GitHub Actions.
 - [When the going gets tough](https://lambdasec.github.io/When-the-going-gets-tough-Understanding-the-challenges-with-Product-commoditization-in-SCA/): Understanding the challenges with Product commoditization in SCA
+- [Examples and customization tricks](https://docs.pytest.org/en/latest/example/index.html)
 
 ### Jenkins
 
@@ -270,6 +275,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [GitHub Plugin - Jenkins](https://wiki.jenkins.io/display/JENKINS/Github+Plugin)
 - [Trigger Jenkins builds by pushing to Github](https://www.fourkitchens.com/blog/article/trigger-jenkins-builds-pushing-github/)
 - [Add Users to Jenkins with "Allow users to sign up" Disabled](https://stackoverflow.com/questions/12056851/add-users-to-jenkins-with-allow-users-to-sign-up-disabled)
+
+## Devops
+
+- [Guiding Principles for Developer Tools](https://philcalcado.com/2019/07/30/developer_tools_principles.html)
 
 ## Interfaces
 
@@ -303,6 +312,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
 - [LDAP Synchronization Connector](https://github.com/lsc-project/lsc)
 - [LDAP Plugin Documentation](http://mutonufoai.github.io/pgina/documentation/plugins/ldap.html)
+- [ADtoLDAP](https://github.com/nohupped/ADtoLDAP): A light weight Active Directory to OpenLDAP, or OpenLDAP to OpenLDAP Synchronization Connector written in Golang. 
 
 ## Network
 
@@ -583,6 +593,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [apple libc uses perl](https://github.com/Apple-FOSS-Mirror/Libc/blob/2ca2ae74647714acfc18674c3114b1a5d3325d7d/gen/wordexp.c#L192)
 - [Sloth](https://github.com/sveinbjornt/Sloth): Mac app that shows all open files and sockets in use by all running processes. Nice GUI for lsof.
 - [insert_dylib](https://github.com/Tyilo/insert_dylib): Command line utility for inserting a dylib load command into a Mach-O binary
+- [ds_store](https://github.com/al45tair/ds_store): lets you examine and modify .DS_Store files from Python code; since it is written in pure Python, it is portable and will run on any platform, not just Mac OS X.
 
 ## Windows
 
@@ -604,6 +615,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [ObjectSID Trouble](https://ldapwiki.com/wiki/ObjectSID)
 - [Gmail on NT 3.51 with IE 1.5](https://virtuallyfun.com/wordpress/2019/07/12/gmail-on-nt-3-51-with-ie1-5-via-wrp-4-1/) via [WRP](https://github.com/tenox7/wrp)
 - [Modifying Windows local accounts with Fedora and chntpw](https://fedoramagazine.org/modifying-windows-local-accounts-with-fedora-and-chntpw/)
+- [Enabling Windows' DNS Server to Validate DNSSEC](https://blog.cdemi.io/enabling-windows-dns-server-to-validate-dnssec/)
   
 ---
 
@@ -657,12 +669,16 @@ ansible_python_interpreter=/usr/bin/python3
 - [Productivity Isn’t About Time Management. It’s About Attention Management.](https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html)
 - [Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)
 - [What is a 1x Engineer?](https://1x.engineer/) - [github](https://github.com/cutenode/1x.engineer)
-
+- [No CS Degree](https://www.nocsdegree.com/about/)
+- [Want to hire the best programmers? Offer growth.](https://triplebyte.com/blog/want-hire-best-programmers-offer-growth)
+- [All the best engineering advice I stole from non-technical people](https://medium.com/@bellmar/all-the-best-engineering-advice-i-stole-from-non-technical-people-eb7f90ca2f5f)
+  
 ## Presentations
 
 - [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
 - (pt-br) [Guia para eventos acessíveis](https://medium.com/uxconfbr/guia-para-eventos-acessiveis-como-fazer-apresentacoes-parte-i-137317610631): como fazer apresentações (parte I)
 - (pt-br) [Guia para eventos acessíveis](https://medium.com/uxconfbr/guia-para-eventos-acess%C3%ADveis-como-fazer-apresenta%C3%A7%C3%B5es-parte-ii-ab84932bd8a2): como fazer apresentações (parte II)
+- [fusuma](https://github.com/hiroppy/fusuma): ✍️Fusuma makes slides with Markdown easily.
 
 ---
 
@@ -705,6 +721,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Pattern-dreamer](https://github.com/Andrew-Kang-G/pattern-dreamer): Get urls with missing protocol & uris with missing domain & emails etc. in texts and parse them.
 - [Customizing pandoc to generate beautiful pdfs from markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/).
 - [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi): This tool remains available so long as I can keep it free and the bandwidth doesn't cost me too much.
+- [OpenPDF](https://github.com/LibrePDF/OpenPDF): is a free Java library for creating and editing PDF files with a LGPL and MPL open source license. OpenPDF is based on a fork of iText. We welcome contributions from other developers. Please feel free to submit pull-requests and bugreports to this GitHub repository.
 
 ### JSON
 
@@ -752,6 +769,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [WeasyPrint](https://github.com/Kozea/WeasyPrint): WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
 - [grid-kiss playground](https://sylvainpolletvillard.github.io/grid-kiss-playground/index.html#multiple-span-zones)
 - [OpenTeams](https://openteam.info/): Quick organizational mapping with email and survey data
+- [Protocol buffers](https://developers.google.com/protocol-buffers/) are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
+- [FeaturePeek](https://featurepeek.com/): Front-end review for the whole team.
 
 #### Domains
 
@@ -818,6 +837,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [User Inyerface](https://userinyerface.com/): Hi and welcome to User Inyerface, a challenging exploration of user interactions and design patterns.
 - [gradient-path](https://github.com/mnsht/gradient-path): A small library to have any gradient follow along any SVG path.
 - [hostyoself](https://github.com/schollz/hostyoself): Host yo' self from your computer, your browser, your phone, etc.
+- [Super Tiny Social Icons](https://github.com/edent/SuperTinyIcons): Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos.
 
 ##### REST API
 
@@ -840,6 +860,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [TERRAPATTERN](http://www.terrapattern.com/): This is the alpha version of Terrapattern, a visual search tool for satellite imagery. The project provides journalists, citizen scientists, and other researchers with the ability to quickly scan large geographical regions for specific visual features.
 - [Pixelfed](https://pixelfed.social/) is an image sharing platform, an ethical alternative to centralized platforms.
 - [The IA Client](http://blog.archive.org/2019/06/05/the-ia-client-the-swiss-army-knife-of-internet-archive/): The Swiss Army Knife of Internet Archive. [python library](https://archive.org/services/docs/api/internetarchive/)
+- [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/) - A Complete Guide
+- [HTML is the Web](https://www.petelambert.com/journal/html-is-the-web)
 
 #### Graphics
 
@@ -892,6 +914,8 @@ $INDEX
 ## Cloud
 
 - [no more google](https://nomoregoogle.com)
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)
+- [CloudMapper](https://github.com/duo-labs/cloudmapper): CloudMapper helps you analyze your Amazon Web Services (AWS) environments.
 
 ### Nextcloud
 
@@ -908,6 +932,8 @@ $INDEX
 ## IoT
 
 - [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
+- [VerneMQ](https://github.com/vernemq/vernemq): A Distributed MQTT Broker
+- [EMQ X Broker](https://github.com/emqx/emqx) - Scalable Distributed MQTT Message Broker for IoT in 5G Era. [site](https://emqx.io)
 - (pt-br) [A Internet das Coisas no Brasil](https://igarape.org.br/a-internet-das-coisas-no-brasil/) - Instituto Igarapé
 - [jerryscript](https://github.com/jerryscript-project/jerryscript): Ultra-lightweight JavaScript engine for the Internet of Things.
 - [UNDERCLOCKING THE ESP8266 LEADS TO WIFI WEIRDNESS](https://hackaday.com/2019/01/04/underclocking-the-esp8266-leads-to-wifi-weirdness/): Sometimes the best hacks come from the most basic of questions. In this case, [CNLohr] was wondering what would happen if he started to reduce the clock speed of the ESP8266’s Baseband PLL (BBPLL) while still trying to communicate with it.
