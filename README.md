@@ -818,6 +818,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [User Inyerface](https://userinyerface.com/): Hi and welcome to User Inyerface, a challenging exploration of user interactions and design patterns.
 - [gradient-path](https://github.com/mnsht/gradient-path): A small library to have any gradient follow along any SVG path.
 - [hostyoself](https://github.com/schollz/hostyoself): Host yo' self from your computer, your browser, your phone, etc.
+- [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/)
+- [web design tool](https://www.thewebdesigntool.com/) is a free online bootstrap css grid layout generator. Make Responsive web design with Top css frameworks without learn them.
+- [CSS Grid Generator](https://cssgrid-generator.netlify.com/)
 
 ##### REST API
 
