@@ -42,6 +42,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [musl libc](https://www.musl-libc.org/): is lightweight, fast, simple, free, and strives to be correct in the sense of standards-conformance and safety.
 - [Modern USB gadget on Linux & how to integrate it with systemd (Part 2)](https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-(part-2)/)
 - [Introduction to Paging](https://os.phil-opp.com/paging-introduction/): Writing an OS in Rust
+- [Linux on your laptop](https://www.zdnet.com/article/linux-on-your-laptop-heres-what-you-need-to-know-about-uefi-firmware/): Here's what you need to know about UEFI firmware
 
 ### Performance
 
@@ -179,6 +180,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [andOTP](https://github.com/andOTP/andOTP): Open source two-factor authentication for Android
 - [Librefox](https://github.com/intika/Librefox): Firefox with privacy enhancements
+- [Managing credentials with KeePassXC](https://fedoramagazine.org/managing-credentials-with-keepassxc/)
 
 ### Auditing
 
@@ -202,6 +204,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Set up two-factor authentication for SSH on Fedora](https://fedoramagazine.org/two-factor-authentication-ssh-fedora/)
 - [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
 - [Get SSH login notification on Telegram](https://8192.one/post/ssh_login_notification_withtelegram/)
+- [Ciderpress](https://github.com/da667/Ciderpress): Hardened wordpress installer
 
 #### Webservers
 
@@ -221,6 +224,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
 - [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
 - [NFHTTP](https://github.com/spotify/NFHTTP): A cross platform C++ HTTP library that interfaces natively to other platforms.
+- [Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) by Mozilla
 
 #### Tokens
 
@@ -264,6 +268,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Actions](https://github.com/maddox/actions): A collection of useful GitHub Actions.
 - [When the going gets tough](https://lambdasec.github.io/When-the-going-gets-tough-Understanding-the-challenges-with-Product-commoditization-in-SCA/): Understanding the challenges with Product commoditization in SCA
 - [Examples and customization tricks](https://docs.pytest.org/en/latest/example/index.html)
+- [An introduction to deterministic builds with C/C++](https://blog.conan.io/2019/09/02/Deterministic-builds-with-C-C++.html)
 
 ### Jenkins
 
@@ -358,6 +363,11 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [jmap](https://github.com/jmapio/jmap): JSON Meta Application Protocol Specification (JMAP)
 - [Cypht](https://github.com/jasonmunro/cypht): Lightweight Open Source webmail written in PHP and JavaScript
+  
+##### MTA
+
+- [MTA Comparison](http://shearer.org/MTA_Comparison): For a lot of people the choice of the Mail Transfer Agent is important.
+- [Announcing notqmail](https://schmonz.com/2019/08/20/announcing-notqmail/). [What is notqmail?](https://github.com/notqmail/notqmail/wiki). [github repo](https://github.com/notqmail/notqmail)
 
 ### DNS
 
@@ -451,6 +461,10 @@ ansible_python_interpreter=/usr/bin/python3
   - [Fatiando opções com o getopts](https://www.dicas-l.com.br/arquivo/fatiando_opcoes_com_o_getopts.php)
   - [Getopts - Opções em bash script](http://www.dicas-l.com.br/arquivo/getopts_opcoes_em_bash_script.php)
 - [arg_parse_example](https://github.com/mattbryson/bash-arg-parse/blob/master/arg_parse_example)
+
+### Shell Utils
+
+- [wttr.in](https://github.com/chubin/wttr.in): The right way to check the weather. wttr.in is a console-oriented weather forecast service that supports various information representation methods like terminal-oriented ANSI-sequences for console HTTP clients (curl, httpie, or wget), HTML for web browsers, or PNG for graphical viewers.
   
 ### Regex
 
@@ -458,6 +472,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [TRE](http://ducktape.blot.im/tre-a-regex-engine-with-approximate-matching): A Regex Engine with Approximate Matching
 - [Deu match](http://turicas.info/slides/expressoes-regulares/): limpando dados com expressões regulares
 - [Rant](https://github.com/TheBerkin/rant): The all-purpose procedural text library
+- [Regex Cross­word](https://regexcrossword.com/): Welcome to the fantastic world of nerdy regex fun! Start playing by selecting one of the puzzle challenges below. There are a wide range of difficulties from beginner to expert.
 
 ### Editors
 
@@ -485,6 +500,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 - [Power of SSH Tunneling](https://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67)
 - [Fighting complexity in software development](https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md)
+- [Building interactive SSH applications](https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html)
 
 ### Books
 
@@ -561,6 +577,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [cilium](https://github.com/cilium/cilium/): API Aware Networking and Security using BPF and XDP
 - [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
 - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
+- [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop): ⚙️ A [Gentle introduction to Kubernetes](https://medium.com/faun/a-gentle-introduction-to-kubernetes-4961e443ba26) with more than just the basics. 🌟 Give it a star if you like it.
 
 #### Lambda
 
@@ -572,6 +589,7 @@ ansible_python_interpreter=/usr/bin/python3
 - Android Developers Blog - [Introducing Oboe](https://android-developers.googleblog.com/2018/10/introducing-oboe-c-library-for-low.html): A C++ library for low latency audio
 - [My Homeassistant configuration](https://github.com/eifinger/homeassistant-config)
 - [Don't kill my app!](https://dontkillmyapp.com/): To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless.
+- [Project description](https://github.com/igorwojda/android-showcase): gemAndroid application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 
 ## Mac
 
@@ -594,13 +612,14 @@ ansible_python_interpreter=/usr/bin/python3
 - [Sloth](https://github.com/sveinbjornt/Sloth): Mac app that shows all open files and sockets in use by all running processes. Nice GUI for lsof.
 - [insert_dylib](https://github.com/Tyilo/insert_dylib): Command line utility for inserting a dylib load command into a Mach-O binary
 - [ds_store](https://github.com/al45tair/ds_store): lets you examine and modify .DS_Store files from Python code; since it is written in pure Python, it is portable and will run on any platform, not just Mac OS X.
+- [mac_os](https://github.com/bkuhlmann/mac_os#requirements): Shell scripts for automated macOS machine setup.
+- [Charts](https://github.com/danielgindi/Charts)
+- [symboliclinker](https://github.com/nickzman/symboliclinker): A contextual menu plugin & service for Mac OS X that allows users to make symbolic links in the Finder
 
 ## Windows
 
 - [coreclr](https://github.com/dotnet/coreclr): This repo contains the .NET Core runtime, called CoreCLR, and the base library, called System.Private.Corelib (or mscorlib).
 - [Monitoring and Observability in the .NET Runtime](http://mattwarren.org/2018/08/21/Monitoring-and-Observability-in-the-.NET-Runtime/)
-- [Powershell-SSHTools](https://github.com/fridgehead/Powershell-SSHTools): A bunch of useful SSH tools for powershell
-- [PowerShellAtomicHarness](https://github.com/caseysmithrc/PowerShellAtomicHarness): Execute Test Cases In PowerShell
 - [The early history of Windows file attributes, and why there is a gap between System and Directory](https://blogs.msdn.microsoft.com/oldnewthing/20180830-00/?p=99615)
 - [SysmonTools](https://github.com/nshalabi/SysmonTools): Utilities for Sysmon
 - [WoW64 internals](https://wbenny.github.io/2018/11/04/wow64-internals.html): aka Windows (32-bit) on Windows (64-bit) - is a subsystem that enables 32-bit Windows applications to run on 64-bit Windows.
@@ -616,7 +635,18 @@ ansible_python_interpreter=/usr/bin/python3
 - [Gmail on NT 3.51 with IE 1.5](https://virtuallyfun.com/wordpress/2019/07/12/gmail-on-nt-3-51-with-ie1-5-via-wrp-4-1/) via [WRP](https://github.com/tenox7/wrp)
 - [Modifying Windows local accounts with Fedora and chntpw](https://fedoramagazine.org/modifying-windows-local-accounts-with-fedora-and-chntpw/)
 - [Enabling Windows' DNS Server to Validate DNSSEC](https://blog.cdemi.io/enabling-windows-dns-server-to-validate-dnssec/)
-  
+- [Windows X86-64 System Call Table](https://j00ru.vexillium.org/syscalls/nt/64/) (XP/2003/Vista/2008/7/2012/8/10). [windows-syscalls](https://github.com/j00ru/windows-syscalls)
+
+### Powershell
+
+- [Powershell-SSHTools](https://github.com/fridgehead/Powershell-SSHTools): A bunch of useful SSH tools for powershell
+- [PowerShellAtomicHarness](https://github.com/caseysmithrc/PowerShellAtomicHarness): Execute Test Cases In PowerShell
+- [About Logging](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logging_windows?view=powershell-6#protected-event-logging)
+- [Hardening PowerShell Script Block Logging Log](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/hardening-powershell-script-block-logging-log)
+- [Install-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-6)
+- [PowerSploit](https://github.com/PowerShellMafia/PowerSploit): is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
+- [Empire](https://github.com/EmpireProject/Empire): Empire is a PowerShell and Python post-exploitation agent.
+
 ---
 
 ## Datacenter
@@ -672,6 +702,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [No CS Degree](https://www.nocsdegree.com/about/)
 - [Want to hire the best programmers? Offer growth.](https://triplebyte.com/blog/want-hire-best-programmers-offer-growth)
 - [All the best engineering advice I stole from non-technical people](https://medium.com/@bellmar/all-the-best-engineering-advice-i-stole-from-non-technical-people-eb7f90ca2f5f)
+- [Things I Learnt from a Senior Software Engineer](https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html)
   
 ## Presentations
 
@@ -689,6 +720,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Photograph Your Work](https://etbe.coker.com.au/2019/01/06/photograph-your-work/)
 - [How I Manage My Time](https://zwischenzugs.com/2017/12/03/how-i-manage-my-time/): by zwischenzugs
 - [Ask HN: How do you keep track of your creative thoughts? | Hacker News](https://news.ycombinator.com/item?id=18837345)
+- [WTF](https://wtfutil.com/) is a [personal information dashboard for your terminal](https://github.com/wtfutil/wtf), developed for those who spend most of their day in the command line.
 
 ## Knowlegde
 
@@ -771,6 +803,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [OpenTeams](https://openteam.info/): Quick organizational mapping with email and survey data
 - [Protocol buffers](https://developers.google.com/protocol-buffers/) are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
 - [FeaturePeek](https://featurepeek.com/): Front-end review for the whole team.
+- [TRAILS OF WIND](https://trailsofwind.figures.cc/): The architecture of airport runways
+- [IAVisa](https://iavisa.com/): is a site that offers you the best information about visas, such as: what types of visa you need to travel to a particular country, what situations you will face, what documents you need to obtain, but also many other information that you will most likely need.
 
 #### Domains
 
@@ -838,6 +872,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [gradient-path](https://github.com/mnsht/gradient-path): A small library to have any gradient follow along any SVG path.
 - [hostyoself](https://github.com/schollz/hostyoself): Host yo' self from your computer, your browser, your phone, etc.
 - [Super Tiny Social Icons](https://github.com/edent/SuperTinyIcons): Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos.
+- [DARK PATTERNS](https://www.darkpatterns.org/): Dark Patterns are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something. The purpose of this site is to spread awareness and to shame companies that use them.
+- [A complete guide to Oauth2 protocol](https://milapneupane.com.np/2019/09/02/a-complete-guide-to-oauth2-protocol/)
+
+##### API
+
+- [I created Postwoman 👽](https://www.indiehackers.com/post/17788d573f)- An [online](https://liyasthomas.github.io/postwoman/), open source API request builder.
 
 ##### REST API
 
@@ -862,6 +902,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [The IA Client](http://blog.archive.org/2019/06/05/the-ia-client-the-swiss-army-knife-of-internet-archive/): The Swiss Army Knife of Internet Archive. [python library](https://archive.org/services/docs/api/internetarchive/)
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/) - A Complete Guide
 - [HTML is the Web](https://www.petelambert.com/journal/html-is-the-web)
+- [wobaka](https://wobaka.com/): is the CRM system that will make you smile.
+- [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
 
 #### Graphics
 
@@ -875,6 +917,20 @@ ansible_python_interpreter=/usr/bin/python3
 - [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework.
 - [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
 - (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento.
+  
+#### Colors
+
+- [colorgram.py](https://github.com/obskyr/colorgram.py): A Python module for extracting colors from images. Get a palette of any picture!
+- [Color Thief](https://lokeshdhakar.com/projects/color-thief/): Grab the color palette from an image using just Javascript. Works in the browser and in Node.  [Color Thief github](https://github.com/fengsp/color-thief-py): Grabs the dominant color or a representative color palette from an image. Uses Python and Pillow.
+- [21 Color Palette Tools for Web Designers and Developers](https://learntocodewith.me/posts/color-palette-tools/)
+- [Python Logo Colors with Hex & RGB Codes](https://www.schemecolor.com/python-logo-colors.php)
+- [Generating color palettes from movies with Python](https://medium.com/@andrisgauracs/generating-color-palettes-from-movies-with-python-16503077c025). github repo: [python-color-palette-generator](https://github.com/andrisgauracs/python-color-palette-generator), A Python based program, that can generate color palettes for a specified number of video frames and ultimately combine them into a final color palette group image.
+- [canva](https://www.canva.com/colors/color-palette-generator/): The easiest place to get colors from your photos
+- [Palette Generator](https://palettegenerator.com/): Find design inspiration with natural image palletes extracted using k-means algorithm. This palette generator will create a color palette based on the predominant colors in your image. You can use it in your art projects, web design or home decor.
+- [ColorSpace](https://mycolor.space/): Never waste Hours on finding the perfect Color Palette again!
+- [Color Hunt](https://colorhunt.co/): is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes
+- [Paletton](https://paletton.com/): is an online application located on the internet.
+- [Colormind](http://colormind.io/): is a color scheme generator that uses deep learning.
 
 ## Journalism
 
@@ -944,6 +1000,9 @@ $INDEX
 Access price, inventory, unique market intelligence and advanced analytics for all your parts.
 - Fedora's [InternetOfThings](https://fedoraproject.org/wiki/InternetOfThings)
 - [Connected camera cock up](https://www.pentestpartners.com/security-blog/connected-camera-cock-up/)
+- [Binary Hardening in IoT products](https://cyber-itl.org/2019/08/26/iot-data-writeup.html): Last year, the team at CITL looked into the state of binary hardening features in IoT firmware.
+- Introducing Rainbow: [Donjon’s side-channel analysis simulation tool](https://medium.com/ledger-on-security-and-blockchain/introducing-rainbow-donjons-side-channel-analysis-simulation-tool-2f23fa1f11b3). repo: [rainbow](https://github.com/Ledger-Donjon/rainbow)
+- [Memfault](https://memfault.com/): is the collaboration of engineers who share decades of experience working at leading hardware companies including Oculus, Fitbit, and Pebble.
 
 ### RFID
 
@@ -966,6 +1025,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [srsLTE](https://github.com/srsLTE/srsLTE): Open source SDR LTE software suite from Software Radio Systems (SRS)
 - [List of software-defined radios](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
 - [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers)
+- [MrPiracy](https://mrpiracy.site/)
+- [tvlist](https://github.com/damianrath/tvlist): Lists TV shows and their current state by leveraging the TV Maze API (CLI)
+- [serverless-to-cgi-bin](https://github.com/ghuntley/serverless-to-cgi-bin): A browser extension that replaces occurrences of 'serverless' with 'cgi-bin'
 
 ## Stuff
 
@@ -979,6 +1041,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 - [The DevOps Phenomenon](https://queue.acm.org/detail.cfm?id=3338532)
 - (pt-br) [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
+- [Personal Management System](https://github.com/Volmarg/personal-management-system):  Your web application for managing personal data.
 
 ## News
 

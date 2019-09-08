@@ -40,7 +40,14 @@
 - [FX-SaberOS](https://github.com/Protonerd/FX-SaberOS): System code for Arduino based Lightsaber replicas for DIYino family boards
 - Lessons from Running a Small-Scale Electronics Factory in my Guest Bedroom, part 1: [Design](https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/)
 - [ALL THE BADGES OF DEF CON 26 (VOL 1)](https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/)
-- [NTPClient](https://github.com/arduino-libraries/NTPClient):
+- [NTPClient](https://github.com/arduino-libraries/NTPClient)
+- [OSC](https://github.com/CNMAT/OSC): Arduino and Teensy implementation of OSC encoding
+
+### GPIo
+
+- [Adafruit CircuitPython Library Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
+- [gpiozero](https://github.com/gpiozero/gpiozero): A simple interface to GPIO devices with Raspberry Pi
+- [Quick2Wire](https://github.com/quick2wire/quick2wire-gpio-admin): Use the GPIO pins on the Raspberry Pi without running as root (deprecated)
 
 ### Router
 
