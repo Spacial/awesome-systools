@@ -284,6 +284,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Devops
 
 - [Guiding Principles for Developer Tools](https://philcalcado.com/2019/07/30/developer_tools_principles.html)
+- [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
 
 ## Interfaces
 
@@ -317,7 +318,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to write LDAP search filters](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
 - [LDAP Synchronization Connector](https://github.com/lsc-project/lsc)
 - [LDAP Plugin Documentation](http://mutonufoai.github.io/pgina/documentation/plugins/ldap.html)
-- [ADtoLDAP](https://github.com/nohupped/ADtoLDAP): A light weight Active Directory to OpenLDAP, or OpenLDAP to OpenLDAP Synchronization Connector written in Golang. 
+- [ADtoLDAP](https://github.com/nohupped/ADtoLDAP): A light weight Active Directory to OpenLDAP, or OpenLDAP to OpenLDAP Synchronization Connector written in Golang.
 
 ## Network
 
@@ -358,6 +359,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [lwan](https://github.com/lpereira/lwan): Experimental, scalable, high performance HTTP server
 - [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads
 - [websocketd](https://github.com/joewalnes/websocketd): Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.
+- [How to set up a TFTP server on Fedora](https://fedoramagazine.org/how-to-set-up-a-tftp-server-on-fedora/)
 
 #### Email
 
@@ -376,6 +378,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [DNS Servers You Should Have Memorized](https://danielmiessler.com/blog/dns-servers-you-should-have-memorized/): The latest DNS server IPs are easier to remember and offer privacy and filtering functionality
 - [BeGoneAds](https://github.com/anned20/begoneads) is a script that puts some popular hosts file lists into the systems hosts file as a adblocker measure.
 - [PR-DNSd](https://github.com/korc/PR-DNSd): Passive-Recursive DNS daemon
+- [cloudflare-sync](https://github.com/mxplusb/cloudflare-sync): A nice to have, MIT-licensed tool for using Cloudflare as a dynamic DNS provider.
 
 ### LoadBalancers
 
@@ -424,6 +427,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
   - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
   - [powerlevel9k](https://github.com/bhilburn/powerlevel9k): The most awesome Powerline theme for ZSH around!
+  - [zplug](https://github.com/zplug/zplug): 🌺 A next-generation plugin manager for zsh
 - Fish:
   - [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   - [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
@@ -636,6 +640,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Modifying Windows local accounts with Fedora and chntpw](https://fedoramagazine.org/modifying-windows-local-accounts-with-fedora-and-chntpw/)
 - [Enabling Windows' DNS Server to Validate DNSSEC](https://blog.cdemi.io/enabling-windows-dns-server-to-validate-dnssec/)
 - [Windows X86-64 System Call Table](https://j00ru.vexillium.org/syscalls/nt/64/) (XP/2003/Vista/2008/7/2012/8/10). [windows-syscalls](https://github.com/j00ru/windows-syscalls)
+- [Awesome-Windows](https://github.com/Awesome-Windows/Awesome): 💻 An awesome & curated list of best applications and tools for Windows.
+- [PowerToys](https://github.com/Microsoft/PowerToys): Windows system utilities to maximize productivity
 
 ### Powershell
 
@@ -703,7 +709,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Want to hire the best programmers? Offer growth.](https://triplebyte.com/blog/want-hire-best-programmers-offer-growth)
 - [All the best engineering advice I stole from non-technical people](https://medium.com/@bellmar/all-the-best-engineering-advice-i-stole-from-non-technical-people-eb7f90ca2f5f)
 - [Things I Learnt from a Senior Software Engineer](https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html)
-  
+- [Everything I googled in a week as a professional software engineer](https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/)
+- [Reverse interview](https://github.com/viraptor/reverse-interview): Questions to ask the company during your interview.
+
 ## Presentations
 
 - [How to import an SVG into Powerpoint or Keynote](https://medium.com/@kyleledbetter/how-to-import-an-svg-into-powerpoint-or-keynote-8d3d70f347a7)
@@ -856,7 +864,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [shiny](https://github.com/rikschennink/shiny): Shiny reflections for mobile websites.
 - [splinter](https://github.com/cobrateam/splinter): python test framework for web applications.
 - [revery](https://github.com/revery-ui/revery): ⚡️ Native, high-performance, cross-platform desktop apps - built with Reason!
-- [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
 - [tellform](https://github.com/tellform/tellform): ✏️ Free Opensource Alternative to TypeForm or Google Forms ⛺. [site](https://tellform.com/)
 - [material-kit](https://github.com/creativetimofficial/material-kit): Free and Open Source UI Kit for Bootstrap 4, React, Vue.js, React Native and Sketch based on Google's Material Design.
 - [Flexible data tables with CSS Grid](https://adamlynch.com/flexible-data-tables-with-css-grid/?1)
@@ -877,6 +884,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Super Tiny Social Icons](https://github.com/edent/SuperTinyIcons): Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos.
 - [DARK PATTERNS](https://www.darkpatterns.org/): Dark Patterns are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something. The purpose of this site is to spread awareness and to shame companies that use them.
 - [A complete guide to Oauth2 protocol](https://milapneupane.com.np/2019/09/02/a-complete-guide-to-oauth2-protocol/)
+- [COBOL Web Development](http://www.infogoal.com/cbd/cbdweb.htm)
+- [Base](https://www.base-api.io/): Authentication, email sending, file and image storage and much more in one simple API, built for developers.
 
 ##### API
 
@@ -923,6 +932,7 @@ ansible_python_interpreter=/usr/bin/python3
   
 #### Colors
 
+- [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
 - [colorgram.py](https://github.com/obskyr/colorgram.py): A Python module for extracting colors from images. Get a palette of any picture!
 - [Color Thief](https://lokeshdhakar.com/projects/color-thief/): Grab the color palette from an image using just Javascript. Works in the browser and in Node.  [Color Thief github](https://github.com/fengsp/color-thief-py): Grabs the dominant color or a representative color palette from an image. Uses Python and Pillow.
 - [21 Color Palette Tools for Web Designers and Developers](https://learntocodewith.me/posts/color-palette-tools/)
@@ -973,8 +983,23 @@ $INDEX
 ## Cloud
 
 - [no more google](https://nomoregoogle.com)
-- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)
+- [Cloud Custodian](https://cloudcustodian.io/): [Opensource Cloud Security, Governance, and Management](https://github.com/cloud-custodian/cloud-custodian)
+- [Mapping of On-Premises Security Controls vs. Major Cloud Providers Services](http://www.eventid.net/docs/onprem_to_cloud.asp)
+- [cloudsploit](https://github.com/cloudsploit). [security remediation guides](https://github.com/cloudsploit/security-remediation-guides)
+- [Security Monkey](https://github.com/netflix/security_monkey): Security Monkey monitors AWS, GCP, OpenStack, and GitHub orgs for assets and their changes over time.
+- [StreamAlert](https://github.com/airbnb/streamalert) - Serverless, Realtime Data Analysis Framework
+- [ThreatResponse](https://threatresponse.cloud/): Open Source Incident Response Toolkit
+- [Embarrassingly easy private certificate management for VMs on AWS, GCP, and Azure](https://smallstep.com/blog/embarrassingly-easy-certificates-on-aws-azure-gcp/)
+
+### AWS
+
+- [Whitepapers da AWS](https://aws.amazon.com/pt/whitepapers/)
 - [CloudMapper](https://github.com/duo-labs/cloudmapper): CloudMapper helps you analyze your Amazon Web Services (AWS) environments.
+- [Prowler](https://github.com/toniblyx/prowler): AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool. It follows guidelines of the CIS Amazon Web Services Foundations Benchmark and DOZENS of additional checks including GDPR and HIPAA (+100). [AWS CIS](https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf)
+- [ThreatPrep](https://github.com/ThreatResponse/ThreatPrep): Python module for evaluation of AWS account best practices around incident handling readieness.
+- [Amazon Web Services](https://github.com/awslabs)
+  - [aws-security-benchmark](https://github.com/awslabs/aws-security-benchmark): Open source demos, concept and guidance related to the AWS CIS Foundation framework.
+  - [aws-security-automation](https://github.com/awslabs/aws-security-automation): Collection of scripts and resources for DevSecOps and Automated Incident Response Security.
 
 ### Nextcloud
 
@@ -1059,6 +1084,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Patent exhaustion and open source](https://lwn.net/Articles/780078/)
 - [Adventures of putting 16 GB of RAM in a motherboard that doesn’t support it](https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/)
 - [Upgrade Arbitrage](https://tedium.co/2019/06/04/used-workstation-computer-buying-strategy/): The charm of buying old workstation hardware on the cheap to support your modern computing needs. If it doesn’t work for them, it might just work for you.
+- [Sorry, we can't join your Slack](https://www.reifyworks.com/writing/2019-09-03-sorry-we-cant-join-your-slack)
 
 ## Making Conferences
 

@@ -2,7 +2,8 @@
 
 ## Resources
 
-- [Raspberry Pi Internet Thing Videos](https://github.com/adafruit/Pi_Internet_Thing_Videos): Example code to go along with video series on building an internet 'thing' with a Raspberry Pi. Demonstrates building a web app in Python that controls the Pi hardware with a web interface. 
+- [Raspberry Pi Internet Thing Videos](https://github.com/adafruit/Pi_Internet_Thing_Videos): Example code to go along with video series on building an internet 'thing' with a Raspberry Pi. Demonstrates building a web app in Python that controls the Pi hardware with a web interface.
+- [sparkfun Fritzing Parts](https://github.com/sparkfun/Fritzing_Parts): This repo houses all of the SFE Fritzing parts for use in diagrams in tutorials. If you create a new part in Fritzing that correlates to an SFE part, please add it here so others may use it and to avoid duplication.
 
 ## Books
 
