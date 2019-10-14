@@ -20,7 +20,9 @@
 - [The Void (Linux) distribution](https://voidlinux.org/): Void is a general purpose operating system, based on the monolithic Linux® kernel. Its package system allows you to quickly install, update and remove software; software is provided in binary packages or can be built directly from sources with the help of the XBPS source packages collection.
 - [devuan](https://www.devuan.org/): Devuan GNU+Linux is a fork of Debian without systemd.
 - [Linux distros without systemd](https://ungleich.ch/en-us/cms/blog/2019/05/20/linux-distros-without-systemd/).
-
+- [KISS](https://getkiss.org/): An independent Linux® distribution with a focus on simplicity and the concept of “less is more”. [Package Manager](https://github.com/kisslinux/kiss)
+- [EasyOS](https://easyos.org/): An experimental linux distribution.
+  
 ### Kernel
 
 - [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
@@ -131,6 +133,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Analyzing Your File System and Folder Structures with Python](https://janakiev.com/blog/python-filesystem-analysis/)
 - [Algorithms behind Modern Storage Systems](https://www.infoq.com/presentations/storage-algorithms): Alex Petrov talks about modern storage system approaches, discussing storage internals, and evaluation techniques to choose a database with the optimal read, write or memory overhead, best suitable for a certain data.
 - [PrivateStorage.io](https://privatestorage.io/): Least Authority and Private Internet Access announce PrivateStorage.io. [paper](https://leastauthority.com/blog/least-authority-and-private-internet-access-announce-privatestorage-io-a-secure-and-privacy-focused-cloud-storage-solution/) (using Tahoe-LAFS)
+- [Get Your Data Back With Linux-Based Data Recovery Tools](https://www.linux.com/tutorials/get-your-data-back-linux-based-data-recovery-tools/)
   
 ### Controllers
 
@@ -181,6 +184,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [andOTP](https://github.com/andOTP/andOTP): Open source two-factor authentication for Android
 - [Librefox](https://github.com/intika/Librefox): Firefox with privacy enhancements
 - [Managing credentials with KeePassXC](https://fedoramagazine.org/managing-credentials-with-keepassxc/)
+- [MFA on PayPal](https://dev.to/shehackspurple/mfa-on-paypal-29ld)
 
 ### Auditing
 
@@ -342,6 +346,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [pure JS WiFi QR Code Generator](https://qifi.org/). [github](https://github.com/evgeni/qifi)
 - [Operating a Large, Distributed System in a Reliable Way](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/): Practices I Learned
 - [Bond WiFi and Ethernet for easier networking mobility](https://fedoramagazine.org/bond-wifi-and-ethernet-for-easier-networking-mobility/)
+- [Copying large files with Rsync, and some misconceptions](https://fedoramagazine.org/copying-large-files-with-rsync-and-some-misconceptions/)
+- [When TCP sockets refuse to die](https://blog.cloudflare.com/when-tcp-sockets-refuse-to-die/). [Testing TCP Keepalives on Linux](https://github.com/cloudflare/cloudflare-blog/tree/master/2019-09-tcp-keepalives). more on Marek's [blog](https://idea.popcount.org/2019-09-20-when-tcp-sockets-refuse-to-die/)
+- [gev](https://github.com/Allenxuxu/gev): is a lightweight, fast non-blocking TCP network library based on Reactor mode.
+- [A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
+- The Multipath TCP Daemon [mptcpd](https://github.com/intel/mptcpd)- is a daemon for Linux based operating systems that performs multipath TCP path management related operations in the user space. It interacts with the Linux kernel through a generic netlink connection to track per-connection information (e.g. available remote addresses), available network interfaces, request ne…
+- [Reinventing the Network Stack for Compute-Intensive Applications](https://www.darpa.mil/news-events/2019-09-26)
 
 ### Network Troubleshooting
 
@@ -349,6 +359,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Viewing HAProxy Statistics](http://www.networkinghowtos.com/howto/viewing-haproxy-statistics/)
 - [List all IP addresses connected to your Server](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/)
 - [howmanypeoplearearound](https://github.com/schollz/howmanypeoplearearound): Count the number of people around you ￼ by monitoring wifi signals ￼
+- [SS Utility](https://www.cyberciti.biz/files/ss.html): Quick Intro
+- [http toolkit](https://httptoolkit.tech/mock/): Intercept & view all your HTTP(S), Mock endpoints or entire servers, Rewrite, redirect, or inject errors.
+- [quiche](https://github.com/cloudflare/quiche): Savoury implementation of the QUIC transport protocol and HTTP/3
   
 ### NetServices
 
@@ -360,6 +373,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [tus resumable upload protocol](https://github.com/tus/tus-resumable-upload-protocol): Open Protocol for Resumable File Uploads
 - [websocketd](https://github.com/joewalnes/websocketd): Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.
 - [How to set up a TFTP server on Fedora](https://fedoramagazine.org/how-to-set-up-a-tftp-server-on-fedora/)
+- [OpenSSHd](https://github.com/sektioneins/sshdcc): Security Config Checker
 
 #### Email
 
@@ -457,6 +471,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to remove duplicate lines from files keeping the original order](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html)
 - [4 cool terminal multiplexers](https://fedoramagazine.org/4-cool-terminal-multiplexers/)
 - [Set your terminal to automatically use tmux](https://fedoramagazine.org/4-tips-better-tmux-sessions/)
+- [Tmux Tutorial](https://leimao.github.io/blog/Tmux-Tutorial/)
 - [Pretty PuTTY](https://github.com/jacktrocinski/pretty-putty): Make PuTTY pretty and apply modern PuTTY settings.
 - Getopts:
   - [Parsing bash script options with getopts](https://sookocheff.com/post/bash/parsing-bash-script-arguments-with-shopts/)
@@ -465,10 +480,13 @@ ansible_python_interpreter=/usr/bin/python3
   - [Fatiando opções com o getopts](https://www.dicas-l.com.br/arquivo/fatiando_opcoes_com_o_getopts.php)
   - [Getopts - Opções em bash script](http://www.dicas-l.com.br/arquivo/getopts_opcoes_em_bash_script.php)
 - [arg_parse_example](https://github.com/mattbryson/bash-arg-parse/blob/master/arg_parse_example)
+- [pure bash bible](https://github.com/dylanaraps/pure-bash-bible): 📖 A collection of pure bash alternatives to external processes.
 
 ### Shell Utils
 
 - [wttr.in](https://github.com/chubin/wttr.in): The right way to check the weather. wttr.in is a console-oriented weather forecast service that supports various information representation methods like terminal-oriented ANSI-sequences for console HTTP clients (curl, httpie, or wget), HTML for web browsers, or PNG for graphical viewers.
+- [Linux Terminal Goods](http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html)
+- [navi](https://github.com/denisidoro/navi): An interactive cheatsheet tool for the command-line
   
 ### Regex
 
@@ -500,11 +518,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
 - [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [Maintaining your AWS infrastructure](https://medium.com/faun/maintaining-your-aws-infrastructure-a4ae6ced8a74)
-- [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 - [Power of SSH Tunneling](https://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67)
 - [Fighting complexity in software development](https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md)
 - [Building interactive SSH applications](https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html)
+- [Automated Environment Configurations](https://github.com/leimao/Automated_Environment_Configurations/tree/master/Ubuntu-18.04-LTS): Environment Configuration Bash Scripts for New Operating Systems - Nvidia/Docker, Intel-MKL and gRPC for Ubuntu 18.04 LTS.
 
 ### Books
 
@@ -545,7 +563,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [kubectl trace](https://github.com/fntlnz/kubectl-trace): Schedule bpftrace programs on your kubernetes cluster using the kubectl
 - [dive](https://github.com/wagoodman/dive): A tool for exploring each layer in a docker image
 - [Firecracker](https://github.com/firecracker-microvm/firecracker): Secure and fast microVMs for serverless computing.
-- [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
 - [Introducing Crossplane](https://blog.upbound.io/introducing-crossplane-open-source-multicloud-control-plane/): Open Source Multicloud Control Plane. [github](https://github.com/crossplaneio/crossplane)
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) with [code repo](https://github.com/justinmeiners/lc3-vm)
 - [Running FreeBSD on OSX using](https://dan.langille.org/2018/10/02/running-freebsd-on-osx-using-xhyve-a-port-of-bhyve/) [xhyve](https://github.com/machyve/xhyve), a port of [bhyve](http://www.bhyve.org/)
@@ -553,6 +570,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [V3VEE](http://v3vee.org/) - An Open Source Virtual Machine Monitor Framework For Modern Architectures
 - [IceBox](https://github.com/thalium/icebox): Icebox is a Virtual Machine Introspection solution that enable you to stealthily trace and debug any process (kernel or user). It's based on project Winbagility.
 
+### KVM
+
+- [How to migrate your Virtual Box machines to the KVM-VirtManager](https://www.utappia.org/2016/04/how-to-migrate-your-virtual-box.html)
+- [virt-v2v to convert an ova file to qcow2 fails with error](https://access.redhat.com/solutions/2110391)
+  
 ### VMware
 
 - [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
@@ -582,6 +604,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
 - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
 - [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop): ⚙️ A [Gentle introduction to Kubernetes](https://medium.com/faun/a-gentle-introduction-to-kubernetes-4961e443ba26) with more than just the basics. 🌟 Give it a star if you like it.
+- [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
+- [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
 
 #### Lambda
 
@@ -680,6 +704,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [awesome-leading-and-managing](https://github.com/LappleApple/awesome-leading-and-managing): Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
 - [Agile Lite](https://github.com/davebs/AgileLite): Agile without all the burnout.
 - [7 rules of hiring a remote team for your project](https://cvcompiler.com/blog/7-rules-of-hiring-a-remote-team-for-your-project/)
+- [AgileFall](https://steveblank.com/2019/09/17/agilefall-when-waterfall-sneaks-back-into-agile/): When Waterfall Sneaks Back Into Agile
 
 ## Career
 
@@ -711,6 +736,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Things I Learnt from a Senior Software Engineer](https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html)
 - [Everything I googled in a week as a professional software engineer](https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/)
 - [Reverse interview](https://github.com/viraptor/reverse-interview): Questions to ask the company during your interview.
+- [DevOps didn’t exist when I started as a developer: How this one principle changed my career](https://circleci.com/blog/use-circleci-orbs-to-build-test-and-deploy-a-simple-go-application-to-aws-ecs/)
+- [Sysadmin job levels](https://www.redhat.com/sysadmin/job-levels): What you need to know for each. Linux system administrator job descriptions can run the gamut from very generic to extremely specific. Find out which skills and knowledge you really need for each technical level.
+- [Being ‘Indistractable’ Will Be the Skill of the Future](https://onezero.medium.com/being-indistractable-will-be-the-skill-of-the-future-a07780cf36f4): How the difference between traction and distraction could transform your productivity.
 
 ## Presentations
 
@@ -727,7 +755,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [reminiscence](https://github.com/kanishka-linux/reminiscence): Self-Hosted Bookmark and Archive Manager
 - [Photograph Your Work](https://etbe.coker.com.au/2019/01/06/photograph-your-work/)
 - [How I Manage My Time](https://zwischenzugs.com/2017/12/03/how-i-manage-my-time/): by zwischenzugs
-- [Ask HN: How do you keep track of your creative thoughts? | Hacker News](https://news.ycombinator.com/item?id=18837345)
+- [Ask HN: How do you keep track of your creative thoughts?](https://news.ycombinator.com/item?id=18837345)
 - [WTF](https://wtfutil.com/) is a [personal information dashboard for your terminal](https://github.com/wtfutil/wtf), developed for those who spend most of their day in the command line.
 
 ## Knowlegde
@@ -762,6 +790,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [Customizing pandoc to generate beautiful pdfs from markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/).
 - [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi): This tool remains available so long as I can keep it free and the bandwidth doesn't cost me too much.
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF): is a free Java library for creating and editing PDF files with a LGPL and MPL open source license. OpenPDF is based on a fork of iText. We welcome contributions from other developers. Please feel free to submit pull-requests and bugreports to this GitHub repository.
+- An Instagram Story of:
+  - [Types for Python HTTP APIs](https://instagram-engineering.com/types-for-python-http-apis-an-instagram-story-d3c3a207fdb7)
+  - [Static Analysis at Scale](https://instagram-engineering.com/static-analysis-at-scale-an-instagram-story-8f498ab71a0c)
+- [peco](https://github.com/peco/peco): Simplistic interactive filtering tool.
+- [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
+- [free POS software.](http://keyhut.com/pos.htm)
 
 ### JSON
 
@@ -813,6 +847,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [FeaturePeek](https://featurepeek.com/): Front-end review for the whole team.
 - [TRAILS OF WIND](https://trailsofwind.figures.cc/): The architecture of airport runways
 - [IAVisa](https://iavisa.com/): is a site that offers you the best information about visas, such as: what types of visa you need to travel to a particular country, what situations you will face, what documents you need to obtain, but also many other information that you will most likely need.
+- [Postman](https://www.getpostman.com/): Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. Some pt-br [tutorial about postman](https://developercielo.github.io/tutorial/postman)
 
 #### Domains
 
@@ -829,7 +864,6 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Always. Own. Your platform.](http://www.alwaysownyourplatform.com/)
 - [HTTP/3](https://blog.cloudflare.com/http-3-from-root-to-tip/): From root to tip
-- [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
 - [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web.
 - [fontello](https://github.com/fontello/fontello):Iconic fonts scissors
 - [Automate a web browser with Selenium](https://fedoramagazine.org/automate-web-browser-selenium/)
@@ -869,7 +903,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [Flexible data tables with CSS Grid](https://adamlynch.com/flexible-data-tables-with-css-grid/?1)
 - [Sites inclusivos a pessoas com autismo](https://gaia.wiki.br/): O GAIA é um conjunto aberto e colaborativo de 28 recomendações de acessibilidade web focado nos aspectos do autismo, abordando desde a escrita de conteúdo até recursos programáveis.
 - [Banish the � with Unifont](https://shkspr.mobi/blog/2019/04/banish-the-%EF%BF%BD-with-unifont/).
-- [Handsontable](https://github.com/handsontable/handsontable): JavaScript/HTML5 Data Grid Component with Spreadsheet Look & Feel. Available for React, Vue and Angular.
 - [Web development, illustrated.](https://illustrated.dev/)
 - [339 bytes of responsive CSS](https://blog.koley.in/2019/339-bytes-of-responsive-css)
 - [Making Tables Responsive With Minimal CSS](https://bradleytaunt.com/2019/06/11/responsive-tables/)
@@ -886,10 +919,24 @@ ansible_python_interpreter=/usr/bin/python3
 - [A complete guide to Oauth2 protocol](https://milapneupane.com.np/2019/09/02/a-complete-guide-to-oauth2-protocol/)
 - [COBOL Web Development](http://www.infogoal.com/cbd/cbdweb.htm)
 - [Base](https://www.base-api.io/): Authentication, email sending, file and image storage and much more in one simple API, built for developers.
+- [Two Browsers Walked Into a Scrollbar](https://www.filamentgroup.com/lab/scrollbars/)
+- [laptop.css](https://jjkaufman.github.io/laptop.css/index.html)
+- [Head](https://github.com/joshbuchea/head): 🗿 A list of everything that *could* go in the head of your document. [htmlhead.dev](https://htmlhead.dev/)
+
+##### JavaScript
+
+- [The cost of JavaScript in 2019](https://v8.dev/blog/cost-of-javascript-2019)
+- [lerna](https://github.com/lerna/lerna): A tool for managing JavaScript projects with multiple packages.
+- [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code): Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
+- [Handsontable](https://github.com/handsontable/handsontable): JavaScript/HTML5 Data Grid Component with Spreadsheet Look & Feel. Available for React, Vue and Angular.
+- [Aurelia](https://aurelia.io/): is a collection of Modern JavaScript modules, which when used together, function as a powerful platform for building browser, desktop and mobile applications, all open source and built on open web standards.
+- [Polymer Project](https://www.polymer-project.org/): Libraries, tools, and standards for a better web: LitElement, lit-html, web components...
+- [￼￼Svelte](https://svelte.dev/): Cybernetically enhanced web apps
 
 ##### API
 
 - [I created Postwoman 👽](https://www.indiehackers.com/post/17788d573f)- An [online](https://liyasthomas.github.io/postwoman/), open source API request builder.
+- [dashblock](https://dashblock.com/): TURN ANY WEBSITE INTO AN API
 
 ##### REST API
 
@@ -921,6 +968,8 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Upscale bitmap images with better results](https://fedoramagazine.org/upscale-bitmap-images-better-results/), [simila](https://github.com/lupoDharkael/smilla-enlarger).
 - [Rexpaint](https://www.gridsagegames.com/rexpaint/): is a powerful and user-friendly ASCII art editor. Use a wide variety of tools to create ANSI block/line art, roguelike mockups and maps, UI layouts, and for other game development needs.
+- [Doka](https://pqina.nl/doka/image-editor/): free online image editor.
+- [X Window System Basics](https://magcius.github.io/xplain/article/x-basics.html)
 
 #### CMS
 
@@ -949,6 +998,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - (pt-br) [Jornalismo Guiado por Dados 1](https://rodrigomenegat.github.io/jgd-1/).
 - [SourcedFact](https://sourcedfact.com/): Journalism with Open Sourced Fact Checking
+- [AD.Watch](https://ad.watch/): challenges the closedness of access to political advertising information. The project compiles datasets of political ads on Facebook and Instagram and creates interfaces for their use, with a view to opening up the possibilities for its study. With ad.watch, you can explore both country-specific contextual issues and political strategies, as well as broader questions about the power of persuasion that the use of personal data facilitates.
 
 ---
 
@@ -1070,6 +1120,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [The DevOps Phenomenon](https://queue.acm.org/detail.cfm?id=3338532)
 - (pt-br) [Como contribuir com projetos de código aberto sem precisar entender de programação](https://medium.com/@talitapagani/como-contribuir-com-projetos-de-c%C3%B3digo-aberto-sem-precisar-entender-de-programa%C3%A7%C3%A3o-318f94c6e2d3)
 - [Personal Management System](https://github.com/Volmarg/personal-management-system):  Your web application for managing personal data.
+- [The boring technology behind a one-person Internet company](https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b)
+- The [Open Observatory of Network Interference](https://ooni.io) (OONI) is a free software project under The Tor Project which aims to empower decentralized efforts in increasing transparency of internet censorship around the world.
+- [The secret life of open source developers](https://media.ccc.de/v/bucharest-322-the-secret-life-of-open-source-developers)
 
 ## News
 

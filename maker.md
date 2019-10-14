@@ -32,6 +32,13 @@
 - [Linux maker boards learn how to specialize](http://linuxgizmos.com/linux-maker-boards-learn-how-to-specialize/)
 - [MicroPython pyboard D-series](https://blog.adafruit.com/2019/03/11/micropython-pyboard-d-series-update-micropython-micropython/)
 
+### FPGA
+
+- [TinyUSB](https://github.com/tinyfpga/TinyUSB): USB Full-Speed core written in migen/LiteX
+- [TinyFPGA B2 Board](https://github.com/tinyfpga/TinyFPGA-B-Series): Open source design files for the TinyFPGA B-Series boards.
+- [TinyFPGA-Programmer-Application](https://github.com/tinyfpga/TinyFPGA-Programmer-Application)
+- [TinyFPGA-A-Series](https://github.com/tinyfpga/TinyFPGA-A-Series): Open source design files for the TinyFPGA A-Series boards.
+
 ### Firmware
 
 - [RFStorm nRF24LU1+ Research Firmware](https://github.com/BastilleResearch/nrf-research-firmware): Firmware and research tools for Nordic Semiconductor nRF24LU1+ based USB dongles and breakout boards.
