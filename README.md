@@ -513,6 +513,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Fatiando opções com o getopts](https://www.dicas-l.com.br/arquivo/fatiando_opcoes_com_o_getopts.php)
   - [Getopts - Opções em bash script](http://www.dicas-l.com.br/arquivo/getopts_opcoes_em_bash_script.php)
 - [arg_parse_example](https://github.com/mattbryson/bash-arg-parse/blob/master/arg_parse_example)
+- [How Bash completion works](https://tuzz.tech/blog/how-bash-completion-works)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible): 📖 A collection of pure bash alternatives to external processes.
 - [bash.generate.random.alphanumeric.string.sh](https://gist.github.com/earthgecko/3089509)
 - [Grep OR – Grep AND – Grep NOT – Match Multiple Patterns](https://www.shellhacks.com/grep-or-grep-and-grep-not-match-multiple-patterns/)
@@ -1032,6 +1033,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The IA Client](http://blog.archive.org/2019/06/05/the-ia-client-the-swiss-army-knife-of-internet-archive/): The Swiss Army Knife of Internet Archive. [python library](https://archive.org/services/docs/api/internetarchive/)
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/) - A Complete Guide
 - [HTML is the Web](https://www.petelambert.com/journal/html-is-the-web)
+- [The New Able Editor](https://able.bio/rhett/the-new-able-editor--596ha6x). [suggestion-box](https://github.com/able-bio/suggestion-box): A place to submit issues for bugs, feature requests and other ideas related to Able.
 - [wobaka](https://wobaka.com/): is the CRM system that will make you smile.
 - [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
 
