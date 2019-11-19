@@ -2,7 +2,8 @@
 
 ## Resources
 
-- [Raspberry Pi Internet Thing Videos](https://github.com/adafruit/Pi_Internet_Thing_Videos): Example code to go along with video series on building an internet 'thing' with a Raspberry Pi. Demonstrates building a web app in Python that controls the Pi hardware with a web interface. 
+- [Raspberry Pi Internet Thing Videos](https://github.com/adafruit/Pi_Internet_Thing_Videos): Example code to go along with video series on building an internet 'thing' with a Raspberry Pi. Demonstrates building a web app in Python that controls the Pi hardware with a web interface.
+- [sparkfun Fritzing Parts](https://github.com/sparkfun/Fritzing_Parts): This repo houses all of the SFE Fritzing parts for use in diagrams in tutorials. If you create a new part in Fritzing that correlates to an SFE part, please add it here so others may use it and to avoid duplication.
 
 ## Books
 
@@ -31,6 +32,13 @@
 - [Linux maker boards learn how to specialize](http://linuxgizmos.com/linux-maker-boards-learn-how-to-specialize/)
 - [MicroPython pyboard D-series](https://blog.adafruit.com/2019/03/11/micropython-pyboard-d-series-update-micropython-micropython/)
 
+### FPGA
+
+- [TinyUSB](https://github.com/tinyfpga/TinyUSB): USB Full-Speed core written in migen/LiteX
+- [TinyFPGA B2 Board](https://github.com/tinyfpga/TinyFPGA-B-Series): Open source design files for the TinyFPGA B-Series boards.
+- [TinyFPGA-Programmer-Application](https://github.com/tinyfpga/TinyFPGA-Programmer-Application)
+- [TinyFPGA-A-Series](https://github.com/tinyfpga/TinyFPGA-A-Series): Open source design files for the TinyFPGA A-Series boards.
+
 ### Firmware
 
 - [RFStorm nRF24LU1+ Research Firmware](https://github.com/BastilleResearch/nrf-research-firmware): Firmware and research tools for Nordic Semiconductor nRF24LU1+ based USB dongles and breakout boards.
@@ -40,7 +48,14 @@
 - [FX-SaberOS](https://github.com/Protonerd/FX-SaberOS): System code for Arduino based Lightsaber replicas for DIYino family boards
 - Lessons from Running a Small-Scale Electronics Factory in my Guest Bedroom, part 1: [Design](https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/)
 - [ALL THE BADGES OF DEF CON 26 (VOL 1)](https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/)
-- [NTPClient](https://github.com/arduino-libraries/NTPClient):
+- [NTPClient](https://github.com/arduino-libraries/NTPClient)
+- [OSC](https://github.com/CNMAT/OSC): Arduino and Teensy implementation of OSC encoding
+
+### GPIo
+
+- [Adafruit CircuitPython Library Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
+- [gpiozero](https://github.com/gpiozero/gpiozero): A simple interface to GPIO devices with Raspberry Pi
+- [Quick2Wire](https://github.com/quick2wire/quick2wire-gpio-admin): Use the GPIO pins on the Raspberry Pi without running as root (deprecated)
 
 ### Router
 
