@@ -109,6 +109,9 @@ Nice projects to try. Let's do it!
 - [Build a Raspberry Pi powered live train station sign for your desk](https://www.balena.io/blog/build-a-raspberry-pi-powered-train-station-oled-sign-for-your-desk/)
 - [Flypi](https://github.com/amchagas/Flypi): An open source, modular, affordable tool for imaging experiments. [cheap microscope/experimental setup](https://hackaday.io/project/5059-flypi-cheap-microscopeexperimental-setup)
 - [Solar Powered Raspberry Pi Camera](https://kaspars.net/blog/solar-raspberry-pi-camera)
+- [USB PD Stand-alone Sink Controller](https://blog.oxplot.com/usb-pd-standalone-sink-controller/): leveraging it for powering everything under 100 watt. [repo](https://github.com/oxplot/fabpide2)
+- *[The Open Book Project](https://github.com/joeycastillo/The-Open-Book)*: The Open Book aims to be a simple device that anyone with a soldering iron can build for themselves.
+- [BrachioGraph](https://brachiograph.readthedocs.io/en/latest/): the cheapest, simplest possible pen-plotter
 
 ## Prototyping
 

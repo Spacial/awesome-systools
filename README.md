@@ -3,11 +3,13 @@
 ## Lists
 
 - [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+- [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted): This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
 
 ## Reliability
 
 - [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
 - [Istio on GKE](https://www.linkedin.com/pulse/istio-gke-googles-sre-box-ganesan-janarthanam-jana-/)- Google's SRE in a Box!
+- [The 5 Things I Learned About ICS Operations From Jurassic Park](https://medium.com/@hexadecim8/the-5-things-i-learned-about-ics-operations-from-jurassic-park-8d38b6081142)
 
 ## Licensing
 
@@ -45,6 +47,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Modern USB gadget on Linux & how to integrate it with systemd (Part 2)](https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-(part-2)/)
 - [Introduction to Paging](https://os.phil-opp.com/paging-introduction/): Writing an OS in Rust
 - [Linux on your laptop](https://www.zdnet.com/article/linux-on-your-laptop-heres-what-you-need-to-know-about-uefi-firmware/): Here's what you need to know about UEFI firmware
+- [Rockbox](https://www.rockbox.org/): is a free replacement firmware for digital music players.
+- [Learn and use fork(), vfork(), wait() and exec() system calls across Linux Systems](https://www.linuxtechi.com/learn-use-fork-vfork-wait-exec-system-calls-linux/)
 
 ### Performance
 
@@ -64,12 +68,18 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [ARM and Intel have different performance characteristics: a case study in random number generation](https://lemire.me/blog/2019/03/20/arm-and-intel-have-different-performance-characteristics-a-case-study-in-random-number-generation/)
 - [Estimating branch probability using Intel LBR feature](https://easyperf.net/blog/2019/05/06/Estimating-branch-probability): The underlying CPU feature that allows this to happen is called LBR(Last Branch Record). LBR feature is used to track control flow of the program. This feature uses MSRs (Model Specific Registers) to store history of last taken branches.
 - Linux Applications Performance: [Introduction](https://unixism.net/2019/04/linux-applications-performance-introduction/).
+- [A Multithreaded Fork of Redis That’s 5X Faster Than Redis](https://docs.keydb.dev/blog/2019/10/07/blog-post/)
+- [600k concurrent websocket connections on AWS using Node.js](https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/)
+- Making Instagram.com faster: [Part 3 — cache first](https://instagram-engineering.com/making-instagram-com-faster-part-3-cache-first-6f3f130b9669)
+- [gprof, Valgrind and gperftools](http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/)- an evaluation of some tools for application level CPU profiling on Linux.
+- [A small s**tstorm is heading your way, if you're in the business of running code on Intel computers.](https://twitter.com/damageboy/status/1194751035136450560)[code-erratum](https://www.intel.com/content/dam/support/us/en/documents/processors/mitigations-jump-conditional-code-erratum.pdf)
 
 #### Monitoring
 
 - [netdata](https://my-netdata.io/): Real-time performance monitoring, done right! [github](https://github.com/netdata/netdata).
 - [Watchman](https://github.com/facebook/watchman): Watches files and records, or triggers actions, when they change.
 - [cartography](https://github.com/lyft/cartography): Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
+- [hardinfo](https://github.com/lpereira/hardinfo): System profiler and benchmark tool for Linux systems
 
 ### Red Hat/Fedora
 
@@ -95,6 +105,17 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
  $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
   $ sudo dnf install vlc
 ```
+
+- [Python in RHEL 8](https://developers.redhat.com/blog/2018/11/14/python-in-rhel-8/)
+- [bodhi](https://github.com/fedora-infra/bodhi): Bodhi is a web-system that facilitates the process of publishing updates for a Fedora-based software distribution.
+- [the-new-hotness](https://github.com/fedora-infra/the-new-hotness): A fedmsg consumer that files bugzilla bugs for upstream releases.
+- [koschei](https://github.com/fedora-infra/koschei): Continuous integration for Fedora packages.
+- [mirrormanager2](https://github.com/fedora-infra/mirrormanager2): Rewrite of the MirrorManager application in Flask and SQLAlchemy.
+- [fedora-messaging](https://github.com/fedora-infra/fedora-messaging): A library for sending AMQP messages with JSON schema in Fedora infrastructure.
+- [fedocal](https://github.com/fedora-infra/fedocal): A web based calendar application for Fedora.
+- [Use timedatectl to Control System Time and Date in Linux](https://www.maketecheasier.com/timedatectl-control-system-time-date-linux/)
+- [Fedora pastebin and fpaste updates](https://fedoramagazine.org/fedora-pastebin-and-fpaste-updates/)
+- [Managing software and services with Cockpit](https://fedoramagazine.org/managing-software-and-services-with-cockpit/)
 
 ### Packaging
 
@@ -134,7 +155,12 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Algorithms behind Modern Storage Systems](https://www.infoq.com/presentations/storage-algorithms): Alex Petrov talks about modern storage system approaches, discussing storage internals, and evaluation techniques to choose a database with the optimal read, write or memory overhead, best suitable for a certain data.
 - [PrivateStorage.io](https://privatestorage.io/): Least Authority and Private Internet Access announce PrivateStorage.io. [paper](https://leastauthority.com/blog/least-authority-and-private-internet-access-announce-privatestorage-io-a-secure-and-privacy-focused-cloud-storage-solution/) (using Tahoe-LAFS)
 - [Get Your Data Back With Linux-Based Data Recovery Tools](https://www.linux.com/tutorials/get-your-data-back-linux-based-data-recovery-tools/)
-  
+
+#### Databases
+
+- [Postgres Is Underrated—It Handles More than You Think](https://dev.to/heroku/postgres-is-underrated-it-handles-more-than-you-think-4ff3)
+- [PostgREST](https://postgrest.org/en/v6.0/): is a standalone web server that turns your PostgreSQL database directly into a RESTful API.
+
 ### Controllers
 
 - LSILogic util: [lsiutil](https://github.com/kojack/lsiutil)
@@ -229,6 +255,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
 - [NFHTTP](https://github.com/spotify/NFHTTP): A cross platform C++ HTTP library that interfaces natively to other platforms.
 - [Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) by Mozilla
+- [Cheatsheet for finding vulnerable PHP code using grep](https://github.com/dustyfresh/PHP-vulnerability-audit-cheatsheet): This will assist you in the finding of potentially vulnerable PHP code. Each type of grep command is categorized in the type of vulnerabilities you generally find with that function.
+- [20 Essential Things to Know if You’re on Nginx Web Server](https://www.ubuntupit.com/essential-things-to-know-if-youre-on-nginx-web-server/)
 
 #### Tokens
 
@@ -244,6 +272,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How I made my own WireGuard VPN server](https://techcrunch.com/2018/07/28/how-i-made-my-own-wireguard-vpn-server/)
 - [Secure & Ad-free Internet Anywhere With Streisand and Pi Hole](https://ifelse.io/2019/01/12/secure-ad-free-internet-anywhere-with-streisand-and-pi-hole/)
 - [DSVPN](https://github.com/jedisct1/dsvpn): A Dead Simple VPN.
+- [Build a virtual private network with Wireguard](https://fedoramagazine.org/build-a-virtual-private-network-with-wireguard/)
   
 ### Messaging
 
@@ -273,6 +302,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [When the going gets tough](https://lambdasec.github.io/When-the-going-gets-tough-Understanding-the-challenges-with-Product-commoditization-in-SCA/): Understanding the challenges with Product commoditization in SCA
 - [Examples and customization tricks](https://docs.pytest.org/en/latest/example/index.html)
 - [An introduction to deterministic builds with C/C++](https://blog.conan.io/2019/09/02/Deterministic-builds-with-C-C++.html)
+- [bazel](https://bazel.build): Build and test software of any size, quickly and reliably. [Bazel is a fast, scalable, multi-language and extensible build system](https://github.com/bazelbuild/bazel)
 
 ### Jenkins
 
@@ -352,6 +382,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
 - The Multipath TCP Daemon [mptcpd](https://github.com/intel/mptcpd)- is a daemon for Linux based operating systems that performs multipath TCP path management related operations in the user space. It interacts with the Linux kernel through a generic netlink connection to track per-connection information (e.g. available remote addresses), available network interfaces, request ne…
 - [Reinventing the Network Stack for Compute-Intensive Applications](https://www.darpa.mil/news-events/2019-09-26)
+- [Convert curl syntax to Python](https://curl.trillworks.com). [curlconverter](https://github.com/NickCarneiro/curlconverter/)
 
 ### Network Troubleshooting
 
@@ -374,6 +405,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [websocketd](https://github.com/joewalnes/websocketd): Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.
 - [How to set up a TFTP server on Fedora](https://fedoramagazine.org/how-to-set-up-a-tftp-server-on-fedora/)
 - [OpenSSHd](https://github.com/sektioneins/sshdcc): Security Config Checker
+- [Dropbear SSH](https://matt.ucc.asn.au/dropbear/dropbear.html)
 
 #### Email
 
@@ -437,11 +469,12 @@ ansible_python_interpreter=/usr/bin/python3
   - [Powerline Gitstatus](https://github.com/jaspernbrouwer/powerline-gitstatus)
   - [How to Jazz Up Your Bash Terminal](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)— A Step By Step Guide With Pictures
   - [powerline-shell](https://github.com/b-ryan/powerline-shell): A beautiful and useful prompt for your shell
-- Zsh files:
+- Z shell files:
   - [Zim](https://github.com/zimfw/zimfw/) is a Zsh configuration framework with blazing speed and modular extensions.
   - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): A delightful community-driven (with 1,100+ contributors) framework for managing your zsh configuration.
   - [powerlevel9k](https://github.com/bhilburn/powerlevel9k): The most awesome Powerline theme for ZSH around!
   - [zplug](https://github.com/zplug/zplug): 🌺 A next-generation plugin manager for zsh
+  - [Z shell configuration](https://github.com/SixArm/sixarm_zsh_config): SixArm.com → Z shell → zsh configuration
 - Fish:
   - [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   - [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
@@ -481,12 +514,16 @@ ansible_python_interpreter=/usr/bin/python3
   - [Getopts - Opções em bash script](http://www.dicas-l.com.br/arquivo/getopts_opcoes_em_bash_script.php)
 - [arg_parse_example](https://github.com/mattbryson/bash-arg-parse/blob/master/arg_parse_example)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible): 📖 A collection of pure bash alternatives to external processes.
+- [bash.generate.random.alphanumeric.string.sh](https://gist.github.com/earthgecko/3089509)
+- [Grep OR – Grep AND – Grep NOT – Match Multiple Patterns](https://www.shellhacks.com/grep-or-grep-and-grep-not-match-multiple-patterns/)
 
 ### Shell Utils
 
 - [wttr.in](https://github.com/chubin/wttr.in): The right way to check the weather. wttr.in is a console-oriented weather forecast service that supports various information representation methods like terminal-oriented ANSI-sequences for console HTTP clients (curl, httpie, or wget), HTML for web browsers, or PNG for graphical viewers.
 - [Linux Terminal Goods](http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html)
 - [navi](https://github.com/denisidoro/navi): An interactive cheatsheet tool for the command-line
+- [cast.sh](https://github.com/hericlesme/cast-sh): ￼An adorable instance of your terminal in your browser
+- [Tuning your bash or zsh shell on Fedora Workstation and Silverblue](https://fedoramagazine.org/tuning-your-bash-or-zsh-shell-in-workstation-and-silverblue/)
   
 ### Regex
 
@@ -495,6 +532,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Deu match](http://turicas.info/slides/expressoes-regulares/): limpando dados com expressões regulares
 - [Rant](https://github.com/TheBerkin/rant): The all-purpose procedural text library
 - [Regex Cross­word](https://regexcrossword.com/): Welcome to the fantastic world of nerdy regex fun! Start playing by selecting one of the puzzle challenges below. There are a wide range of difficulties from beginner to expert.
+- [Intro to Regex for Web Developers](https://dev.to/chrisachard/intro-to-regex-for-web-developers-2fj4)
 
 ### Editors
 
@@ -512,6 +550,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [vim-plug](https://github.com/junegunn/vim-plug): hibiscus Minimalist Vim Plugin Manager
 - [gruvbox](https://github.com/morhetz/gruvbox): Retro groove color scheme for Vim
 - [vim-hue](https://foolcontrol.org/?p=3051): Thus “vim-hue” was born, featuring “vim-hue” dark Vim colorscheme and complete Vim configuration. Ideal for anyone using Vim and any of the following on daily basis: Shell (Bash), Golang, Python, Terraform, Ansible, Docker (Dockerfile), et cetera ... [github](https://github.com/AdnanHodzic/vim-hue)
+- [Open File And Go To Specific Function or Line Number](https://www.cyberciti.biz/faq/linux-unix-command-open-file-linenumber-function/)
 
 ## Other Resources
 
@@ -523,6 +562,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Fighting complexity in software development](https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md)
 - [Building interactive SSH applications](https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html)
 - [Automated Environment Configurations](https://github.com/leimao/Automated_Environment_Configurations/tree/master/Ubuntu-18.04-LTS): Environment Configuration Bash Scripts for New Operating Systems - Nvidia/Docker, Intel-MKL and gRPC for Ubuntu 18.04 LTS.
+- [A little SSH file copy magic at the command line](https://www.redhat.com/sysadmin/ssh-file-copy-magic)
 
 ### Books
 
@@ -537,7 +577,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [folderstats](https://github.com/njanakiev/folderstats): Python module that creates statistics from a folder structure
 - [Rethinking files](https://www.devever.net/~hl/objectworld)
 
-## Unix
+## *nix/BSD
 
 - [UNIX Syscalls](https://john-millikin.com/unix-syscalls)
 - [KVM virt-install: Install OpenBSD As Guest Operating System - nixCraft](https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/)
@@ -545,6 +585,9 @@ ansible_python_interpreter=/usr/bin/python3
 - (pt-br) [hoc](https://github.com/ramalho/hoc): A mini-linguagem do livro 'The Unix Programming Environment", com explicações em PT-BR
 - [s-tui](https://amanusk.github.io/s-tui/): s-tui is a terminal UI for monitoring your computer. [github](https://github.com/amanusk/s-tui), [news](https://www.cyberciti.biz/python-tutorials/monitor-linux-cpu-temperature-frequency-power-in-a-graphical-way/)
 - [unix-history-repo](https://github.com/dspinellis/unix-history-repo): Continuous Unix commit history from 1970 until today.
+- [Collapse OS](https://collapseos.org/) to soften the blow. It is a z80 kernel and a collection of programs, tools and documentation that allows you to assemble an OS.
+- [Guix Reduces Bootstrap Seed by 50%](https://guix.gnu.org/blog/2019/guix-reduces-bootstrap-seed-by-50/)
+- [Netflix Optimized FreeBSD's Network Stack More Than Doubled AMD EPYC Performance](https://www.phoronix.com/scan.php?page=news_item&px=Netflix-NUMA-FreeBSD-Optimized), [slides](https://2019.eurobsdcon.org/slides/NUMA%20Optimizations%20in%20the%20FreeBSD%20Network%20Stack%20-%20Drew%20Gallatin.pdf)
 
 ## Virtualization
 
@@ -583,29 +626,37 @@ ansible_python_interpreter=/usr/bin/python3
 ### Containers
 
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
-- [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
-- [google chrome](https://github.com/c0b/chrome-in-docker) dockerized and [headless google chrome](https://github.com/eirslett/chrome-karma-docker), [another](https://github.com/miyakogi/pyppeteer)
-- Some [fedora](https://github.com/fedora-cloud/docker-brew-fedora/) and [docker](https://docs.docker.com/samples/) links:
-  - [Webapps with Docker](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
-  - Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
-- [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
-- [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
 - [Test containers with Python and Conu](https://fedoramagazine.org/test-containers-python-conu/)
-- [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests
-- [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
-- [tsuru](https://github.com/tsuru/tsuru): Open source, extensible and Docker-based Platform as a Service (PaaS).
-- [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
-- [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
 - [etcd](https://github.com/etcd-io/etcd): Distributed reliable key-value store for the most critical data of a distributed system
-- [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
-- [Docker Immutable Workstation](https://github.com/mikadosoftware/workstation): Docker based portable Workstation
-- [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
 - [cilium](https://github.com/cilium/cilium/): API Aware Networking and Security using BPF and XDP
-- [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
-- [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
-- [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop): ⚙️ A [Gentle introduction to Kubernetes](https://medium.com/faun/a-gentle-introduction-to-kubernetes-4961e443ba26) with more than just the basics. 🌟 Give it a star if you like it.
-- [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
-- [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
+- Vagrant:
+  - [landrush](https://github.com/vagrant-landrush/landrush): A Vagrant plugin that provides a simple DNS server for Vagrant guests
+  - [How to Use Vagrant with Libvirt on Linux](https://computingforgeeks.com/using-vagrant-with-libvirt-on-linux/)
+  - [bento](https://github.com/chef/bento): Packer templates for building minimal Vagrant baseboxes.
+  - [Vagrant Libvirt Provider](https://github.com/vagrant-libvirt/vagrant-libvirt).
+- Docker:
+  - [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
+  - [google chrome](https://github.com/c0b/chrome-in-docker) dockerized and [headless google chrome](https://github.com/eirslett/chrome-karma-docker), [another](https://github.com/miyakogi/pyppeteer)
+  - Some [fedora](https://github.com/fedora-cloud/docker-brew-fedora/) and [docker](https://docs.docker.com/samples/) links:
+    - [Webapps with Docker](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
+    - Various great [Dockerfiles](https://github.com/jessfraz/dockerfiles) by jessfraz (as usual)
+  - [Running a GUI application in a Docker container](https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/)
+  - [img](https://github.com/genuinetools/img): Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
+  - [rubber-docker](https://github.com/Fewbytes/rubber-docker): A workshop on Linux containers: Rebuild Docker from Scratch
+  - [tsuru](https://github.com/tsuru/tsuru): Open source, extensible and Docker-based Platform as a Service (PaaS).
+  - [awesome-tsuru](https://github.com/rafaeleyng/awesome-tsuru): Curated extensions and resources for Tsuru, the open source, extensible and Docker-based PaaS
+  - [Docker Immutable Workstation](https://github.com/mikadosoftware/workstation): Docker based portable Workstation
+  - [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
+  - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
+  - [docker-nginx-http3](https://github.com/RanadeepPolavarapu/docker-nginx-http3): Alpine Linux image with Nginx with HTTP/3 (QUIC), TLSv1.3, 0-RTT, brotli support. All built on the bleeding edge for max performance. Built on the edge, for the edge.
+- Kubernetes:
+  - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
+  - [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
+  - [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
+  - [kubernetes-workshop](https://github.com/eon01/kubernetes-workshop): ⚙️ A [Gentle introduction to Kubernetes](https://medium.com/faun/a-gentle-introduction-to-kubernetes-4961e443ba26) with more than just the basics. 🌟 Give it a star if you like it.
+  - [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
+  - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
+  - [Kubernetes Networking: Behind the scenes](https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb)
 
 #### Lambda
 
@@ -618,6 +669,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [My Homeassistant configuration](https://github.com/eifinger/homeassistant-config)
 - [Don't kill my app!](https://dontkillmyapp.com/): To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless.
 - [Project description](https://github.com/igorwojda/android-showcase): gemAndroid application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
+- [scrcpy](https://github.com/Genymobile/scrcpy): Display and control your Android device
 
 ## Mac
 
@@ -643,6 +695,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [mac_os](https://github.com/bkuhlmann/mac_os#requirements): Shell scripts for automated macOS machine setup.
 - [Charts](https://github.com/danielgindi/Charts)
 - [symboliclinker](https://github.com/nickzman/symboliclinker): A contextual menu plugin & service for Mac OS X that allows users to make symbolic links in the Finder
+- [macOS Catalina 10.15 Release Notes](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_release_notes#3318257): Update your apps to use new features, and test your apps against API changes.
+- [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps): ￼ Awesome list of open source applications for macOS.
 
 ## Windows
 
@@ -797,6 +851,17 @@ ansible_python_interpreter=/usr/bin/python3
 - [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
 - [free POS software.](http://keyhut.com/pos.htm)
 
+### Timeline
+
+- Python:
+  - [Timeline](https://github.com/jasonreisman/Timeline): A python tool for creating SVG timelines from JSON.
+  - [labella.py](https://github.com/GjjvdBurg/labella.py): Python 3 clone of labella.js that generates SVG and TikZ PDF output.
+- LaTeX:
+  - [timeline](https://github.com/cfiandra/timeline): TikZ timeline library.
+  - [Timeline of Arab grammarians](http://andreasmhallberg.github.io/timeline-of-arab-grammarians/)
+  - [9.8. Generating a timeline](http://latex-cookbook.net/articles/timeline/)
+  - From SO: [How do I develop a complex time line?](https://tex.stackexchange.com/questions/183046/how-do-i-develop-a-complex-time-line) [How to create a timeline with LaTeX?](https://stackoverflow.com/questions/217834/how-to-create-a-timeline-with-latex)
+
 ### JSON
 
 - [gron](https://github.com/tomnomnom/gron/): Make JSON greppable!
@@ -848,6 +913,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [TRAILS OF WIND](https://trailsofwind.figures.cc/): The architecture of airport runways
 - [IAVisa](https://iavisa.com/): is a site that offers you the best information about visas, such as: what types of visa you need to travel to a particular country, what situations you will face, what documents you need to obtain, but also many other information that you will most likely need.
 - [Postman](https://www.getpostman.com/): Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. Some pt-br [tutorial about postman](https://developercielo.github.io/tutorial/postman)
+- [tldr](https://github.com/tldr-pages/tldr):￼ [Simplified and community-driven man pages](https://tldr.sh).
+- [Burlesco](https://burles.co/): Leia notícias sem ser assinante, burle o paywall. [github](https://github.com/burlesco/burlesco)
 
 #### Domains
 
@@ -922,6 +989,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Two Browsers Walked Into a Scrollbar](https://www.filamentgroup.com/lab/scrollbars/)
 - [laptop.css](https://jjkaufman.github.io/laptop.css/index.html)
 - [Head](https://github.com/joshbuchea/head): 🗿 A list of everything that *could* go in the head of your document. [htmlhead.dev](https://htmlhead.dev/)
+- Images done right: [Web graphics, good to the last byte](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques).
+- [Dark mode in a website with CSS](https://tombrow.com/dark-mode-website-css)
+- [Re-writing Vy.no in Elm](https://blogg.bekk.no/using-elm-at-vy-e028b11179eb).
+- [Flask Google Maps](https://github.com/flask-extensions/Flask-GoogleMaps): Easy way to add GoogleMaps to Flask applications.
 
 ##### JavaScript
 
@@ -1081,6 +1152,10 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Binary Hardening in IoT products](https://cyber-itl.org/2019/08/26/iot-data-writeup.html): Last year, the team at CITL looked into the state of binary hardening features in IoT firmware.
 - Introducing Rainbow: [Donjon’s side-channel analysis simulation tool](https://medium.com/ledger-on-security-and-blockchain/introducing-rainbow-donjons-side-channel-analysis-simulation-tool-2f23fa1f11b3). repo: [rainbow](https://github.com/Ledger-Donjon/rainbow)
 - [Memfault](https://memfault.com/): is the collaboration of engineers who share decades of experience working at leading hardware companies including Oculus, Fitbit, and Pebble.
+- [Espressif IDF Eclipse Plugins](https://github.com/espressif/idf-eclipse-plugin): Eclipse plugin for ESP-IDF CMake based projects (4.x and above)
+- [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
+- [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
+- [micropython-coffee](https://github.com/andrequeiroz2/micropython-coffee)
 
 ### RFID
 
@@ -1106,6 +1181,10 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [MrPiracy](https://mrpiracy.site/)
 - [tvlist](https://github.com/damianrath/tvlist): Lists TV shows and their current state by leveraging the TV Maze API (CLI)
 - [serverless-to-cgi-bin](https://github.com/ghuntley/serverless-to-cgi-bin): A browser extension that replaces occurrences of 'serverless' with 'cgi-bin'
+- [X-Ray Tech Lays Chip Secrets Bare](https://spectrum.ieee.org/nanoclast/semiconductors/design/xray-tech-lays-chip-secrets-bare): Researchers in Switzerland and the U.S. have a non-destructive technique that can reverse engineer an entire chip without damaging it.
+- [xkcdfs](https://github.com/danieldulaney/xkcdfs): A FUSE Filesystem for xkcd.
+- Voyager [Mission Status](https://voyager.jpl.nasa.gov/mission/status/)
+- [So Doom (1993) has a neat bit of encryption in it. It's not very strong encryption, but it's still encryption.](https://twitter.com/Foone/status/1189249817492557826). [DOOM Source Code](https://github.com/id-Software/DOOM)
 
 ## Stuff
 
@@ -1123,6 +1202,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [The boring technology behind a one-person Internet company](https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b)
 - The [Open Observatory of Network Interference](https://ooni.io) (OONI) is a free software project under The Tor Project which aims to empower decentralized efforts in increasing transparency of internet censorship around the world.
 - [The secret life of open source developers](https://media.ccc.de/v/bucharest-322-the-secret-life-of-open-source-developers)
+- [Why we moved our servers to Iceland](https://blog.simpleanalytics.com/why-we-moved-our-servers-to-iceland)
+- [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
 
 ## News
 
@@ -1138,6 +1219,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Adventures of putting 16 GB of RAM in a motherboard that doesn’t support it](https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/)
 - [Upgrade Arbitrage](https://tedium.co/2019/06/04/used-workstation-computer-buying-strategy/): The charm of buying old workstation hardware on the cheap to support your modern computing needs. If it doesn’t work for them, it might just work for you.
 - [Sorry, we can't join your Slack](https://www.reifyworks.com/writing/2019-09-03-sorry-we-cant-join-your-slack)
+- [A New Linux Memory Controller Promises to Save Lots of RAM](https://thenewstack.io/a-new-linux-memory-controller-promises-to-save-lots-of-ram/)
 
 ## Making Conferences
 
