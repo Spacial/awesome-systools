@@ -488,7 +488,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [wttr.in](https://github.com/chubin/wttr.in): The right way to check the weather. wttr.in is a console-oriented weather forecast service that supports various information representation methods like terminal-oriented ANSI-sequences for console HTTP clients (curl, httpie, or wget), HTML for web browsers, or PNG for graphical viewers.
 - [Linux Terminal Goods](http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html)
 - [navi](https://github.com/denisidoro/navi): An interactive cheatsheet tool for the command-line
-  
+- [10 Tools To Add Some Spice To Your UNIX/Linux Shell Scripts](https://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html)  
+
 ### Regex
 
 - [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
@@ -514,6 +515,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [gruvbox](https://github.com/morhetz/gruvbox): Retro groove color scheme for Vim
 - [vim-hue](https://foolcontrol.org/?p=3051): Thus “vim-hue” was born, featuring “vim-hue” dark Vim colorscheme and complete Vim configuration. Ideal for anyone using Vim and any of the following on daily basis: Shell (Bash), Golang, Python, Terraform, Ansible, Docker (Dockerfile), et cetera ... [github](https://github.com/AdnanHodzic/vim-hue)
 
+### Random Shell tips
+
+- [shell/bash generate random alphanumeric string](https://gist.github.com/earthgecko/3089509)
+- [Strings handler written in Bash](https://github.com/henriquemoody/string.bash)
+- [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X
+- ](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+
 ## Other Resources
 
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
@@ -524,6 +532,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Fighting complexity in software development](https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md)
 - [Building interactive SSH applications](https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html)
 - [Automated Environment Configurations](https://github.com/leimao/Automated_Environment_Configurations/tree/master/Ubuntu-18.04-LTS): Environment Configuration Bash Scripts for New Operating Systems - Nvidia/Docker, Intel-MKL and gRPC for Ubuntu 18.04 LTS.
+- [curl better](https://www.slideshare.net/bagder/curl-better), [video](https://www.youtube.com/watch?v=Pi0PLntuP9k&feature=youtu.be)
+- [How to see Time-To-Live (TTL) for a DNS record](https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/)
+- [How to test and validate DNSSEC using dig command line](https://www.cyberciti.biz/faq/unix-linux-test-and-validate-dnssec-using-dig-command-line/)
 
 ### Books
 
@@ -644,6 +655,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [mac_os](https://github.com/bkuhlmann/mac_os#requirements): Shell scripts for automated macOS machine setup.
 - [Charts](https://github.com/danielgindi/Charts)
 - [symboliclinker](https://github.com/nickzman/symboliclinker): A contextual menu plugin & service for Mac OS X that allows users to make symbolic links in the Finder
+- [Entirely offline auto-organizer and text extractor from screenshots in macOS](https://news.ycombinator.com/item?id=22727333)
 
 ## Windows
 
@@ -677,6 +689,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Install-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-6)
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit): is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
 - [Empire](https://github.com/EmpireProject/Empire): Empire is a PowerShell and Python post-exploitation agent.
+- [PowerShell 2.0 script to get processes tree](https://gist.github.com/JPMinty/f4d60adafdfbc12b0e4226a27bf1dcb0)
 
 ---
 
@@ -694,7 +707,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
 - [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
 - [Vialer-js](https://github.com/vialer/vialer-js): Open-source WebRTC communication platform.
-- [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet)
+- [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet), 
+    - [Jitsi Meet](https://meet.jit.si/)
+    - [manual-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/manual-install.md)
+    - [quick-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/quick-install.md)
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 
@@ -797,6 +813,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [peco](https://github.com/peco/peco): Simplistic interactive filtering tool.
 - [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
 - [free POS software.](http://keyhut.com/pos.htm)
+- [Gmvault](http://gmvault.org/): gmail backup by gaubert [gmail backup software](https://github.com/gaubert/gmvault)
 
 ### JSON
 
@@ -849,6 +866,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [TRAILS OF WIND](https://trailsofwind.figures.cc/): The architecture of airport runways
 - [IAVisa](https://iavisa.com/): is a site that offers you the best information about visas, such as: what types of visa you need to travel to a particular country, what situations you will face, what documents you need to obtain, but also many other information that you will most likely need.
 - [Postman](https://www.getpostman.com/): Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. Some pt-br [tutorial about postman](https://developercielo.github.io/tutorial/postman)
+- [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
 
 #### Domains
 
@@ -923,6 +941,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Two Browsers Walked Into a Scrollbar](https://www.filamentgroup.com/lab/scrollbars/)
 - [laptop.css](https://jjkaufman.github.io/laptop.css/index.html)
 - [Head](https://github.com/joshbuchea/head): 🗿 A list of everything that *could* go in the head of your document. [htmlhead.dev](https://htmlhead.dev/)
+- [CSS Zen Garden](http://www.csszengarden.com): The Beauty of CSS Design
+- [react-ultimate-resume](https://github.com/welovedevs/react-ultimate-resume): 💼 🎨 A modern software developer resume built with React and JSONResume
 
 ##### JavaScript
 
@@ -1042,6 +1062,7 @@ $INDEX
 - [StreamAlert](https://github.com/airbnb/streamalert) - Serverless, Realtime Data Analysis Framework
 - [ThreatResponse](https://threatresponse.cloud/): Open Source Incident Response Toolkit
 - [Embarrassingly easy private certificate management for VMs on AWS, GCP, and Azure](https://smallstep.com/blog/embarrassingly-easy-certificates-on-aws-azure-gcp/)
+- [How to burn the most money with a single click in Azure](https://mijailovic.net/2020/03/28/azure-money-burning/)
 
 ### AWS
 
@@ -1108,6 +1129,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [MrPiracy](https://mrpiracy.site/)
 - [tvlist](https://github.com/damianrath/tvlist): Lists TV shows and their current state by leveraging the TV Maze API (CLI)
 - [serverless-to-cgi-bin](https://github.com/ghuntley/serverless-to-cgi-bin): A browser extension that replaces occurrences of 'serverless' with 'cgi-bin'
+- WTF?!?!?! - [nhentai-favorites-auto-pagination: This is an infinity randomly picker doujinshi from yours favorite list with auto scroll and pagination](https://github.com/nicweeaboo/nhentai-favorites-auto-pagination)
+
 
 ## Stuff
 
