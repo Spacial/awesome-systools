@@ -564,7 +564,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [forgit](https://github.com/wfxr/forgit) is a utility tool for git taking advantage of fuzzy finder fzf. [Interactive Git Commands With Previews Powered By fzf Fuzzy Finder](https://www.linuxuprising.com/2019/11/forgit-interactive-git-commands-with.html)
 - [shellshare](https://github.com/vitorbaptista/shellshare): Live terminal broadcasts
 - [tdiff](https://github.com/F-i-f/tdiff): Tree diff - diff, with mode, owner, permissions and other inode attributes.
-  
+- [10 Tools To Add Some Spice To Your UNIX/Linux Shell Scripts](https://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html)  
+
 ### Regex
 
 - [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
@@ -604,6 +605,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [Victor Mono](https://rubjo.github.io/victor-mono/): Victor Mono is a free programming font with optional semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters. 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/): A typeface for developers_
 
+### Random Shell tips
+
+- [shell/bash generate random alphanumeric string](https://gist.github.com/earthgecko/3089509)
+- [Strings handler written in Bash](https://github.com/henriquemoody/string.bash)
+- [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X
+- ](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+
 ## Other Resources
 
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
@@ -615,6 +623,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Building interactive SSH applications](https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html)
 - [Automated Environment Configurations](https://github.com/leimao/Automated_Environment_Configurations/tree/master/Ubuntu-18.04-LTS): Environment Configuration Bash Scripts for New Operating Systems - Nvidia/Docker, Intel-MKL and gRPC for Ubuntu 18.04 LTS.
 - [A little SSH file copy magic at the command line](https://www.redhat.com/sysadmin/ssh-file-copy-magic)
+- [curl better](https://www.slideshare.net/bagder/curl-better), [video](https://www.youtube.com/watch?v=Pi0PLntuP9k&feature=youtu.be)
+- [How to see Time-To-Live (TTL) for a DNS record](https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/)
+- [How to test and validate DNSSEC using dig command line](https://www.cyberciti.biz/faq/unix-linux-test-and-validate-dnssec-using-dig-command-line/)
 
 ### Books
 
@@ -757,6 +768,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [macOS Catalina 10.15 Release Notes](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_release_notes#3318257): Update your apps to use new features, and test your apps against API changes.
 - [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps): ￼ Awesome list of open source applications for macOS.
 - [How to lock the Dock on your Mac to prevent unwanted changes](https://www.idownloadblog.com/2020/01/15/how-to-lock-the-dock-on-mac/)
+- [Entirely offline auto-organizer and text extractor from screenshots in macOS](https://news.ycombinator.com/item?id=22727333)
 
 ## Windows
 
@@ -790,6 +802,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Install-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-6)
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit): is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
 - [Empire](https://github.com/EmpireProject/Empire): Empire is a PowerShell and Python post-exploitation agent.
+- [PowerShell 2.0 script to get processes tree](https://gist.github.com/JPMinty/f4d60adafdfbc12b0e4226a27bf1dcb0)
 
 ---
 
@@ -807,7 +820,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
 - [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
 - [Vialer-js](https://github.com/vialer/vialer-js): Open-source WebRTC communication platform.
-- [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet)
+- [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet), 
+    - [Jitsi Meet](https://meet.jit.si/)
+    - [manual-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/manual-install.md)
+    - [quick-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/quick-install.md)
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 
@@ -929,6 +945,7 @@ ansible_python_interpreter=/usr/bin/python3
   - From SO: [How do I develop a complex time line?](https://tex.stackexchange.com/questions/183046/how-do-i-develop-a-complex-time-line) [How to create a timeline with LaTeX?](https://stackoverflow.com/questions/217834/how-to-create-a-timeline-with-latex)
 - Others:
   - [Labella.js](https://github.com/twitter/labella.js): Placing labels on a timeline without overlap.
+- [Gmvault](http://gmvault.org/): gmail backup by gaubert [gmail backup software](https://github.com/gaubert/gmvault)
 
 ### JSON
 
@@ -986,6 +1003,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Mailinator](https://www.mailinator.com/): The Mailinator Email System puts millions of inboxes right at your fingertips. It is an amazing Email Workflow Testing tool for your Software or Service. [repo](https://github.com/mail-in-a-box/mailinabox)
 - [jor1k](https://github.com/s-macke/jor1k): Online OR1K Emulator running Linux
 - [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
+- [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
 
 #### Domains
 
@@ -1065,6 +1083,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Re-writing Vy.no in Elm](https://blogg.bekk.no/using-elm-at-vy-e028b11179eb).
 - [Flask Google Maps](https://github.com/flask-extensions/Flask-GoogleMaps): Easy way to add GoogleMaps to Flask applications.
 - [bruno simon](https://bruno-simon.com/)'s website. amazing work.
+- [CSS Zen Garden](http://www.csszengarden.com): The Beauty of CSS Design
+- [react-ultimate-resume](https://github.com/welovedevs/react-ultimate-resume): 💼 🎨 A modern software developer resume built with React and JSONResume
 
 ##### JavaScript
 
@@ -1188,6 +1208,7 @@ $INDEX
 - [ThreatResponse](https://threatresponse.cloud/): Open Source Incident Response Toolkit
 - [Embarrassingly easy private certificate management for VMs on AWS, GCP, and Azure](https://smallstep.com/blog/embarrassingly-easy-certificates-on-aws-azure-gcp/)
 - [Using Ansible to organize your SSH keys in AWS](https://fedoramagazine.org/using-ansible-to-organize-your-ssh-keys-in-aws/)
+- [How to burn the most money with a single click in Azure](https://mijailovic.net/2020/03/28/azure-money-burning/)
 
 ### AWS
 
@@ -1267,6 +1288,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Fake windows Update](http://fakeupdate.net/win10u/)
 - [Which sudo users to insult - sudo configuration basics](https://blog.sudo.ws/posts/2019/11/which-sudo-users-to-insult-sudo-configuration-basics/)
 - [Jellyfin](https://jellyfin.org/): The Free Software Media System. [repo](https://github.com/jellyfin/jellyfin)
+- WTF?!?!?! - [nhentai-favorites-auto-pagination: This is an infinity randomly picker doujinshi from yours favorite list with auto scroll and pagination](https://github.com/nicweeaboo/nhentai-favorites-auto-pagination)
 
 ## Stuff
 
