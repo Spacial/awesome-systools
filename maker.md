@@ -112,6 +112,8 @@ Nice projects to try. Let's do it!
 - [USB PD Stand-alone Sink Controller](https://blog.oxplot.com/usb-pd-standalone-sink-controller/): leveraging it for powering everything under 100 watt. [repo](https://github.com/oxplot/fabpide2)
 - *[The Open Book Project](https://github.com/joeycastillo/The-Open-Book)*: The Open Book aims to be a simple device that anyone with a soldering iron can build for themselves.
 - [BrachioGraph](https://brachiograph.readthedocs.io/en/latest/): the cheapest, simplest possible pen-plotter
+- [smart glasses (WS2812 edition)](https://facelesstech.wordpress.com/2019/07/14/smart-glasses-ws2812-edition/)
+- [My NFC powered blinky business card](https://www.reddit.com/r/electronics/comments/efz9xf/my_nfc_powered_blinky_business_card/)
 
 ## Prototyping
 
@@ -142,6 +144,11 @@ Nice projects to try. Let's do it!
 ## Enclosures (3D files)
 
 - [Swimming IoT satellite](https://www.thingiverse.com/thing:3064986)
+
+## Bluetooth
+
+- [Using Web Bluetooth to communicate with Bluetooth devices](https://www.balena.io/blog/using-web-bluetooth-to-communicate-with-bluetooth-devices/)
+- [balena-web-ble](https://github.com/balena-io-playground/balena-web-ble/): A project to showcase a Web BLE app communicating with a balena powered BLE peripheral
 
 ## NFC
 
@@ -184,3 +191,7 @@ Nice projects to try. Let's do it!
 https://www.instructables.com/id/Arduino-Python-Communication-via-USB/
 https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/
 
+## News
+
+- [Raspberry Pi 4 WiFi stops working at 2560x1440 screen resolution](https://www.enricozini.org/blog/2019/himblick/raspberry-pi-4-loses-wifi-at-2560x1440-screen-resolution/)
+  

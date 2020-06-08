@@ -4,6 +4,7 @@
 
 - [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 - [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted): This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+- [Lucid Index](https://selfhostedsource.tech/self-hosted): This site's goal is to help you find the software you need as quickly as possible.
 
 ## Reliability
 
@@ -36,7 +37,7 @@
 
 ```bash
 # changing dmesg option
-$ sudo sysctl -w kernel.dmesg_restrict=1
+> sudo sysctl -w kernel.dmesg_restrict=1
 ```
 
 - [darling](https://github.com/darlinghq/darling): Darwin/macOS emulation layer for Linux
@@ -73,6 +74,7 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - Making Instagram.com faster: [Part 3 — cache first](https://instagram-engineering.com/making-instagram-com-faster-part-3-cache-first-6f3f130b9669)
 - [gprof, Valgrind and gperftools](http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/)- an evaluation of some tools for application level CPU profiling on Linux.
 - [A small s**tstorm is heading your way, if you're in the business of running code on Intel computers.](https://twitter.com/damageboy/status/1194751035136450560)[code-erratum](https://www.intel.com/content/dam/support/us/en/documents/processors/mitigations-jump-conditional-code-erratum.pdf)
+- [BPF: A New Type of Software](http://www.brendangregg.com/blog/2019-12-02/bpf-a-new-type-of-software.html), [BPF Performance Tools (book)](http://www.brendangregg.com/bpf-performance-tools-book.html), [repo](https://github.com/brendangregg/bpf-perf-tools-book).
 
 #### Monitoring
 
@@ -102,8 +104,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 
 ```bash
  # installing the repo
- $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-  $ sudo dnf install vlc
+ > sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+ > sudo dnf install vlc
 ```
 
 - [Python in RHEL 8](https://developers.redhat.com/blog/2018/11/14/python-in-rhel-8/)
@@ -114,8 +116,13 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [fedora-messaging](https://github.com/fedora-infra/fedora-messaging): A library for sending AMQP messages with JSON schema in Fedora infrastructure.
 - [fedocal](https://github.com/fedora-infra/fedocal): A web based calendar application for Fedora.
 - [Use timedatectl to Control System Time and Date in Linux](https://www.maketecheasier.com/timedatectl-control-system-time-date-linux/)
+- [Configurando timezone em RHEL CentOS](https://www.ultrav.com.br/2014/04/17/configurando-timezone-rhel-centos/)
 - [Fedora pastebin and fpaste updates](https://fedoramagazine.org/fedora-pastebin-and-fpaste-updates/)
 - [Managing software and services with Cockpit](https://fedoramagazine.org/managing-software-and-services-with-cockpit/)
+- [Set up single sign-on for Fedora Project services](https://fedoramagazine.org/set-up-single-sign-on-for-fedora-project-services/)
+- [Fedy](https://github.com/rpmfusion-infra/fedy) makes it easy to install third-party software in Fedora.
+- [Fedora Switch Display Manager](https://www.if-not-true-then-false.com/2018/fedora-switch-display-manager/): GDM/SDDM/LXDM/LightDM/KDM/XDM
+- [](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_authselect_on_a_red_hat_enterprise_linux_host/index)
 
 ### Packaging
 
@@ -155,11 +162,13 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [Algorithms behind Modern Storage Systems](https://www.infoq.com/presentations/storage-algorithms): Alex Petrov talks about modern storage system approaches, discussing storage internals, and evaluation techniques to choose a database with the optimal read, write or memory overhead, best suitable for a certain data.
 - [PrivateStorage.io](https://privatestorage.io/): Least Authority and Private Internet Access announce PrivateStorage.io. [paper](https://leastauthority.com/blog/least-authority-and-private-internet-access-announce-privatestorage-io-a-secure-and-privacy-focused-cloud-storage-solution/) (using Tahoe-LAFS)
 - [Get Your Data Back With Linux-Based Data Recovery Tools](https://www.linux.com/tutorials/get-your-data-back-linux-based-data-recovery-tools/)
+- [SMART Stats Exposed — a Drive Stats Remix](https://www.backblaze.com/blog/smart-stats-exposed-a-drive-stats-remix/)
 
 #### Databases
 
 - [Postgres Is Underrated—It Handles More than You Think](https://dev.to/heroku/postgres-is-underrated-it-handles-more-than-you-think-4ff3)
-- [PostgREST](https://postgrest.org/en/v6.0/): is a standalone web server that turns your PostgreSQL database directly into a RESTful API.
+- [PostgREST](https://postgrest.org/en/v6.0/): is a standalone web server that turns your PostgreSQL database directly into a RESTful API. [repo](https://github.com/PostgREST/postgrest)
+- [Postgres is a great pub/sub & job server](https://layerci.com/blog/postgres-is-the-answer/)
 
 ### Controllers
 
@@ -178,7 +187,8 @@ $ sudo sysctl -w kernel.dmesg_restrict=1
 - [5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1)
 - [ieturk](https://github.com/varal7/ieturk): Intuitive Annotation Tool for Information / Named Entity Recognition using localturk / Amazon Mechanical Turk
 - [terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline): Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
-- [cue](https://github.com/cuelang/cue): Validate and define text-based and dynamic configuration
+- [cue](https://github.com/cuelang/cue): Validate and define text-based and dynamic configuration.
+- [Mitogen](https://mitogen.networkgenomics.com/): Mitogen is a Python library for writing distributed self-replicating programs.
 
 ### Ansible
 
@@ -235,6 +245,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
 - [Get SSH login notification on Telegram](https://8192.one/post/ssh_login_notification_withtelegram/)
 - [Ciderpress](https://github.com/da667/Ciderpress): Hardened wordpress installer
+- [debian-cis](https://github.com/ovh/debian-cis): PCI-DSS compliant Debian 7/8 hardening.
 
 #### Webservers
 
@@ -273,10 +284,30 @@ ansible_python_interpreter=/usr/bin/python3
 - [Secure & Ad-free Internet Anywhere With Streisand and Pi Hole](https://ifelse.io/2019/01/12/secure-ad-free-internet-anywhere-with-streisand-and-pi-hole/)
 - [DSVPN](https://github.com/jedisct1/dsvpn): A Dead Simple VPN.
 - [Build a virtual private network with Wireguard](https://fedoramagazine.org/build-a-virtual-private-network-with-wireguard/)
-  
+
+### Privacy
+
+- [Privacy and Anonimity Tools](https://twitter.com/hackermaderas/status/1222179758202662918)
+- [Public ad-blocking DNS service built on Pi-hole.](https://pi-dns.com/)
+- [AdBlocking VPN Proxy Server](https://blog.richardcrosby.co.uk/adblocking-vpn-proxy-server-pi-hole-wireguard-privoxy-unbound/)(Pi-hole, Wireguard, Privoxy, Unbound)
+- [Bootable and Encrypted Whonix VM on 8GB USB Stick](https://torforum.org/newbies/tutorial-bootable-and-encrypted-whonix-vm-on-8gb-usb-stick.htm)
+- [DNSCrypt-Proxy + Unbound + OpenVPN](https://mydarkerego.blogspot.com/2015/03/dnscrypt-proxy-unbound-openvpn.html)
+- [Tails OS](https://prefuse.org/tails-os) – An Actionable Guide for Regular Folks
+- [How to secure your computer and surf fully Anonymous BLACK-HAT STYLE](https://archive.cyberguerrilla.org/a/2011/?p=3322)
+- [noisy](https://github.com/1tayH/noisy): Simple random DNS, HTTP/S internet traffic noise generator
+- [Flood Your ISP with Random, Noisy Data to Protect Your Privacy on the Internet](https://null-byte.wonderhowto.com/how-to/flood-your-isp-with-random-noisy-data-protect-your-privacy-internet-0186193/)
+- [Randomization and encryption of DNS requests](https://www.monperrus.net/martin/randomization-encryption-dns-requests)
+- [NSABlocklist](https://github.com/CHEF-KOCH/NSABlocklist): HOSTS file and research project to block all known NSA / GCHQ / C.I.A. / F.B.I. spying server
+- [Anonymising your traffic with linux](https://gendersec.tacticaltech.org/wiki/index.php/Anonymising_your_traffic_with_linux)
+- [EndWare](https://github.com/endwall2/endware): is a collection of scripts and configuration files geared towards promoting computer security, anonymity, and privacy. These tools will grow overtime.
+- [The ultimative collection of Free and Open Source Android apps](https://github.com/CHEF-KOCH/Android-Privacy-Data-Protection-Tools-Mega-Thread): 
+- [Host your own .onion site using nginx and Tor](https://chown.io/guide-host-your-own-onion-site-tor-nginx/)
+- [Ultra low budget wifi crypt router](https://geebee.org/blog?req=1&post_id=NzM=)
+
 ### Messaging
 
 - [Tox](https://tox.chat/): The library provides all of the messaging and encryption facilities, and is completely decoupled from any user-interface; for an end-user to make use of Tox, they need a Tox client. MacOS Clients: [uTox](https://github.com/uTox/uTox/) and [qTox](https://github.com/qTox/qTox/).
+- [Build a WhatsApp Chatbot With Python, Flask and Twilio](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio) and [Twilio API for WhatsApp Quickstarts](https://www.twilio.com/docs/sms/whatsapp/quickstart)
 
 ## Continuous Integration
 
@@ -314,6 +345,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [GitHub Plugin - Jenkins](https://wiki.jenkins.io/display/JENKINS/Github+Plugin)
 - [Trigger Jenkins builds by pushing to Github](https://www.fourkitchens.com/blog/article/trigger-jenkins-builds-pushing-github/)
 - [Add Users to Jenkins with "Allow users to sign up" Disabled](https://stackoverflow.com/questions/12056851/add-users-to-jenkins-with-allow-users-to-sign-up-disabled)
+- [Easy Jenkins with a System Container](https://blog.nestybox.com/2019/09/29/jenkins.html)
 
 ## Devops
 
@@ -383,6 +415,7 @@ ansible_python_interpreter=/usr/bin/python3
 - The Multipath TCP Daemon [mptcpd](https://github.com/intel/mptcpd)- is a daemon for Linux based operating systems that performs multipath TCP path management related operations in the user space. It interacts with the Linux kernel through a generic netlink connection to track per-connection information (e.g. available remote addresses), available network interfaces, request ne…
 - [Reinventing the Network Stack for Compute-Intensive Applications](https://www.darpa.mil/news-events/2019-09-26)
 - [Convert curl syntax to Python](https://curl.trillworks.com). [curlconverter](https://github.com/NickCarneiro/curlconverter/)
+- [Nethogs](https://github.com/raboof/nethogs): NetHogs is a small 'net top' tool. Instead of breaking the traffic down per protocol or per subnet, like most tools do, it groups bandwidth by process.
 
 ### Network Troubleshooting
 
@@ -393,7 +426,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [SS Utility](https://www.cyberciti.biz/files/ss.html): Quick Intro
 - [http toolkit](https://httptoolkit.tech/mock/): Intercept & view all your HTTP(S), Mock endpoints or entire servers, Rewrite, redirect, or inject errors.
 - [quiche](https://github.com/cloudflare/quiche): Savoury implementation of the QUIC transport protocol and HTTP/3
-  
+- [ripe-atlas-tools](https://github.com/RIPE-NCC/ripe-atlas-tools): Official command-line client for RIPE Atlas.
+- [whois](https://github.com/RIPE-NCC/whois): RIPE Database whois code repository.
+- [ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau): Python client for RIPE ATLAS API.
+
 ### NetServices
 
 - [salmon](https://github.com/moggers87/salmon): Pythonic Mail Application Server forked from the last GPL'd release of Lamson
@@ -525,6 +561,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [navi](https://github.com/denisidoro/navi): An interactive cheatsheet tool for the command-line
 - [cast.sh](https://github.com/hericlesme/cast-sh): ￼An adorable instance of your terminal in your browser
 - [Tuning your bash or zsh shell on Fedora Workstation and Silverblue](https://fedoramagazine.org/tuning-your-bash-or-zsh-shell-in-workstation-and-silverblue/)
+- [forgit](https://github.com/wfxr/forgit) is a utility tool for git taking advantage of fuzzy finder fzf. [Interactive Git Commands With Previews Powered By fzf Fuzzy Finder](https://www.linuxuprising.com/2019/11/forgit-interactive-git-commands-with.html)
+- [shellshare](https://github.com/vitorbaptista/shellshare): Live terminal broadcasts
+- [tdiff](https://github.com/F-i-f/tdiff): Tree diff - diff, with mode, owner, permissions and other inode attributes.
   
 ### Regex
 
@@ -552,6 +591,18 @@ ansible_python_interpreter=/usr/bin/python3
 - [gruvbox](https://github.com/morhetz/gruvbox): Retro groove color scheme for Vim
 - [vim-hue](https://foolcontrol.org/?p=3051): Thus “vim-hue” was born, featuring “vim-hue” dark Vim colorscheme and complete Vim configuration. Ideal for anyone using Vim and any of the following on daily basis: Shell (Bash), Golang, Python, Terraform, Ansible, Docker (Dockerfile), et cetera ... [github](https://github.com/AdnanHodzic/vim-hue)
 - [Open File And Go To Specific Function or Line Number](https://www.cyberciti.biz/faq/linux-unix-command-open-file-linenumber-function/)
+
+### Monospaced Fonts
+
+- [Cascadia Code](https://github.com/microsoft/cascadia-code): This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
+- [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode): monospaced font with programming ligatures
+- [FiraCode](https://github.com/tonsky/FiraCode): monospaced font with programming ligatures
+- [Fixedsys Excelsior](https://github.com/kika/fixedsys): font with programming ligatures
+- [Hasklig](https://github.com/i-tu/Hasklig): a code font with monospaced ligatures
+- [Iosevka](https://typeof.net/Iosevka/)
+- [Monoid](https://larsenwork.com/monoid/): Open Source Coding Font
+- [Victor Mono](https://rubjo.github.io/victor-mono/): Victor Mono is a free programming font with optional semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters. 
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/): A typeface for developers_
 
 ## Other Resources
 
@@ -613,6 +664,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [applepie](https://github.com/gamozolabs/applepie): A hypervisor for fuzzing built with WHVP and Bochs.
 - [V3VEE](http://v3vee.org/) - An Open Source Virtual Machine Monitor Framework For Modern Architectures
 - [IceBox](https://github.com/thalium/icebox): Icebox is a Virtual Machine Introspection solution that enable you to stealthily trace and debug any process (kernel or user). It's based on project Winbagility.
+- [Create virtual machines with Cockpit in Fedora](https://fedoramagazine.org/create-virtual-machines-with-cockpit-in-fedora/)
 
 ### KVM
 
@@ -650,6 +702,11 @@ ansible_python_interpreter=/usr/bin/python3
   - [slim](https://github.com/ottomatica/slim): Build and run tiny vms from Dockerfiles. Small and sleek.
   - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
   - [docker-nginx-http3](https://github.com/RanadeepPolavarapu/docker-nginx-http3): Alpine Linux image with Nginx with HTTP/3 (QUIC), TLSv1.3, 0-RTT, brotli support. All built on the bleeding edge for max performance. Built on the edge, for the edge.
+  - [List Running Containers](https://www.shellhacks.com/docker-list-running-containers/)
+  - [How To Install Docker On Fedora 31](https://www.linuxuprising.com/2019/11/how-to-install-and-use-docker-on-fedora.html)
+  - [Installing docker on Fedora 31](https://medium.com/@drpdishant/installing-docker-on-fedora-31-beta-6c7a05901613)
+  - [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
+  - [Solving Docker permission denied while trying to connect to the Docker daemon socket](https://techoverflow.net/2017/03/01/solving-docker-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket/)
 - Kubernetes:
   - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
   - [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
@@ -658,11 +715,11 @@ ansible_python_interpreter=/usr/bin/python3
   - [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
   - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
   - [Kubernetes Networking: Behind the scenes](https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb)
-
-#### Lambda
-
-- [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
-- [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
+- Lambda
+  - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
+  - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
+- [A quick introduction to Toolbox on Fedora](https://fedoramagazine.org/a-quick-introduction-to-toolbox-on-fedora/): Toolbox allows you to sort and manage your development environments in containers without requiring root privileges or manually attaching volumes. It creates a container where you can install your own CLI tools, without installing them on the base system itself.
+- [Reverse Engineering and Explointing Build in the Cloud](https://twitter.com/Enno_Insinuator/status/1202251271564152832)
 
 ## Android
 
@@ -671,6 +728,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Don't kill my app!](https://dontkillmyapp.com/): To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless.
 - [Project description](https://github.com/igorwojda/android-showcase): gemAndroid application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 - [scrcpy](https://github.com/Genymobile/scrcpy): Display and control your Android device
+- [Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex): A Pokedex app using ViewModel, LiveData, Room and Navigation
 
 ## Mac
 
@@ -698,6 +756,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [symboliclinker](https://github.com/nickzman/symboliclinker): A contextual menu plugin & service for Mac OS X that allows users to make symbolic links in the Finder
 - [macOS Catalina 10.15 Release Notes](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_release_notes#3318257): Update your apps to use new features, and test your apps against API changes.
 - [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps): ￼ Awesome list of open source applications for macOS.
+- [How to lock the Dock on your Mac to prevent unwanted changes](https://www.idownloadblog.com/2020/01/15/how-to-lock-the-dock-on-mac/)
 
 ## Windows
 
@@ -851,17 +910,25 @@ ansible_python_interpreter=/usr/bin/python3
 - [peco](https://github.com/peco/peco): Simplistic interactive filtering tool.
 - [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
 - [free POS software.](http://keyhut.com/pos.htm)
+- GPG tips:
+  - [GPG Encryption Guide - Part 4 (Symmetric Encryption)](https://www.tutonics.com/2012/11/gpg-encryption-guide-part-4-symmetric.html)
+- [Bye Bye Microsoft Office. Hello LibreOffice](https://easydns.com/blog/2019/11/25/bye-bye-microsoft-office-hello-libreoffice/)
 
 ### Timeline
 
 - Python:
   - [Timeline](https://github.com/jasonreisman/Timeline): A python tool for creating SVG timelines from JSON.
   - [labella.py](https://github.com/GjjvdBurg/labella.py): Python 3 clone of labella.js that generates SVG and TikZ PDF output.
+  - [TimeLine In Python](https://github.com/sukhbinder/timeline_in_python): Simple Timeline Plot In Python with Matplotlib.
+  - [How to create a historical timeline with Python](https://stackoverflow.com/questions/50883054/how-to-create-a-historical-timeline-with-python).
+  - [Creating a timeline with lines, dates, and text](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/timeline.html).
 - LaTeX:
   - [timeline](https://github.com/cfiandra/timeline): TikZ timeline library.
   - [Timeline of Arab grammarians](http://andreasmhallberg.github.io/timeline-of-arab-grammarians/)
   - [9.8. Generating a timeline](http://latex-cookbook.net/articles/timeline/)
   - From SO: [How do I develop a complex time line?](https://tex.stackexchange.com/questions/183046/how-do-i-develop-a-complex-time-line) [How to create a timeline with LaTeX?](https://stackoverflow.com/questions/217834/how-to-create-a-timeline-with-latex)
+- Others:
+  - [Labella.js](https://github.com/twitter/labella.js): Placing labels on a timeline without overlap.
 
 ### JSON
 
@@ -916,6 +983,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Postman](https://www.getpostman.com/): Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. Some pt-br [tutorial about postman](https://developercielo.github.io/tutorial/postman)
 - [tldr](https://github.com/tldr-pages/tldr):￼ [Simplified and community-driven man pages](https://tldr.sh).
 - [Burlesco](https://burles.co/): Leia notícias sem ser assinante, burle o paywall. [github](https://github.com/burlesco/burlesco)
+- [Mailinator](https://www.mailinator.com/): The Mailinator Email System puts millions of inboxes right at your fingertips. It is an amazing Email Workflow Testing tool for your Software or Service. [repo](https://github.com/mail-in-a-box/mailinabox)
+- [jor1k](https://github.com/s-macke/jor1k): Online OR1K Emulator running Linux
+- [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
 
 #### Domains
 
@@ -994,6 +1064,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Dark mode in a website with CSS](https://tombrow.com/dark-mode-website-css)
 - [Re-writing Vy.no in Elm](https://blogg.bekk.no/using-elm-at-vy-e028b11179eb).
 - [Flask Google Maps](https://github.com/flask-extensions/Flask-GoogleMaps): Easy way to add GoogleMaps to Flask applications.
+- [bruno simon](https://bruno-simon.com/)'s website. amazing work.
 
 ##### JavaScript
 
@@ -1004,6 +1075,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Aurelia](https://aurelia.io/): is a collection of Modern JavaScript modules, which when used together, function as a powerful platform for building browser, desktop and mobile applications, all open source and built on open web standards.
 - [Polymer Project](https://www.polymer-project.org/): Libraries, tools, and standards for a better web: LitElement, lit-html, web components...
 - [￼￼Svelte](https://svelte.dev/): Cybernetically enhanced web apps
+- [three.js](https://www.npmjs.com/package/three): The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
+- [JavaScript is C](https://v4.chriskrycho.com/2018/javascript-is-c.html): Maintaining invariants the most painful way possible.
 
 ##### API
 
@@ -1022,6 +1095,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Penetration Testing RESTful Web Services](http://blog.isecurion.com/2017/10/10/penetration-testing-restful-web-services/)
 - [RESTful web services penetation testing](https://hydrasky.com/network-security/restful-web-services-penetation-testing/)
 - [Astra](https://tech.flipkart.com/astra-automated-security-testing-for-rest-apis-a54b999dbfe9?gi=2af3bebcabc8): Automated Security Testing for REST API’s
+- [GraphQL](https://graphql.org/): GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. [graphiql](https://github.com/graphql/graphiql): An in-browser IDE for exploring GraphQL.
 
 ### Web Services
 
@@ -1113,6 +1187,7 @@ $INDEX
 - [StreamAlert](https://github.com/airbnb/streamalert) - Serverless, Realtime Data Analysis Framework
 - [ThreatResponse](https://threatresponse.cloud/): Open Source Incident Response Toolkit
 - [Embarrassingly easy private certificate management for VMs on AWS, GCP, and Azure](https://smallstep.com/blog/embarrassingly-easy-certificates-on-aws-azure-gcp/)
+- [Using Ansible to organize your SSH keys in AWS](https://fedoramagazine.org/using-ansible-to-organize-your-ssh-keys-in-aws/)
 
 ### AWS
 
@@ -1123,6 +1198,7 @@ $INDEX
 - [Amazon Web Services](https://github.com/awslabs)
   - [aws-security-benchmark](https://github.com/awslabs/aws-security-benchmark): Open source demos, concept and guidance related to the AWS CIS Foundation framework.
   - [aws-security-automation](https://github.com/awslabs/aws-security-automation): Collection of scripts and resources for DevSecOps and Automated Incident Response Security.
+- [finala](https://github.com/similarweb/finala): A resource cloud scanner that analyzes and reports about wasteful and unused resources to cut unwanted expenses.
 
 ### Nextcloud
 
@@ -1158,6 +1234,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
 - [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 - [micropython-coffee](https://github.com/andrequeiroz2/micropython-coffee)
+- [Disque](https://github.com/antirez/disque) is a distributed message broker
 
 ### RFID
 
@@ -1187,9 +1264,13 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [xkcdfs](https://github.com/danieldulaney/xkcdfs): A FUSE Filesystem for xkcd.
 - Voyager [Mission Status](https://voyager.jpl.nasa.gov/mission/status/)
 - [So Doom (1993) has a neat bit of encryption in it. It's not very strong encryption, but it's still encryption.](https://twitter.com/Foone/status/1189249817492557826). [DOOM Source Code](https://github.com/id-Software/DOOM)
+- [Fake windows Update](http://fakeupdate.net/win10u/)
+- [Which sudo users to insult - sudo configuration basics](https://blog.sudo.ws/posts/2019/11/which-sudo-users-to-insult-sudo-configuration-basics/)
+- [Jellyfin](https://jellyfin.org/): The Free Software Media System. [repo](https://github.com/jellyfin/jellyfin)
 
 ## Stuff
 
+- [Faces of Open Source](http://www.facesofopensource.com/) is an on-going photographic documentation of the people behind the development and advancement of the open source revolution that has transformed the technology industry.
 - [The Free Stack](http://p.agnihotry.com/post/the_free_stack_aws/): Running your application for free on AWS
 - [The unreasonable effectiveness of Soccermatics?](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
@@ -1206,6 +1287,10 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [The secret life of open source developers](https://media.ccc.de/v/bucharest-322-the-secret-life-of-open-source-developers)
 - [Why we moved our servers to Iceland](https://blog.simpleanalytics.com/why-we-moved-our-servers-to-iceland)
 - [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
+- [The 100:10:1 method: my approach to open source](http://blog.fogus.me/2015/11/04/the-100101-method-my-approach-to-open-source/)
+- [Cartola](https://cartola.org/): a lot of free software related resourses.
+- [Is there a way to see the remaining battery life of your keyboard/mouse on Ubuntu/Linux?](https://unix.stackexchange.com/questions/465084/is-there-a-way-to-see-the-remaining-battery-life-of-your-keyboard-mouse-on-ubunt): _upower --dump_
+- [Convert any .pdf file 📚 into an audio 🔈 book with Python](https://dev.to/mustafaanaskh99/convert-any-pdf-file-into-an-audio-book-with-python-1gk4)
 
 ## News
 
@@ -1222,11 +1307,18 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Upgrade Arbitrage](https://tedium.co/2019/06/04/used-workstation-computer-buying-strategy/): The charm of buying old workstation hardware on the cheap to support your modern computing needs. If it doesn’t work for them, it might just work for you.
 - [Sorry, we can't join your Slack](https://www.reifyworks.com/writing/2019-09-03-sorry-we-cant-join-your-slack)
 - [A New Linux Memory Controller Promises to Save Lots of RAM](https://thenewstack.io/a-new-linux-memory-controller-promises-to-save-lots-of-ram/)
+- [Back from the Blender Conference 2019](https://valdyas.org/fading/hacking/krita-hacking/back-from-the-blender-conference-2019/)
+- [The Magical Science of Wi-Fi on Airplanes](https://onezero.medium.com/what-makes-it-possible-to-browse-the-internet-at-35-000-feet-1afaea83eb5), and [Infographic: How far does your Gogo 2Ku data travel?](https://concourse.gogoair.com/infographic-far-gogo-2ku-data-travel/)
 
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
+- [indico](https://getindico.io/): The effortless open-source tool for event organisation, archival and collaboration
 
 ## Articles
 
 - [Serverless Computing: One Step Forward, Two Steps Back](https://arxiv.org/abs/1812.03651)
+
+## Bots
+
+- [The Money Maker Machine](https://github.com/khstangherlin/monker)
