@@ -609,8 +609,8 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [shell/bash generate random alphanumeric string](https://gist.github.com/earthgecko/3089509)
 - [Strings handler written in Bash](https://github.com/henriquemoody/string.bash)
-- [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X
-- ](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+- [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+- [How to Compare Numbers, Strings and Files in Bash Shell Script](https://www.linuxtechi.com/compare-numbers-strings-files-in-bash-script/)
 
 ## Other Resources
 
@@ -1289,6 +1289,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Which sudo users to insult - sudo configuration basics](https://blog.sudo.ws/posts/2019/11/which-sudo-users-to-insult-sudo-configuration-basics/)
 - [Jellyfin](https://jellyfin.org/): The Free Software Media System. [repo](https://github.com/jellyfin/jellyfin)
 - WTF?!?!?! - [nhentai-favorites-auto-pagination: This is an infinity randomly picker doujinshi from yours favorite list with auto scroll and pagination](https://github.com/nicweeaboo/nhentai-favorites-auto-pagination)
+- [cxxmatrix](https://github.com/akinomyoga/cxxmatrix): I wrote a simple terminal program of Matrix digital rain. A part of the purpose of this program is to test the performance of terminal emulators. Another purpose is just for fun. Enjoy it with fast terminals (e.g., urxvt, alacritty, terminology, etc.)!
 
 ## Stuff
 
