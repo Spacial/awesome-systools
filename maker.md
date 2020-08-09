@@ -114,6 +114,10 @@ Nice projects to try. Let's do it!
 - [BrachioGraph](https://brachiograph.readthedocs.io/en/latest/): the cheapest, simplest possible pen-plotter
 - [smart glasses (WS2812 edition)](https://facelesstech.wordpress.com/2019/07/14/smart-glasses-ws2812-edition/)
 - [My NFC powered blinky business card](https://www.reddit.com/r/electronics/comments/efz9xf/my_nfc_powered_blinky_business_card/)
+- [An open-source MICROSCOPE built using LEGO bricks, 3D-printing, Arduino and Raspberry Pi](https://github.com/ibm/microscopy): An open-source, motorized, and modular microscope built using LEGO bricks, Arduino, Raspberry Pi and 3D printing.
+- [Show & tell: a steampunk desktop background radiation monitor](https://www.balena.io/blog/show-tell-a-steampunk-desktop-background-radiation-monitor/)
+- [LeakyPick](https://arxiv.org/abs/2007.00500): IoT Audio Spy Detector. News: [This device keeps Alexa and other voice assistants from snooping on you](https://arstechnica.com/information-technology/2020/07/this-device-keeps-alexa-and-other-voice-assistant-from-snooping-on-you/).
+- [HomeSnitch](http://tubiblio.ulb.tu-darmstadt.de/111940/): Behavior Transparency and Control for Smart Home IoT Devices.
 
 ## Prototyping
 
@@ -167,6 +171,7 @@ Nice projects to try. Let's do it!
 - [ADS-B USB Dongle (R820T2) + Small Indoor Antenna](https://shop.jetvision.de/epages/64807909.mobile/en_GB/?ObjectPath=/Shops/64807909/Products/53200)
 - [OpenBCI](https://openbci.com/): Open Source Biosensing Tools (EEG, EMG, EKG, and more)
 - [pigpio](https://github.com/bennuttall/pigpio): pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).
+- [Your DS18B20 temperature sensor is likely a fake, counterfeit, clone...](https://github.com/cpetrich/counterfeit_DS18B20) How to tell original from fake DS18B20 temperature sensors.
 
 ## Test List
 
@@ -187,6 +192,9 @@ Nice projects to try. Let's do it!
 - [The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html): how we found, analyzed (with the help of Reddit) and in the end caught the culprit of a malicious device in our network
 - [Reverse Engineering of a Not-so-Secure IoT Device](https://mcuoneclipse.com/2019/05/26/reverse-engineering-of-a-not-so-secure-iot-device/)
 
+## Home Assistant
+
+- [Lovelace RPi Monitor Card](https://github.com/ironsheep/lovelace-rpi-monitor-card): A Raspberry Pi status display Card for Home Assistant Lovelace
 
 https://www.instructables.com/id/Arduino-Python-Communication-via-USB/
 https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/

@@ -130,6 +130,7 @@
 - [warp](https://github.com/dgiagio/warp): Create self-contained single binary applications
 - [Linux brew](https://linuxbrew.sh/): Linuxbrew is a fork of Homebrew, the macOS package manager, for Linux. [github](https://github.com/Linuxbrew/brew)
 - [Nixpkgs](https://github.com/NixOS/nixpkgs): is a collection of packages for the Nix package manager. It is periodically built and tested by the Hydra build daemon as so-called channels.
+- [ELF STATIFIER MAIN PAGE](http://statifier.sourceforge.net/): Statifier is a tool for creating portable, self-containing Linux executables.
 
 #### DEB
 
@@ -268,6 +269,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) by Mozilla
 - [Cheatsheet for finding vulnerable PHP code using grep](https://github.com/dustyfresh/PHP-vulnerability-audit-cheatsheet): This will assist you in the finding of potentially vulnerable PHP code. Each type of grep command is categorized in the type of vulnerabilities you generally find with that function.
 - [20 Essential Things to Know if You’re on Nginx Web Server](https://www.ubuntupit.com/essential-things-to-know-if-youre-on-nginx-web-server/)
+- [ENVOY](https://www.envoyproxy.io/) is an open source edge and service proxy, designed for cloud-native applications. [code](https://github.com/envoyproxy/envoy)
 
 #### Tokens
 
@@ -277,6 +279,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Using a Yubikey for GPG and SSH](https://0day.work/using-a-yubikey-for-gpg-and-ssh/): Sebastian Neef - 0day.work
 - [PIN and Management Key](https://developers.yubico.com/yubikey-piv-manager/PIN_and_Management_Key.html)
 - [Improve login security with challenge-response authentication](https://fedoramagazine.org/login-challenge-response-authentication/)
+- [URU Card](https://en.ovcharov.me/2020/06/29/uru-card-arduino-fido2-authenticator/): Arduino FIDO2 Authenticator. [uru-card](https://github.com/uru-card/uru-card)
 
 ### VPN
 
@@ -303,6 +306,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [The ultimative collection of Free and Open Source Android apps](https://github.com/CHEF-KOCH/Android-Privacy-Data-Protection-Tools-Mega-Thread): 
 - [Host your own .onion site using nginx and Tor](https://chown.io/guide-host-your-own-onion-site-tor-nginx/)
 - [Ultra low budget wifi crypt router](https://geebee.org/blog?req=1&post_id=NzM=)
+- [Lamphone](https://www.nassiben.com/lamphone): Real-Time Passive Sound Recovery from Light Bulb Vibrations
+- [How to setup NordVPN on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-nordvpn/)
 
 ### Messaging
 
@@ -429,6 +434,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [ripe-atlas-tools](https://github.com/RIPE-NCC/ripe-atlas-tools): Official command-line client for RIPE Atlas.
 - [whois](https://github.com/RIPE-NCC/whois): RIPE Database whois code repository.
 - [ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau): Python client for RIPE ATLAS API.
+- [sparrow-wifi](https://github.com/ghostop14/sparrow-wifi): Next-Gen GUI-based WiFi and Bluetooth Analyzer for Linux.
+- [wavemon](https://github.com/uoaerg/wavemon) is an ncurses-based monitoring application for wireless network devices
 
 ### NetServices
 
@@ -461,6 +468,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [BeGoneAds](https://github.com/anned20/begoneads) is a script that puts some popular hosts file lists into the systems hosts file as a adblocker measure.
 - [PR-DNSd](https://github.com/korc/PR-DNSd): Passive-Recursive DNS daemon
 - [cloudflare-sync](https://github.com/mxplusb/cloudflare-sync): A nice to have, MIT-licensed tool for using Cloudflare as a dynamic DNS provider.
+- [The GNU Name System](https://tools.ietf.org/id/draft-schanzen-gns-01.html)
 
 ### LoadBalancers
 
@@ -511,6 +519,8 @@ ansible_python_interpreter=/usr/bin/python3
   - [powerlevel9k](https://github.com/bhilburn/powerlevel9k): The most awesome Powerline theme for ZSH around!
   - [zplug](https://github.com/zplug/zplug): 🌺 A next-generation plugin manager for zsh
   - [Z shell configuration](https://github.com/SixArm/sixarm_zsh_config): SixArm.com → Z shell → zsh configuration
+  - [Pure](https://github.com/sindresorhus/pure): Pretty, minimal and fast ZSH prompt
+  - [powerlevel10k](https://github.com/romkatv/powerlevel10k): Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 - Fish:
   - [fish-shell](https://github.com/fish-shell/fish-shell): The user-friendly command line shell.
   - [fisherman](https://github.com/fisherman/fisherman): The fish-shell plugin manager.  
@@ -604,6 +614,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Monoid](https://larsenwork.com/monoid/): Open Source Coding Font
 - [Victor Mono](https://rubjo.github.io/victor-mono/): Victor Mono is a free programming font with optional semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters. 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/): A typeface for developers_
+- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts): Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more
 
 ### Random Shell tips
 
@@ -651,6 +662,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Collapse OS](https://collapseos.org/) to soften the blow. It is a z80 kernel and a collection of programs, tools and documentation that allows you to assemble an OS.
 - [Guix Reduces Bootstrap Seed by 50%](https://guix.gnu.org/blog/2019/guix-reduces-bootstrap-seed-by-50/)
 - [Netflix Optimized FreeBSD's Network Stack More Than Doubled AMD EPYC Performance](https://www.phoronix.com/scan.php?page=news_item&px=Netflix-NUMA-FreeBSD-Optimized), [slides](https://2019.eurobsdcon.org/slides/NUMA%20Optimizations%20in%20the%20FreeBSD%20Network%20Stack%20-%20Drew%20Gallatin.pdf)
+- [NetBSD code study](http://silas.net.br/codereading/netbsd-code.html)
+- [File Descriptor Transfer over Unix Domain Sockets](https://medium.com/@copyconstruct/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec)
 
 ## Virtualization
 
@@ -736,10 +749,12 @@ ansible_python_interpreter=/usr/bin/python3
 
 - Android Developers Blog - [Introducing Oboe](https://android-developers.googleblog.com/2018/10/introducing-oboe-c-library-for-low.html): A C++ library for low latency audio
 - [My Homeassistant configuration](https://github.com/eifinger/homeassistant-config)
+  - [Nord Theme](https://github.com/home-assistant-community-themes/nord): Nord theme for Home Assistant.
 - [Don't kill my app!](https://dontkillmyapp.com/): To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless.
 - [Project description](https://github.com/igorwojda/android-showcase): gemAndroid application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 - [scrcpy](https://github.com/Genymobile/scrcpy): Display and control your Android device
 - [Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex): A Pokedex app using ViewModel, LiveData, Room and Navigation
+- [NewPipe](https://newpipe.schabi.org/): The lightweight YouTube experience for Android - [code](https://github.com/TeamNewPipe/NewPipe)
 
 ## Mac
 
@@ -769,6 +784,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps): ￼ Awesome list of open source applications for macOS.
 - [How to lock the Dock on your Mac to prevent unwanted changes](https://www.idownloadblog.com/2020/01/15/how-to-lock-the-dock-on-mac/)
 - [Entirely offline auto-organizer and text extractor from screenshots in macOS](https://news.ycombinator.com/item?id=22727333)
+- [create_macos_vm_install_dmg](https://github.com/rtrouton/create_macos_vm_install_dmg): This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.
 
 ## Windows
 
@@ -869,6 +885,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [DevOps didn’t exist when I started as a developer: How this one principle changed my career](https://circleci.com/blog/use-circleci-orbs-to-build-test-and-deploy-a-simple-go-application-to-aws-ecs/)
 - [Sysadmin job levels](https://www.redhat.com/sysadmin/job-levels): What you need to know for each. Linux system administrator job descriptions can run the gamut from very generic to extremely specific. Find out which skills and knowledge you really need for each technical level.
 - [Being ‘Indistractable’ Will Be the Skill of the Future](https://onezero.medium.com/being-indistractable-will-be-the-skill-of-the-future-a07780cf36f4): How the difference between traction and distraction could transform your productivity.
+- [True Product Market Fit is a Minimum Viable Company](https://medium.com/swlh/true-product-market-fit-is-a-minimum-viable-company-56adeb3e49cd)
+- [When your coworker does great work, tell their manager](https://jvns.ca/blog/2020/07/14/when-your-coworker-does-great-work-tell-their-manager/)
 
 ## Presentations
 
@@ -1004,6 +1022,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [jor1k](https://github.com/s-macke/jor1k): Online OR1K Emulator running Linux
 - [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
+- [Handesk(https://github.com/BadChoice/handesk): A Powerful Laravel Help Desk and Lead Management App
 
 #### Domains
 
@@ -1021,7 +1040,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Always. Own. Your platform.](http://www.alwaysownyourplatform.com/)
 - [HTTP/3](https://blog.cloudflare.com/http-3-from-root-to-tip/): From root to tip
 - [css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify): StandAlone Async cross-platform Minifier for the Web.
-- [fontello](https://github.com/fontello/fontello):Iconic fonts scissors
+- [fontello](https://github.com/fontello/fontello): Iconic fonts scissors
 - [Automate a web browser with Selenium](https://fedoramagazine.org/automate-web-browser-selenium/)
 - [Spectre.css](https://github.com/picturepan2/spectre): A Lightweight, Responsive and Modern CSS Framework
 - [Google Optmize](https://marketingplatform.google.com/about/optimize/): Your website is your store window.
@@ -1085,6 +1104,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [bruno simon](https://bruno-simon.com/)'s website. amazing work.
 - [CSS Zen Garden](http://www.csszengarden.com): The Beauty of CSS Design
 - [react-ultimate-resume](https://github.com/welovedevs/react-ultimate-resume): 💼 🎨 A modern software developer resume built with React and JSONResume
+- [analytics](https://github.com/plausible/analytics): Simple and privacy-friendly alternative to Google Analytics.
+- [Brython](https://brython.info/index.html): A Python 3 implementation for client-side web programming.
+- [decentraleyes](https://decentraleyes.org/): Local CDN Emulation. [Decentraleyes](https://git.synz.io/Synzvato/decentraleyes) a web browser extension that emulates Content Delivery Networks to improve your online privacy.
+- [Things I Wish I’d Known About CSS](https://cssfordesigners.com/articles/things-i-wish-id-known-about-css)
+- [DIY Video Hosting](https://tyler.io/diy-video-hosting/): vimeo + AWS.
+- [3D Book Image CSS Generator](https://3d-book-css.netlify.app/)
+- [Hit Counter](https://github.com/brentvollebregt/hit-counter): Easily count hits ￼ on a website by requesting a SVG displaying hit count ￼
 
 ##### JavaScript
 
@@ -1137,6 +1163,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Rexpaint](https://www.gridsagegames.com/rexpaint/): is a powerful and user-friendly ASCII art editor. Use a wide variety of tools to create ANSI block/line art, roguelike mockups and maps, UI layouts, and for other game development needs.
 - [Doka](https://pqina.nl/doka/image-editor/): free online image editor.
 - [X Window System Basics](https://magcius.github.io/xplain/article/x-basics.html)
+- [PaperView](https://glouw.com/2020/08/02/Paperview.html), repo:[PAPERVIEW](https://github.com/glouw/paperview): A high performance X11 animated wallpaper setter
 
 #### CMS
 
@@ -1235,9 +1262,6 @@ $INDEX
 
 ## IoT
 
-- [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
-- [VerneMQ](https://github.com/vernemq/vernemq): A Distributed MQTT Broker
-- [EMQ X Broker](https://github.com/emqx/emqx) - Scalable Distributed MQTT Message Broker for IoT in 5G Era. [site](https://emqx.io)
 - (pt-br) [A Internet das Coisas no Brasil](https://igarape.org.br/a-internet-das-coisas-no-brasil/) - Instituto Igarapé
 - [jerryscript](https://github.com/jerryscript-project/jerryscript): Ultra-lightweight JavaScript engine for the Internet of Things.
 - [UNDERCLOCKING THE ESP8266 LEADS TO WIFI WEIRDNESS](https://hackaday.com/2019/01/04/underclocking-the-esp8266-leads-to-wifi-weirdness/): Sometimes the best hacks come from the most basic of questions. In this case, [CNLohr] was wondering what would happen if he started to reduce the clock speed of the ESP8266’s Baseband PLL (BBPLL) while still trying to communicate with it.
@@ -1256,6 +1280,14 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 - [micropython-coffee](https://github.com/andrequeiroz2/micropython-coffee)
 - [Disque](https://github.com/antirez/disque) is a distributed message broker
+
+### Pub/Sub
+
+- MQTT:
+  - [Apache Pulsar](https://pulsar.apache.org/) is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation. [pulsar](https://github.com/apache/pulsar) [pulsar-manager](https://github.com/apache/pulsar-manager).
+  - [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
+  - [VerneMQ](https://github.com/vernemq/vernemq): A Distributed MQTT Broker
+  - [EMQ X Broker](https://github.com/emqx/emqx) - Scalable Distributed MQTT Message Broker for IoT in 5G Era. [site](https://emqx.io)
 
 ### RFID
 
@@ -1290,6 +1322,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Jellyfin](https://jellyfin.org/): The Free Software Media System. [repo](https://github.com/jellyfin/jellyfin)
 - WTF?!?!?! - [nhentai-favorites-auto-pagination: This is an infinity randomly picker doujinshi from yours favorite list with auto scroll and pagination](https://github.com/nicweeaboo/nhentai-favorites-auto-pagination)
 - [cxxmatrix](https://github.com/akinomyoga/cxxmatrix): I wrote a simple terminal program of Matrix digital rain. A part of the purpose of this program is to test the performance of terminal emulators. Another purpose is just for fun. Enjoy it with fast terminals (e.g., urxvt, alacritty, terminology, etc.)!
+- [Use Unix Pipes to Improve Chromecast Playback](https://alexdelorenzo.dev/linux/2020/03/14/pipes)
 
 ## Stuff
 
@@ -1332,6 +1365,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [A New Linux Memory Controller Promises to Save Lots of RAM](https://thenewstack.io/a-new-linux-memory-controller-promises-to-save-lots-of-ram/)
 - [Back from the Blender Conference 2019](https://valdyas.org/fading/hacking/krita-hacking/back-from-the-blender-conference-2019/)
 - [The Magical Science of Wi-Fi on Airplanes](https://onezero.medium.com/what-makes-it-possible-to-browse-the-internet-at-35-000-feet-1afaea83eb5), and [Infographic: How far does your Gogo 2Ku data travel?](https://concourse.gogoair.com/infographic-far-gogo-2ku-data-travel/)
+- [Hacker News RSS](https://edavis.github.io/hnrss/)
+- [HN Deck](https://hndeck.sagunshrestha.com/): An alternate way to browse Hacker News. [code](https://github.com/sagunsh/hndeck)
 
 ## Making Conferences
 
