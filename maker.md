@@ -51,6 +51,13 @@
 - [NTPClient](https://github.com/arduino-libraries/NTPClient)
 - [OSC](https://github.com/CNMAT/OSC): Arduino and Teensy implementation of OSC encoding
 
+### ESP(3|8)2
+
+- [ESPFLIX](https://github.com/rossumur/espflix): A free video streaming service that runs on a ESP32.
+- [A Simple HomeMade Wi-Fi Jammer by using an ESP8266](https://www.electronicslovers.com/2019/01/a-simple-homemade-wi-fi-jammer-by-using-an-esp8266-diy-project.html)
+- [ESP8266 USB Software Driver](https://github.com/cnlohr/espusb): Software-only ESP8266 USB Device 
+- (pt-br) [O perigo da utilização do módulo Wifi ESP8266 na criação de uma backdoor](https://medium.com/sidechannel-br/o-perigo-da-utiliza%C3%A7%C3%A3o-do-m%C3%B3dulo-wifi-esp8266-na-cria%C3%A7%C3%A3o-de-uma-backdoor-c81b2eee7ef)
+
 ### GPIo
 
 - [Adafruit CircuitPython Library Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
@@ -62,6 +69,7 @@
 - [Libremesh](https://libremesh.org/)
 - [DD-WRT](https://dd-wrt.com/)
 - [OpenWRT](https://openwrt.org/)
+- [Simultaneous AP and Managed Mode Wifi on Raspberry Pi](https://github.com/lukicdarkoo/rpi-wifi)
 
 ### VoCore
 
@@ -118,6 +126,7 @@ Nice projects to try. Let's do it!
 - [Show & tell: a steampunk desktop background radiation monitor](https://www.balena.io/blog/show-tell-a-steampunk-desktop-background-radiation-monitor/)
 - [LeakyPick](https://arxiv.org/abs/2007.00500): IoT Audio Spy Detector. News: [This device keeps Alexa and other voice assistants from snooping on you](https://arstechnica.com/information-technology/2020/07/this-device-keeps-alexa-and-other-voice-assistant-from-snooping-on-you/).
 - [HomeSnitch](http://tubiblio.ulb.tu-darmstadt.de/111940/): Behavior Transparency and Control for Smart Home IoT Devices.
+- [Openbot](https://www.openbot.org/)
 
 ## Prototyping
 
@@ -195,6 +204,10 @@ Nice projects to try. Let's do it!
 ## Home Assistant
 
 - [Lovelace RPi Monitor Card](https://github.com/ironsheep/lovelace-rpi-monitor-card): A Raspberry Pi status display Card for Home Assistant Lovelace
+- [Raspberry Pi Power Supply Checker](https://github.com/custom-components/sensor.rpi_power): A Custom component for Home-Assistant that checks if your Raspberry Pi power supply is giving enough voltage from the kernel.
+- [wiz_light](https://github.com/sbidy/wiz_light): A WiZ Light intergration for Home Assistant.
+- [Poeschl Home Assistant Supervisor Add-ons](https://github.com/Poeschl/Hassio-Addons): The repository for my Home Assistant Supervisor Add-ons.
+- [HP Printer integration for Home Assistant](https://github.com/elad-bar/ha-hpprinter)
 
 https://www.instructables.com/id/Arduino-Python-Communication-via-USB/
 https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/

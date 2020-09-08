@@ -5,12 +5,14 @@
 - [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 - [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted): This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
 - [Lucid Index](https://selfhostedsource.tech/self-hosted): This site's goal is to help you find the software you need as quickly as possible.
+- [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin): A curated list of amazingly awesome open source sysadmin resources.
 
 ## Reliability
 
 - [Google - Site Reliability Engineering](https://landing.google.com/sre/book.html)
 - [Istio on GKE](https://www.linkedin.com/pulse/istio-gke-googles-sre-box-ganesan-janarthanam-jana-/)- Google's SRE in a Box!
 - [The 5 Things I Learned About ICS Operations From Jurassic Park](https://medium.com/@hexadecim8/the-5-things-i-learned-about-ics-operations-from-jurassic-park-8d38b6081142)
+- [Post-Mortems-Template](https://github.com/ghostinthewires/Post-Mortems-Template)
 
 ## Licensing
 
@@ -25,7 +27,8 @@
 - [Linux distros without systemd](https://ungleich.ch/en-us/cms/blog/2019/05/20/linux-distros-without-systemd/).
 - [KISS](https://getkiss.org/): An independent Linux® distribution with a focus on simplicity and the concept of “less is more”. [Package Manager](https://github.com/kisslinux/kiss)
 - [EasyOS](https://easyos.org/): An experimental linux distribution.
-  
+- [KaOS](https://kaosx.us/): A Lean KDE Distribution.
+
 ### Kernel
 
 - [Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
@@ -50,6 +53,8 @@
 - [Linux on your laptop](https://www.zdnet.com/article/linux-on-your-laptop-heres-what-you-need-to-know-about-uefi-firmware/): Here's what you need to know about UEFI firmware
 - [Rockbox](https://www.rockbox.org/): is a free replacement firmware for digital music players.
 - [Learn and use fork(), vfork(), wait() and exec() system calls across Linux Systems](https://www.linuxtechi.com/learn-use-fork-vfork-wait-exec-system-calls-linux/)
+- [LKRG](https://github.com/openwall/lkrg): Linux Kernel Runtime Guard
+- [Following the Linux Kernel Defence Map](https://linuxplumbersconf.org/event/7/contributions/775/attachments/610/1096/Following_the_Linux_Kernel_Defence_Map.pdf) [video](https://linuxplumbersconf.org/event/7/contributions/775/)
 
 ### Performance
 
@@ -82,6 +87,7 @@
 - [Watchman](https://github.com/facebook/watchman): Watches files and records, or triggers actions, when they change.
 - [cartography](https://github.com/lyft/cartography): Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 - [hardinfo](https://github.com/lpereira/hardinfo): System profiler and benchmark tool for Linux systems
+- [hotspot](https://github.com/kdab/hotspot): The Linux perf GUI for performance analysis.
 
 ### Red Hat/Fedora
 
@@ -122,7 +128,9 @@
 - [Set up single sign-on for Fedora Project services](https://fedoramagazine.org/set-up-single-sign-on-for-fedora-project-services/)
 - [Fedy](https://github.com/rpmfusion-infra/fedy) makes it easy to install third-party software in Fedora.
 - [Fedora Switch Display Manager](https://www.if-not-true-then-false.com/2018/fedora-switch-display-manager/): GDM/SDDM/LXDM/LightDM/KDM/XDM
-- [](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_authselect_on_a_red_hat_enterprise_linux_host/index)
+- [CONFIGURING USER AUTHENTICATION USING AUTHSELECT](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/configuring-user-authentication-using-authselect_configuring-authentication-and-authorization-in-rhel)
+- [Come test a new release of pipenv, the Python development tool](https://fedoramagazine.org/come-test-a-new-release-of-pipenv-the-python-development-tool/)
+- [conky](https://github.com/brndnmtthws/conky/wiki/Installation): Light-weight system monitor for X.
 
 ### Packaging
 
@@ -170,6 +178,7 @@
 - [Postgres Is Underrated—It Handles More than You Think](https://dev.to/heroku/postgres-is-underrated-it-handles-more-than-you-think-4ff3)
 - [PostgREST](https://postgrest.org/en/v6.0/): is a standalone web server that turns your PostgreSQL database directly into a RESTful API. [repo](https://github.com/PostgREST/postgrest)
 - [Postgres is a great pub/sub & job server](https://layerci.com/blog/postgres-is-the-answer/)
+- [Port 5432 is open](https://www.splitgraph.com/blog/data-delivery-network-launch): introducing the Splitgraph Data Delivery Network.
 
 ### Controllers
 
@@ -190,6 +199,7 @@
 - [terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline): Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 - [cue](https://github.com/cuelang/cue): Validate and define text-based and dynamic configuration.
 - [Mitogen](https://mitogen.networkgenomics.com/): Mitogen is a Python library for writing distributed self-replicating programs.
+- [Terraform-Templates](https://github.com/ghostinthewires/Terraform-Templates): Terraform Templates to Deploy Infrastructure.
 
 ### Ansible
 
@@ -206,11 +216,15 @@
 - [CHANGING THE SSH PORT WITH ANSIBLE](https://dmsimard.com/2016/03/15/changing-the-ssh-port-with-ansible/)
 - [Understanding Ansible Inventories](https://medium.com/devopslinks/understanding-ansible-inventories-db7b993b3c17): The key to understanding all of Ansible.
 - [How to install Ansible on Ubuntu 18.04 for IT automation](https://www.cyberciti.biz/faq/how-to-install-ansible-on-ubuntu-18-04-for-it-automation/)
+- [Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/) [repo](https://github.com/ansible/workshops) - Training Course for Ansible Automation Platform.
+- Ansible [Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html)
+- Jinja templaes (used in ansible): [Template Designer Documentation](https://jinja.palletsprojects.com/en/2.10.x/templates/)
 
 ```config
 [group:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
+- [A Tutorial for Learning Adhoc Commands in Ansible](https://www.linode.com/docs/applications/configuration-management/ansible-adhoc-commands/)
 
 ### Puppet
 
@@ -247,6 +261,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Get SSH login notification on Telegram](https://8192.one/post/ssh_login_notification_withtelegram/)
 - [Ciderpress](https://github.com/da667/Ciderpress): Hardened wordpress installer
 - [debian-cis](https://github.com/ovh/debian-cis): PCI-DSS compliant Debian 7/8 hardening.
+- [kconfig-hardened-check](https://github.com/a13xp0p0v/kconfig-hardened-check): A tool for checking the hardening options in the Linux kernel config
 
 #### Webservers
 
@@ -280,6 +295,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [PIN and Management Key](https://developers.yubico.com/yubikey-piv-manager/PIN_and_Management_Key.html)
 - [Improve login security with challenge-response authentication](https://fedoramagazine.org/login-challenge-response-authentication/)
 - [URU Card](https://en.ovcharov.me/2020/06/29/uru-card-arduino-fido2-authenticator/): Arduino FIDO2 Authenticator. [uru-card](https://github.com/uru-card/uru-card)
+- [YubiKey at Datadog](https://github.com/DataDog/yubikey)
 
 ### VPN
 
@@ -291,8 +307,11 @@ ansible_python_interpreter=/usr/bin/python3
 ### Privacy
 
 - [Privacy and Anonimity Tools](https://twitter.com/hackermaderas/status/1222179758202662918)
-- [Public ad-blocking DNS service built on Pi-hole.](https://pi-dns.com/)
-- [AdBlocking VPN Proxy Server](https://blog.richardcrosby.co.uk/adblocking-vpn-proxy-server-pi-hole-wireguard-privoxy-unbound/)(Pi-hole, Wireguard, Privoxy, Unbound)
+- [pi-hole]():
+  - [Public ad-blocking DNS service built on Pi-hole.](https://pi-dns.com/)
+  - [AdBlocking VPN Proxy Server](https://blog.richardcrosby.co.uk/adblocking-vpn-proxy-server-pi-hole-wireguard-privoxy-unbound/)(Pi-hole, Wireguard, Privoxy, Unbound)
+  - [Pihole Adlist Tool](https://github.com/yubiuser/pihole_adlist_tool): An tool to analyse how your pihole adlists cover you browsing behavior 
+  - [Internal Domains with DNSMasq and Pi-Hole ](https://dev.to/stjohnjohnson/internal-domains-with-dnsmasq-and-pi-hole-4cof) [files](https://gist.github.com/stjohnjohnson/d441e26e4d77a975fd3ebb4e6f19e3d6)
 - [Bootable and Encrypted Whonix VM on 8GB USB Stick](https://torforum.org/newbies/tutorial-bootable-and-encrypted-whonix-vm-on-8gb-usb-stick.htm)
 - [DNSCrypt-Proxy + Unbound + OpenVPN](https://mydarkerego.blogspot.com/2015/03/dnscrypt-proxy-unbound-openvpn.html)
 - [Tails OS](https://prefuse.org/tails-os) – An Actionable Guide for Regular Folks
@@ -308,6 +327,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Ultra low budget wifi crypt router](https://geebee.org/blog?req=1&post_id=NzM=)
 - [Lamphone](https://www.nassiben.com/lamphone): Real-Time Passive Sound Recovery from Light Bulb Vibrations
 - [How to setup NordVPN on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-nordvpn/)
+- [Improving user privacy and developer experience with User-Agent Client Hints](https://web.dev/user-agent-client-hints/)
 
 ### Messaging
 
@@ -356,6 +376,9 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Guiding Principles for Developer Tools](https://philcalcado.com/2019/07/30/developer_tools_principles.html)
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
+- [GLab](https://github.com/profclems/glab) is an open source Gitlab Cli tool written in Go (golang) to help work seamlessly with Gitlab from the command line.
+- [DevOps Awesome Tools](https://github.com/patricktalmeida/devops-awesome-tools)
+- [Team-Handbook-Template](https://github.com/ghostinthewires/Team-Handbook-Template): An employee / team handbook template
 
 ## Interfaces
 
@@ -421,6 +444,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Reinventing the Network Stack for Compute-Intensive Applications](https://www.darpa.mil/news-events/2019-09-26)
 - [Convert curl syntax to Python](https://curl.trillworks.com). [curlconverter](https://github.com/NickCarneiro/curlconverter/)
 - [Nethogs](https://github.com/raboof/nethogs): NetHogs is a small 'net top' tool. Instead of breaking the traffic down per protocol or per subnet, like most tools do, it groups bandwidth by process.
+- [CORE](https://github.com/coreemu/core): Common Open Research Emulator.
+- [The design of lock_sock() in Linux kernel](https://medium.com/@c0ngwang/the-design-of-lock-sock-in-linux-kernel-69c3406e504b)
 
 ### Network Troubleshooting
 
@@ -459,6 +484,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [MTA Comparison](http://shearer.org/MTA_Comparison): For a lot of people the choice of the Mail Transfer Agent is important.
 - [Announcing notqmail](https://schmonz.com/2019/08/20/announcing-notqmail/). [What is notqmail?](https://github.com/notqmail/notqmail/wiki). [github repo](https://github.com/notqmail/notqmail)
+- [The Confused Mailman](https://ezh.es/blog/2020/08/the-confused-mailman-sending-spf-and-dmarc-passing-mail-as-any-gmail-or-g-suite-customer/): Sending SPF and DMARC passing mail as any Gmail or G Suite customer
 
 ### DNS
 
@@ -469,6 +495,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [PR-DNSd](https://github.com/korc/PR-DNSd): Passive-Recursive DNS daemon
 - [cloudflare-sync](https://github.com/mxplusb/cloudflare-sync): A nice to have, MIT-licensed tool for using Cloudflare as a dynamic DNS provider.
 - [The GNU Name System](https://tools.ietf.org/id/draft-schanzen-gns-01.html)
+- [Ever wondered what happens when you type in a URL in an address bar in a browser? Here is a brief overview...](https://twitter.com/manekinekko/status/1281704000572858375/photo/1)
+- [Understanding DNS—anatomy of a BIND zone file](https://arstechnica.com/gadgets/2020/08/understanding-dns-anatomy-of-a-bind-zone-file/)
 
 ### LoadBalancers
 
@@ -481,6 +509,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
 - [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
+- [Learn Puppeteer & Playwright](https://theheadless.dev/): Tips, tricks and in-depth guides from the trenches
 - [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
   - [Chromium & Netflix (and other DRM video websites)](https://ubuntu-mate.community/t/tutorial-chromium-netflix-and-other-drm-video-websites/7185)
 - [DuckDuckGo Browser Extensions](https://github.com/duckduckgo/duckduckgo-privacy-extension): DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome, Safari.
@@ -575,6 +604,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [shellshare](https://github.com/vitorbaptista/shellshare): Live terminal broadcasts
 - [tdiff](https://github.com/F-i-f/tdiff): Tree diff - diff, with mode, owner, permissions and other inode attributes.
 - [10 Tools To Add Some Spice To Your UNIX/Linux Shell Scripts](https://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html)  
+- [bash scripts](https://github.com/bing0o/bash_scripting) I use daily to automate some stuff and make linux easier.
+- [Camel Snake Kebab](https://github.com/vandot/casbab): CLI "tool" and a bash "library" for Camel/Snake/Kebab case conversion
 
 ### Regex
 
@@ -584,6 +615,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Rant](https://github.com/TheBerkin/rant): The all-purpose procedural text library
 - [Regex Cross­word](https://regexcrossword.com/): Welcome to the fantastic world of nerdy regex fun! Start playing by selecting one of the puzzle challenges below. There are a wide range of difficulties from beginner to expert.
 - [Intro to Regex for Web Developers](https://dev.to/chrisachard/intro-to-regex-for-web-developers-2fj4)
+- [pythex](https://pythex.org/): pythex is a quick way to test your Python regular expressions.
 
 ### Editors
 
@@ -626,8 +658,6 @@ ansible_python_interpreter=/usr/bin/python3
 ## Other Resources
 
 - [16 Linux Books and Videos for System Administrator](https://geekflare.com/linux-books-videos/)
-- [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
-- [Maintaining your AWS infrastructure](https://medium.com/faun/maintaining-your-aws-infrastructure-a4ae6ced8a74)
 - [SSH Examples, Tips & Tunnels](https://hackertarget.com/ssh-examples-tunnels/)
 - [Power of SSH Tunneling](https://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67)
 - [Fighting complexity in software development](https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md)
@@ -637,6 +667,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [curl better](https://www.slideshare.net/bagder/curl-better), [video](https://www.youtube.com/watch?v=Pi0PLntuP9k&feature=youtu.be)
 - [How to see Time-To-Live (TTL) for a DNS record](https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/)
 - [How to test and validate DNSSEC using dig command line](https://www.cyberciti.biz/faq/unix-linux-test-and-validate-dnssec-using-dig-command-line/)
+- [linuxupskillchallenge](https://www.linuxupskillchallenge.org/): Learn the skills required to sysadmin a remote Linux server from the commandline. [gitrepo](https://github.com/snori74/linuxupskillchallenge)
 
 ### Books
 
@@ -650,6 +681,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Share NFS Home Directories Securely with Kerberos](https://fedoramagazine.org/secure-nfs-home-directories-kerberos/)
 - [folderstats](https://github.com/njanakiev/folderstats): Python module that creates statistics from a folder structure
 - [Rethinking files](https://www.devever.net/~hl/objectworld)
+- [Stratis](https://stratis-storage.github.io/) is a local storage-management solution for Linux that can assist with the initial configuration and ongoing management of storage. [stratisd](https://github.com/stratis-storage/stratisd)
 
 ## *nix/BSD
 
@@ -667,8 +699,6 @@ ansible_python_interpreter=/usr/bin/python3
 
 ## Virtualization
 
-- [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
-- [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM/): Tools to set up a quick macOS VM in QEMU, accelerated by KVM.
 - [Windows 2000 on your browser](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
 - [hvpp](https://github.com/wbenny/hvpp) is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system
 - [Windows 95](https://github.com/felixrieseberg/windows95) in Electron. Runs on macOS, Linux, and Windows.
@@ -689,16 +719,38 @@ ansible_python_interpreter=/usr/bin/python3
 - [V3VEE](http://v3vee.org/) - An Open Source Virtual Machine Monitor Framework For Modern Architectures
 - [IceBox](https://github.com/thalium/icebox): Icebox is a Virtual Machine Introspection solution that enable you to stealthily trace and debug any process (kernel or user). It's based on project Winbagility.
 - [Create virtual machines with Cockpit in Fedora](https://fedoramagazine.org/create-virtual-machines-with-cockpit-in-fedora/)
+- [Virtual Machines For Multi-Tenancy in Varnish](https://medium.com/@fwsgonzo/virtual-machines-for-multi-tenancy-in-varnish-1c619ea3276)
+- [Libvirt](https://vyomtech.com/2013/12/17/libvirt_the_unsung_hero_of_cloud_computing.html)- The Unsung Hero of Cloud Computing
+
+### OVF - Open Virtualization Format
+
+- [File Formats for Virtual Machines](https://spin.atomicobject.com/2013/06/03/ovf-virtual-machine/)
+- [OVF Tool - How to convert OVA to OVF](https://www.enterprisedaddy.com/2016/08/ovftool-convert-ova-to-ovf/)
+- [Difference between OVA and OVF](https://sites.google.com/site/vblog77/notes/ovf-ova)
+- [Converting OVA for use with KVM / QCOW2](https://edoceo.com/notabene/ova-to-vmdk-to-qcow2)
+- [Export VM to OVA or OVF using OVF Tool – The Ultimate Guide](http://www.vmwarearena.com/export-vm-to-ova-or-ovf-using-ovf-tool/)
 
 ### KVM
 
+- [OSX-KVM: Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.](https://github.com/kholia/OSX-KVM)
+- [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM/): Tools to set up a quick macOS VM in QEMU, accelerated by KVM.
 - [How to migrate your Virtual Box machines to the KVM-VirtManager](https://www.utappia.org/2016/04/how-to-migrate-your-virtual-box.html)
 - [virt-v2v to convert an ova file to qcow2 fails with error](https://access.redhat.com/solutions/2110391)
-  
+- [Windows 10 in KVM: change boot disk to Virtio](https://superuser.com/questions/1057959/windows-10-in-kvm-change-boot-disk-to-virtio)
+- [How to migrate an IDE VM to a virtio VM?](https://unix.stackexchange.com/questions/134884/how-to-migrate-an-ide-vm-to-a-virtio-vm)
+- [KVM Import an OVA Template](https://blogs.oracle.com/oda/kvm-import-an-ova-template)
+- [Creating Virtual Machines in KVM: Part 2 — Networking](https://www.linux.com/topic/networking/creating-virtual-machines-kvm-part-2-networking/)
+
 ### VMware
 
 - [The ghettoVCB](https://github.com/lamw/ghettoVCB) script performs backups of virtual machines residing. Here on [VMware Communities](https://code.vmware.com/samples/822/ghetto-vcb?h=Sample)
 - [Concord-BFT](https://github.com/vmware/concord-bft): a Distributed Trust Infrastructure
+- [Manually attach USB Device as a VMFS Datastore in ESXI](https://burnhamforensics.com/2019/01/31/manually-attach-usb-device-as-a-vmfs-datastore-in-esxi/)
+- [V-Front Online Depot for VMware ESXi](https://vibsdepot.v-front.de/wiki/index.php/Welcome)
+- [ESXi Community Packaging Tools](https://www.v-front.de/p/esxi-community-packaging-tools.html), [ESXi packages](https://vibsdepot.v-front.de/wiki/index.php/List_of_currently_available_ESXi_packages)
+- [How to Mount a USB Drive as an ESXi Datastore](https://www.micronauts.us/2015/10/05/how-to-mount-a-usb-drive-as-an-esxi-datastore/)
+- [ESXi commandline work](http://www.yellow-bricks.com/2011/11/16/esxi-commandline-work/)
+- [Unregister invalid VMs using ESXi command-line](https://www.sbarjatiya.com/notes_wiki/index.php/Unregister_invalid_VMs_using_ESXi_command-line)
 
 ### Containers
 
@@ -785,6 +837,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to lock the Dock on your Mac to prevent unwanted changes](https://www.idownloadblog.com/2020/01/15/how-to-lock-the-dock-on-mac/)
 - [Entirely offline auto-organizer and text extractor from screenshots in macOS](https://news.ycombinator.com/item?id=22727333)
 - [create_macos_vm_install_dmg](https://github.com/rtrouton/create_macos_vm_install_dmg): This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.
+- [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg): OpenCore bootloader with development SDK.
+- [macOS-Fortress](https://github.com/essandess/macOS-Fortress): Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and On-Access Scanning (PF, squid, privoxy, hphosts, dshield, emergingthreats, hostsfile, PAC file, clamav).
 
 ## Windows
 
@@ -808,6 +862,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [Windows X86-64 System Call Table](https://j00ru.vexillium.org/syscalls/nt/64/) (XP/2003/Vista/2008/7/2012/8/10). [windows-syscalls](https://github.com/j00ru/windows-syscalls)
 - [Awesome-Windows](https://github.com/Awesome-Windows/Awesome): 💻 An awesome & curated list of best applications and tools for Windows.
 - [PowerToys](https://github.com/Microsoft/PowerToys): Windows system utilities to maximize productivity
+- [live sysinternals](https://live.sysinternals.com/): This is a file share allowing access to all Sysinternals utilities. We have developed this to test an alternate distribution mechanism for our utilities.
+- [Windows 10 and Server 2019 Secure Baseline GPO](https://github.com/mxk/win10-secure-baseline-gpo): Windows 10 and Server 2016 Secure Baseline Group Policy
+- [How to manage the changes in Netlogon secure channel connections associated with CVE-2020-1472](https://support.microsoft.com/en-us/help/4557222/how-to-manage-the-changes-in-netlogon-secure-channel-connections-assoc)
+- [BadBlood](https://github.com/davidprowe/BadBlood) by @davidprowe, Secframe.com, fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world. After BadBlood is ran on a domain, security analysts and engineers can practice using tools to gain an understanding and prescribe to securing Active… 
+- [Visio-to-PNG](https://github.com/ghostinthewires/Visio-to-PNG): Powershell script that exports Visio drawings in the current directory to png
+- [Useful File Manipulation Scripts](https://github.com/ghostinthewires/Useful-File-Manipulation-Scripts).
 
 ### Powershell
 
@@ -819,6 +879,16 @@ ansible_python_interpreter=/usr/bin/python3
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit): is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
 - [Empire](https://github.com/EmpireProject/Empire): Empire is a PowerShell and Python post-exploitation agent.
 - [PowerShell 2.0 script to get processes tree](https://gist.github.com/JPMinty/f4d60adafdfbc12b0e4226a27bf1dcb0)
+- [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script): PowerShell script for automation of routine tasks done after fresh installations of Windows 10 / Server 2016 / Server 2019.
+- [Disk Space Reporting Script (Powershell & HTML)](https://github.com/ghostinthewires/Disk-Space-Reporting-Script)
+
+### Debloat
+
+- [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater): Script to remove Windows 10 bloatware.
+- [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/) (thread from 04/2019)
+- [Windows-10-Super-Minimal](https://github.com/prclaunchky/Windows-10-Super-Minimal)
+- [Windows 10 Lite 9.0](https://www.majorgeeks.com/files/details/windows_10_lite.html)
+
 
 ---
 
@@ -842,6 +912,7 @@ ansible_python_interpreter=/usr/bin/python3
     - [quick-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/quick-install.md)
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
+- [Talk](https://github.com/vasanthv/talk): A group video call for the web. No signups. No downloads.
 
 ## Management
 
@@ -947,6 +1018,7 @@ ansible_python_interpreter=/usr/bin/python3
 - GPG tips:
   - [GPG Encryption Guide - Part 4 (Symmetric Encryption)](https://www.tutonics.com/2012/11/gpg-encryption-guide-part-4-symmetric.html)
 - [Bye Bye Microsoft Office. Hello LibreOffice](https://easydns.com/blog/2019/11/25/bye-bye-microsoft-office-hello-libreoffice/)
+- [deepin-screen-recorder](https://github.com/linuxdeepin/deepin-screen-recorder): Screen recorder for DDE.
 
 ### Timeline
 
@@ -970,6 +1042,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [gron](https://github.com/tomnomnom/gron/): Make JSON greppable!
 - [JSON Web Tokens (JWT)](https://github.com/dwyl/learn-json-web-tokens): 🔐 Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
 - [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON per second.
+- [yajl](https://github.com/lloyd/yajl): A fast streaming JSON parsing library in C.
+- [JSON Viewer](https://github.com/ashwin/json-viewer)
+- [PyJSONViewer](https://pypi.org/project/PyJSONViewer/) [repo](https://github.com/AtsushiSakai/PyJSONViewer)
 
 ### WebTools
 
@@ -1022,7 +1097,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [jor1k](https://github.com/s-macke/jor1k): Online OR1K Emulator running Linux
 - [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
-- [Handesk(https://github.com/BadChoice/handesk): A Powerful Laravel Help Desk and Lead Management App
+- [Handesk](https://github.com/BadChoice/handesk): A Powerful Laravel Help Desk and Lead Management App
+- [Creating a QR Code step by step](https://www.nayuki.io/page/creating-a-qr-code-step-by-step)
+- [qrpicture](https://github.com/xyzzy/qrpicture): Photo realistic QR codes hosted on www.qrpicture.com.
+- [Archivy](https://github.com/Uzay-G/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
+- [RSSHub](https://github.com/DIYgod/RSSHub): Everything is RSSible
+- [cypress](https://github.com/cypress-io/cypress): Fast, easy and reliable testing for anything that runs in a browser.
 
 #### Domains
 
@@ -1111,6 +1191,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [DIY Video Hosting](https://tyler.io/diy-video-hosting/): vimeo + AWS.
 - [3D Book Image CSS Generator](https://3d-book-css.netlify.app/)
 - [Hit Counter](https://github.com/brentvollebregt/hit-counter): Easily count hits ￼ on a website by requesting a SVG displaying hit count ￼
+- [Google Fonts Plugin](https://github.com/SirPole/google-fonts-plugin): Webpack plugin that downloads fonts from Google Fonts and encodes them to base64
+- [kratos](https://github.com/ory/kratos): Never build user login, user registration, 2fa, profile management ever again! Works on any operating system, cloud, with any programming language, user interface, and user experience! Written in Go.
 
 ##### JavaScript
 
@@ -1128,6 +1210,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [I created Postwoman 👽](https://www.indiehackers.com/post/17788d573f)- An [online](https://liyasthomas.github.io/postwoman/), open source API request builder.
 - [dashblock](https://dashblock.com/): TURN ANY WEBSITE INTO AN API
+- [scanapi](https://github.com/scanapi/scanapi): Automated Integration Testing and Live Documentation for your API
 
 ##### REST API
 
@@ -1236,6 +1319,9 @@ $INDEX
 - [Embarrassingly easy private certificate management for VMs on AWS, GCP, and Azure](https://smallstep.com/blog/embarrassingly-easy-certificates-on-aws-azure-gcp/)
 - [Using Ansible to organize your SSH keys in AWS](https://fedoramagazine.org/using-ansible-to-organize-your-ssh-keys-in-aws/)
 - [How to burn the most money with a single click in Azure](https://mijailovic.net/2020/03/28/azure-money-burning/)
+- [Automating Deploys with Bash scripting and Google Cloud SDK](https://0xbanana.com/blog/automating-deploys-with-bash-scripting-and-google-cloud-sdk/)
+- [One Click Forensics Lab in the Cloud](https://0xbanana.com/blog/one-click-forensics-lab-in-the-cloud/)
+- [Terraform on GCP - DFIR Lab Hello World!](https://0xbanana.com/blog/terraform-on-gcp-dfir-lab-hello-world/)
 
 ### AWS
 
@@ -1247,6 +1333,9 @@ $INDEX
   - [aws-security-benchmark](https://github.com/awslabs/aws-security-benchmark): Open source demos, concept and guidance related to the AWS CIS Foundation framework.
   - [aws-security-automation](https://github.com/awslabs/aws-security-automation): Collection of scripts and resources for DevSecOps and Automated Incident Response Security.
 - [finala](https://github.com/similarweb/finala): A resource cloud scanner that analyzes and reports about wasteful and unused resources to cut unwanted expenses.
+- [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
+- [Maintaining your AWS infrastructure](https://medium.com/faun/maintaining-your-aws-infrastructure-a4ae6ced8a74)
+- [bottlerocket](https://github.com/bottlerocket-os/bottlerocket): An operating system designed for hosting containers
 
 ### Nextcloud
 
@@ -1323,6 +1412,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - WTF?!?!?! - [nhentai-favorites-auto-pagination: This is an infinity randomly picker doujinshi from yours favorite list with auto scroll and pagination](https://github.com/nicweeaboo/nhentai-favorites-auto-pagination)
 - [cxxmatrix](https://github.com/akinomyoga/cxxmatrix): I wrote a simple terminal program of Matrix digital rain. A part of the purpose of this program is to test the performance of terminal emulators. Another purpose is just for fun. Enjoy it with fast terminals (e.g., urxvt, alacritty, terminology, etc.)!
 - [Use Unix Pipes to Improve Chromecast Playback](https://alexdelorenzo.dev/linux/2020/03/14/pipes)
+- [Snake in a QR code](https://itsmattkc.com/etc/snakeqr/)
 
 ## Stuff
 
@@ -1347,6 +1437,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Cartola](https://cartola.org/): a lot of free software related resourses.
 - [Is there a way to see the remaining battery life of your keyboard/mouse on Ubuntu/Linux?](https://unix.stackexchange.com/questions/465084/is-there-a-way-to-see-the-remaining-battery-life-of-your-keyboard-mouse-on-ubunt): _upower --dump_
 - [Convert any .pdf file 📚 into an audio 🔈 book with Python](https://dev.to/mustafaanaskh99/convert-any-pdf-file-into-an-audio-book-with-python-1gk4)
+- [Sigil](https://github.com/Sigil-Ebook/Sigil): is a multi-platform EPUB ebook editor.
+- [Ham radio is dying! No it’s not, it’s evolving](http://k0lwc.com/ham-radio-is-dying-no-its-not-its-evolving/)
+- [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon 
 
 ## News
 
@@ -1367,11 +1460,13 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [The Magical Science of Wi-Fi on Airplanes](https://onezero.medium.com/what-makes-it-possible-to-browse-the-internet-at-35-000-feet-1afaea83eb5), and [Infographic: How far does your Gogo 2Ku data travel?](https://concourse.gogoair.com/infographic-far-gogo-2ku-data-travel/)
 - [Hacker News RSS](https://edavis.github.io/hnrss/)
 - [HN Deck](https://hndeck.sagunshrestha.com/): An alternate way to browse Hacker News. [code](https://github.com/sagunsh/hndeck)
+- [Introducing the Red Hat Flatpak runtime for desktop containers](https://developers.redhat.com/blog/2020/08/12/introducing-the-red-hat-flatpak-runtime-for-desktop-containers/)
 
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
 - [indico](https://getindico.io/): The effortless open-source tool for event organisation, archival and collaboration
+- [Tune up your sound with PulseEffects: Microphones](https://fedoramagazine.org/tune-up-your-sound-with-pulseeffects-microphones/)
 
 ## Articles
 
