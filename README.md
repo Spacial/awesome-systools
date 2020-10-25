@@ -28,6 +28,7 @@
 - [KISS](https://getkiss.org/): An independent Linux® distribution with a focus on simplicity and the concept of “less is more”. [Package Manager](https://github.com/kisslinux/kiss)
 - [EasyOS](https://easyos.org/): An experimental linux distribution.
 - [KaOS](https://kaosx.us/): A Lean KDE Distribution.
+- [Kicksecure ™](https://www.whonix.org/wiki/Kicksecure): A Security-hardened, Non-anonymous Linux Distribution
 
 ### Kernel
 
@@ -55,6 +56,11 @@
 - [Learn and use fork(), vfork(), wait() and exec() system calls across Linux Systems](https://www.linuxtechi.com/learn-use-fork-vfork-wait-exec-system-calls-linux/)
 - [LKRG](https://github.com/openwall/lkrg): Linux Kernel Runtime Guard
 - [Following the Linux Kernel Defence Map](https://linuxplumbersconf.org/event/7/contributions/775/attachments/610/1096/Following_the_Linux_Kernel_Defence_Map.pdf) [video](https://linuxplumbersconf.org/event/7/contributions/775/)
+
+#### Drivers
+
+- [displaylink-debian](https://github.com/AdnanHodzic/displaylink-debian): DisplayLink driver installer for Debian and Ubuntu based Linux distributions.
+- [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux) on [kali](https://unix.stackexchange.com/questions/288670/how-to-setup-triple-monitors-with-kali-linux) too
 
 ### Performance
 
@@ -88,6 +94,7 @@
 - [cartography](https://github.com/lyft/cartography): Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 - [hardinfo](https://github.com/lpereira/hardinfo): System profiler and benchmark tool for Linux systems
 - [hotspot](https://github.com/kdab/hotspot): The Linux perf GUI for performance analysis.
+- [Busychild](https://github.com/h0mbre/busychild): a pstree mod that prints other helpful information and with added functionality 
 
 ### Red Hat/Fedora
 
@@ -132,6 +139,10 @@
 - [Come test a new release of pipenv, the Python development tool](https://fedoramagazine.org/come-test-a-new-release-of-pipenv-the-python-development-tool/)
 - [conky](https://github.com/brndnmtthws/conky/wiki/Installation): Light-weight system monitor for X.
 
+### Ubuntu
+
+- [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
+
 ### Packaging
 
 - [Packages — GuixSD](https://www.gnu.org/software/guix/packages/)
@@ -171,7 +182,10 @@
 - [Algorithms behind Modern Storage Systems](https://www.infoq.com/presentations/storage-algorithms): Alex Petrov talks about modern storage system approaches, discussing storage internals, and evaluation techniques to choose a database with the optimal read, write or memory overhead, best suitable for a certain data.
 - [PrivateStorage.io](https://privatestorage.io/): Least Authority and Private Internet Access announce PrivateStorage.io. [paper](https://leastauthority.com/blog/least-authority-and-private-internet-access-announce-privatestorage-io-a-secure-and-privacy-focused-cloud-storage-solution/) (using Tahoe-LAFS)
 - [Get Your Data Back With Linux-Based Data Recovery Tools](https://www.linux.com/tutorials/get-your-data-back-linux-based-data-recovery-tools/)
-- [SMART Stats Exposed — a Drive Stats Remix](https://www.backblaze.com/blog/smart-stats-exposed-a-drive-stats-remix/)
+- Smartctl and disk monitoring links:
+  - [SMART Stats Exposed — a Drive Stats Remix](https://www.backblaze.com/blog/smart-stats-exposed-a-drive-stats-remix/)
+  - [How to check an hard drive health from the command line using smartctl](https://linuxconfig.org/how-to-check-an-hard-drive-health-from-the-command-line-using-smartctl)
+  - 
 
 #### Databases
 
@@ -203,7 +217,8 @@
 
 ### Ansible
 
-- Some usefull ansible scripts and tips on [ansible](./ansible) dir.
+- Some usefull ansible playbooks, scripts and tips on [ansible](./ansible) dir.
+  - [ansible.posix](https://github.com/ansible-collections/ansible.posix)
   - [Playbooks and roles for installing and managing Ansible networking CI](https://github.com/ansible/network-infra-playbooks)
   - [Ansible Role: EPEL Repository](https://github.com/geerlingguy/ansible-role-repo-epel)
   - [Ansible role to install and manage nginx configuration](https://github.com/jdauphant/ansible-role-nginx)
@@ -225,6 +240,12 @@
 ansible_python_interpreter=/usr/bin/python3
 ```
 - [A Tutorial for Learning Adhoc Commands in Ansible](https://www.linode.com/docs/applications/configuration-management/ansible-adhoc-commands/)
+- [vmware_rest](https://github.com/ansible-collections/vmware_rest): Ansible Collection for VMWare (REST modules)
+- [ansible-aci](https://github.com/CiscoDevNet/ansible-aci): Cisco ACI Ansible Collection
+- [infoblox-ansible](https://github.com/infobloxopen/infoblox-ansible): Ansible modules for interfacing to Infoblox systems 
+- [Community Network Collection](https://github.com/ansible-collections/community.network): The Community Network collection includes community maintained content to help automate network appliances.
+- [Zuul](https://github.com/ansible/project-config) configuration files for the Ansible tenant. 
+- [Community Sops Collection](https://github.com/ansible-collections/community.sops): Simple and flexible tool for managing secrets
 
 ### Puppet
 
@@ -244,26 +265,56 @@ ansible_python_interpreter=/usr/bin/python3
 
 ### Hardening
 
-- [ERNW Repository of Hardening Guides](https://github.com/ernw/hardening): This repository contains various hardening guides compiled by ERNW for various purposes.
-- [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
-- See your site config with [Hardenize](https://www.hardenize.com/)
-- Nice article with a lot of resources: [Common approaches to securing Linux servers and what runs on them.](https://medium.com/@ageis/common-approaches-to-securing-linux-servers-and-what-runs-on-them-dadcacc5388b)
-- [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
-- [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
-- [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
-- [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
-- [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
+- [9 Kubernetes Security Best Practices Everyone Must Follow](https://www.cncf.io/blog/2019/01/14/9-kubernetes-security-best-practices-everyone-must-follow/)
+- [BlueWars](https://medium.com/blueops/bluewars-capture-the-flag-defensivo-que-aconteceu-na-h2hc-514c75e3f13c): Capture The Flag Defensivo que aconteceu na H2HC
 - [CCAT](https://github.com/cisco-config-analysis-tool/ccat): Cisco Config Analysis Tool
-- [Using a Hardened Container Image for Secure Applications in the Cloud](https://www.cisecurity.org/blog/using-hardened-container-image-secure-applications-cloud/)
-- [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide): 🔥 This guide details the planning and the tools involved in creating a secure Linux production systems - work in progress.
-- [Set up two-factor authentication for SSH on Fedora](https://fedoramagazine.org/two-factor-authentication-ssh-fedora/)
-- [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
-- [Get SSH login notification on Telegram](https://8192.one/post/ssh_login_notification_withtelegram/)
 - [Ciderpress](https://github.com/da667/Ciderpress): Hardened wordpress installer
 - [debian-cis](https://github.com/ovh/debian-cis): PCI-DSS compliant Debian 7/8 hardening.
+- [Endlessh](https://github.com/skeeto/endlessh): an SSH tarpit.
+- [ERNW Repository of Hardening Guides](https://github.com/ernw/hardening): This repository contains various hardening guides compiled by ERNW for various purposes.
+- [fero](https://github.com/coreos/fero): YubiHSM2-backed signing server
+- [FirewallChecker](https://github.com/Z3Prover/FirewallChecker): A self-contained firewall checker
+- [Get SSH login notification on Telegram](https://8192.one/post/ssh_login_notification_withtelegram/)
+- [Hardentools](https://github.com/securitywithoutborders/hardentools) is a utility that disables a number of risky Windows features.
+- [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
+- [Implementing Least-Privilege Administrative Models](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models)
+- [Iptables Essentials](https://github.com/trimstray/iptables-essentials): Common Firewall Rules and Commands.
+- [iptables-essentials](https://github.com/trimstray/iptables-essentials): Iptables Essentials: Common Firewall Rules and Commands.
 - [kconfig-hardened-check](https://github.com/a13xp0p0v/kconfig-hardened-check): A tool for checking the hardening options in the Linux kernel config
+- [Keyringer](https://keyringer.pw/): encrypted and distributed secret sharing software
+- [Keystone Project](https://keystone-enclave.org/). Github: [Keystone Enclave](https://github.com/keystone-enclave/)
+- [linux-hardened](https://github.com/copperhead/linux-hardened): Minimal supplement to upstream Kernel Self Protection Project changes.
+- [List of sites with two factor auth](https://github.com/2factorauth/twofactorauth)
+- [nftables](https://www.funtoo.org/Package:Nftables): nftables is the successor to iptables. It replaces the existing iptables, ip6tables, arptables and ebtables framework. It uses the Linux kernel and a new userspace utility called nft. nftables provides a compatibility layer for the ip(6)tables and framework.
+- Nice article with a lot of resources: [Common approaches to securing Linux servers and what runs on them.](https://medium.com/@ageis/common-approaches-to-securing-linux-servers-and-what-runs-on-them-dadcacc5388b)
+- [opmsg](https://github.com/stealth/opmsg): is a replacement for gpg which can encrypt/sign/verify your mails or create/verify detached signatures of local files. Even though the opmsg output looks similar, the concept is entirely different.
+- [prowler](https://github.com/toniblyx/prowler): AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool. It follows guidelines of the CIS Amazon Web Services Foundations Benchmark and additional checks. Official CIS for [AWS guide](https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf).
+- [reconbf](https://github.com/HewlettPackard/reconbf): Recon system hardening scanner
+- [Sarlacc](https://github.com/scrapbird/sarlacc) is an SMTP server that I use in my malware lab to collect spam from infected hosts.
+- [Secure & Ad-free Internet Anywhere With Streisand and Pi Hole](https://ifelse.io/2019/01/12/secure-ad-free-internet-anywhere-with-streisand-and-pi-hole/)
+- [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) by [stribika](https://github.com/stribika)
+- [Securing Docker Containers](https://0x00sec.org/t/securing-docker-containers/16913). [The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.](https://github.com/docker/docker-bench-security)
+- [securityonion-docs](https://github.com/Security-Onion-Solutions/securityonion-docs)
+- [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
+- See your site config with [Hardenize](https://www.hardenize.com/)
+- [Set up two-factor authentication for SSH on Fedora](https://fedoramagazine.org/two-factor-authentication-ssh-fedora/)
+- [solo-hw](https://github.com/SoloKeysSec/solo-hw): Hardware sources for Solo
+- [ssh-auditor](https://github.com/ncsa/ssh-auditor): The best way to scan for weak ssh passwords on your network
+- [Streisand](https://github.com/StreisandEffect/streisand) sets up a new server running your choice of WireGuard, OpenConnect, OpenSSH, OpenVPN, Shadowsocks, sslh, Stunnel, or a Tor bridge. It also generates custom instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists.
+- [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide): 🔥 This guide details the planning and the tools involved in creating a secure Linux production systems - work in progress.
+- [This is a practical guide to using YubiKey as a SmartCard for storing GPG encryption and signing keys.](https://github.com/drduh/YubiKey-Guide)
+- [tls-what-can-go-wrong](https://github.com/hannob/tls-what-can-go-wrong): TLS - what can go wrong?
+- [upvote](https://github.com/google/upvote): A multi-platform binary whitelisting solution
+- [Using a Hardened Container Image for Secure Applications in the Cloud](https://www.cisecurity.org/blog/using-hardened-container-image-secure-applications-cloud/)
+- [yubikey-ssh-setup](https://github.com/jessfraz/dotfiles/blob/master/bin/yubikey-ssh-setup)
+- [Zero-knowledge attestation](https://www.imperialviolet.org/2019/01/01/zkattestation.html)
+- RHEL Like systems:
+  - [CentOS7 Lockdown](https://github.com/naingyeminn/CentOS7_Lockdown)
+  - [RHEL7-CIS](https://github.com/radsec/RHEL7-CIS): Ansible RHEL 7 - CIS Benchmark Hardening Script
+  - [cisecurity](https://github.com/cohdjn/cisecurity): Configures Linux systems to Center for Internet Security Linux hardening standard.
+- [Linux Hardening Checklist](https://github.com/trimstray/linux-hardening-checklist)
 
-#### Webservers
+### WebServers
 
 - A lot of good posts by geek flare:
   - [How to Configure SSL Certificate on Google Cloud Load Balancer?](https://geekflare.com/google-load-balancer-enable-ssl/)
@@ -272,19 +323,34 @@ ansible_python_interpreter=/usr/bin/python3
   - [Apache Tomcat Hardening and Security Guide](https://geekflare.com/apache-tomcat-hardening-and-security-guide/)
   - [How to Enable TLS 1.3 in Nginx, Cloudflare?](https://geekflare.com/enable-tls-1-3/)
   - [Apache Web Server Hardening & Security Guide](https://geekflare.com/apache-web-server-hardening-security/) (broken!??)
-- [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
-- [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
-- [How to Configure Nginx SSL Certifcate Chain](https://futurestud.io/tutorials/how-to-configure-nginx-ssl-certifcate-chain)
-- [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
+- CaCerts
+  - [List of free rfc3161 servers.](https://gist.github.com/Manouchehri/fd754e402d98430243455713efada710) TSA Servers
+  - [certstream-server](https://github.com/CaliDog/certstream-server): Certificate Transparency Log aggregation, parsing, and streaming service written in Elixir
+- Apache:
+  - [Apache Security](https://www.feistyduck.com/library/apache-security/) by [Ivan Ristić](https://twitter.com/ivanristic)
+  - [dotdotslash](https://github.com/jcesarstef/dotdotslash): An tool to help you search for Directory Traversal Vulnerabilities
+  - [A new security header: Feature Policy](https://scotthelme.co.uk/a-new-security-header-feature-policy/)
+  - [How do I prevent apache from serving the .git directory?](https://serverfault.com/questions/128069/how-do-i-prevent-apache-from-serving-the-git-directory/128082#128082)
+- Nginx:
+  - [20 Essential Things to Know if You’re on Nginx Web Server](https://www.ubuntupit.com/essential-things-to-know-if-youre-on-nginx-web-server/)
+  - [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
+  - [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
+  - [How to Configure Nginx SSL Certifcate Chain](https://futurestud.io/tutorials/how-to-configure-nginx-ssl-certifcate-chain)
+- PHP:
+  - [Cheatsheet for finding vulnerable PHP code using grep](https://github.com/dustyfresh/PHP-vulnerability-audit-cheatsheet): This will assist you in the finding of potentially vulnerable PHP code. Each type of grep command is categorized in the type of vulnerabilities you generally find with that function.
+  - [snuffleupagus](https://github.com/nbs-system/snuffleupagus): Security module for php7 - Killing bugclasses and virtual-patching the rest!
+  - [FOPO-PHP-Deobfuscator](https://github.com/Antelox/FOPO-PHP-Deobfuscator): A simple script to deobfuscate PHP file obfuscated with FOPO Obfuscator
+  - [Decode.Tools](https://malware.expert/general/decode-tools-decode-php-obfuscator-by-fopo/): Decode PHP Obfuscator by FOPO
+- [A new security header: Feature Policy](https://scotthelme.co.uk/a-new-security-header-feature-policy/)
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
-- [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
+- [dotdotslash](https://github.com/jcesarstef/dotdotslash): An tool to help you search for Directory Traversal Vulnerabilities
+- [ENVOY](https://www.envoyproxy.io/) is an open source edge and service proxy, designed for cloud-native applications. [code](https://github.com/envoyproxy/envoy)
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
-- [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
+- [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
 - [NFHTTP](https://github.com/spotify/NFHTTP): A cross platform C++ HTTP library that interfaces natively to other platforms.
 - [Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) by Mozilla
-- [Cheatsheet for finding vulnerable PHP code using grep](https://github.com/dustyfresh/PHP-vulnerability-audit-cheatsheet): This will assist you in the finding of potentially vulnerable PHP code. Each type of grep command is categorized in the type of vulnerabilities you generally find with that function.
-- [20 Essential Things to Know if You’re on Nginx Web Server](https://www.ubuntupit.com/essential-things-to-know-if-youre-on-nginx-web-server/)
-- [ENVOY](https://www.envoyproxy.io/) is an open source edge and service proxy, designed for cloud-native applications. [code](https://github.com/envoyproxy/envoy)
+- [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
+- [urlscan.io](https://urlscan.io/): A sandbox for the web
 
 #### Tokens
 
@@ -296,6 +362,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Improve login security with challenge-response authentication](https://fedoramagazine.org/login-challenge-response-authentication/)
 - [URU Card](https://en.ovcharov.me/2020/06/29/uru-card-arduino-fido2-authenticator/): Arduino FIDO2 Authenticator. [uru-card](https://github.com/uru-card/uru-card)
 - [YubiKey at Datadog](https://github.com/DataDog/yubikey)
+- [This is a practical guide to using YubiKey as a SmartCard for storing GPG encryption and signing keys.](https://github.com/drduh/YubiKey-Guide)
+- [yubikey-ssh-setup](https://github.com/jessfraz/dotfiles/blob/master/bin/yubikey-ssh-setup)
 
 ### VPN
 
@@ -446,6 +514,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Nethogs](https://github.com/raboof/nethogs): NetHogs is a small 'net top' tool. Instead of breaking the traffic down per protocol or per subnet, like most tools do, it groups bandwidth by process.
 - [CORE](https://github.com/coreemu/core): Common Open Research Emulator.
 - [The design of lock_sock() in Linux kernel](https://medium.com/@c0ngwang/the-design-of-lock-sock-in-linux-kernel-69c3406e504b)
+- [Solarflare](https://www.youtube.com/watch?v=BLnHx6Olbng) - What is Kernel Bypass, And Why Is It An Important Concept?
+- [Data Plane Development Kit](https://doc.dpdk.org/guides/prog_guide/overview.html): that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.
+- [Zuul](https://github.com/Netflix/zuul) is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more. 
 
 ### Network Troubleshooting
 
@@ -461,6 +532,15 @@ ansible_python_interpreter=/usr/bin/python3
 - [ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau): Python client for RIPE ATLAS API.
 - [sparrow-wifi](https://github.com/ghostop14/sparrow-wifi): Next-Gen GUI-based WiFi and Bluetooth Analyzer for Linux.
 - [wavemon](https://github.com/uoaerg/wavemon) is an ncurses-based monitoring application for wireless network devices
+- [echoip](https://github.com/mpolden/echoip): IP address lookup service. [ifconfig.co](https://ifconfig.co/)
+- [trace-cmd](https://github.com/rostedt/trace-cmd): utilities for Linux ftrace 
+
+### Firewalls
+
+- Some firewall distros/appliances:
+  - [Endian](https://www.endian.com/): is an open-source router, firewall and gateway security Linux distribution developed by the South Tyrolean company Endian. 
+  - [pfSense](https://www.pfsense.org/): is an open source firewall/router computer software distribution based on FreeBSD.
+  - [The securityrouter.org project](http://securityrouter.org/): is a network operating system and software distribution based on OpenBSD, with the main differentiator being the single, revision-managed, clear-text configuration file with soft re-configuration (atomic commits) editable from CLI and web interface, and documented security architecture. [changelog](https://github.com/securityrouter/changelog)
 
 ### NetServices
 
@@ -474,6 +554,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to set up a TFTP server on Fedora](https://fedoramagazine.org/how-to-set-up-a-tftp-server-on-fedora/)
 - [OpenSSHd](https://github.com/sektioneins/sshdcc): Security Config Checker
 - [Dropbear SSH](https://matt.ucc.asn.au/dropbear/dropbear.html)
+- [firewalld.richlanguage](https://firewalld.org/documentation/man-pages/firewalld.richlanguage.html)
+- [vector](https://github.com/timberio/vector): [High-performance, vendor-neutral observability pipelines.](https://vector.dev/)
 
 #### Email
 
@@ -497,6 +579,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [The GNU Name System](https://tools.ietf.org/id/draft-schanzen-gns-01.html)
 - [Ever wondered what happens when you type in a URL in an address bar in a browser? Here is a brief overview...](https://twitter.com/manekinekko/status/1281704000572858375/photo/1)
 - [Understanding DNS—anatomy of a BIND zone file](https://arstechnica.com/gadgets/2020/08/understanding-dns-anatomy-of-a-bind-zone-file/)
+- [Duck DNS](https://www.duckdns.org/): free dynamic DNS hosted on AWS
+- [Namecoin](https://www.namecoin.org/): is an experimental open-source technology which improves decentralization, security, censorship resistance, privacy, and speed of certain components of the Internet infrastructure such as DNS and identities.
+- [Use dnsmasq to provide DNS & DHCP services](https://fedoramagazine.org/dnsmasq-provide-dns-dhcp-services/)
 
 ### LoadBalancers
 
@@ -508,6 +593,8 @@ ansible_python_interpreter=/usr/bin/python3
 ### Browsers
 
 - [Firefox about:config privacy settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
+- [Firefox Privacy](https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks)
+- [user.js](https://github.com/pyllyukko/user.js): Firefox configuration hardening. Another: [user.js](https://github.com/arkenfox/user.js): Firefox privacy, security and anti-fingerprinting: a comprehensive user.js template for configuration and hardening.
 - [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder): Puppeteer recorder is a Chrome extension that records your browser interactions and generat
 - [Learn Puppeteer & Playwright](https://theheadless.dev/): Tips, tricks and in-depth guides from the trenches
 - [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium): Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency
@@ -592,6 +679,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible): 📖 A collection of pure bash alternatives to external processes.
 - [bash.generate.random.alphanumeric.string.sh](https://gist.github.com/earthgecko/3089509)
 - [Grep OR – Grep AND – Grep NOT – Match Multiple Patterns](https://www.shellhacks.com/grep-or-grep-and-grep-not-match-multiple-patterns/)
+- [asdf-vm](https://asdf-vm.com/): [Manage multiple runtime versions with a single CLI tool](https://github.com/asdf-vm/asdf)
+- [treating errors in bash scripts](https://twitter.com/b0rk/status/1314345978963648524/photo/1) by b0rk
+  - ```  set -e ``` : stops the script on errors
+  - ```  set -u ``` : stops the script on unset variables
+  - ```  set -o pipefail``` : stops the script on a run in pipe
+- [Fork() Bomb](https://www.geeksforgeeks.org/fork-bomb/): ``` :(){ :|: & };: ```
 
 ### Shell Utils
 
@@ -622,6 +715,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools): Official repository for filing issues against and getting support for the Microsoft C/C++ extension for VS Code
 - [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
 - [Open source collaborative text editors](https://juretriglav.si/open-source-collaborative-text-editors/)
+- [vscodium](https://github.com/VSCodium/vscodium): binary releases of VS Code without MS branding/telemetry/licensing
+
 
 #### Vim/vi
 
@@ -682,6 +777,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [folderstats](https://github.com/njanakiev/folderstats): Python module that creates statistics from a folder structure
 - [Rethinking files](https://www.devever.net/~hl/objectworld)
 - [Stratis](https://stratis-storage.github.io/) is a local storage-management solution for Linux that can assist with the initial configuration and ongoing management of storage. [stratisd](https://github.com/stratis-storage/stratisd)
+- [Recover your files from Btrfs snapshots](https://fedoramagazine.org/recover-your-files-from-btrfs-snapshots/)
 
 ## *nix/BSD
 
@@ -783,6 +879,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Installing docker on Fedora 31](https://medium.com/@drpdishant/installing-docker-on-fedora-31-beta-6c7a05901613)
   - [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
   - [Solving Docker permission denied while trying to connect to the Docker daemon socket](https://techoverflow.net/2017/03/01/solving-docker-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket/)
+  - [Yacht](https://github.com/SelfhostedPro/Yacht): A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for.
 - Kubernetes:
   - [Goldpinger](https://github.com/bloomberg/goldpinger): Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster.
   - [You might not need Kubernetes](https://blog.jessfraz.com/post/you-might-not-need-k8s/)
@@ -868,6 +965,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [BadBlood](https://github.com/davidprowe/BadBlood) by @davidprowe, Secframe.com, fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world. After BadBlood is ran on a domain, security analysts and engineers can practice using tools to gain an understanding and prescribe to securing Active… 
 - [Visio-to-PNG](https://github.com/ghostinthewires/Visio-to-PNG): Powershell script that exports Visio drawings in the current directory to png
 - [Useful File Manipulation Scripts](https://github.com/ghostinthewires/Useful-File-Manipulation-Scripts).
+- [BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo): It automatically displays relevant information about a Windows computer on the desktop's background.
+- [Windows-driver-samples](https://github.com/microsoft/Windows-driver-samples): This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
+- [Winerror](https://github.com/AandersonL/WinError): Get Windows Programming error codes descriptions using the command line.
 
 ### Powershell
 
@@ -888,7 +988,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/) (thread from 04/2019)
 - [Windows-10-Super-Minimal](https://github.com/prclaunchky/Windows-10-Super-Minimal)
 - [Windows 10 Lite 9.0](https://www.majorgeeks.com/files/details/windows_10_lite.html)
-
+- [Create custom Windows 10 installations with MSMG Toolkit](https://www.ghacks.net/2017/05/02/create-custom-windows-10-installations-with-msmg-toolkit/), [MSMG ToolKit](https://www.majorgeeks.com/mg/getmirror/msmg_toolkit,1.html) creates a slimmed down, or bloat free Windows by customizing, adding or removing features and components as well as enabling or disabling features to Microsoft Windows 7, 8, and 10.
+- [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/)
+- A lot of powershell scripts:
+  - [Windows-10-Super-Minimal](https://github.com/prclaunchky/Windows-10-Super-Minimal)
 
 ---
 
@@ -932,10 +1035,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade): Tools of The Trade, from Hacker News.
 - [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills): A collection of *nix Sysadmin Test Questions and Answers for Interview/Exam (2018 Edition). Test your knowledge in different fields with these Q/A.
 - [Don’t work “remotely”](http://blairreeves.me/2018/11/09/dont-work-remotely/)
-- [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers.
+- [The First 100 Course](https://docs.google.com/document/d/104qgagSsp2rQQEDORGbYC0uqt0neYHCPxu-aUl4CuSQ/): Measure the strength of your idea with real customers
 - [20 Questions To Ask Before Joining A Startup](https://hharnisc.github.io/2018/11/25/twenty-questions-to-ask-before-joining-a-startup.html)
 - [4 Mentorship Archetypes](https://g-rand.com/2018/12/04/4-mentorship-archetypes/)
-- [On Shutting Down](https://blog.ycombinator.com/shutting-down/).
+- [On Shutting Down](https://blog.ycombinator.com/shutting-down/)
 - [How I Built A $5,000 Per Month Side Project](https://campfirelabs.co/blog-1/2019/1/10/how-i-built-a-5000-per-month-side-project)
 - [The Future of Work Framework](https://blogs.nasa.gov/futureofwork/2018/11/15/the-future-of-work-framework/)
 - [Why work at Stripe when you could run your own business?](https://www.kalzumeus.com/2019/3/18/two-years-at-stripe/)
@@ -943,7 +1046,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [working for a startup makes increasingly less sense](https://jatins.gitlab.io/me/why-startup/)
 - [on internal engineering practices at amazon](https://jatins.gitlab.io/me/amazon-internal-tools/)
 - [Your Network Determines Success More than You Realize](https://medium.com/swlh/your-network-determines-success-more-than-you-realize-41a3e889ecea)
-- [How NOT to hire a software engineer](http://tonsky.me/blog/hiring/)  
+- [How NOT to hire a software engineer](http://tonsky.me/blog/hiring/)
 - [Productivity Isn’t About Time Management. It’s About Attention Management.](https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html)
 - [Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)
 - [What is a 1x Engineer?](https://1x.engineer/) - [github](https://github.com/cutenode/1x.engineer)
@@ -958,6 +1061,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Being ‘Indistractable’ Will Be the Skill of the Future](https://onezero.medium.com/being-indistractable-will-be-the-skill-of-the-future-a07780cf36f4): How the difference between traction and distraction could transform your productivity.
 - [True Product Market Fit is a Minimum Viable Company](https://medium.com/swlh/true-product-market-fit-is-a-minimum-viable-company-56adeb3e49cd)
 - [When your coworker does great work, tell their manager](https://jvns.ca/blog/2020/07/14/when-your-coworker-does-great-work-tell-their-manager/)
+- ["Can you summarize this 200-page dev resume book in 7 tweets or less?"](https://twitter.com/GergelyOrosz/status/1319282287456874498)
 
 ## Presentations
 
@@ -1019,6 +1123,11 @@ ansible_python_interpreter=/usr/bin/python3
   - [GPG Encryption Guide - Part 4 (Symmetric Encryption)](https://www.tutonics.com/2012/11/gpg-encryption-guide-part-4-symmetric.html)
 - [Bye Bye Microsoft Office. Hello LibreOffice](https://easydns.com/blog/2019/11/25/bye-bye-microsoft-office-hello-libreoffice/)
 - [deepin-screen-recorder](https://github.com/linuxdeepin/deepin-screen-recorder): Screen recorder for DDE.
+- [portable Time Stamp Server (over HTTP)](https://github.com/corpus-solutions/tsa-server): portable Time Stamp Server (over HTTP)
+
+### Rescue
+
+- [ALT Linux Rescue](https://en.altlinux.org/Rescue): is a moderate sized[1] console LiveCD distribution that is designed to help sysadmins fix and repair many kinds of problems with systems they are or feel responsible for.
 
 ### Timeline
 
@@ -1103,6 +1212,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Archivy](https://github.com/Uzay-G/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
 - [RSSHub](https://github.com/DIYgod/RSSHub): Everything is RSSible
 - [cypress](https://github.com/cypress-io/cypress): Fast, easy and reliable testing for anything that runs in a browser.
+- [jira_clone](https://github.com/oldboyxx/jira_clone): A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress.
+- [svg2nvg](https://github.com/ollix/svg2nvg): A tool for converting SVG files to nanovg source code
+- [tslib](https://github.com/microsoft/tslib): Runtime library for TypeScript helpers. 
 
 #### Domains
 
@@ -1193,6 +1305,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Hit Counter](https://github.com/brentvollebregt/hit-counter): Easily count hits ￼ on a website by requesting a SVG displaying hit count ￼
 - [Google Fonts Plugin](https://github.com/SirPole/google-fonts-plugin): Webpack plugin that downloads fonts from Google Fonts and encodes them to base64
 - [kratos](https://github.com/ory/kratos): Never build user login, user registration, 2fa, profile management ever again! Works on any operating system, cloud, with any programming language, user interface, and user experience! Written in Go.
+- [CobWeb](https://github.com/cloudflare/cobweb): COBOL to WebAssembly compiler.
+- [model_bakery](https://github.com/model-bakers/model_bakery): Object factory for django.
 
 ##### JavaScript
 
@@ -1206,11 +1320,16 @@ ansible_python_interpreter=/usr/bin/python3
 - [three.js](https://www.npmjs.com/package/three): The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
 - [JavaScript is C](https://v4.chriskrycho.com/2018/javascript-is-c.html): Maintaining invariants the most painful way possible.
 
+##### JavaScript Tools
+
+- [Online JavaScript Beautifier](https://beautifier.io/): Beautify, unpack or deobfuscate JavaScript and HTML, make JSON/JSONP readable, etc.
+
 ##### API
 
 - [I created Postwoman 👽](https://www.indiehackers.com/post/17788d573f)- An [online](https://liyasthomas.github.io/postwoman/), open source API request builder.
 - [dashblock](https://dashblock.com/): TURN ANY WEBSITE INTO AN API
 - [scanapi](https://github.com/scanapi/scanapi): Automated Integration Testing and Live Documentation for your API
+- [A Python 3 implementation for client-side web programming](https://brython.info/)
 
 ##### REST API
 
@@ -1377,6 +1496,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
   - [Introduction to MQTT](https://blog.teserakt.io/2018/11/01/introduction-to-mqtt/)
   - [VerneMQ](https://github.com/vernemq/vernemq): A Distributed MQTT Broker
   - [EMQ X Broker](https://github.com/emqx/emqx) - Scalable Distributed MQTT Message Broker for IoT in 5G Era. [site](https://emqx.io)
+  - Cloud Pub/Sub: [Ordering messages](https://cloud.google.com/pubsub/docs/ordering)
 
 ### RFID
 
@@ -1413,6 +1533,11 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [cxxmatrix](https://github.com/akinomyoga/cxxmatrix): I wrote a simple terminal program of Matrix digital rain. A part of the purpose of this program is to test the performance of terminal emulators. Another purpose is just for fun. Enjoy it with fast terminals (e.g., urxvt, alacritty, terminology, etc.)!
 - [Use Unix Pipes to Improve Chromecast Playback](https://alexdelorenzo.dev/linux/2020/03/14/pipes)
 - [Snake in a QR code](https://itsmattkc.com/etc/snakeqr/)
+- [telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages): Delete all your messages in supergroups with python script.
+- [The Web 2.0 Bullshit Generator™](http://emptybottle.org/bullshit/index.php)(is still in Beta!)
+- [Posters, drawings... ](https://github.com/corkami/pics)
+- [discord-logo](https://github.com/NNTin/discord-logo)
+- [Minecraft as a k8s admin tool](https://medium.com/@eric.jadi/minecraft-as-a-k8s-admin-tool-cf16f890de42) [KubeCraftAdmin](https://github.com/erjadi/kubecraftadmin)
 
 ## Stuff
 
@@ -1421,6 +1546,10 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [The unreasonable effectiveness of Soccermatics?](https://www.interaliamag.org/articles/david-sumpter-unreasonable-effectiveness-soccermatics/)
 - [Productive Procrastination](https://nickwignall.com/productive-procrastination/): How to Get More Done by Procrastinating on Purpose
 - [olive](https://github.com/olive-editor/olive/): Professional open-source NLE video editor
+- [kdenlive](https://github.com/KDE/kdenlive): Free and open source video editor, based on MLT Framework and KDE Frameworks 5
+  - [10 tools for visual effects in Linux with Kdenlive](https://opensource.com/life/15/12/10-kdenlive-tools)
+  - [Kdenlive/Manual/Project Menu/Online Resources](https://userbase.kde.org/Kdenlive/Manual/Project_Menu/Online_Resources)
+  - [Kdenlive/Manual/Effects/Blur and hide/Auto Mask](https://userbase.kde.org/Kdenlive/Manual/Effects/Blur_and_hide/Auto_Mask)
 - [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
 - [German for Programmers](https://wickedchicken.github.io/post/german-for-programmers/)
 - [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
@@ -1461,6 +1590,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Hacker News RSS](https://edavis.github.io/hnrss/)
 - [HN Deck](https://hndeck.sagunshrestha.com/): An alternate way to browse Hacker News. [code](https://github.com/sagunsh/hndeck)
 - [Introducing the Red Hat Flatpak runtime for desktop containers](https://developers.redhat.com/blog/2020/08/12/introducing-the-red-hat-flatpak-runtime-for-desktop-containers/)
+- [O² OR OXYGEN ALL OVER AGAIN, AKA OXYGEN REBOOT, MAYBE O SQUARED?](https://pinheiro-kde.blogspot.com/2020/09/o-or-oxygen-all-over-again-aka-oxygen.html)
+- [Too Big to Care](https://clo.ng/blog/too-big-to-care/)
 
 ## Making Conferences
 
@@ -1471,6 +1602,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 ## Articles
 
 - [Serverless Computing: One Step Forward, Two Steps Back](https://arxiv.org/abs/1812.03651)
+- [Network stack specialization for performance](https://dl.acm.org/doi/10.1145/2740070.2626311)
 
 ## Bots
 

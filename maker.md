@@ -127,6 +127,7 @@ Nice projects to try. Let's do it!
 - [LeakyPick](https://arxiv.org/abs/2007.00500): IoT Audio Spy Detector. News: [This device keeps Alexa and other voice assistants from snooping on you](https://arstechnica.com/information-technology/2020/07/this-device-keeps-alexa-and-other-voice-assistant-from-snooping-on-you/).
 - [HomeSnitch](http://tubiblio.ulb.tu-darmstadt.de/111940/): Behavior Transparency and Control for Smart Home IoT Devices.
 - [Openbot](https://www.openbot.org/)
+- [Analog Terminal Bell](https://github.com/tenderlove/analog-terminal-bell)
 
 ## Prototyping
 
@@ -181,6 +182,7 @@ Nice projects to try. Let's do it!
 - [OpenBCI](https://openbci.com/): Open Source Biosensing Tools (EEG, EMG, EKG, and more)
 - [pigpio](https://github.com/bennuttall/pigpio): pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).
 - [Your DS18B20 temperature sensor is likely a fake, counterfeit, clone...](https://github.com/cpetrich/counterfeit_DS18B20) How to tell original from fake DS18B20 temperature sensors.
+- [lightning-detector-MQTT2HA-Daemon](https://github.com/ironsheep/lightning-detector-MQTT2HA-Daemon): Linux script to monitor AS3935 lightning detector and report detections to MQTT.
 
 ## Test List
 
