@@ -699,6 +699,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [10 Tools To Add Some Spice To Your UNIX/Linux Shell Scripts](https://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html)  
 - [bash scripts](https://github.com/bing0o/bash_scripting) I use daily to automate some stuff and make linux easier.
 - [Camel Snake Kebab](https://github.com/vandot/casbab): CLI "tool" and a bash "library" for Camel/Snake/Kebab case conversion
+- [nat](https://github.com/willdoescode/nat): the 'ls' replacement you never knew you needed.
 
 ### Regex
 
