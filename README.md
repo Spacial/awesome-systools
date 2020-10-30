@@ -685,6 +685,7 @@ ansible_python_interpreter=/usr/bin/python3
   - ```  set -u ``` : stops the script on unset variables
   - ```  set -o pipefail``` : stops the script on a run in pipe
 - [Fork() Bomb](https://www.geeksforgeeks.org/fork-bomb/): ``` :(){ :|: & };: ```
+- [eDEX-UI](https://github.com/GitSquared/edex-ui): A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
 
 ### Shell Utils
 
@@ -969,6 +970,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo): It automatically displays relevant information about a Windows computer on the desktop's background.
 - [Windows-driver-samples](https://github.com/microsoft/Windows-driver-samples): This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
 - [Winerror](https://github.com/AandersonL/WinError): Get Windows Programming error codes descriptions using the command line.
+- [Windows classic samples](https://github.com/microsoft/Windows-classic-samples): This repo contains samples that demonstrate the API used in Windows classic desktop applications.
 
 ### Powershell
 
