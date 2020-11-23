@@ -128,6 +128,7 @@ Nice projects to try. Let's do it!
 - [HomeSnitch](http://tubiblio.ulb.tu-darmstadt.de/111940/): Behavior Transparency and Control for Smart Home IoT Devices.
 - [Openbot](https://www.openbot.org/)
 - [Analog Terminal Bell](https://github.com/tenderlove/analog-terminal-bell)
+- [Guy Built A Bird Feeder That Accepts Bottle Caps For Food, And These Wild Magpies Love It](https://www.boredpanda.com/magpies-recycling-machine-bottle-caps/)
 
 ## Prototyping
 
