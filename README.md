@@ -29,6 +29,10 @@
 - [EasyOS](https://easyos.org/): An experimental linux distribution.
 - [KaOS](https://kaosx.us/): A Lean KDE Distribution.
 - [Kicksecure ™](https://www.whonix.org/wiki/Kicksecure): A Security-hardened, Non-anonymous Linux Distribution
+- [14 Linux Distributions You Can Rely on for Your Ancient 32-bit Computer](https://itsfoss.com/32-bit-linux-distributions/)
+- [void-mklive](https://github.com/void-linux/void-mklive): The Void Linux live image maker.
+- [Busybox-based Linux distro from scratch](https://re-ws.pl/2020/11/busybox-based-linux-distro-from-scratch/)
+- [oasis](https://github.com/oasislinux/oasis): a small statically-linked linux system
 
 ### Kernel
 
@@ -56,6 +60,7 @@
 - [Learn and use fork(), vfork(), wait() and exec() system calls across Linux Systems](https://www.linuxtechi.com/learn-use-fork-vfork-wait-exec-system-calls-linux/)
 - [LKRG](https://github.com/openwall/lkrg): Linux Kernel Runtime Guard
 - [Following the Linux Kernel Defence Map](https://linuxplumbersconf.org/event/7/contributions/775/attachments/610/1096/Following_the_Linux_Kernel_Defence_Map.pdf) [video](https://linuxplumbersconf.org/event/7/contributions/775/)
+- [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/)
 
 #### Drivers
 
@@ -185,7 +190,7 @@
 - Smartctl and disk monitoring links:
   - [SMART Stats Exposed — a Drive Stats Remix](https://www.backblaze.com/blog/smart-stats-exposed-a-drive-stats-remix/)
   - [How to check an hard drive health from the command line using smartctl](https://linuxconfig.org/how-to-check-an-hard-drive-health-from-the-command-line-using-smartctl)
-  - 
+- [How to Check if TRIM Is Enabled for Your SSD (and Enable It if It Isn’t)](https://www.howtogeek.com/257196/how-to-check-if-trim-is-enabled-for-your-ssd-and-enable-it-if-it-isnt/)
 
 #### Databases
 
@@ -257,6 +262,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Librefox](https://github.com/intika/Librefox): Firefox with privacy enhancements
 - [Managing credentials with KeePassXC](https://fedoramagazine.org/managing-credentials-with-keepassxc/)
 - [MFA on PayPal](https://dev.to/shehackspurple/mfa-on-paypal-29ld)
+- [Apache Teaclave](https://teaclave.apache.org/): an open source universal secure computing platform, making computation on privacy-sensitive data safe and simple
 
 ### Auditing
 
@@ -582,6 +588,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Duck DNS](https://www.duckdns.org/): free dynamic DNS hosted on AWS
 - [Namecoin](https://www.namecoin.org/): is an experimental open-source technology which improves decentralization, security, censorship resistance, privacy, and speed of certain components of the Internet infrastructure such as DNS and identities.
 - [Use dnsmasq to provide DNS & DHCP services](https://fedoramagazine.org/dnsmasq-provide-dns-dhcp-services/)
+- [dog](https://github.com/ogham/dog): Command-line DNS client 
 
 ### LoadBalancers
 
@@ -686,6 +693,7 @@ ansible_python_interpreter=/usr/bin/python3
   - ```  set -o pipefail``` : stops the script on a run in pipe
 - [Fork() Bomb](https://www.geeksforgeeks.org/fork-bomb/): ``` :(){ :|: & };: ```
 - [eDEX-UI](https://github.com/GitSquared/edex-ui): A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
+- [How To Use Bash Parameter Substitution Like A Pro](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
 
 ### Shell Utils
 
@@ -794,6 +802,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Netflix Optimized FreeBSD's Network Stack More Than Doubled AMD EPYC Performance](https://www.phoronix.com/scan.php?page=news_item&px=Netflix-NUMA-FreeBSD-Optimized), [slides](https://2019.eurobsdcon.org/slides/NUMA%20Optimizations%20in%20the%20FreeBSD%20Network%20Stack%20-%20Drew%20Gallatin.pdf)
 - [NetBSD code study](http://silas.net.br/codereading/netbsd-code.html)
 - [File Descriptor Transfer over Unix Domain Sockets](https://medium.com/@copyconstruct/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec)
+- [macOS to FreeBSD migration a.k.a why I left macOS](https://antranigv.am/weblog_en/posts/macos_to_freebsd/)
+- [lvgl](https://github.com/lvgl/lvgl): Powerful and easy-to-use embedded GUI with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash). 
 
 ## Virtualization
 
@@ -819,6 +829,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Create virtual machines with Cockpit in Fedora](https://fedoramagazine.org/create-virtual-machines-with-cockpit-in-fedora/)
 - [Virtual Machines For Multi-Tenancy in Varnish](https://medium.com/@fwsgonzo/virtual-machines-for-multi-tenancy-in-varnish-1c619ea3276)
 - [Libvirt](https://vyomtech.com/2013/12/17/libvirt_the_unsung_hero_of_cloud_computing.html)- The Unsung Hero of Cloud Computing
+- [Windows 10 on libvirt qemu 5](https://gist.github.com/heri16/adf14b938b429c556af28d62ebe78985)
+- [Increase maximum USB devices in vm.conf](https://forum.proxmox.com/threads/increase-maximum-usb-devices-in-vm-conf.26551/)
+- [Libvirt Hot Plugin USB - USB Hot Plugin for VMs](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/)
+- [usb-libvirt-hotplug](https://github.com/olavmrk/usb-libvirt-hotplug/blob/master/usb-libvirt-hotplug.sh)
 
 ### OVF - Open Virtualization Format
 
@@ -895,6 +909,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
 - [A quick introduction to Toolbox on Fedora](https://fedoramagazine.org/a-quick-introduction-to-toolbox-on-fedora/): Toolbox allows you to sort and manage your development environments in containers without requiring root privileges or manually attaching volumes. It creates a container where you can install your own CLI tools, without installing them on the base system itself.
 - [Reverse Engineering and Explointing Build in the Cloud](https://twitter.com/Enno_Insinuator/status/1202251271564152832)
+- [podman](https://github.com/containers/podman): A tool for managing OCI containers and pods
 
 ## Android
 
@@ -938,6 +953,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [create_macos_vm_install_dmg](https://github.com/rtrouton/create_macos_vm_install_dmg): This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.
 - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg): OpenCore bootloader with development SDK.
 - [macOS-Fortress](https://github.com/essandess/macOS-Fortress): Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and On-Access Scanning (PF, squid, privoxy, hphosts, dshield, emergingthreats, hostsfile, PAC file, clamav).
+- [BitBar](https://github.com/matryer/bitbar): Put the output from any script or program in your Mac OS X Menu Bar.
+- [AppleScript](https://daringfireball.net/2020/01/quit_confirmation_for_safari_on_macos) to Warn before quiting.
 
 ## Windows
 
@@ -971,6 +988,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Windows-driver-samples](https://github.com/microsoft/Windows-driver-samples): This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
 - [Winerror](https://github.com/AandersonL/WinError): Get Windows Programming error codes descriptions using the command line.
 - [Windows classic samples](https://github.com/microsoft/Windows-classic-samples): This repo contains samples that demonstrate the API used in Windows classic desktop applications.
+- [Uno Platform](https://github.com/unoplatform/uno): Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
 
 ### Powershell
 
@@ -1019,6 +1037,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 - [Talk](https://github.com/vasanthv/talk): A group video call for the web. No signups. No downloads.
+- [obs-websocket](https://github.com/Palakis/obs-websocket): Remote-control OBS Studio through WebSockets
+- [Touch Portal](https://www.touch-portal.com/): The macro remote control for PC and Mac
 
 ## Management
 
@@ -1127,6 +1147,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Bye Bye Microsoft Office. Hello LibreOffice](https://easydns.com/blog/2019/11/25/bye-bye-microsoft-office-hello-libreoffice/)
 - [deepin-screen-recorder](https://github.com/linuxdeepin/deepin-screen-recorder): Screen recorder for DDE.
 - [portable Time Stamp Server (over HTTP)](https://github.com/corpus-solutions/tsa-server): portable Time Stamp Server (over HTTP)
+- [youtube-dl](https://github.com/animelover1984/youtube-dl): Command-line program to download videos from YouTube.com and other video sites
 
 ### Rescue
 
@@ -1170,7 +1191,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [GRID: A simple visual cheatsheet for CSS Grid Layout](http://grid.malven.co/)
 - [PyPy.js](https://pypyjs.org/) is an experiment in building a fast and compliant python environment for the web. [github](https://github.com/pypyjs/pypyjs)
 - [strest](https://github.com/eykhagen/strest): ⚡️ Set up tests for REST in seconds with YAML
-- [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
 - [responder](https://github.com/kennethreitz/responder): a Sorta Familar HTTP Framework for Python (prototype)
 - [Design faster web pages, part 1: Image compression](https://fedoramagazine.org/design-faster-web-pages-part-1-image-compression/)
 - [Nebular](https://github.com/akveo/nebular): Angular 6 Components, Auth and Security
@@ -1189,7 +1209,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [markdownlint](https://github.com/DavidAnson/markdownlint): A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [Notepin](https://notepin.co/): Extremely simple note taking
 - [Startpage](https://www.startpage.com/): privacy search.
-- [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-engineer/next)
+- [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-KDE/next)
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
 - [uncaptcha2](https://github.com/ecthros/uncaptcha2): defeating the latest version of ReCaptcha with 91% accuracy
@@ -1206,6 +1226,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [tldr](https://github.com/tldr-pages/tldr):￼ [Simplified and community-driven man pages](https://tldr.sh).
 - [Burlesco](https://burles.co/): Leia notícias sem ser assinante, burle o paywall. [github](https://github.com/burlesco/burlesco)
 - [Mailinator](https://www.mailinator.com/): The Mailinator Email System puts millions of inboxes right at your fingertips. It is an amazing Email Workflow Testing tool for your Software or Service. [repo](https://github.com/mail-in-a-box/mailinabox)
+- [tempmail](https://temp-mail.org/en/): Your Temporary Email Address
 - [jor1k](https://github.com/s-macke/jor1k): Online OR1K Emulator running Linux
 - [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
@@ -1310,6 +1331,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [kratos](https://github.com/ory/kratos): Never build user login, user registration, 2fa, profile management ever again! Works on any operating system, cloud, with any programming language, user interface, and user experience! Written in Go.
 - [CobWeb](https://github.com/cloudflare/cobweb): COBOL to WebAssembly compiler.
 - [model_bakery](https://github.com/model-bakers/model_bakery): Object factory for django.
+- [Caule Themes Pack 1](https://github.com/orickcorreia/caule-themes-pack-1): 10 modern colors | 4 categories of styles (Black Glass, Black, Dark, Light) | 40 themes in total | Animated icons for the weather forecast card | And a bonus automatic theme selector for your interface.
+- [face-replace](https://github.com/seanquinn781/face-replace): React Flask GUI app to replace faces in Video or Images with Emojis, Boxes or Blur. Uses Centerface & Deface for facial recognition and ImageIO for image processing
 
 ##### JavaScript
 
@@ -1333,6 +1356,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [dashblock](https://dashblock.com/): TURN ANY WEBSITE INTO AN API
 - [scanapi](https://github.com/scanapi/scanapi): Automated Integration Testing and Live Documentation for your API
 - [A Python 3 implementation for client-side web programming](https://brython.info/)
+- [Tyk API Gateway](https://github.com/tyktechnologies/tyk):  Tyk Open Source API Gateway written in Go
 
 ##### REST API
 
@@ -1374,8 +1398,12 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Tale](https://github.com/chesterhow/tale) is a minimal Jekyll theme curated for storytellers.
 - [pH7-Social-Dating-CMS](https://github.com/pH7Software/pH7-Social-Dating-CMS)
-- [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework.
-- [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
+- Static Site Generators:
+  - [VuePress](https://forestry.io/blog/vuepress-brings-your-documentation-to-life/) is a static site generator based on Vue JavaScript framework.
+  - [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
+  - [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
+  - [notablog](https://github.com/dragonman225/notablog): Generate a minimalistic blog from a Notion table.
+
 - (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento.
   
 #### Colors
@@ -1541,6 +1569,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Posters, drawings... ](https://github.com/corkami/pics)
 - [discord-logo](https://github.com/NNTin/discord-logo)
 - [Minecraft as a k8s admin tool](https://medium.com/@eric.jadi/minecraft-as-a-k8s-admin-tool-cf16f890de42) [KubeCraftAdmin](https://github.com/erjadi/kubecraftadmin)
+- [Zulu and UTC: the story behind aviation’s time zone](https://www.flightradar24.com/blog/zulu-and-utc-the-story-behind-aviations-time-zone/)
 
 ## Stuff
 
@@ -1553,6 +1582,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
   - [10 tools for visual effects in Linux with Kdenlive](https://opensource.com/life/15/12/10-kdenlive-tools)
   - [Kdenlive/Manual/Project Menu/Online Resources](https://userbase.kde.org/Kdenlive/Manual/Project_Menu/Online_Resources)
   - [Kdenlive/Manual/Effects/Blur and hide/Auto Mask](https://userbase.kde.org/Kdenlive/Manual/Effects/Blur_and_hide/Auto_Mask)
+- [QDirStat](https://github.com/shundhammer/qdirstat): Qt-based directory statistics (KDirStat without any KDE - from the original KDirStat author)
 - [Ask HN: What should a systems/low-level software engineer know?](https://news.ycombinator.com/item?id=18881649)
 - [German for Programmers](https://wickedchicken.github.io/post/german-for-programmers/)
 - [Seeking the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/): Some Details of My Personal Infrastructure
@@ -1572,6 +1602,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Sigil](https://github.com/Sigil-Ebook/Sigil): is a multi-platform EPUB ebook editor.
 - [Ham radio is dying! No it’s not, it’s evolving](http://k0lwc.com/ham-radio-is-dying-no-its-not-its-evolving/)
 - [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon 
+- [Awesome Made by Brazilians](https://github.com/felipefialho/awesome-made-by-brazilians)
 
 ## News
 
@@ -1601,6 +1632,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
 - [indico](https://getindico.io/): The effortless open-source tool for event organisation, archival and collaboration
 - [Tune up your sound with PulseEffects: Microphones](https://fedoramagazine.org/tune-up-your-sound-with-pulseeffects-microphones/)
+- [The Future of USENIX: A Report from the Annual Membership Meeting](https://www.usenix.org/blog/future-usenix-report-annual-membership-meeting)
 
 ## Articles
 
