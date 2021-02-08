@@ -148,6 +148,7 @@
 - [CONFIGURING USER AUTHENTICATION USING AUTHSELECT](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/configuring-user-authentication-using-authselect_configuring-authentication-and-authorization-in-rhel)
 - [Come test a new release of pipenv, the Python development tool](https://fedoramagazine.org/come-test-a-new-release-of-pipenv-the-python-development-tool/)
 - [conky](https://github.com/brndnmtthws/conky/wiki/Installation): Light-weight system monitor for X.
+- [Red Hat Remote Exams - Create a Live USB using Red Hat Enterprise Linux](https://www.redhat.com/pt-br/about/videos/red-hat-remote-exams-create-live-usb-using-rhel)
 
 ### Ubuntu
 
@@ -225,6 +226,7 @@
 - [cue](https://github.com/cuelang/cue): Validate and define text-based and dynamic configuration.
 - [Mitogen](https://mitogen.networkgenomics.com/): Mitogen is a Python library for writing distributed self-replicating programs.
 - [Terraform-Templates](https://github.com/ghostinthewires/Terraform-Templates): Terraform Templates to Deploy Infrastructure.
+- [How To Use Terraform with DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean)
 
 ### Ansible
 
@@ -257,6 +259,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Community Network Collection](https://github.com/ansible-collections/community.network): The Community Network collection includes community maintained content to help automate network appliances.
 - [Zuul](https://github.com/ansible/project-config) configuration files for the Ansible tenant. 
 - [Community Sops Collection](https://github.com/ansible-collections/community.sops): Simple and flexible tool for managing secrets
+- [CentOS.org Ansible Infra playbooks](https://github.com/CentOS/ansible-infra-playbooks): Just a placeholder for the Ansible playbooks used in the CentOS Infrastructure.
+- [Infrastructure](https://github.com/rocky-linux/infrastructure): The infrastructure monorepo for The Rocky Linux Foundation
 
 ### Puppet
 
@@ -267,6 +271,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [andOTP](https://github.com/andOTP/andOTP): Open source two-factor authentication for Android
 - [Librefox](https://github.com/intika/Librefox): Firefox with privacy enhancements
 - [Managing credentials with KeePassXC](https://fedoramagazine.org/managing-credentials-with-keepassxc/)
+- [pass](https://www.passwordstore.org/): the standard unix password manager
+- [RoboForm](https://www.roboform.com/)
 - [MFA on PayPal](https://dev.to/shehackspurple/mfa-on-paypal-29ld)
 - [Apache Teaclave](https://teaclave.apache.org/): an open source universal secure computing platform, making computation on privacy-sensitive data safe and simple
 
@@ -324,7 +330,9 @@ ansible_python_interpreter=/usr/bin/python3
   - [CentOS7 Lockdown](https://github.com/naingyeminn/CentOS7_Lockdown)
   - [RHEL7-CIS](https://github.com/radsec/RHEL7-CIS): Ansible RHEL 7 - CIS Benchmark Hardening Script
   - [cisecurity](https://github.com/cohdjn/cisecurity): Configures Linux systems to Center for Internet Security Linux hardening standard.
-- [Linux Hardening Checklist](https://github.com/trimstray/linux-hardening-checklist)
+  - [ansible-role-hardening](https://github.com/konstruktoid/ansible-role-hardening): Ansible role to apply a security baseline. Systemd edition.
+  - [CIS Benchmarks Audit](https://github.com/finalduty/cis_benchmarks_audit): Simple command line tool to check for compliance against CIS Benchmarks.
+- [Linux Hardening Checklist](https://github.com/trimstray/linux-hardening-checklist): This guide details creating a secure Linux production system. OpenSCAP (C2S/CIS, STIG).
 - [Douane](https://douaneapp.com/): Linux personal firewall with per application rule controls
 
 ### WebServers
@@ -364,6 +372,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) by Mozilla
 - [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
 - [urlscan.io](https://urlscan.io/): A sandbox for the web
+
+### Proxy
+
+- [Tolouse denylist of domains](https://dsi.ut-capitole.fr/blacklists/index_en.php): Be careful : this list should not be seen as a "to be block". It must be seen as a "web categorization" : some categories can be blocked or allowed, depending on your environnement..
 
 #### Tokens
 
@@ -460,6 +472,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [GLab](https://github.com/profclems/glab) is an open source Gitlab Cli tool written in Go (golang) to help work seamlessly with Gitlab from the command line.
 - [DevOps Awesome Tools](https://github.com/patricktalmeida/devops-awesome-tools)
 - [Team-Handbook-Template](https://github.com/ghostinthewires/Team-Handbook-Template): An employee / team handbook template
+- [Custom Gitlab CICD using Auto DevOps template + Add Cloud Build in GCP](https://medium.com/faun/custom-gitlab-cicd-using-auto-devops-template-add-cloud-build-in-gcp-bebb204b87f)
 
 ## Interfaces
 
@@ -597,6 +610,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Use dnsmasq to provide DNS & DHCP services](https://fedoramagazine.org/dnsmasq-provide-dns-dhcp-services/)
 - [dog](https://github.com/ogham/dog): Command-line DNS client 
 - [Unbound DNS Blacklist](https://vermaden.wordpress.com/2020/11/18/unbound-dns-blacklist/)
+- [short dns record ttl and centralization are serious risks for the internet](https://techblog.bozho.net/short-dns-ttl-and-centralization-are-serious-risks-for-the-internet/)
+- [The world's shortest domain names](http://www.dirk-loss.de/short-domains.htm)
 
 ### LoadBalancers
 
@@ -619,6 +634,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Otter Browser](https://otter-browser.org/): Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.
 - [thor](https://github.com/cisco/thor): Cisco's Thor Video Codec
 - [OctoLinker](https://github.com/OctoLinker/OctoLinker): Links together, what belongs together
+- [Session History Scrounger for Firefox](https://www.jeffersonscher.com/ffu/scrounger.html): Firefox creates various session history files as you browse, and then at shutdown creates sessionstore.jsonlz4. In Firefox 56+, the files are compressed using Mozilla's flavor of LZ4 compression (.jsonlz4 or .baklz4 file extension). The JSON data contains rich detail about your session, but this page is targeted toward extracting just the page URLs.
 
 ## Shell
 
@@ -973,6 +989,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [BitBar](https://github.com/matryer/bitbar): Put the output from any script or program in your Mac OS X Menu Bar.
 - [AppleScript](https://daringfireball.net/2020/01/quit_confirmation_for_safari_on_macos) to Warn before quiting.
 - [pdfinverter](https://github.com/rootVIII/pdfinverter): darken (or lighten) a PDF on macOS
+- [m1n1](https://github.com/asahilinux/m1n1): A bootloader and experimentation playground for Apple Silicon
 
 ## Windows
 
@@ -1168,6 +1185,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [portable Time Stamp Server (over HTTP)](https://github.com/corpus-solutions/tsa-server): portable Time Stamp Server (over HTTP)
 - [youtube-dl](https://github.com/animelover1984/youtube-dl): Command-line program to download videos from YouTube.com and other video sites
 - [glsnip](https://github.com/bradwood/glsnip): copy and paste across machines
+- [Notable](https://notable.app/): [markdown app](https://github.com/notable/notable): The Markdown-based note-taking app that doesn't suck.
 
 ### Rescue
 
@@ -1271,6 +1289,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Python Script for Getting Data You Need From Domain Names Lists](https://domains-index.com/tips-using-domains-indexs-lists/)
 - [Creating python dictionary that maps each domain to multiple coded values in File Geodatabase?](https://gis.stackexchange.com/questions/197834/creating-python-dictionary-that-maps-each-domain-to-multiple-coded-values-in-fil)
 - [dnsimple-python](https://github.com/onlyhavecans/dnsimple-python): Python API client for DNSimple's Domain Management Automation
+- [njalla](https://njal.la/#pricing): Njalla was started because we couldn't find a domain name service that we ourselves wanted to use. Our goals are to be caring about privacy, simple and flexible.
 
 #### Webdev
 
@@ -1509,6 +1528,7 @@ $INDEX
 - [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [Maintaining your AWS infrastructure](https://medium.com/faun/maintaining-your-aws-infrastructure-a4ae6ced8a74)
 - [bottlerocket](https://github.com/bottlerocket-os/bottlerocket): An operating system designed for hosting containers
+- [consoleme](https://github.com/Netflix/consoleme): ConsoleMe consolidates the management of multiple AWS accounts into a single interface. It allows your end-users and administrators to get credentials for your different accounts, and allows your users/administrators to manage or request cloud permissions.
 
 ### Nextcloud
 
@@ -1551,6 +1571,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
   - [VerneMQ](https://github.com/vernemq/vernemq): A Distributed MQTT Broker
   - [EMQ X Broker](https://github.com/emqx/emqx) - Scalable Distributed MQTT Message Broker for IoT in 5G Era. [site](https://emqx.io)
   - Cloud Pub/Sub: [Ordering messages](https://cloud.google.com/pubsub/docs/ordering)
+  - [RPi Reporter MQTT2HA Daemon](https://github.com/ironsheep/RPi-Reporter-MQTT2HA-Daemon)
 
 ### RFID
 
@@ -1628,6 +1649,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Ham radio is dying! No it’s not, it’s evolving](http://k0lwc.com/ham-radio-is-dying-no-its-not-its-evolving/)
 - [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon 
 - [Awesome Made by Brazilians](https://github.com/felipefialho/awesome-made-by-brazilians)
+- [Pi-KVM](https://pikvm.org/): Open and cheap DIY IP-KVM on Raspberry Pi
+- [Helios server](https://github.com/benadida/helios-server): Helios is an end-to-end verifiable voting system.
+- [zeus](https://github.com/grnet/zeus): Zeus server, This is a fork of Ben Adida's Helios server
 
 ## News
 
