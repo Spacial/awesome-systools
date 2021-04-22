@@ -96,6 +96,7 @@
 - [A small s**tstorm is heading your way, if you're in the business of running code on Intel computers.](https://twitter.com/damageboy/status/1194751035136450560)[code-erratum](https://www.intel.com/content/dam/support/us/en/documents/processors/mitigations-jump-conditional-code-erratum.pdf)
 - [BPF: A New Type of Software](http://www.brendangregg.com/blog/2019-12-02/bpf-a-new-type-of-software.html), [BPF Performance Tools (book)](http://www.brendangregg.com/bpf-performance-tools-book.html), [repo](https://github.com/brendangregg/bpf-perf-tools-book).
 - [Linux Applications Performance: Introduction](https://unixism.net/2019/04/linux-applications-performance-introduction/)
+- [Comparison of Rust async and Linux thread context switch time and memory use](https://github.com/jimblandy/context-switch)
 
 #### Monitoring
 
@@ -149,6 +150,7 @@
 - [Come test a new release of pipenv, the Python development tool](https://fedoramagazine.org/come-test-a-new-release-of-pipenv-the-python-development-tool/)
 - [conky](https://github.com/brndnmtthws/conky/wiki/Installation): Light-weight system monitor for X.
 - [Red Hat Remote Exams - Create a Live USB using Red Hat Enterprise Linux](https://www.redhat.com/pt-br/about/videos/red-hat-remote-exams-create-live-usb-using-rhel)
+- [RPM Packages of Sequoia PGP for Fedora](https://github.com/ironthree/sequoia-rpms)
 
 ### Ubuntu
 
@@ -334,6 +336,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [CIS Benchmarks Audit](https://github.com/finalduty/cis_benchmarks_audit): Simple command line tool to check for compliance against CIS Benchmarks.
 - [Linux Hardening Checklist](https://github.com/trimstray/linux-hardening-checklist): This guide details creating a secure Linux production system. OpenSCAP (C2S/CIS, STIG).
 - [Douane](https://douaneapp.com/): Linux personal firewall with per application rule controls
+- [Two-factor authentication for SSH](https://developer.ibm.com/devpractices/devops/blogs/two-factor-authentication-for-ssh/)
 
 ### WebServers
 
@@ -372,6 +375,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Security/Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) by Mozilla
 - [security.txt](https://securitytxt.org/): A proposed standard which allows websites to define security policies.
 - [urlscan.io](https://urlscan.io/): A sandbox for the web
+- [Opting your Website out of Google's FLoC Network](https://paramdeo.com/blog/opting-your-website-out-of-googles-floc-network)
 
 ### Proxy
 
@@ -421,6 +425,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Lamphone](https://www.nassiben.com/lamphone): Real-Time Passive Sound Recovery from Light Bulb Vibrations
 - [How to setup NordVPN on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-nordvpn/)
 - [Improving user privacy and developer experience with User-Agent Client Hints](https://web.dev/user-agent-client-hints/)
+- [For decades our tools have failed to combat bulk metadata surveillance, it's time to push forward and support radical privacy initiatives.](https://twitter.com/SarahJamieLewis/status/1384161740598824976)
 
 ### Messaging
 
@@ -495,6 +500,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Slagg](https://github.com/drrzmr/slagg) - Simple Log Aggregator
 - [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
 - [Logging best practices to get the most out of application level logging](https://geshan.com.np/blog/2019/03/follow-these-logging-best-practices-to-get-the-most-out-of-application-level-logging-slides/)
+- [honeyd-syslogger.sh](https://gist.github.com/lopes/81b90d86b30e2730df241c90cc323837): Parses honeyd logfiles to syslog and sends them to a SIEM.
 
 ### Benchmarks
 
@@ -733,6 +739,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [bash scripts](https://github.com/bing0o/bash_scripting) I use daily to automate some stuff and make linux easier.
 - [Camel Snake Kebab](https://github.com/vandot/casbab): CLI "tool" and a bash "library" for Camel/Snake/Kebab case conversion
 - [nat](https://github.com/willdoescode/nat): the 'ls' replacement you never knew you needed.
+- [IPython as a system shell](https://ipython.readthedocs.io/en/stable/interactive/shell.html)
 
 ### Regex
 
@@ -750,7 +757,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
 - [Open source collaborative text editors](https://juretriglav.si/open-source-collaborative-text-editors/)
 - [vscodium](https://github.com/VSCodium/vscodium): binary releases of VS Code without MS branding/telemetry/licensing
-
 
 #### Vim/vi
 
@@ -955,7 +961,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex): A Pokedex app using ViewModel, LiveData, Room and Navigation
 - [NewPipe](https://newpipe.schabi.org/): The lightweight YouTube experience for Android - [code](https://github.com/TeamNewPipe/NewPipe)
 
-## Mac
+## Mac/iOS
 
 - [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
 - [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
@@ -990,6 +996,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [AppleScript](https://daringfireball.net/2020/01/quit_confirmation_for_safari_on_macos) to Warn before quiting.
 - [pdfinverter](https://github.com/rootVIII/pdfinverter): darken (or lighten) a PDF on macOS
 - [m1n1](https://github.com/asahilinux/m1n1): A bootloader and experimentation playground for Apple Silicon
+- [CS193p](https://cs193p.sites.stanford.edu/): Developing Applications for iOS using SwiftUI
 
 ## Windows
 
@@ -1025,6 +1032,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Windows classic samples](https://github.com/microsoft/Windows-classic-samples): This repo contains samples that demonstrate the API used in Windows classic desktop applications.
 - [Uno Platform](https://github.com/unoplatform/uno): Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
 - [sysmon to detect process tampering](https://twitter.com/markrussinovich/status/1328769178233237504)
+- [NTVDMx64](https://github.com/leecher1337/ntvdmx64): Run Microsoft Windows NTVDM (DOS) on 64bit Editions
 
 ### Powershell
 
@@ -1073,8 +1081,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 - [Talk](https://github.com/vasanthv/talk): A group video call for the web. No signups. No downloads.
-- [obs-websocket](https://github.com/Palakis/obs-websocket): Remote-control OBS Studio through WebSockets
 - [Touch Portal](https://www.touch-portal.com/): The macro remote control for PC and Mac
+- OBS Studio:
+  - [obs-websocket](https://github.com/Palakis/obs-websocket): Remote-control OBS Studio through WebSockets
+  - [Stream Overlay - The Legend Of Zelda](https://8bitdoctor.blogspot.com/2018/07/stream-overlay-legend-of-zelda.html), [Doom](https://images.techhive.com/images/article/2016/10/20161010181638_1-100686915-orig.jpg)
+- [44 Virtual Icebreakers and Team-Building Activities to Try Immediately](https://www.tinypulse.com/blog/44-virtual-icebreakers-and-team-building-activities)
 
 ## Management
 
@@ -1163,7 +1174,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [Code Shelter](https://www.codeshelter.co/): Code Shelter is a collective of volunteer software developers that aims to help with maintaining popular open source projects whose authors need a hand or don't have the time to maintain them any more.
 - [github personal-website](https://github.com/github/personal-website): Code that'll help you kickstart a personal website that showcases your work as a software developer.
 - [code-server](https://github.com/codercom/code-server): Run VS Code on a remote server.
-- [awesome-python-login-model](https://github.com/CriseLYJ/awesome-python-login-model): login access for webscrapping.
 - [Bloom](https://www.kerkour.fr/blog/bloom-a-free-and-open-source-google/): a free and open source Google
 - [baxx.dev](https://txt.black/~jack/baxx-dev.txt): It is a backup service with unix philosophy in mind, and curl as main interface and (soon) machine learning alerting.
 - [3 cool text-based email clients](https://fedoramagazine.org/3-cool-text-based-email-clients/): The Fedora OS provides a large choice of email clients and among these are text-based email applications.
@@ -1186,6 +1196,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [youtube-dl](https://github.com/animelover1984/youtube-dl): Command-line program to download videos from YouTube.com and other video sites
 - [glsnip](https://github.com/bradwood/glsnip): copy and paste across machines
 - [Notable](https://notable.app/): [markdown app](https://github.com/notable/notable): The Markdown-based note-taking app that doesn't suck.
+- [octocrabby](https://github.com/travisbrown/octocrabby): Tools for managing GitHub block lists.
 
 ### Rescue
 
@@ -1434,6 +1445,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Doka](https://pqina.nl/doka/image-editor/): free online image editor.
 - [X Window System Basics](https://magcius.github.io/xplain/article/x-basics.html)
 - [PaperView](https://glouw.com/2020/08/02/Paperview.html), repo:[PAPERVIEW](https://github.com/glouw/paperview): A high performance X11 animated wallpaper setter
+- [The Fastest, Safest PNG Decoder in the World](https://nigeltao.github.io/blog/2021/fastest-safest-png-decoder.html)
 
 #### CMS
 
@@ -1444,7 +1456,6 @@ ansible_python_interpreter=/usr/bin/python3
   - [Publii](https://github.com/GetPublii/Publii) is a desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.
   - [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
   - [notablog](https://github.com/dragonman225/notablog): Generate a minimalistic blog from a Notion table.
-
 - (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento.
   
 #### Colors
@@ -1462,6 +1473,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [Paletton](https://paletton.com/): is an online application located on the internet.
 - [Colormind](http://colormind.io/): is a color scheme generator that uses deep learning.
 - [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
+
+### WebScraping
+
+- [Web Scraping 101 in Python with Requests & BeautifulSoup](https://www.statworx.com/at/blog/web-scraping-101-in-python-with-requests-beautifulsoup/).
+- [Scraping Headlines From News Website Homepages Using BeautifulSoup in Python](https://stackoverflow.com/questions/55033291/scraping-headlines-from-news-website-homepages-using-beautifulsoup-in-python)
 
 ## Journalism
 
@@ -1652,6 +1668,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Pi-KVM](https://pikvm.org/): Open and cheap DIY IP-KVM on Raspberry Pi
 - [Helios server](https://github.com/benadida/helios-server): Helios is an end-to-end verifiable voting system.
 - [zeus](https://github.com/grnet/zeus): Zeus server, This is a fork of Ben Adida's Helios server
+- [System76 Launch Configurable Keyboard](https://github.com/system76/launch)
+- [lalboard](https://github.com/JesusFreke/lalboard): A 3D-printed keyboard inspired by the DataHand.
+- [Software disenchantment](https://tonsky.me/blog/disenchantment/)
 
 ## News
 
@@ -1675,6 +1694,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Introducing the Red Hat Flatpak runtime for desktop containers](https://developers.redhat.com/blog/2020/08/12/introducing-the-red-hat-flatpak-runtime-for-desktop-containers/)
 - [O² OR OXYGEN ALL OVER AGAIN, AKA OXYGEN REBOOT, MAYBE O SQUARED?](https://pinheiro-kde.blogspot.com/2020/09/o-or-oxygen-all-over-again-aka-oxygen.html)
 - [Too Big to Care](https://clo.ng/blog/too-big-to-care/)
+- [OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
 
 ## Making Conferences
 
