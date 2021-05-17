@@ -337,6 +337,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Linux Hardening Checklist](https://github.com/trimstray/linux-hardening-checklist): This guide details creating a secure Linux production system. OpenSCAP (C2S/CIS, STIG).
 - [Douane](https://douaneapp.com/): Linux personal firewall with per application rule controls
 - [Two-factor authentication for SSH](https://developer.ibm.com/devpractices/devops/blogs/two-factor-authentication-for-ssh/)
+- [Hardened/PaX Quickstart](https://wiki.gentoo.org/wiki/Hardened/PaX_Quickstart)
 
 ### WebServers
 
@@ -599,6 +600,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [MTA Comparison](http://shearer.org/MTA_Comparison): For a lot of people the choice of the Mail Transfer Agent is important.
 - [Announcing notqmail](https://schmonz.com/2019/08/20/announcing-notqmail/). [What is notqmail?](https://github.com/notqmail/notqmail/wiki). [github repo](https://github.com/notqmail/notqmail)
 - [The Confused Mailman](https://ezh.es/blog/2020/08/the-confused-mailman-sending-spf-and-dmarc-passing-mail-as-any-gmail-or-g-suite-customer/): Sending SPF and DMARC passing mail as any Gmail or G Suite customer
+- [0x4447_product_s3_email](https://github.com/0x4447/0x4447_product_s3_email): mailbox A serverless email server on AWS using S3 and SES.
 
 ### DNS
 
@@ -834,6 +836,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [File Descriptor Transfer over Unix Domain Sockets](https://medium.com/@copyconstruct/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec)
 - [macOS to FreeBSD migration a.k.a why I left macOS](https://antranigv.am/weblog_en/posts/macos_to_freebsd/)
 - [lvgl](https://github.com/lvgl/lvgl): Powerful and easy-to-use embedded GUI with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash). 
+- [illumos](https://github.com/illumos/ipd): illumos Project Discussion 
 
 ## Virtualization
 
@@ -943,6 +946,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
   - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
   - [Kubernetes Networking: Behind the scenes](https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb)
+  - [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper/): Mirror images into your own registry and swap image references automatically. 
 - Lambda
   - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
   - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
@@ -997,6 +1001,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [pdfinverter](https://github.com/rootVIII/pdfinverter): darken (or lighten) a PDF on macOS
 - [m1n1](https://github.com/asahilinux/m1n1): A bootloader and experimentation playground for Apple Silicon
 - [CS193p](https://cs193p.sites.stanford.edu/): Developing Applications for iOS using SwiftUI
+- [Crescendo](https://github.com/SuprHackerSteve/Crescendo): is a swift based, real time event viewer for macOS. It utilizes Apple's Endpoint Security Framework.
+- [TrueTree](https://github.com/themittenmac/TrueTree): A command line tool for pstree-like output on macOS with additional pid capturing capabilities.
+- [Thoughts on the App Store](https://rileytestut.com/blog/2020/10/14/thoughts-on-app-store/)
 
 ## Windows
 
@@ -1280,7 +1287,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
 - [Handesk](https://github.com/BadChoice/handesk): A Powerful Laravel Help Desk and Lead Management App
-- [Creating a QR Code step by step](https://www.nayuki.io/page/creating-a-qr-code-step-by-step)
 - [qrpicture](https://github.com/xyzzy/qrpicture): Photo realistic QR codes hosted on www.qrpicture.com.
 - [Archivy](https://github.com/Uzay-G/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
 - [RSSHub](https://github.com/DIYgod/RSSHub): Everything is RSSible
@@ -1289,6 +1295,19 @@ ansible_python_interpreter=/usr/bin/python3
 - [svg2nvg](https://github.com/ollix/svg2nvg): A tool for converting SVG files to nanovg source code
 - [tslib](https://github.com/microsoft/tslib): Runtime library for TypeScript helpers. 
 - [Eric Lathrop / Living in Syndication](https://gitlab.com/ericlathrop/living_in_syndication)
+
+#### QR Code
+
+- [Creating a QR Code step by step](https://www.nayuki.io/page/creating-a-qr-code-step-by-step)
+- [qrcode-bot](https://github.com/jveres/qrcode-bot): Artistic QR code generator bot for Facebook Messenger
+- [ZXing](https://github.com/zxing/zxing)("Zebra Crossing"): barcode scanning library for Java, Android
+- [How to generate dynamic QRCode for WeChat Mini-Program?](https://blog.shanghaicoders.com/how-to-generate-dynamic-qrcode-for-wechat-mini-program-8a591504c95)
+- [QR Code generator library](https://github.com/nayuki/QR-Code-generator): High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, C++, C, Rust.
+- [EFQRCode](https://swiftpackageregistry.com/EFPrefix/EFQRCode): A better way to operate QR Code in Swift, support iOS, macOS, watchOS and tvOS.
+- [qrbtf](https://github.com/ciaochaos/qrbtf): An art QR code (qrcode) beautifier.
+- [HOW TO PUT YOUR LOGO IN A QR CODE](https://hackaday.com/2011/08/11/how-to-put-your-logo-in-a-qr-code/)
+- [Amazing-QR](https://github.com/x-hw/amazing-qr): ￼ amazing QR-Code generator in Python (supporting animated gif) - Python amazing.
+- [QR Code SVG Logo Generator](https://github.com/DDRBoxman/QR-Code-SVG-Logo-Generator).
 
 #### Domains
 
@@ -1478,6 +1497,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Web Scraping 101 in Python with Requests & BeautifulSoup](https://www.statworx.com/at/blog/web-scraping-101-in-python-with-requests-beautifulsoup/).
 - [Scraping Headlines From News Website Homepages Using BeautifulSoup in Python](https://stackoverflow.com/questions/55033291/scraping-headlines-from-news-website-homepages-using-beautifulsoup-in-python)
+- [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe): Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
 
 ## Journalism
 
@@ -1671,6 +1691,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [System76 Launch Configurable Keyboard](https://github.com/system76/launch)
 - [lalboard](https://github.com/JesusFreke/lalboard): A 3D-printed keyboard inspired by the DataHand.
 - [Software disenchantment](https://tonsky.me/blog/disenchantment/)
+- [Bob Cassette Rewinder](https://github.com/dekuNukem/bob_cassette_rewinder): Defeating Dishwasher Detergents DRM, Renew and Refill Bob Cassettes for 98% cost saving!
 
 ## News
 
@@ -1695,6 +1716,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [O² OR OXYGEN ALL OVER AGAIN, AKA OXYGEN REBOOT, MAYBE O SQUARED?](https://pinheiro-kde.blogspot.com/2020/09/o-or-oxygen-all-over-again-aka-oxygen.html)
 - [Too Big to Care](https://clo.ng/blog/too-big-to-care/)
 - [OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
+- [Apple is a true business innovator: For more than a decade, they have been steadily perfecting an obscure anticompetitive tactic, turning a petty grift invented by console games companies into a global, cross-industry mechanism for extracting rents and centralizing control.](https://twitter.com/doctorow/status/1388934048072953857)
 
 ## Making Conferences
 
