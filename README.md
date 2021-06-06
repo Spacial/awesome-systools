@@ -60,6 +60,7 @@
 - [LKRG](https://github.com/openwall/lkrg): Linux Kernel Runtime Guard
 - [Following the Linux Kernel Defence Map](https://linuxplumbersconf.org/event/7/contributions/775/attachments/610/1096/Following_the_Linux_Kernel_Defence_Map.pdf) [video](https://linuxplumbersconf.org/event/7/contributions/775/)
 - [My First Kernel Module: A Debugging Nightmare](https://reberhardt.com/blog/2020/11/18/my-first-kernel-module.html)
+- [Is Your Linux Version Hiding Interrupt CPU Usage From You? | Tanel Poder Consulting](https://tanelpoder.com/posts/linux-hiding-interrupt-cpu-usage/#how-to-measure-interrupt-cpu-overhead-when-irq-time-accounting-is-disabled)
 
 #### Drivers
 
@@ -190,6 +191,7 @@
 - Smartctl and disk monitoring links:
   - [SMART Stats Exposed — a Drive Stats Remix](https://www.backblaze.com/blog/smart-stats-exposed-a-drive-stats-remix/)
   - [How to check an hard drive health from the command line using smartctl](https://linuxconfig.org/how-to-check-an-hard-drive-health-from-the-command-line-using-smartctl)
+- [RASCSI](https://github.com/akuker/RASCSI/wiki): RaSCSI is a virtual SCSI device emulator that runs on a Raspberry Pi.
 
 #### Databases
 
@@ -219,6 +221,7 @@
 - [cue](https://github.com/cuelang/cue): Validate and define text-based and dynamic configuration.
 - [Mitogen](https://mitogen.networkgenomics.com/): Mitogen is a Python library for writing distributed self-replicating programs.
 - [Terraform-Templates](https://github.com/ghostinthewires/Terraform-Templates): Terraform Templates to Deploy Infrastructure.
+- [Rapid YAML](https://github.com/biojppm/rapidyaml)
 
 ### Ansible
 
@@ -433,6 +436,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Examples and customization tricks](https://docs.pytest.org/en/latest/example/index.html)
 - [An introduction to deterministic builds with C/C++](https://blog.conan.io/2019/09/02/Deterministic-builds-with-C-C++.html)
 - [bazel](https://bazel.build): Build and test software of any size, quickly and reliably. [Bazel is a fast, scalable, multi-language and extensible build system](https://github.com/bazelbuild/bazel)
+- [k6](https://github.com/loadimpact/k6): A modern load testing tool, using Go and JavaScript
 
 ### Jenkins
 
@@ -523,6 +527,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Solarflare](https://www.youtube.com/watch?v=BLnHx6Olbng) - What is Kernel Bypass, And Why Is It An Important Concept?
 - [Data Plane Development Kit](https://doc.dpdk.org/guides/prog_guide/overview.html): that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.
 - [Zuul](https://github.com/Netflix/zuul) is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more. 
+- [the great internet tcp congestion control census](https://datatracker.ietf.org/meeting/109/materials/slides-109-iccrg-the-great-internet-tcp-congestion-control-census-00)
 
 ### Network Troubleshooting
 
@@ -540,6 +545,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [wavemon](https://github.com/uoaerg/wavemon) is an ncurses-based monitoring application for wireless network devices
 - [echoip](https://github.com/mpolden/echoip): IP address lookup service. [ifconfig.co](https://ifconfig.co/)
 - [trace-cmd](https://github.com/rostedt/trace-cmd): utilities for Linux ftrace 
+- [WPAD and DoH don't get along](https://twitter.com/ericlaw/status/1359332415215439877)
 
 ### Firewalls
 
@@ -562,6 +568,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Dropbear SSH](https://matt.ucc.asn.au/dropbear/dropbear.html)
 - [firewalld.richlanguage](https://firewalld.org/documentation/man-pages/firewalld.richlanguage.html)
 - [vector](https://github.com/timberio/vector): [High-performance, vendor-neutral observability pipelines.](https://vector.dev/)
+- [khan-dl](https://github.com/rand-net/khan-dl): Download courses from khanacademy.org
 
 #### Email
 
@@ -708,6 +715,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [bash scripts](https://github.com/bing0o/bash_scripting) I use daily to automate some stuff and make linux easier.
 - [Camel Snake Kebab](https://github.com/vandot/casbab): CLI "tool" and a bash "library" for Camel/Snake/Kebab case conversion
 - [nat](https://github.com/willdoescode/nat): the 'ls' replacement you never knew you needed.
+- [pynubank](https://github.com/andreroggeri/pynubank): Acesse seus extratos do Nubank pelo Python
 
 ### Regex
 
@@ -725,7 +733,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
 - [Open source collaborative text editors](https://juretriglav.si/open-source-collaborative-text-editors/)
 - [vscodium](https://github.com/VSCodium/vscodium): binary releases of VS Code without MS branding/telemetry/licensing
-
 
 #### Vim/vi
 
@@ -772,6 +779,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to see Time-To-Live (TTL) for a DNS record](https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/)
 - [How to test and validate DNSSEC using dig command line](https://www.cyberciti.biz/faq/unix-linux-test-and-validate-dnssec-using-dig-command-line/)
 - [linuxupskillchallenge](https://www.linuxupskillchallenge.org/): Learn the skills required to sysadmin a remote Linux server from the commandline. [gitrepo](https://github.com/snori74/linuxupskillchallenge)
+- [Replacing Dropbox in favor of DigitalOcean spaces](https://mitjafelicijan.com/replacing-dropbox-in-favor-of-digitalocean-spaces.html)
+- [My Writing & Coding Workflow](http://jacobzelko.com/workflow/)
 
 ### Books
 
@@ -826,6 +835,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Create virtual machines with Cockpit in Fedora](https://fedoramagazine.org/create-virtual-machines-with-cockpit-in-fedora/)
 - [Virtual Machines For Multi-Tenancy in Varnish](https://medium.com/@fwsgonzo/virtual-machines-for-multi-tenancy-in-varnish-1c619ea3276)
 - [Libvirt](https://vyomtech.com/2013/12/17/libvirt_the_unsung_hero_of_cloud_computing.html)- The Unsung Hero of Cloud Computing
+- [QIRA](https://github.com/geohot/qira): QEMU Interactive Runtime Analyser
 
 ### OVF - Open Virtualization Format
 
@@ -906,6 +916,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [kind](https://github.com/kubernetes-sigs/kind): Kubernetes IN Docker - local clusters for testing Kubernetes
   - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
   - [Kubernetes Networking: Behind the scenes](https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb)
+  - [Scaling Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
 - Lambda
   - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
   - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
@@ -955,7 +966,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg): OpenCore bootloader with development SDK.
 - [macOS-Fortress](https://github.com/essandess/macOS-Fortress): Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and On-Access Scanning (PF, squid, privoxy, hphosts, dshield, emergingthreats, hostsfile, PAC file, clamav).
 - [pdfinverter](https://github.com/rootVIII/pdfinverter): darken (or lighten) a PDF on macOS
-
+- [macOS has checked app signatures online for over 2 years](https://eclecticlight.co/2020/11/25/macos-has-checked-app-signatures-online-for-over-2-years/)
+- [Better than Time Machine: backup your Mac with rsync](https://www.haykranen.nl/2008/05/05/rsync/)
 
 ## Windows
 
@@ -990,6 +1002,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Winerror](https://github.com/AandersonL/WinError): Get Windows Programming error codes descriptions using the command line.
 - [Windows classic samples](https://github.com/microsoft/Windows-classic-samples): This repo contains samples that demonstrate the API used in Windows classic desktop applications.
 - [sysmon to detect process tampering](https://twitter.com/markrussinovich/status/1328769178233237504)
+- [WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo): Let's sudo by face recognition of Windows Hello on Windows Subsystem for Linux (WSL). It runs on both WSL 1 and WSL 2. This is a PAM module for Linux on WSL.
 
 ### Powershell
 
@@ -1038,6 +1051,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 - [Talk](https://github.com/vasanthv/talk): A group video call for the web. No signups. No downloads.
+- [Apache OpenMeetings](https://openmeetings.apache.org/): provides video conferencing, instant messaging, white board, collaborative document editing and other groupware tools.
 
 ## Management
 
@@ -1209,6 +1223,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [markdownlint](https://github.com/DavidAnson/markdownlint): A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [Notepin](https://notepin.co/): Extremely simple note taking
 - [Startpage](https://www.startpage.com/): privacy search.
+- [searX](https://github.com/bauruine/searx/): Privacy-respecting metasearch engine
 - [Next](https://next.atlas.engineer/) Browser: Be Productive. [github](https://github.com/atlas-engineer/next)
 - [ulid](https://github.com/ulid/spec): The canonical spec for ulid - Universally Unique Lexicographically Sortable Identifier.
 - [MKCERT](https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/): VALID HTTPS CERTIFICATES FOR LOCALHOST, [github](https://github.com/FiloSottile/mkcert).
@@ -1332,6 +1347,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [CobWeb](https://github.com/cloudflare/cobweb): COBOL to WebAssembly compiler.
 - [model_bakery](https://github.com/model-bakers/model_bakery): Object factory for django.
 - [1MB Club](https://1mb.club/) [repo](https://github.com/bradleytaunt/1mb-club)
+- [servo](https://servo.org/)'s mission is to provide an independent, modular, embeddable web engine, which allows developers to deliver content and applications using web standards.
 
 ##### JavaScript
 
@@ -1383,6 +1399,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The New Able Editor](https://able.bio/rhett/the-new-able-editor--596ha6x). [suggestion-box](https://github.com/able-bio/suggestion-box): A place to submit issues for bugs, feature requests and other ideas related to Able.
 - [wobaka](https://wobaka.com/): is the CRM system that will make you smile.
 - [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
+- [Hosted Comments Service | Remarkbox](https://www.remarkbox.com/remarkbox-is-now-pay-what-you-can.html)
 
 #### Graphics
 
@@ -1566,6 +1583,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Minecraft as a k8s admin tool](https://medium.com/@eric.jadi/minecraft-as-a-k8s-admin-tool-cf16f890de42) [KubeCraftAdmin](https://github.com/erjadi/kubecraftadmin)
 - [Booting from a vinyl record.](http://boginjr.com/it/sw/dev/vinyl-boot/). ([boot from parallel port?](https://github.com/climatex/BootLPT))
 - [The /bin/true Command and Copyright](http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html)
+- [The Secret DIY Apple 5K Display // USBC & HDMI](https://www.reddit.com/r/hackintosh/comments/hrlf8x/the_secret_diy_apple_5k_display_usbc_hdmi/)
 
 ## Stuff
 
@@ -1596,7 +1614,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Convert any .pdf file 📚 into an audio 🔈 book with Python](https://dev.to/mustafaanaskh99/convert-any-pdf-file-into-an-audio-book-with-python-1gk4)
 - [Sigil](https://github.com/Sigil-Ebook/Sigil): is a multi-platform EPUB ebook editor.
 - [Ham radio is dying! No it’s not, it’s evolving](http://k0lwc.com/ham-radio-is-dying-no-its-not-its-evolving/)
-- [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon 
+- [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon
+- [Twitch Line Highlighter VS Code Extension](https://github.com/clarkio/vscode-twitch-highlighter): This is a VS Code extension that will allow your Twitch chat to highlight a line of code via a command message. Example: `!line 8 server.js`. See master branch README.md for more details
 
 ## News
 
@@ -1620,12 +1639,16 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Introducing the Red Hat Flatpak runtime for desktop containers](https://developers.redhat.com/blog/2020/08/12/introducing-the-red-hat-flatpak-runtime-for-desktop-containers/)
 - [O² OR OXYGEN ALL OVER AGAIN, AKA OXYGEN REBOOT, MAYBE O SQUARED?](https://pinheiro-kde.blogspot.com/2020/09/o-or-oxygen-all-over-again-aka-oxygen.html)
 - [Too Big to Care](https://clo.ng/blog/too-big-to-care/)
+- [Introducing the Framework Laptop](https://frame.work/blog/introducing-the-framework-laptop)
+- [donnemartin/haxor-news: Browse Hacker News like a haxor: A Hacker News command line interface (CLI).](https://github.com/donnemartin/haxor-news)
 
 ## Making Conferences
 
 - [python-organizers](https://github.com/python-organizers/resources): Share docs, tools, lists and whatnot for organizing a Python conference
 - [indico](https://getindico.io/): The effortless open-source tool for event organisation, archival and collaboration
 - [Tune up your sound with PulseEffects: Microphones](https://fedoramagazine.org/tune-up-your-sound-with-pulseeffects-microphones/)
+- [Skittish](https://skittish.com): A playful space for online events.
+- [How we hosted FOSDEM 2021 on Matrix](https://matrix.org/blog/2021/02/15/how-we-hosted-fosdem-2021-on-matrix)
 
 ## Articles
 
