@@ -36,6 +36,8 @@
 - [unetbootin](https://github.com/unetbootin/)
 - [iPad Linux](https://ipadlinux.org/)
 - [Tiny Core Linux, Micro Core Linux, 12MB Linux GUI Desktop, Live, Frugal, Extendable](http://tinycorelinux.net/)
+- [Floppinux](https://bits.p1x.in/floppinux-an-embedded-linux-on-a-single-floppy/) - [An Embedded 🐧Linux on a Single 💾Floppy](https://github.com/w84death/floppinux)
+- [Asahi Linux](https://asahilinux.org/) aims to bring you a polished Linux® experience on Apple Silicon Macs.
 
 ### Kernel
 
@@ -70,6 +72,8 @@
 
 - [displaylink-debian](https://github.com/AdnanHodzic/displaylink-debian): DisplayLink driver installer for Debian and Ubuntu based Linux distributions.
 - [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux) on [kali](https://unix.stackexchange.com/questions/288670/how-to-setup-triple-monitors-with-kali-linux) too
+- [FlashFloppy](https://github.com/keirf/FlashFloppy): Floppy drive emulator for Gotek hardware 
+- [Writing a pseudo-device driver on Linux](https://lyngvaer.no/log/writing-pseudo-device-driver)
 
 ### Performance
 
@@ -199,6 +203,7 @@
   - [SMART Stats Exposed — a Drive Stats Remix](https://www.backblaze.com/blog/smart-stats-exposed-a-drive-stats-remix/)
   - [How to check an hard drive health from the command line using smartctl](https://linuxconfig.org/how-to-check-an-hard-drive-health-from-the-command-line-using-smartctl)
 - [How to Check if TRIM Is Enabled for Your SSD (and Enable It if It Isn’t)](https://www.howtogeek.com/257196/how-to-check-if-trim-is-enabled-for-your-ssd-and-enable-it-if-it-isnt/)
+- [FreeNAS HDD torture test](https://github.com/zaggynl/hddtest)
 
 #### Databases
 
@@ -207,6 +212,7 @@
 - [Postgres is a great pub/sub & job server](https://layerci.com/blog/postgres-is-the-answer/)
 - [Port 5432 is open](https://www.splitgraph.com/blog/data-delivery-network-launch): introducing the Splitgraph Data Delivery Network.
 - [psql command line tutorial and cheat sheet](https://tomcam.github.io/postgres/)
+- [nocodb](https://github.com/nocodb/nocodb/): The Open Source Airtable alternative
 
 ### Controllers
 
@@ -263,6 +269,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Community Sops Collection](https://github.com/ansible-collections/community.sops): Simple and flexible tool for managing secrets
 - [CentOS.org Ansible Infra playbooks](https://github.com/CentOS/ansible-infra-playbooks): Just a placeholder for the Ansible playbooks used in the CentOS Infrastructure.
 - [Infrastructure](https://github.com/rocky-linux/infrastructure): The infrastructure monorepo for The Rocky Linux Foundation
+- [AnsibleBoy](https://github.com/ron7/ansible-boy): aims to use the Ansible `facts` as data, which can then be visualized in a table format.
 
 ### Puppet
 
@@ -479,6 +486,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [DevOps Awesome Tools](https://github.com/patricktalmeida/devops-awesome-tools)
 - [Team-Handbook-Template](https://github.com/ghostinthewires/Team-Handbook-Template): An employee / team handbook template
 - [Custom Gitlab CICD using Auto DevOps template + Add Cloud Build in GCP](https://medium.com/faun/custom-gitlab-cicd-using-auto-devops-template-add-cloud-build-in-gcp-bebb204b87f)
+- [devops-101-workshop](https://github.com/katcosgrove/devops-101-workshop): Serves as documentation, starter code, and companion guide for a DevOps 101 workshop using the JFrog platform.
 
 ## Interfaces
 
@@ -643,6 +651,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [thor](https://github.com/cisco/thor): Cisco's Thor Video Codec
 - [OctoLinker](https://github.com/OctoLinker/OctoLinker): Links together, what belongs together
 - [Session History Scrounger for Firefox](https://www.jeffersonscher.com/ffu/scrounger.html): Firefox creates various session history files as you browse, and then at shutdown creates sessionstore.jsonlz4. In Firefox 56+, the files are compressed using Mozilla's flavor of LZ4 compression (.jsonlz4 or .baklz4 file extension). The JSON data contains rich detail about your session, but this page is targeted toward extracting just the page URLs.
+- [Improving Firefox stability on Linux](https://hacks.mozilla.org/2021/05/improving-firefox-stability-on-linux/)
+- [Your browser and my browser see different colors](https://mux.com/blog/your-browser-and-my-browser-see-different-colors/)
 
 ## Shell
 
@@ -742,6 +752,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Camel Snake Kebab](https://github.com/vandot/casbab): CLI "tool" and a bash "library" for Camel/Snake/Kebab case conversion
 - [nat](https://github.com/willdoescode/nat): the 'ls' replacement you never knew you needed.
 - [IPython as a system shell](https://ipython.readthedocs.io/en/stable/interactive/shell.html)
+- [sw](https://github.com/coryfklein/sw): Terminal stopwatch.
 
 ### Regex
 
@@ -837,6 +848,22 @@ ansible_python_interpreter=/usr/bin/python3
 - [macOS to FreeBSD migration a.k.a why I left macOS](https://antranigv.am/weblog_en/posts/macos_to_freebsd/)
 - [lvgl](https://github.com/lvgl/lvgl): Powerful and easy-to-use embedded GUI with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash). 
 - [illumos](https://github.com/illumos/ipd): illumos Project Discussion 
+- OpenBSD:
+  - [Running OpenBSD on Raspberry Pi 3](https://www.tumfatig.net/20180706/running-openbsd-on-raspberry-pi-3/)
+  - [OpenBSD 6.8 on RaspberryPi 4 B](https://github.com/AshyIsMe/openbsd-rpi4)
+  - [OpenBSD on the Raspberry Pi 3B](https://brainsnapped.com/2020/10/22/openbsd-on-the-raspberry-pi-3-model-b/)
+  - [Getting OpenBSD running on Raspberry Pi 3](https://undeadly.org/cgi?action=article&sid=20170409123528)
+- Nvidia (CUDA):
+  - NVIDIA [tensorflow](https://github.com/NVIDIA/tensorflow)
+  - [Kernel module signing facility](https://www.kernel.org/doc/html/v4.10/admin-guide/module-signing.html)
+  - [Automatic Signing of DKMS-Generated Kernel Modules for Secure Boot (Nvidia Driver on CentOS 8 as Example)](https://gist.github.com/lijikun/22be09ec9b178e745758a29c7a147cc9)
+  - [Brisk Guide to Install Tensorflow GPU on Linux Machine (Ubuntu 18.04/18.10)](https://medium.com/@redowan/no-bullshit-guide-on-installing-tensorflow-gpu-ubuntu-18-04-18-10-238924cc4a6a)
+  - [How to enable NVIDIA GPUs in containers on bare metal in RHEL 8](https://www.redhat.com/en/blog/how-use-gpus-containers-bare-metal-rhel-8)
+  - [Using nVidia with SELinux](https://blog.siphos.be/2017/08/using-nvidia-with-selinux/)
+  - [Setting the NVIDIA GPU as primary (RPMFusion driver in Fedora 32 Workstation)](https://www.reddit.com/r/Fedora/comments/ga1ek6/optimus_setting_the_nvidia_gpu_as_primary/)
+  - [CUDA + CuDNN install in Fedora/Ubuntu for Tensorflow-gpu guide.](https://gist.github.com/salilsaxena/d511e8c711381003e006599997c0ba6d)
+  - [Fedora 34/33/32 NVIDIA Drivers Install Guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/#nvidia-install)
+  - [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf)
 
 ## Virtualization
 
@@ -909,6 +936,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [bento](https://github.com/chef/bento): Packer templates for building minimal Vagrant baseboxes.
   - [Vagrant Libvirt Provider](https://github.com/vagrant-libvirt/vagrant-libvirt).
 - Docker:
+  - [Awesome Docker](https://github.com/veggiemonk/awesome-docker): A curated list of Docker resources and projects.
   - [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
   - [google chrome](https://github.com/c0b/chrome-in-docker) dockerized and [headless google chrome](https://github.com/eirslett/chrome-karma-docker), [another](https://github.com/miyakogi/pyppeteer)
   - Some [fedora](https://github.com/fedora-cloud/docker-brew-fedora/) and [docker](https://docs.docker.com/samples/) links:
@@ -950,6 +978,7 @@ ansible_python_interpreter=/usr/bin/python3
 - Lambda
   - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
   - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
+  - [Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources): A curated list of awesome Kubernetes tools and resources.
 - [A quick introduction to Toolbox on Fedora](https://fedoramagazine.org/a-quick-introduction-to-toolbox-on-fedora/): Toolbox allows you to sort and manage your development environments in containers without requiring root privileges or manually attaching volumes. It creates a container where you can install your own CLI tools, without installing them on the base system itself.
 - [Reverse Engineering and Explointing Build in the Cloud](https://twitter.com/Enno_Insinuator/status/1202251271564152832)
 - [podman](https://github.com/containers/podman): A tool for managing OCI containers and pods
@@ -1040,6 +1069,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Uno Platform](https://github.com/unoplatform/uno): Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
 - [sysmon to detect process tampering](https://twitter.com/markrussinovich/status/1328769178233237504)
 - [NTVDMx64](https://github.com/leecher1337/ntvdmx64): Run Microsoft Windows NTVDM (DOS) on 64bit Editions
+- [I/O Rings](https://windows-internals.com/i-o-rings-when-one-i-o-operation-is-not-enough/): When One I/O Operation is Not Enough.
 
 ### Powershell
 
@@ -1075,6 +1105,7 @@ ansible_python_interpreter=/usr/bin/python3
 ## Support
 
 - [Open MCT](https://nasa.github.io/openmct/): is a next-generation mission control framework for visualization of data on desktop and mobile devices - [github](https://github.com/nasa/openmct)
+- [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole): get things from one computer to another, safely.
 
 ### Video Conference
 
@@ -1204,6 +1235,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [glsnip](https://github.com/bradwood/glsnip): copy and paste across machines
 - [Notable](https://notable.app/): [markdown app](https://github.com/notable/notable): The Markdown-based note-taking app that doesn't suck.
 - [octocrabby](https://github.com/travisbrown/octocrabby): Tools for managing GitHub block lists.
+- [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates ￼.
 
 ### Rescue
 
@@ -1404,6 +1436,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Caule Themes Pack 1](https://github.com/orickcorreia/caule-themes-pack-1): 10 modern colors | 4 categories of styles (Black Glass, Black, Dark, Light) | 40 themes in total | Animated icons for the weather forecast card | And a bonus automatic theme selector for your interface.
 - [face-replace](https://github.com/seanquinn781/face-replace): React Flask GUI app to replace faces in Video or Images with Emojis, Boxes or Blur. Uses Centerface & Deface for facial recognition and ImageIO for image processing
 - [1MB Club](https://1mb.club/) [repo](https://github.com/bradleytaunt/1mb-club)
+- [Awesome Resource For Your Web Projects: 75+ Background Resources](https://dev.to/kiranrajvjd/awesome-resource-for-your-web-projects-75-background-resources-2cm8)
 
 ##### JavaScript
 
@@ -1498,6 +1531,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Web Scraping 101 in Python with Requests & BeautifulSoup](https://www.statworx.com/at/blog/web-scraping-101-in-python-with-requests-beautifulsoup/).
 - [Scraping Headlines From News Website Homepages Using BeautifulSoup in Python](https://stackoverflow.com/questions/55033291/scraping-headlines-from-news-website-homepages-using-beautifulsoup-in-python)
 - [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe): Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
+- [P.A.I.F](https://github.com/T635/P.A.I.F): automatic facebook image poster.
 
 ## Journalism
 
@@ -1550,6 +1584,8 @@ $INDEX
 - [Automating Deploys with Bash scripting and Google Cloud SDK](https://0xbanana.com/blog/automating-deploys-with-bash-scripting-and-google-cloud-sdk/)
 - [One Click Forensics Lab in the Cloud](https://0xbanana.com/blog/one-click-forensics-lab-in-the-cloud/)
 - [Terraform on GCP - DFIR Lab Hello World!](https://0xbanana.com/blog/terraform-on-gcp-dfir-lab-hello-world/)
+- [Awesome Azure Learning](https://github.com/ddneves/awesome-azure-learning): This repo includes plenty of references for Azure learning, especially for the Azure certs and Azure architecture, and any other learning materials e.g. security and automation topics.
+- [Awesome Cloud Native](https://github.com/rootsongjc/awesome-cloud-native):  A curated list for awesome cloud native tools, software and tutorials.
 
 ### AWS
 
@@ -1565,6 +1601,10 @@ $INDEX
 - [Maintaining your AWS infrastructure](https://medium.com/faun/maintaining-your-aws-infrastructure-a4ae6ced8a74)
 - [bottlerocket](https://github.com/bottlerocket-os/bottlerocket): An operating system designed for hosting containers
 - [consoleme](https://github.com/Netflix/consoleme): ConsoleMe consolidates the management of multiple AWS accounts into a single interface. It allows your end-users and administrators to get credentials for your different accounts, and allows your users/administrators to manage or request cloud permissions.
+- [AWS_IP_Prefix_Finder](https://github.com/mehetmet/AWS_IP_Prefix_Finder): This program was created with the intent to pull the current AWS IP-Ranges JSON file and return you a list of all of the IP Prefixes for a specific Region and service based on your input.
+- [Awesome AWS](https://github.com/donnemartin/awesome-aws): A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
+- [Awesome AWS Certifications](https://github.com/ptcodes/awesome-aws-certifications): A curated list of AWS certification materials: videos courses, practice exams, prep tips, etc.
+- [AWS Service Catalog Reference Architecture](https://github.com/aws-samples/aws-service-catalog-reference-architectures): Sample CloudFormation templates and architecture for AWS Service Catalog.
 
 ### Nextcloud
 
@@ -1652,6 +1692,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Zulu and UTC: the story behind aviation’s time zone](https://www.flightradar24.com/blog/zulu-and-utc-the-story-behind-aviations-time-zone/)
 - [Booting from a vinyl record.](http://boginjr.com/it/sw/dev/vinyl-boot/). ([boot from parallel port?](https://github.com/climatex/BootLPT))
 - [The /bin/true Command and Copyright](http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html)
+- [vim_cubed](https://github.com/oakes/vim_cubed): Vim rendered on a cube for no reason.
 
 ## Stuff
 
