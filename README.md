@@ -101,6 +101,7 @@
 - [BPF: A New Type of Software](http://www.brendangregg.com/blog/2019-12-02/bpf-a-new-type-of-software.html), [BPF Performance Tools (book)](http://www.brendangregg.com/bpf-performance-tools-book.html), [repo](https://github.com/brendangregg/bpf-perf-tools-book).
 - [Linux Applications Performance: Introduction](https://unixism.net/2019/04/linux-applications-performance-introduction/)
 - [Comparison of Rust async and Linux thread context switch time and memory use](https://github.com/jimblandy/context-switch)
+- [How Netflix uses eBPF flow logs at scale for network insight](https://netflixtechblog.com/how-netflix-uses-ebpf-flow-logs-at-scale-for-network-insight-e3ea997dca96)
 
 #### Monitoring
 
@@ -368,6 +369,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Nginx C function](https://nginx-c-function.github.io): Create your desired C application on top of nginx module
   - [NGINX config for SSL with Let's Encrypt certs](https://gist.github.com/nrollr/9a39bb636a820fb97eec2ed85e473d38)
   - [How to Configure Nginx SSL Certifcate Chain](https://futurestud.io/tutorials/how-to-configure-nginx-ssl-certifcate-chain)
+  - [nginx ui](https://github.com/schenkd/nginx-ui#example): Nginx UI allows you to access and modify the nginx configurations files without cli.
 - PHP:
   - [Cheatsheet for finding vulnerable PHP code using grep](https://github.com/dustyfresh/PHP-vulnerability-audit-cheatsheet): This will assist you in the finding of potentially vulnerable PHP code. Each type of grep command is categorized in the type of vulnerabilities you generally find with that function.
   - [snuffleupagus](https://github.com/nbs-system/snuffleupagus): Security module for php7 - Killing bugclasses and virtual-patching the rest!
@@ -434,6 +436,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to setup NordVPN on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-nordvpn/)
 - [Improving user privacy and developer experience with User-Agent Client Hints](https://web.dev/user-agent-client-hints/)
 - [For decades our tools have failed to combat bulk metadata surveillance, it's time to push forward and support radical privacy initiatives.](https://twitter.com/SarahJamieLewis/status/1384161740598824976)
+- [Console Do Not Track (DNT)](https://consoledonottrack.com/): A proposed unified standard for opting out of telemetry for TUI/console apps.
 
 ### Messaging
 
@@ -465,6 +468,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Examples and customization tricks](https://docs.pytest.org/en/latest/example/index.html)
 - [An introduction to deterministic builds with C/C++](https://blog.conan.io/2019/09/02/Deterministic-builds-with-C-C++.html)
 - [bazel](https://bazel.build): Build and test software of any size, quickly and reliably. [Bazel is a fast, scalable, multi-language and extensible build system](https://github.com/bazelbuild/bazel)
+- [Open Source Insights](https://deps.dev/): Open Source Insights is an experimental service developed and hosted by [Google](https://opensource.googleblog.com/2021/06/introducing-open-source-insights-project.html) to help developers better understand the structure, construction, and security of open source software packages.
 
 ### Jenkins
 
@@ -602,6 +606,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [jmap](https://github.com/jmapio/jmap): JSON Meta Application Protocol Specification (JMAP)
 - [Cypht](https://github.com/jasonmunro/cypht): Lightweight Open Source webmail written in PHP and JavaScript
+- [maildog](https://github.com/edmundhung/maildog): Hosting your own email forwarding service on AWS and manage it with Github Actions.
   
 ##### MTA
 
@@ -653,6 +658,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [Session History Scrounger for Firefox](https://www.jeffersonscher.com/ffu/scrounger.html): Firefox creates various session history files as you browse, and then at shutdown creates sessionstore.jsonlz4. In Firefox 56+, the files are compressed using Mozilla's flavor of LZ4 compression (.jsonlz4 or .baklz4 file extension). The JSON data contains rich detail about your session, but this page is targeted toward extracting just the page URLs.
 - [Improving Firefox stability on Linux](https://hacks.mozilla.org/2021/05/improving-firefox-stability-on-linux/)
 - [Your browser and my browser see different colors](https://mux.com/blog/your-browser-and-my-browser-see-different-colors/)
+
+### PCAP
+
+- [scapy-tcp-extractor](https://github.com/deeso/scapy-tcp-extractor):  reassemble tcp streams using scapy
+- [Analyzing Packet Captures with Python](https://vnetman.github.io/pcap/python/pyshark/scapy/libpcap/2018/10/25/analyzing-packet-captures-with-python-part-1.html)
+- [PyPCAPKit](https://github.com/JarryShaw/PyPCAPKit): Python multi-engine PCAP analysis kit. 
+- [NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. [repo](https://github.com/networkx/networkx)
 
 ## Shell
 
@@ -753,6 +765,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [nat](https://github.com/willdoescode/nat): the 'ls' replacement you never knew you needed.
 - [IPython as a system shell](https://ipython.readthedocs.io/en/stable/interactive/shell.html)
 - [sw](https://github.com/coryfklein/sw): Terminal stopwatch.
+- [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html): We make very careful considerations about the interface and operation of the GNU coreutils, but unfortunately due to backwards compatibility reasons, some behaviours or defaults of these utilities can be confusing. 
 
 ### Regex
 
@@ -864,6 +877,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [CUDA + CuDNN install in Fedora/Ubuntu for Tensorflow-gpu guide.](https://gist.github.com/salilsaxena/d511e8c711381003e006599997c0ba6d)
   - [Fedora 34/33/32 NVIDIA Drivers Install Guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/#nvidia-install)
   - [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf)
+  - [nvidia-auto-installer-for-fedora](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora): A CLI tool which lets you install proprietary NVIDIA drivers and much more easily on Fedora 32 and above.
 
 ## Virtualization
 
@@ -893,6 +907,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Increase maximum USB devices in vm.conf](https://forum.proxmox.com/threads/increase-maximum-usb-devices-in-vm-conf.26551/)
 - [Libvirt Hot Plugin USB - USB Hot Plugin for VMs](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/)
 - [usb-libvirt-hotplug](https://github.com/olavmrk/usb-libvirt-hotplug/blob/master/usb-libvirt-hotplug.sh)
+- [GoTEE](https://github.com/f-secure-foundry/GoTEE): [Go Trusted Execution Environment](Go Trusted Execution Environment) (TEE).
 
 ### OVF - Open Virtualization Format
 
@@ -975,6 +990,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
   - [Kubernetes Networking: Behind the scenes](https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb)
   - [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper/): Mirror images into your own registry and swap image references automatically. 
+  - [BotKube](https://github.com/infracloudio/botkube)
 - Lambda
   - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
   - [The Global Serverless Platform](https://zeit.co), [demo](https://serverless-bash.now.sh/)
@@ -1033,6 +1049,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Crescendo](https://github.com/SuprHackerSteve/Crescendo): is a swift based, real time event viewer for macOS. It utilizes Apple's Endpoint Security Framework.
 - [TrueTree](https://github.com/themittenmac/TrueTree): A command line tool for pstree-like output on macOS with additional pid capturing capabilities.
 - [Thoughts on the App Store](https://rileytestut.com/blog/2020/10/14/thoughts-on-app-store/)
+- [Extensions are moving away from the kernel](https://eclecticlight.co/2021/07/07/extensions-are-moving-away-from-the-kernel/)
+- [libimobiledevice](https://libimobiledevice.org/): A cross-platform FOSS library written in C to communicate with iOS devices natively.
 
 ## Windows
 
@@ -1070,6 +1088,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [sysmon to detect process tampering](https://twitter.com/markrussinovich/status/1328769178233237504)
 - [NTVDMx64](https://github.com/leecher1337/ntvdmx64): Run Microsoft Windows NTVDM (DOS) on 64bit Editions
 - [I/O Rings](https://windows-internals.com/i-o-rings-when-one-i-o-operation-is-not-enough/): When One I/O Operation is Not Enough.
+- [TRACK THE STATUS OF YOUR AZURE ENVIRONMENT WITH POWER BI DASHBOARDS](https://techgenix.com/power-bi-dashboard-azure-governance/) [Continuous Cloud Optimization Power BI Dashboards Project](https://github.com/Azure/ccodashboard/)
+- [UUP converter](https://github.com/uup-dump/converter): Multiplatform UUP converter.
 
 ### Powershell
 
@@ -1170,6 +1190,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [True Product Market Fit is a Minimum Viable Company](https://medium.com/swlh/true-product-market-fit-is-a-minimum-viable-company-56adeb3e49cd)
 - [When your coworker does great work, tell their manager](https://jvns.ca/blog/2020/07/14/when-your-coworker-does-great-work-tell-their-manager/)
 - ["Can you summarize this 200-page dev resume book in 7 tweets or less?"](https://twitter.com/GergelyOrosz/status/1319282287456874498)
+- [Linkedin Quiz Answers, Skill Assessments Test](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes): Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, css, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test.
+- [Open Source Society University](https://github.com/ossu/computer-science): Path to a free self-taught education in Computer Science!
+- [Workforce Framework for Cybersecurity (NICE Framework)](https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework)
+- [Organisations tend to see rebels as troublemakers – but suppressing these individuals and their ideas could backfire.](https://www.bbc.com/worklife/article/20210528-positive-deviants-why-rebellious-workers-spark-gr-ideas)
 
 ## Presentations
 
@@ -1236,6 +1260,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Notable](https://notable.app/): [markdown app](https://github.com/notable/notable): The Markdown-based note-taking app that doesn't suck.
 - [octocrabby](https://github.com/travisbrown/octocrabby): Tools for managing GitHub block lists.
 - [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates ￼.
+- [tenacity](https://github.com/tenacityteam/tenacity): FLOSS Audacity Fork · No telemetry, crash reports and other shenanigans like that!
 
 ### Rescue
 
@@ -1315,6 +1340,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Burlesco](https://burles.co/): Leia notícias sem ser assinante, burle o paywall. [github](https://github.com/burlesco/burlesco)
 - [Mailinator](https://www.mailinator.com/): The Mailinator Email System puts millions of inboxes right at your fingertips. It is an amazing Email Workflow Testing tool for your Software or Service. [repo](https://github.com/mail-in-a-box/mailinabox)
 - [tempmail](https://temp-mail.org/en/): Your Temporary Email Address
+- [mail phantom](https://mailphantom.io/): Hide your email address when you sign up to newsletters, apps or your favourite websites.
 - [jor1k](https://github.com/s-macke/jor1k): Online OR1K Emulator running Linux
 - [calver](https://github.com/mahmoud/calver): date The web's go-to resource for Calendar Versioning info.
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
@@ -1327,6 +1353,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [svg2nvg](https://github.com/ollix/svg2nvg): A tool for converting SVG files to nanovg source code
 - [tslib](https://github.com/microsoft/tslib): Runtime library for TypeScript helpers. 
 - [Eric Lathrop / Living in Syndication](https://gitlab.com/ericlathrop/living_in_syndication)
+- [hnapi](https://github.com/FormerlyChucks/hnapi): Python Hacker News API Wrapper
 
 #### QR Code
 
@@ -1437,6 +1464,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [face-replace](https://github.com/seanquinn781/face-replace): React Flask GUI app to replace faces in Video or Images with Emojis, Boxes or Blur. Uses Centerface & Deface for facial recognition and ImageIO for image processing
 - [1MB Club](https://1mb.club/) [repo](https://github.com/bradleytaunt/1mb-club)
 - [Awesome Resource For Your Web Projects: 75+ Background Resources](https://dev.to/kiranrajvjd/awesome-resource-for-your-web-projects-75-background-resources-2cm8)
+- [JPEG XL and libjxl community website](https://jpegxl.info/): JPEG XL (.jxl) is the next-generation, general-purpose image compression codec by the JPEG committee.
 
 ##### JavaScript
 
@@ -1509,7 +1537,8 @@ ansible_python_interpreter=/usr/bin/python3
   - [StaticGen](https://www.staticgen.com/): Top Open Source Static Site Generators
   - [notablog](https://github.com/dragonman225/notablog): Generate a minimalistic blog from a Notion table.
 - (pt-br) [Civitas](https://github.com/CivitasOrg/): Civitas é um projeto para organização de comunidades de desenvolvimento.
-  
+- [Trailing Slash Guide](https://github.com/slorber/trailing-slash-guide): The ultimate resource to fix url trailing slash issues in static deployments (static websites, Jamstack).
+
 #### Colors
 
 - [2 Colors-Gradient Generator](https://www.colorffy.com/generator/gradients)
@@ -1668,6 +1697,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Check out these projects featuring your favorite Cartoon Network characters and start making!](http://www.createwithcn.com/). [Cartoon Network + Ada Fruit](https://makecode.adafruit.com/projects/cartoon-network)
 - [fx_cast](https://hensm.github.io/fx_cast/): chromecast for firefox. Enables Chromecast support for casting web apps (like Netflix or BBC iPlayer), HTML5 video and screen/tab sharing. [github](https://github.com/hensm/fx_cast)
 - [srsLTE](https://github.com/srsLTE/srsLTE): Open source SDR LTE software suite from Software Radio Systems (SRS)
+- [The LibreCellular project](https://librecellular.org/) aims to make it easier to create 4G cellular networks with open source software and low cost software-defined radio (SDR) hardware.
 - [List of software-defined radios](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
 - [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers)
 - [MrPiracy](https://mrpiracy.site/)
@@ -1733,6 +1763,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [lalboard](https://github.com/JesusFreke/lalboard): A 3D-printed keyboard inspired by the DataHand.
 - [Software disenchantment](https://tonsky.me/blog/disenchantment/)
 - [Bob Cassette Rewinder](https://github.com/dekuNukem/bob_cassette_rewinder): Defeating Dishwasher Detergents DRM, Renew and Refill Bob Cassettes for 98% cost saving!
+- [Start Your Own ISP ](https://startyourownisp.com/): This site is dedicated to helping you start your own Internet Service Provider. Specifically this guide is about building a Wireless ISP (WISP).
 
 ## News
 
@@ -1765,6 +1796,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [indico](https://getindico.io/): The effortless open-source tool for event organisation, archival and collaboration
 - [Tune up your sound with PulseEffects: Microphones](https://fedoramagazine.org/tune-up-your-sound-with-pulseeffects-microphones/)
 - [The Future of USENIX: A Report from the Annual Membership Meeting](https://www.usenix.org/blog/future-usenix-report-annual-membership-meeting)
+- [WORKADVENTURE](https://workadventu.re/). [repo](https://github.com/thecodingmachine/workadventure)
 
 ## Articles
 
