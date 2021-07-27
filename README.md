@@ -469,6 +469,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [An introduction to deterministic builds with C/C++](https://blog.conan.io/2019/09/02/Deterministic-builds-with-C-C++.html)
 - [bazel](https://bazel.build): Build and test software of any size, quickly and reliably. [Bazel is a fast, scalable, multi-language and extensible build system](https://github.com/bazelbuild/bazel)
 - [Open Source Insights](https://deps.dev/): Open Source Insights is an experimental service developed and hosted by [Google](https://opensource.googleblog.com/2021/06/introducing-open-source-insights-project.html) to help developers better understand the structure, construction, and security of open source software packages.
+- [Repositories Reports](https://github.com/GuillaumeFalourd/repositories-reports): Repository with weekly insights reports for personal repositories using Github Actions and Ritchie CLI.
 
 ### Jenkins
 
@@ -1051,6 +1052,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Thoughts on the App Store](https://rileytestut.com/blog/2020/10/14/thoughts-on-app-store/)
 - [Extensions are moving away from the kernel](https://eclecticlight.co/2021/07/07/extensions-are-moving-away-from-the-kernel/)
 - [libimobiledevice](https://libimobiledevice.org/): A cross-platform FOSS library written in C to communicate with iOS devices natively.
+- [Kingfisher](https://github.com/onevcat/Kingfisher): A lightweight, pure-Swift library for downloading and caching images from the web.
 
 ## Windows
 
@@ -1093,6 +1095,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 ### Powershell
 
+- [PowerShell Gallery](https://www.powershellgallery.com/)
 - [Powershell-SSHTools](https://github.com/fridgehead/Powershell-SSHTools): A bunch of useful SSH tools for powershell
 - [PowerShellAtomicHarness](https://github.com/caseysmithrc/PowerShellAtomicHarness): Execute Test Cases In PowerShell
 - [About Logging](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logging_windows?view=powershell-6#protected-event-logging)
@@ -1465,6 +1468,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [1MB Club](https://1mb.club/) [repo](https://github.com/bradleytaunt/1mb-club)
 - [Awesome Resource For Your Web Projects: 75+ Background Resources](https://dev.to/kiranrajvjd/awesome-resource-for-your-web-projects-75-background-resources-2cm8)
 - [JPEG XL and libjxl community website](https://jpegxl.info/): JPEG XL (.jxl) is the next-generation, general-purpose image compression codec by the JPEG committee.
+- [Flask Session Cookie Decoder/Encoder](https://github.com/noraj/flask-session-cookie-manager)
 
 ##### JavaScript
 
@@ -1489,6 +1493,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [scanapi](https://github.com/scanapi/scanapi): Automated Integration Testing and Live Documentation for your API
 - [A Python 3 implementation for client-side web programming](https://brython.info/)
 - [Tyk API Gateway](https://github.com/tyktechnologies/tyk):  Tyk Open Source API Gateway written in Go
+- [Free API and Microservice Books](https://apiacademy.co/api-books/)
 
 ##### REST API
 
