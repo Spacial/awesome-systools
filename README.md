@@ -160,6 +160,7 @@
 ### Ubuntu
 
 - [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
+- [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
 
 ### Packaging
 
@@ -346,6 +347,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Douane](https://douaneapp.com/): Linux personal firewall with per application rule controls
 - [Two-factor authentication for SSH](https://developer.ibm.com/devpractices/devops/blogs/two-factor-authentication-for-ssh/)
 - [Hardened/PaX Quickstart](https://wiki.gentoo.org/wiki/Hardened/PaX_Quickstart)
+- [firejail](https://github.com/netblue30/firejail): Linux namespaces and seccomp-bpf [sandbox](https://wiki.archlinux.org/title/firejail).
 
 ### WebServers
 
@@ -437,6 +439,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Improving user privacy and developer experience with User-Agent Client Hints](https://web.dev/user-agent-client-hints/)
 - [For decades our tools have failed to combat bulk metadata surveillance, it's time to push forward and support radical privacy initiatives.](https://twitter.com/SarahJamieLewis/status/1384161740598824976)
 - [Console Do Not Track (DNT)](https://consoledonottrack.com/): A proposed unified standard for opting out of telemetry for TUI/console apps.
+- [One Bad Apple](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html)
+- ["You have zero privacy anyway, get over it."](https://anchisesbr.blogspot.com/2021/08/seguranca-o-fim-da-privacidade-em-1999.html)
 
 ### Messaging
 
@@ -492,6 +496,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Team-Handbook-Template](https://github.com/ghostinthewires/Team-Handbook-Template): An employee / team handbook template
 - [Custom Gitlab CICD using Auto DevOps template + Add Cloud Build in GCP](https://medium.com/faun/custom-gitlab-cicd-using-auto-devops-template-add-cloud-build-in-gcp-bebb204b87f)
 - [devops-101-workshop](https://github.com/katcosgrove/devops-101-workshop): Serves as documentation, starter code, and companion guide for a DevOps 101 workshop using the JFrog platform.
+- [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
 
 ## Interfaces
 
@@ -1469,6 +1474,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Awesome Resource For Your Web Projects: 75+ Background Resources](https://dev.to/kiranrajvjd/awesome-resource-for-your-web-projects-75-background-resources-2cm8)
 - [JPEG XL and libjxl community website](https://jpegxl.info/): JPEG XL (.jxl) is the next-generation, general-purpose image compression codec by the JPEG committee.
 - [Flask Session Cookie Decoder/Encoder](https://github.com/noraj/flask-session-cookie-manager)
+- [What is sustainable web design?](https://sustainablewebdesign.org/)
 
 ##### JavaScript
 
@@ -1639,6 +1645,7 @@ $INDEX
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws): A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
 - [Awesome AWS Certifications](https://github.com/ptcodes/awesome-aws-certifications): A curated list of AWS certification materials: videos courses, practice exams, prep tips, etc.
 - [AWS Service Catalog Reference Architecture](https://github.com/aws-samples/aws-service-catalog-reference-architectures): Sample CloudFormation templates and architecture for AWS Service Catalog.
+- [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox): A collection of useful Shell & Python scripts that make your DevOps life easier in AWS.
 
 ### Nextcloud
 
@@ -1794,6 +1801,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Too Big to Care](https://clo.ng/blog/too-big-to-care/)
 - [OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
 - [Apple is a true business innovator: For more than a decade, they have been steadily perfecting an obscure anticompetitive tactic, turning a petty grift invented by console games companies into a global, cross-industry mechanism for extracting rents and centralizing control.](https://twitter.com/doctorow/status/1388934048072953857)
+- [Liquid Cooling Next-Gen Servers Getting Hands-on with 3 Options](https://www.servethehome.com/liquid-cooling-next-gen-servers-getting-hands-on-3-options-supermicro/5/)
 
 ## Making Conferences
 
