@@ -129,6 +129,7 @@ Nice projects to try. Let's do it!
 - [Openbot](https://www.openbot.org/)
 - [Analog Terminal Bell](https://github.com/tenderlove/analog-terminal-bell)
 - [Guy Built A Bird Feeder That Accepts Bottle Caps For Food, And These Wild Magpies Love It](https://www.boredpanda.com/magpies-recycling-machine-bottle-caps/)
+- [Challenges Building an Open-Source E Ink Laptop](https://alexsoto.dev/challenges-building-an-open-source-eink-laptop.html)
 
 ## Prototyping
 
@@ -139,6 +140,7 @@ Nice projects to try. Let's do it!
 
 - [Digikey](https://www.digikey.com/)
 - [Mouser](https://www.mouser.com)
+- [DIY Boat Monitoring WiFi](https://l-36.com/DIY-WiFi.php)
 
 ## Comparison
 
@@ -215,7 +217,12 @@ Nice projects to try. Let's do it!
 https://www.instructables.com/id/Arduino-Python-Communication-via-USB/
 https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/
 
+
+## 3d Printing
+
+- [Make 3D Print Look Like Distressed Painted Metal](https://diode.zone/videos/watch/d1d8f1fc-dbe0-4313-aa04-923be00c1d32)
+
 ## News
 
 - [Raspberry Pi 4 WiFi stops working at 2560x1440 screen resolution](https://www.enricozini.org/blog/2019/himblick/raspberry-pi-4-loses-wifi-at-2560x1440-screen-resolution/)
-  
+- [RIOT](https://github.com/RIOT-OS/RIOT): The friendly OS for IoT.
