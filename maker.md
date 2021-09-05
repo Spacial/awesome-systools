@@ -130,6 +130,8 @@ Nice projects to try. Let's do it!
 - [Analog Terminal Bell](https://github.com/tenderlove/analog-terminal-bell)
 - [Guy Built A Bird Feeder That Accepts Bottle Caps For Food, And These Wild Magpies Love It](https://www.boredpanda.com/magpies-recycling-machine-bottle-caps/)
 - [Challenges Building an Open-Source E Ink Laptop](https://alexsoto.dev/challenges-building-an-open-source-eink-laptop.html)
+- [Casio fx-9750GII Webserver](http://fxip.as203478.net/): This page is hosted on an Casio fx-9750GII graphical calculator, running a SuperH SH4 processor. It's running a port of the uIP TCP/IP stack, using SLIP over the 3pin 2.5mm serial port.
+- [State of netbooting Raspberry Pi in 2021](https://blog.alexellis.io/state-of-netbooting-raspberry-pi-in-2021/)
 
 ## Prototyping
 
@@ -226,3 +228,5 @@ https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/
 
 - [Raspberry Pi 4 WiFi stops working at 2560x1440 screen resolution](https://www.enricozini.org/blog/2019/himblick/raspberry-pi-4-loses-wifi-at-2560x1440-screen-resolution/)
 - [RIOT](https://github.com/RIOT-OS/RIOT): The friendly OS for IoT.
+- [FarmBot](https://farm.bot/)
+- [Reverse Engineering the M6 Smart Fitness Bracelet](https://rbaron.net/blog/2021/07/06/Reverse-engineering-the-M6-smart-fitness-band.html)
