@@ -38,6 +38,7 @@
 - [Tiny Core Linux, Micro Core Linux, 12MB Linux GUI Desktop, Live, Frugal, Extendable](http://tinycorelinux.net/)
 - [Floppinux](https://bits.p1x.in/floppinux-an-embedded-linux-on-a-single-floppy/) - [An Embedded 🐧Linux on a Single 💾Floppy](https://github.com/w84death/floppinux)
 - [Asahi Linux](https://asahilinux.org/) aims to bring you a polished Linux® experience on Apple Silicon Macs.
+- [kwin-tiling](https://github.com/kwin-scripts/kwin-tiling): Tiling script for kwin
 
 ### Kernel
 
@@ -157,10 +158,12 @@
 - [Red Hat Remote Exams - Create a Live USB using Red Hat Enterprise Linux](https://www.redhat.com/pt-br/about/videos/red-hat-remote-exams-create-live-usb-using-rhel)
 - [RPM Packages of Sequoia PGP for Fedora](https://github.com/ironthree/sequoia-rpms)
 
-### Ubuntu
+### Debian 
 
-- [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
-- [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
+- [Introduction to AppArmor](https://debian-handbook.info/browse/stable/sect.apparmor.html) - The Debian Administrator's Handbook
+- Ubuntu
+  - [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
+  - [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
 
 ### Packaging
 
@@ -348,6 +351,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Two-factor authentication for SSH](https://developer.ibm.com/devpractices/devops/blogs/two-factor-authentication-for-ssh/)
 - [Hardened/PaX Quickstart](https://wiki.gentoo.org/wiki/Hardened/PaX_Quickstart)
 - [firejail](https://github.com/netblue30/firejail): Linux namespaces and seccomp-bpf [sandbox](https://wiki.archlinux.org/title/firejail).
+- [Awesome Windows Domain Hardening](https://github.com/PaulSec/awesome-windows-domain-hardening): A curated list of awesome Security Hardening techniques for Windows.
+- [CHAPS](https://github.com/cutaway-security/chaps): Configuration Hardening Assessment PowerShell Script (CHAPS)
 
 ### WebServers
 
@@ -441,6 +446,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Console Do Not Track (DNT)](https://consoledonottrack.com/): A proposed unified standard for opting out of telemetry for TUI/console apps.
 - [One Bad Apple](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html)
 - ["You have zero privacy anyway, get over it."](https://anchisesbr.blogspot.com/2021/08/seguranca-o-fim-da-privacidade-em-1999.html)
+- [GlobaLeaks](https://github.com/globaleaks/GlobaLeaks) is free, open source software enabling anyone to easily set up and maintain a secure whistleblowing platform.
 
 ### Messaging
 
@@ -497,6 +503,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Custom Gitlab CICD using Auto DevOps template + Add Cloud Build in GCP](https://medium.com/faun/custom-gitlab-cicd-using-auto-devops-template-add-cloud-build-in-gcp-bebb204b87f)
 - [devops-101-workshop](https://github.com/katcosgrove/devops-101-workshop): Serves as documentation, starter code, and companion guide for a DevOps 101 workshop using the JFrog platform.
 - [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
+- Servless:
+  - [faas-cli](https://github.com/openfaas/faas-cli): Official CLI for OpenFaaS.
 
 ## Interfaces
 
@@ -525,6 +533,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [test-profiles](https://github.com/phoronix-test-suite/test-profiles): A read-only Git copy of the OpenBenchmarking.org test profiles.
 - [hardware-effects](https://github.com/Kobzol/hardware-effects): Demonstration of various hardware effects.
+- [PrIM](https://github.com/CMU-SAFARI/prim-benchmarks)(Processing-In-Memory Benchmarks) is the first benchmark suite for a real-world processing-in-memory (PIM) architecture. PrIM is developed to evaluate, analyze, and characterize the first publicly-available real-world PIM architecture, the UPMEM PIM architecture. Described by Gómez-Luna et al. [preliminary version](https://arxiv.org/abs/2105.03814)
 
 ## Services
 
@@ -568,6 +577,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Solarflare](https://www.youtube.com/watch?v=BLnHx6Olbng) - What is Kernel Bypass, And Why Is It An Important Concept?
 - [Data Plane Development Kit](https://doc.dpdk.org/guides/prog_guide/overview.html): that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.
 - [Zuul](https://github.com/Netflix/zuul) is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more. 
+- [gRPC](https://grpc.io/) is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
+- [grpc-tools](https://github.com/bradleyjkemp/grpc-tools): A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
+- [Online Protobuf Decoder.](https://protogen.marcgravell.com/decode)
 
 ### Network Troubleshooting
 
@@ -956,6 +968,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [How to Use Vagrant with Libvirt on Linux](https://computingforgeeks.com/using-vagrant-with-libvirt-on-linux/)
   - [bento](https://github.com/chef/bento): Packer templates for building minimal Vagrant baseboxes.
   - [Vagrant Libvirt Provider](https://github.com/vagrant-libvirt/vagrant-libvirt).
+  - [vagrant](https://github.com/perkolatoriji/vagrant) DevOps#1 project: vagrant virtualbox ansible nginx apache2 prometheus grafana debian ubuntu linux
 - Docker:
   - [Awesome Docker](https://github.com/veggiemonk/awesome-docker): A curated list of Docker resources and projects.
   - [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
@@ -1058,6 +1071,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Extensions are moving away from the kernel](https://eclecticlight.co/2021/07/07/extensions-are-moving-away-from-the-kernel/)
 - [libimobiledevice](https://libimobiledevice.org/): A cross-platform FOSS library written in C to communicate with iOS devices natively.
 - [Kingfisher](https://github.com/onevcat/Kingfisher): A lightweight, pure-Swift library for downloading and caching images from the web.
+- [Maestral](https://github.com/SamSchott/maestral): Open-source Dropbox client for macOS and Linux.
 
 ## Windows
 
@@ -1097,6 +1111,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [I/O Rings](https://windows-internals.com/i-o-rings-when-one-i-o-operation-is-not-enough/): When One I/O Operation is Not Enough.
 - [TRACK THE STATUS OF YOUR AZURE ENVIRONMENT WITH POWER BI DASHBOARDS](https://techgenix.com/power-bi-dashboard-azure-governance/) [Continuous Cloud Optimization Power BI Dashboards Project](https://github.com/Azure/ccodashboard/)
 - [UUP converter](https://github.com/uup-dump/converter): Multiplatform UUP converter.
+- [What's new in Windows 10 Enterprise LTSC 2019](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-10-2019)
+- [Ping Castle](https://www.pingcastle.com/)
+- [Schedule tasks from command line](https://www.windows-commandline.com/schedule-tasks-command-line/)
 
 ### Powershell
 
@@ -1152,6 +1169,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [obs-websocket](https://github.com/Palakis/obs-websocket): Remote-control OBS Studio through WebSockets
   - [Stream Overlay - The Legend Of Zelda](https://8bitdoctor.blogspot.com/2018/07/stream-overlay-legend-of-zelda.html), [Doom](https://images.techhive.com/images/article/2016/10/20161010181638_1-100686915-orig.jpg)
 - [44 Virtual Icebreakers and Team-Building Activities to Try Immediately](https://www.tinypulse.com/blog/44-virtual-icebreakers-and-team-building-activities)
+- [jami](https://jami.net/): floss and universal communication platform, preserving privacy and freedom.
 
 ## Management
 
@@ -1269,6 +1287,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [octocrabby](https://github.com/travisbrown/octocrabby): Tools for managing GitHub block lists.
 - [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates ￼.
 - [tenacity](https://github.com/tenacityteam/tenacity): FLOSS Audacity Fork · No telemetry, crash reports and other shenanigans like that!
+- [12ft](https://12ft.io/) Show me a 10ft paywall, I’ll show you a 12ft ladder.
 
 ### Rescue
 
@@ -1776,6 +1795,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Software disenchantment](https://tonsky.me/blog/disenchantment/)
 - [Bob Cassette Rewinder](https://github.com/dekuNukem/bob_cassette_rewinder): Defeating Dishwasher Detergents DRM, Renew and Refill Bob Cassettes for 98% cost saving!
 - [Start Your Own ISP ](https://startyourownisp.com/): This site is dedicated to helping you start your own Internet Service Provider. Specifically this guide is about building a Wireless ISP (WISP).
+- [Como remover o ruído do seu microfone em chamadas no Linux](https://diolinux.com.br/sistemas-operacionais/remover-ruido-do-microfone-no-linux.html)
 
 ## News
 
