@@ -132,6 +132,7 @@ Nice projects to try. Let's do it!
 - [Challenges Building an Open-Source E Ink Laptop](https://alexsoto.dev/challenges-building-an-open-source-eink-laptop.html)
 - [Casio fx-9750GII Webserver](http://fxip.as203478.net/): This page is hosted on an Casio fx-9750GII graphical calculator, running a SuperH SH4 processor. It's running a port of the uIP TCP/IP stack, using SLIP over the 3pin 2.5mm serial port.
 - [State of netbooting Raspberry Pi in 2021](https://blog.alexellis.io/state-of-netbooting-raspberry-pi-in-2021/)
+- [PIEEG: Turn a Raspberry Pi into a Brain-Computer-Interface to measure biosignals](https://arxiv.org/abs/2201.02228)
 
 ## Prototyping
 
@@ -219,7 +220,6 @@ Nice projects to try. Let's do it!
 https://www.instructables.com/id/Arduino-Python-Communication-via-USB/
 https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/
 
-
 ## 3d Printing
 
 - [Make 3D Print Look Like Distressed Painted Metal](https://diode.zone/videos/watch/d1d8f1fc-dbe0-4313-aa04-923be00c1d32)
@@ -230,3 +230,5 @@ https://www.instructables.com/id/Arduino-USB-comunication-Example-Program/
 - [RIOT](https://github.com/RIOT-OS/RIOT): The friendly OS for IoT.
 - [FarmBot](https://farm.bot/)
 - [Reverse Engineering the M6 Smart Fitness Bracelet](https://rbaron.net/blog/2021/07/06/Reverse-engineering-the-M6-smart-fitness-band.html)
+- [basic teaser](https://github.com/aziddy/Basic-Taser)
+- [DIY Tech](https://twitter.com/hackermaderas/status/1449758926984073216) (Solar Power Web Server, Stungun, Anti-Drone Gun, Multi Frequency RF Jammer,esp8266_deauther, Skyjak)
