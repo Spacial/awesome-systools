@@ -528,6 +528,7 @@ ansible_python_interpreter=/usr/bin/python3
 - Servless:
   - [faas-cli](https://github.com/openfaas/faas-cli): Official CLI for OpenFaaS.
 - [The I&O Leader’s Guide to Chaos Engineering](https://www.gartner.com/smarterwithgartner/the-io-leaders-guide-to-chaos-engineering)
+- [DevOps Roadmap](https://roadmap.sh/devops): Step by step guide for DevOps, SRE or any other Operations Role in 2022.
 
 ## Interfaces
 
@@ -603,6 +604,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [gRPC](https://grpc.io/) is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
 - [grpc-tools](https://github.com/bradleyjkemp/grpc-tools): A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
 - [Online Protobuf Decoder.](https://protogen.marcgravell.com/decode)
+- [Things we (finally) know about network queues](https://apenwarr.ca/log/20170814)
 
 ### Network Troubleshooting
 
@@ -1146,6 +1148,15 @@ ansible_python_interpreter=/usr/bin/python3
 - [Ping Castle](https://www.pingcastle.com/)
 - [Schedule tasks from command line](https://www.windows-commandline.com/schedule-tasks-command-line/)
 - [Windows 2000 Modernization Guide](https://w2k.phreaknet.org/guide): So, you want to use Windows 2000 in 2021?
+- [VirtualKD-Redux](https://github.com/4d61726b/VirtualKD-Redux): A revival and modernization of VirtualKD.
+
+### Windows Dev
+
+- [Windows API sets](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-apisets)
+- [SvcHostDemo](https://github.com/apriorit/SvcHostDemo): Demo service that runs in svchost.exe
+- [ELAM Prerequisites](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/elam-prerequisites): Early Launch Antimalware drivers must adhere to the following program requirements to be signed by WHQL and loaded by Windows.
+- [Configuring Additional LSA Protection](https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection)
+- [Protecting Anti-Malware Services](https://docs.microsoft.com/en-us/windows/win32/services/protecting-anti-malware-services-)
 
 ### Powershell
 
@@ -1174,7 +1185,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [Windows 10 Decrapifier](https://gist.github.com/gvlx/b4d4c5681900ca965276fc5c16fe8520)
 - [Windows Decrapifier](https://github.com/n1snt/Windows-Decrapifier)
 - [How to: Shoehorn Decrapifier into your MDT task!](https://community.spiceworks.com/how_to/150455-shoehorn-decrapifier-into-your-mdt-task) - not tested.
-
 
 ---
 
@@ -1746,13 +1756,14 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - Fedora's [InternetOfThings](https://fedoraproject.org/wiki/InternetOfThings)
 - [Connected camera cock up](https://www.pentestpartners.com/security-blog/connected-camera-cock-up/)
 - [Binary Hardening in IoT products](https://cyber-itl.org/2019/08/26/iot-data-writeup.html): Last year, the team at CITL looked into the state of binary hardening features in IoT firmware.
-- Introducing Rainbow: [Donjon’s side-channel analysis simulation tool](https://medium.com/ledger-on-security-and-blockchain/introducing-rainbow-donjons-side-channel-analysis-simulation-tool-2f23fa1f11b3). repo: [rainbow](https://github.com/Ledger-Donjon/rainbow)
+- Introducing Rainbow: [Donjon’s side-channel analysis simulation tool](https://medium.com/ledger-on-security-and-blockchain/)introducing-rainbow-donjons-side-channel-analysis-simulation-tool-2f23fa1f11b3). repo: [rainbow](https://github.com/Ledger-Donjon/rainbow)
 - [Memfault](https://memfault.com/): is the collaboration of engineers who share decades of experience working at leading hardware companies including Oculus, Fitbit, and Pebble.
 - [Espressif IDF Eclipse Plugins](https://github.com/espressif/idf-eclipse-plugin): Eclipse plugin for ESP-IDF CMake based projects (4.x and above)
 - [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
 - [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 - [micropython-coffee](https://github.com/andrequeiroz2/micropython-coffee)
 - [Disque](https://github.com/antirez/disque) is a distributed message broker
+- [TDengine](https://tdengine.com/). [repo](https://github.com/taosdata/TDengine)
 
 ### Pub/Sub
 
