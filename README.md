@@ -502,6 +502,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [bazel](https://bazel.build): Build and test software of any size, quickly and reliably. [Bazel is a fast, scalable, multi-language and extensible build system](https://github.com/bazelbuild/bazel)
 - [Open Source Insights](https://deps.dev/): Open Source Insights is an experimental service developed and hosted by [Google](https://opensource.googleblog.com/2021/06/introducing-open-source-insights-project.html) to help developers better understand the structure, construction, and security of open source software packages.
 - [Repositories Reports](https://github.com/GuillaumeFalourd/repositories-reports): Repository with weekly insights reports for personal repositories using Github Actions and Ritchie CLI.
+- [Spacelift](https://spacelift.io/): Flexible management platform for Infrastructure as Code
 
 ### Jenkins
 
@@ -529,6 +530,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [faas-cli](https://github.com/openfaas/faas-cli): Official CLI for OpenFaaS.
 - [The I&O Leader’s Guide to Chaos Engineering](https://www.gartner.com/smarterwithgartner/the-io-leaders-guide-to-chaos-engineering)
 - [DevOps Roadmap](https://roadmap.sh/devops): Step by step guide for DevOps, SRE or any other Operations Role in 2022.
+- [How to Become a DevOps Engineer in Six Months](https://spacelift.io/blog/how-to-become-devops-engineer)
 
 ## Interfaces
 
@@ -1729,7 +1731,7 @@ $INDEX
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws): A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
 - [Awesome AWS Certifications](https://github.com/ptcodes/awesome-aws-certifications): A curated list of AWS certification materials: videos courses, practice exams, prep tips, etc.
 - [AWS Service Catalog Reference Architecture](https://github.com/aws-samples/aws-service-catalog-reference-architectures): Sample CloudFormation templates and architecture for AWS Service Catalog.
-- [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox): A collection of useful Shell & Python scripts that make your DevOps life easier in AWS.
+- [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox): A collection of useful Shell & Python scripts that make your life easier in AWS.
 
 ### Nextcloud
 
