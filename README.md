@@ -38,7 +38,18 @@
 - [Tiny Core Linux, Micro Core Linux, 12MB Linux GUI Desktop, Live, Frugal, Extendable](http://tinycorelinux.net/)
 - [Floppinux](https://bits.p1x.in/floppinux-an-embedded-linux-on-a-single-floppy/) - [An Embedded 🐧Linux on a Single 💾Floppy](https://github.com/w84death/floppinux)
 - [Asahi Linux](https://asahilinux.org/) aims to bring you a polished Linux® experience on Apple Silicon Macs.
+<<<<<<< HEAD
 - [Pop!_OS](https://github.com/pop-os/beta)
+=======
+- [kwin-tiling](https://github.com/kwin-scripts/kwin-tiling): Tiling script for kwin
+
+#### Tiny ones
+
+- [The Core Project](http://distro.ibiblio.org/tinycorelinux/downloads.html): as suggested by our name, is not a turnkey desktop distribution. Instead we deliver just the core Linux from which it is quite easy to add what you want. We offer 3 different x86 "cores" to get you started: Core, TinyCore, and our installation image, CorePlus.
+- [Damn Small Linux](http://www.damnsmalllinux.org/download.html)
+- [SLAX](https://www.slax.org/): is a modern, portable, small and fast Linux operating system with modular approach and outstanding design.
+- [Bodhi Linux](https://www.bodhilinux.com/): a lightweight distribution featuring the fast & fully customizable Moksha Desktop.
+>>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Kernel
 
@@ -68,14 +79,20 @@
 - [Following the Linux Kernel Defence Map](https://linuxplumbersconf.org/event/7/contributions/775/attachments/610/1096/Following_the_Linux_Kernel_Defence_Map.pdf) [video](https://linuxplumbersconf.org/event/7/contributions/775/)
 - [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/)
 - [My First Kernel Module: A Debugging Nightmare](https://reberhardt.com/blog/2020/11/18/my-first-kernel-module.html)
+<<<<<<< HEAD
 - [Is Your Linux Version Hiding Interrupt CPU Usage From You? | Tanel Poder Consulting](https://tanelpoder.com/posts/linux-hiding-interrupt-cpu-usage/#how-to-measure-interrupt-cpu-overhead-when-irq-time-accounting-is-disabled)
 
+=======
+APFS FUSE Driver for Linux
+>>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 #### Drivers
 
 - [displaylink-debian](https://github.com/AdnanHodzic/displaylink-debian): DisplayLink driver installer for Debian and Ubuntu based Linux distributions.
 - [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux) on [kali](https://unix.stackexchange.com/questions/288670/how-to-setup-triple-monitors-with-kali-linux) too
 - [FlashFloppy](https://github.com/keirf/FlashFloppy): Floppy drive emulator for Gotek hardware 
 - [Writing a pseudo-device driver on Linux](https://lyngvaer.no/log/writing-pseudo-device-driver)
+- [Framework Laptop Embedded Controller (EC)](https://github.com/FrameworkComputer/EmbeddedController)
+- [APFS FUSE Driver for Linux](https://github.com/sgan81/apfs-fuse)
 
 ### Performance
 
@@ -113,6 +130,13 @@
 - [hardinfo](https://github.com/lpereira/hardinfo): System profiler and benchmark tool for Linux systems
 - [hotspot](https://github.com/kdab/hotspot): The Linux perf GUI for performance analysis.
 - [Busychild](https://github.com/h0mbre/busychild): a pstree mod that prints other helpful information and with added functionality 
+- Sysmon on Linux:
+  - [Automating the deployment of Sysmon for Linux 🐧 and Azure Sentinel in a lab environment](https://techcommunity.microsoft.com/t5/azure-sentinel/automating-the-deployment-of-sysmon-for-linux-and-azure-sentinel/ba-p/2847054)
+  - [Install SysinternalsEBPF](https://github.com/Sysinternals/SysinternalsEBPF/blob/main/INSTALL.md)
+  - [Install Sysmon](https://github.com/Sysinternals/SysmonForLinux/blob/main/INSTALL.md)
+  - [Install-Sysmon-For-Linux.sh](https://github.com/OTRF/Blacksmith/blob/master/resources/scripts/bash/Install-Sysmon-For-Linux.sh)
+  - [Sysmon For Linux Lab Environment](https://github.com/OTRF/Azure-Sentinel2Go/tree/master/grocery-list/Linux/demos/Sysmon-For-Linux)
+- [An intro to finding things in Linux](https://www.madebygps.com/an-intro-to-finding-things-in-linux/)
 
 ### Red Hat/Fedora
 
@@ -159,10 +183,12 @@
 - [Red Hat Remote Exams - Create a Live USB using Red Hat Enterprise Linux](https://www.redhat.com/pt-br/about/videos/red-hat-remote-exams-create-live-usb-using-rhel)
 - [RPM Packages of Sequoia PGP for Fedora](https://github.com/ironthree/sequoia-rpms)
 
-### Ubuntu
+### Debian 
 
-- [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
-- [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
+- [Introduction to AppArmor](https://debian-handbook.info/browse/stable/sect.apparmor.html) - The Debian Administrator's Handbook
+- Ubuntu
+  - [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
+  - [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
 
 ### Packaging
 
@@ -171,6 +197,7 @@
 - [Linux brew](https://linuxbrew.sh/): Linuxbrew is a fork of Homebrew, the macOS package manager, for Linux. [github](https://github.com/Linuxbrew/brew)
 - [Nixpkgs](https://github.com/NixOS/nixpkgs): is a collection of packages for the Nix package manager. It is periodically built and tested by the Hydra build daemon as so-called channels.
 - [ELF STATIFIER MAIN PAGE](http://statifier.sourceforge.net/): Statifier is a tool for creating portable, self-containing Linux executables.
+- [Crev](https://github.com/crev-dev/crev): Socially scalable Code REView and recommendation system that we desperately need.
 
 #### DEB
 
@@ -209,6 +236,7 @@
 - [RASCSI](https://github.com/akuker/RASCSI/wiki): RaSCSI is a virtual SCSI device emulator that runs on a Raspberry Pi.
 - [How to Check if TRIM Is Enabled for Your SSD (and Enable It if It Isn’t)](https://www.howtogeek.com/257196/how-to-check-if-trim-is-enabled-for-your-ssd-and-enable-it-if-it-isnt/)
 - [FreeNAS HDD torture test](https://github.com/zaggynl/hddtest)
+- [The Linux Filesystem Explained](https://www.linux.com/training-tutorials/linux-filesystem-explained/)
 
 #### Databases
 
@@ -218,6 +246,8 @@
 - [Port 5432 is open](https://www.splitgraph.com/blog/data-delivery-network-launch): introducing the Splitgraph Data Delivery Network.
 - [psql command line tutorial and cheat sheet](https://tomcam.github.io/postgres/)
 - [nocodb](https://github.com/nocodb/nocodb/): The Open Source Airtable alternative
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse): is a free analytics DBMS for big data.
+- [Database-less torrent website](https://boredcaveman.xyz/post/0x1_dbless-torrent-website.html)
 
 ### Controllers
 
@@ -241,6 +271,7 @@
 - [Terraform-Templates](https://github.com/ghostinthewires/Terraform-Templates): Terraform Templates to Deploy Infrastructure.
 - [Rapid YAML](https://github.com/biojppm/rapidyaml)
 - [How To Use Terraform with DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean)
+- [Opta](https://github.com/run-x/opta): is a new kind of Infrastructure-As-Code framework where you work with high-level constructs instead of getting lost in low level cloud configuration.
 
 ### Ansible
 
@@ -352,6 +383,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Two-factor authentication for SSH](https://developer.ibm.com/devpractices/devops/blogs/two-factor-authentication-for-ssh/)
 - [Hardened/PaX Quickstart](https://wiki.gentoo.org/wiki/Hardened/PaX_Quickstart)
 - [firejail](https://github.com/netblue30/firejail): Linux namespaces and seccomp-bpf [sandbox](https://wiki.archlinux.org/title/firejail).
+- [Awesome Windows Domain Hardening](https://github.com/PaulSec/awesome-windows-domain-hardening): A curated list of awesome Security Hardening techniques for Windows.
+- [CHAPS](https://github.com/cutaway-security/chaps): Configuration Hardening Assessment PowerShell Script (CHAPS)
 
 ### WebServers
 
@@ -445,6 +478,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Console Do Not Track (DNT)](https://consoledonottrack.com/): A proposed unified standard for opting out of telemetry for TUI/console apps.
 - [One Bad Apple](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html)
 - ["You have zero privacy anyway, get over it."](https://anchisesbr.blogspot.com/2021/08/seguranca-o-fim-da-privacidade-em-1999.html)
+- [GlobaLeaks](https://github.com/globaleaks/GlobaLeaks) is free, open source software enabling anyone to easily set up and maintain a secure whistleblowing platform.
+- [snowflake](https://snowflake.torproject.org/) is a system to defeat internet censorship. 
 
 ### Messaging
 
@@ -481,7 +516,11 @@ ansible_python_interpreter=/usr/bin/python3
 =======
 - [Open Source Insights](https://deps.dev/): Open Source Insights is an experimental service developed and hosted by [Google](https://opensource.googleblog.com/2021/06/introducing-open-source-insights-project.html) to help developers better understand the structure, construction, and security of open source software packages.
 - [Repositories Reports](https://github.com/GuillaumeFalourd/repositories-reports): Repository with weekly insights reports for personal repositories using Github Actions and Ritchie CLI.
+<<<<<<< HEAD
 >>>>>>> 9826cb22dfac24751dce9c7bcb1c78702eed2f31
+=======
+- [Spacelift](https://spacelift.io/): Flexible management platform for Infrastructure as Code
+>>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Jenkins
 
@@ -505,6 +544,11 @@ ansible_python_interpreter=/usr/bin/python3
 - [Custom Gitlab CICD using Auto DevOps template + Add Cloud Build in GCP](https://medium.com/faun/custom-gitlab-cicd-using-auto-devops-template-add-cloud-build-in-gcp-bebb204b87f)
 - [devops-101-workshop](https://github.com/katcosgrove/devops-101-workshop): Serves as documentation, starter code, and companion guide for a DevOps 101 workshop using the JFrog platform.
 - [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
+- Servless:
+  - [faas-cli](https://github.com/openfaas/faas-cli): Official CLI for OpenFaaS.
+- [The I&O Leader’s Guide to Chaos Engineering](https://www.gartner.com/smarterwithgartner/the-io-leaders-guide-to-chaos-engineering)
+- [DevOps Roadmap](https://roadmap.sh/devops): Step by step guide for DevOps, SRE or any other Operations Role in 2022.
+- [How to Become a DevOps Engineer in Six Months](https://spacelift.io/blog/how-to-become-devops-engineer)
 
 ## Interfaces
 
@@ -533,6 +577,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [test-profiles](https://github.com/phoronix-test-suite/test-profiles): A read-only Git copy of the OpenBenchmarking.org test profiles.
 - [hardware-effects](https://github.com/Kobzol/hardware-effects): Demonstration of various hardware effects.
+- [PrIM](https://github.com/CMU-SAFARI/prim-benchmarks)(Processing-In-Memory Benchmarks) is the first benchmark suite for a real-world processing-in-memory (PIM) architecture. PrIM is developed to evaluate, analyze, and characterize the first publicly-available real-world PIM architecture, the UPMEM PIM architecture. Described by Gómez-Luna et al. [preliminary version](https://arxiv.org/abs/2105.03814)
 
 ## Services
 
@@ -576,7 +621,14 @@ ansible_python_interpreter=/usr/bin/python3
 - [Solarflare](https://www.youtube.com/watch?v=BLnHx6Olbng) - What is Kernel Bypass, And Why Is It An Important Concept?
 - [Data Plane Development Kit](https://doc.dpdk.org/guides/prog_guide/overview.html): that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.
 - [Zuul](https://github.com/Netflix/zuul) is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more. 
+<<<<<<< HEAD
 - [the great internet tcp congestion control census](https://datatracker.ietf.org/meeting/109/materials/slides-109-iccrg-the-great-internet-tcp-congestion-control-census-00)
+=======
+- [gRPC](https://grpc.io/) is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
+- [grpc-tools](https://github.com/bradleyjkemp/grpc-tools): A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
+- [Online Protobuf Decoder.](https://protogen.marcgravell.com/decode)
+- [Things we (finally) know about network queues](https://apenwarr.ca/log/20170814)
+>>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Network Troubleshooting
 
@@ -631,6 +683,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Announcing notqmail](https://schmonz.com/2019/08/20/announcing-notqmail/). [What is notqmail?](https://github.com/notqmail/notqmail/wiki). [github repo](https://github.com/notqmail/notqmail)
 - [The Confused Mailman](https://ezh.es/blog/2020/08/the-confused-mailman-sending-spf-and-dmarc-passing-mail-as-any-gmail-or-g-suite-customer/): Sending SPF and DMARC passing mail as any Gmail or G Suite customer
 - [0x4447_product_s3_email](https://github.com/0x4447/0x4447_product_s3_email): mailbox A serverless email server on AWS using S3 and SES.
+- [Learn and Test DMARC](https://www.learndmarc.com/): Visualizing the communication between email servers will help you understand what SPF, DKIM, and DMARC do and how these mechanisms work.
 
 ### DNS
 
@@ -650,6 +703,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Unbound DNS Blacklist](https://vermaden.wordpress.com/2020/11/18/unbound-dns-blacklist/)
 - [short dns record ttl and centralization are serious risks for the internet](https://techblog.bozho.net/short-dns-ttl-and-centralization-are-serious-risks-for-the-internet/)
 - [The world's shortest domain names](http://www.dirk-loss.de/short-domains.htm)
+- DNSLog[](http://www.dnslog.cn/): helping dns troubleshooting with dinamyc subdomains and query logs.
 
 ### LoadBalancers
 
@@ -657,6 +711,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/): HAProxy Technologies
 - [skipper](https://github.com/zalando/skipper): An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
 - [memcached](https://github.com/memcached/memcached/wiki/Extstore): Memcached is a high performance multithreaded event-based key/value cache store intended to be used in a distributed system. Nice discussion about: [Caching beyond RAM: Riding the cliff](https://memcached.org/blog/nvm-multidisk/)
+- [Apache Traffic Server™](https://trafficserver.apache.org/) software is a fast, scalable and extensible HTTP/1.1 and HTTP/2 compliant caching proxy server.
 
 ### Browsers
 
@@ -784,6 +839,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [IPython as a system shell](https://ipython.readthedocs.io/en/stable/interactive/shell.html)
 - [sw](https://github.com/coryfklein/sw): Terminal stopwatch.
 - [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html): We make very careful considerations about the interface and operation of the GNU coreutils, but unfortunately due to backwards compatibility reasons, some behaviours or defaults of these utilities can be confusing. 
+- [cheat.sh](https://github.com/chubin/cheat.sh): the only cheat sheet you need.
+- [Explainshell](https://explainshell.com/): write down a command-line to see the help text that matches each argument. [repo](https://github.com/idank/explainshell)
 
 ### Regex
 
@@ -801,6 +858,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
 - [Open source collaborative text editors](https://juretriglav.si/open-source-collaborative-text-editors/)
 - [vscodium](https://github.com/VSCodium/vscodium): binary releases of VS Code without MS branding/telemetry/licensing
+- [A succinct cheat sheet for newbie linux coders and system administrators, documenting some of the more obscure and useful gems of linux lore. Intended to be viewed in emacs org-mode, or VimOrganizer, though any text editor will suffice. ](https://github.com/kevinthew/linuxgems)
 
 #### Vim/vi
 
@@ -929,6 +987,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Libvirt Hot Plugin USB - USB Hot Plugin for VMs](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/)
 - [usb-libvirt-hotplug](https://github.com/olavmrk/usb-libvirt-hotplug/blob/master/usb-libvirt-hotplug.sh)
 - [GoTEE](https://github.com/f-secure-foundry/GoTEE): [Go Trusted Execution Environment](Go Trusted Execution Environment) (TEE).
+- [Quickemu](https://github.com/wimpysworld/quickemu): Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
 
 ### OVF - Open Virtualization Format
 
@@ -971,6 +1030,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [How to Use Vagrant with Libvirt on Linux](https://computingforgeeks.com/using-vagrant-with-libvirt-on-linux/)
   - [bento](https://github.com/chef/bento): Packer templates for building minimal Vagrant baseboxes.
   - [Vagrant Libvirt Provider](https://github.com/vagrant-libvirt/vagrant-libvirt).
+  - [vagrant](https://github.com/perkolatoriji/vagrant) DevOps#1 project: vagrant virtualbox ansible nginx apache2 prometheus grafana debian ubuntu linux
 - Docker:
   - [Awesome Docker](https://github.com/veggiemonk/awesome-docker): A curated list of Docker resources and projects.
   - [Imagem CentOS7 com firefox ESR e warsaw configurado.](https://github.com/jsalatiel/wsbb-docker) (pt-BR) and [other](https://gist.github.com/dmouse/e76ce3d8dde00fe496da)
@@ -1031,6 +1091,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [scrcpy](https://github.com/Genymobile/scrcpy): Display and control your Android device
 - [Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex): A Pokedex app using ViewModel, LiveData, Room and Navigation
 - [NewPipe](https://newpipe.schabi.org/): The lightweight YouTube experience for Android - [code](https://github.com/TeamNewPipe/NewPipe)
+- [Android and Kotlin conference videos](https://github.com/igorwojda/android-kotlin-conference-videos)
 
 ## Mac/iOS
 
@@ -1076,6 +1137,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Extensions are moving away from the kernel](https://eclecticlight.co/2021/07/07/extensions-are-moving-away-from-the-kernel/)
 - [libimobiledevice](https://libimobiledevice.org/): A cross-platform FOSS library written in C to communicate with iOS devices natively.
 - [Kingfisher](https://github.com/onevcat/Kingfisher): A lightweight, pure-Swift library for downloading and caching images from the web.
+- [Maestral](https://github.com/SamSchott/maestral): Open-source Dropbox client for macOS and Linux.
 
 ## Windows
 
@@ -1116,6 +1178,19 @@ ansible_python_interpreter=/usr/bin/python3
 - [I/O Rings](https://windows-internals.com/i-o-rings-when-one-i-o-operation-is-not-enough/): When One I/O Operation is Not Enough.
 - [TRACK THE STATUS OF YOUR AZURE ENVIRONMENT WITH POWER BI DASHBOARDS](https://techgenix.com/power-bi-dashboard-azure-governance/) [Continuous Cloud Optimization Power BI Dashboards Project](https://github.com/Azure/ccodashboard/)
 - [UUP converter](https://github.com/uup-dump/converter): Multiplatform UUP converter.
+- [What's new in Windows 10 Enterprise LTSC 2019](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-10-2019)
+- [Ping Castle](https://www.pingcastle.com/)
+- [Schedule tasks from command line](https://www.windows-commandline.com/schedule-tasks-command-line/)
+- [Windows 2000 Modernization Guide](https://w2k.phreaknet.org/guide): So, you want to use Windows 2000 in 2021?
+- [VirtualKD-Redux](https://github.com/4d61726b/VirtualKD-Redux): A revival and modernization of VirtualKD.
+
+### Windows Dev
+
+- [Windows API sets](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-apisets)
+- [SvcHostDemo](https://github.com/apriorit/SvcHostDemo): Demo service that runs in svchost.exe
+- [ELAM Prerequisites](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/elam-prerequisites): Early Launch Antimalware drivers must adhere to the following program requirements to be signed by WHQL and loaded by Windows.
+- [Configuring Additional LSA Protection](https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection)
+- [Protecting Anti-Malware Services](https://docs.microsoft.com/en-us/windows/win32/services/protecting-anti-malware-services-)
 
 ### Powershell
 
@@ -1131,7 +1206,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script): PowerShell script for automation of routine tasks done after fresh installations of Windows 10 / Server 2016 / Server 2019.
 - [Disk Space Reporting Script (Powershell & HTML)](https://github.com/ghostinthewires/Disk-Space-Reporting-Script)
 
-### Debloat
+### Debloat/DeCrap
 
 - [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater): Script to remove Windows 10 bloatware.
 - [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/) (thread from 04/2019)
@@ -1141,6 +1216,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/)
 - A lot of powershell scripts:
   - [Windows-10-Super-Minimal](https://github.com/prclaunchky/Windows-10-Super-Minimal)
+- [Windows 10 Decrapifier](https://gist.github.com/gvlx/b4d4c5681900ca965276fc5c16fe8520)
+- [Windows Decrapifier](https://github.com/n1snt/Windows-Decrapifier)
+- [How to: Shoehorn Decrapifier into your MDT task!](https://community.spiceworks.com/how_to/150455-shoehorn-decrapifier-into-your-mdt-task) - not tested.
 
 ---
 
@@ -1172,6 +1250,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [obs-websocket](https://github.com/Palakis/obs-websocket): Remote-control OBS Studio through WebSockets
   - [Stream Overlay - The Legend Of Zelda](https://8bitdoctor.blogspot.com/2018/07/stream-overlay-legend-of-zelda.html), [Doom](https://images.techhive.com/images/article/2016/10/20161010181638_1-100686915-orig.jpg)
 - [44 Virtual Icebreakers and Team-Building Activities to Try Immediately](https://www.tinypulse.com/blog/44-virtual-icebreakers-and-team-building-activities)
+- [jami](https://jami.net/): floss and universal communication platform, preserving privacy and freedom.
 
 ## Management
 
@@ -1222,6 +1301,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [Open Source Society University](https://github.com/ossu/computer-science): Path to a free self-taught education in Computer Science!
 - [Workforce Framework for Cybersecurity (NICE Framework)](https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework)
 - [Organisations tend to see rebels as troublemakers – but suppressing these individuals and their ideas could backfire.](https://www.bbc.com/worklife/article/20210528-positive-deviants-why-rebellious-workers-spark-gr-ideas)
+- [Engineering Career Paths at Big Tech and High-Growth Startups](https://newsletter.pragmaticengineer.com/p/engineering-career-paths)
+- ["What is your take on 'US software engineering culture' vs other cultures (like Scandinavian, Eastern EU etc)?"](https://twitter.com/GergelyOrosz/status/1455107249270140928)
 
 ## Presentations
 
@@ -1249,6 +1330,10 @@ ansible_python_interpreter=/usr/bin/python3
 
 ## Tools
 
+- PDF Files:
+  - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html)
+  - [OpenPDF](https://github.com/LibrePDF/OpenPDF): is a free Java library for creating and editing PDF files with a LGPL and MPL open source license. OpenPDF is based on a fork of iText. We welcome contributions from other developers. Please feel free to submit pull-requests and bugreports to this GitHub repository.
+  - [PDF Arranger](https://github.com/pdfarranger/pdfarranger): Small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface 
 - [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [robotjs](https://github.com/octalmage/robotjs): Node.js Desktop Automation.
 - [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
@@ -1257,7 +1342,6 @@ ansible_python_interpreter=/usr/bin/python3
 - [pdiary](https://github.com/manipuladordedados/pdiary)
 - [jabcode](https://github.com/jabcode/jabcode): color bar code.
 - [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump): Import and export tools for elasticsearch
-- [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html)
 - [rga](https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/):ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. [github repo](https://github.com/phiresky/ripgrep-all)
 - [GNU GREP and RIPGREP](https://github.com/learnbyexample/learn_gnugrep_ripgrep): Example based guide to mastering GNU grep and ripgrep.
 - [Leon](https://github.com/leon-ai/leon): is your open-source personal assistant.
@@ -1271,12 +1355,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Pattern-dreamer](https://github.com/Andrew-Kang-G/pattern-dreamer): Get urls with missing protocol & uris with missing domain & emails etc. in texts and parse them.
 - [Customizing pandoc to generate beautiful pdfs from markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/).
 - [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi): This tool remains available so long as I can keep it free and the bandwidth doesn't cost me too much.
-- [OpenPDF](https://github.com/LibrePDF/OpenPDF): is a free Java library for creating and editing PDF files with a LGPL and MPL open source license. OpenPDF is based on a fork of iText. We welcome contributions from other developers. Please feel free to submit pull-requests and bugreports to this GitHub repository.
 - An Instagram Story of:
   - [Types for Python HTTP APIs](https://instagram-engineering.com/types-for-python-http-apis-an-instagram-story-d3c3a207fdb7)
   - [Static Analysis at Scale](https://instagram-engineering.com/static-analysis-at-scale-an-instagram-story-8f498ab71a0c)
 - [peco](https://github.com/peco/peco): Simplistic interactive filtering tool.
-- [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
 - [free POS software.](http://keyhut.com/pos.htm)
 - GPG tips:
   - [GPG Encryption Guide - Part 4 (Symmetric Encryption)](https://www.tutonics.com/2012/11/gpg-encryption-guide-part-4-symmetric.html)
@@ -1292,7 +1374,11 @@ ansible_python_interpreter=/usr/bin/python3
 =======
 - [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates ￼.
 - [tenacity](https://github.com/tenacityteam/tenacity): FLOSS Audacity Fork · No telemetry, crash reports and other shenanigans like that!
+<<<<<<< HEAD
 >>>>>>> 9826cb22dfac24751dce9c7bcb1c78702eed2f31
+=======
+- [12ft](https://12ft.io/) Show me a 10ft paywall, I’ll show you a 12ft ladder.
+>>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Rescue
 
@@ -1502,6 +1588,12 @@ ansible_python_interpreter=/usr/bin/python3
 - [JPEG XL and libjxl community website](https://jpegxl.info/): JPEG XL (.jxl) is the next-generation, general-purpose image compression codec by the JPEG committee.
 - [Flask Session Cookie Decoder/Encoder](https://github.com/noraj/flask-session-cookie-manager)
 - [What is sustainable web design?](https://sustainablewebdesign.org/)
+- [DuckDB-Wasm](https://duckdb.org/2021/10/29/duckdb-wasm.html): Efficient Analytical SQL in the Browser. [duckdb](https://github.com/duckdb/duckdb)
+- [JSON Web Tokens e o seu uso no gerenciamento de sessão](https://www.mentebinaria.com.br/artigos/json-web-tokens-e-o-seu-uso-no-gerenciamento-de-sess%C3%A3o-r79/)
+
+##### Backend
+
+- [Appwrite](https://github.com/appwrite/appwrite): is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment .
 
 ##### JavaScript
 
@@ -1514,6 +1606,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Svelte](https://svelte.dev/): Cybernetically enhanced web apps
 - [three.js](https://www.npmjs.com/package/three): The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
 - [JavaScript is C](https://v4.chriskrycho.com/2018/javascript-is-c.html): Maintaining invariants the most painful way possible.
+- [nazca](https://github.com/Qinti/nazca): A new way of creating GUI in the web
 
 ##### JavaScript Tools
 
@@ -1527,6 +1620,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [A Python 3 implementation for client-side web programming](https://brython.info/)
 - [Tyk API Gateway](https://github.com/tyktechnologies/tyk):  Tyk Open Source API Gateway written in Go
 - [Free API and Microservice Books](https://apiacademy.co/api-books/)
+- [fastapi-course](https://github.com/Sanjeev-Thiyagarajan/fastapi-course)
 
 ##### REST API
 
@@ -1554,8 +1648,17 @@ ansible_python_interpreter=/usr/bin/python3
 - [HTML is the Web](https://www.petelambert.com/journal/html-is-the-web)
 - [The New Able Editor](https://able.bio/rhett/the-new-able-editor--596ha6x). [suggestion-box](https://github.com/able-bio/suggestion-box): A place to submit issues for bugs, feature requests and other ideas related to Able.
 - [wobaka](https://wobaka.com/): is the CRM system that will make you smile.
+<<<<<<< HEAD
 - [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
 - [Hosted Comments Service | Remarkbox](https://www.remarkbox.com/remarkbox-is-now-pay-what-you-can.html)
+=======
+- Twitter:
+  - [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
+  - [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
+  - [Automatically delete your old tweets, except for the ones you want to keep](https://semiphemeral.com/)
+  - [semiephemeral](https://semiphemeral.com/): Automatically delete your old tweets, except for the ones you want to keep. [repo](https://github.com/micahflee/semiphemeral)
+  - [Tweak New Twitter](https://github.com/insin/tweak-new-twitter/): Browser extension which removes algorithmic content from Twitter, hides news & trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements.
+>>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 #### Graphics
 
@@ -1593,6 +1696,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Paletton](https://paletton.com/): is an online application located on the internet.
 - [Colormind](http://colormind.io/): is a color scheme generator that uses deep learning.
 - [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
+- [ffflux](https://fffuel.co/ffflux/)
 
 ### WebScraping
 
@@ -1600,6 +1704,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Scraping Headlines From News Website Homepages Using BeautifulSoup in Python](https://stackoverflow.com/questions/55033291/scraping-headlines-from-news-website-homepages-using-beautifulsoup-in-python)
 - [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe): Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
 - [P.A.I.F](https://github.com/T635/P.A.I.F): automatic facebook image poster.
+- [Python and the Web](https://github.com/Python-World/Python_and_the_Web): Build Bots, Scrape a website or use an API to solve a problem.
 
 ## Journalism
 
@@ -1654,6 +1759,7 @@ $INDEX
 - [Terraform on GCP - DFIR Lab Hello World!](https://0xbanana.com/blog/terraform-on-gcp-dfir-lab-hello-world/)
 - [Awesome Azure Learning](https://github.com/ddneves/awesome-azure-learning): This repo includes plenty of references for Azure learning, especially for the Azure certs and Azure architecture, and any other learning materials e.g. security and automation topics.
 - [Awesome Cloud Native](https://github.com/rootsongjc/awesome-cloud-native):  A curated list for awesome cloud native tools, software and tutorials.
+- [Software for Open Networking in the Cloud - SONiC](https://github.com/Azure/sonic-mgmt): Configuration management examples for SONiC.
 
 ### AWS
 
@@ -1674,7 +1780,7 @@ $INDEX
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws): A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
 - [Awesome AWS Certifications](https://github.com/ptcodes/awesome-aws-certifications): A curated list of AWS certification materials: videos courses, practice exams, prep tips, etc.
 - [AWS Service Catalog Reference Architecture](https://github.com/aws-samples/aws-service-catalog-reference-architectures): Sample CloudFormation templates and architecture for AWS Service Catalog.
-- [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox): A collection of useful Shell & Python scripts that make your DevOps life easier in AWS.
+- [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox): A collection of useful Shell & Python scripts that make your life easier in AWS.
 
 ### Nextcloud
 
@@ -1701,13 +1807,14 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - Fedora's [InternetOfThings](https://fedoraproject.org/wiki/InternetOfThings)
 - [Connected camera cock up](https://www.pentestpartners.com/security-blog/connected-camera-cock-up/)
 - [Binary Hardening in IoT products](https://cyber-itl.org/2019/08/26/iot-data-writeup.html): Last year, the team at CITL looked into the state of binary hardening features in IoT firmware.
-- Introducing Rainbow: [Donjon’s side-channel analysis simulation tool](https://medium.com/ledger-on-security-and-blockchain/introducing-rainbow-donjons-side-channel-analysis-simulation-tool-2f23fa1f11b3). repo: [rainbow](https://github.com/Ledger-Donjon/rainbow)
+- Introducing Rainbow: [Donjon’s side-channel analysis simulation tool](https://medium.com/ledger-on-security-and-blockchain/)introducing-rainbow-donjons-side-channel-analysis-simulation-tool-2f23fa1f11b3). repo: [rainbow](https://github.com/Ledger-Donjon/rainbow)
 - [Memfault](https://memfault.com/): is the collaboration of engineers who share decades of experience working at leading hardware companies including Oculus, Fitbit, and Pebble.
 - [Espressif IDF Eclipse Plugins](https://github.com/espressif/idf-eclipse-plugin): Eclipse plugin for ESP-IDF CMake based projects (4.x and above)
 - [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
 - [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 - [micropython-coffee](https://github.com/andrequeiroz2/micropython-coffee)
 - [Disque](https://github.com/antirez/disque) is a distributed message broker
+- [TDengine](https://tdengine.com/). [repo](https://github.com/taosdata/TDengine)
 
 ### Pub/Sub
 
@@ -1765,6 +1872,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [The /bin/true Command and Copyright](http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html)
 - [The Secret DIY Apple 5K Display // USBC & HDMI](https://www.reddit.com/r/hackintosh/comments/hrlf8x/the_secret_diy_apple_5k_display_usbc_hdmi/)
 - [vim_cubed](https://github.com/oakes/vim_cubed): Vim rendered on a cube for no reason.
+- [Awesome Self-Reference](https://github.com/aztek/awesome-self-reference): A curated list of examples of self-reference in art, science, and technology.
 
 ## Stuff
 
@@ -1808,6 +1916,9 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Software disenchantment](https://tonsky.me/blog/disenchantment/)
 - [Bob Cassette Rewinder](https://github.com/dekuNukem/bob_cassette_rewinder): Defeating Dishwasher Detergents DRM, Renew and Refill Bob Cassettes for 98% cost saving!
 - [Start Your Own ISP ](https://startyourownisp.com/): This site is dedicated to helping you start your own Internet Service Provider. Specifically this guide is about building a Wireless ISP (WISP).
+- [Como remover o ruído do seu microfone em chamadas no Linux](https://diolinux.com.br/sistemas-operacionais/remover-ruido-do-microfone-no-linux.html)
+- [Rescue sheets](http://rescuesheet.info/index.html): a standardised A4 "rescue sheet" including information on the location of cabin reinforcements, tank, the battery, airbags, gas generators, control units etc. - and indicating adequate cutting points must be used to save lives in car accidents.
+- [Ninja Tool Collection](https://www.youtube.com/watch?v=G_Q9MW032ks)
 
 ## News
 
@@ -1836,6 +1947,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
 - [Apple is a true business innovator: For more than a decade, they have been steadily perfecting an obscure anticompetitive tactic, turning a petty grift invented by console games companies into a global, cross-industry mechanism for extracting rents and centralizing control.](https://twitter.com/doctorow/status/1388934048072953857)
 - [Liquid Cooling Next-Gen Servers Getting Hands-on with 3 Options](https://www.servethehome.com/liquid-cooling-next-gen-servers-getting-hands-on-3-options-supermicro/5/)
+- [New 5D Storage to Offer 10,000x the Density of Blu-Ray](https://www.tomshardware.com/news/5d-storage-optical-data-cube)
 
 ## Making Conferences
 
@@ -1846,6 +1958,8 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [How we hosted FOSDEM 2021 on Matrix](https://matrix.org/blog/2021/02/15/how-we-hosted-fosdem-2021-on-matrix)
 - [The Future of USENIX: A Report from the Annual Membership Meeting](https://www.usenix.org/blog/future-usenix-report-annual-membership-meeting)
 - [WORKADVENTURE](https://workadventu.re/). [repo](https://github.com/thecodingmachine/workadventure)
+- [Loudness Normalization and Compression of Podcasts and Speech Audio](http://auphonic.com/blog/2011/07/25/loudness-normalization-and-compression-podcasts-and-speech-audio/)
+- [DevFestAvatar](https://github.com/fzany/DevFestAvatar): Repo for DevFest Avatar creation.
 
 ## Articles
 
