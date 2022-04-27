@@ -38,9 +38,7 @@
 - [Tiny Core Linux, Micro Core Linux, 12MB Linux GUI Desktop, Live, Frugal, Extendable](http://tinycorelinux.net/)
 - [Floppinux](https://bits.p1x.in/floppinux-an-embedded-linux-on-a-single-floppy/) - [An Embedded 🐧Linux on a Single 💾Floppy](https://github.com/w84death/floppinux)
 - [Asahi Linux](https://asahilinux.org/) aims to bring you a polished Linux® experience on Apple Silicon Macs.
-<<<<<<< HEAD
 - [Pop!_OS](https://github.com/pop-os/beta)
-=======
 - [kwin-tiling](https://github.com/kwin-scripts/kwin-tiling): Tiling script for kwin
 
 #### Tiny ones
@@ -49,7 +47,6 @@
 - [Damn Small Linux](http://www.damnsmalllinux.org/download.html)
 - [SLAX](https://www.slax.org/): is a modern, portable, small and fast Linux operating system with modular approach and outstanding design.
 - [Bodhi Linux](https://www.bodhilinux.com/): a lightweight distribution featuring the fast & fully customizable Moksha Desktop.
->>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Kernel
 
@@ -79,17 +76,15 @@
 - [Following the Linux Kernel Defence Map](https://linuxplumbersconf.org/event/7/contributions/775/attachments/610/1096/Following_the_Linux_Kernel_Defence_Map.pdf) [video](https://linuxplumbersconf.org/event/7/contributions/775/)
 - [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/)
 - [My First Kernel Module: A Debugging Nightmare](https://reberhardt.com/blog/2020/11/18/my-first-kernel-module.html)
-<<<<<<< HEAD
 - [Is Your Linux Version Hiding Interrupt CPU Usage From You? | Tanel Poder Consulting](https://tanelpoder.com/posts/linux-hiding-interrupt-cpu-usage/#how-to-measure-interrupt-cpu-overhead-when-irq-time-accounting-is-disabled)
 
-=======
 APFS FUSE Driver for Linux
->>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
+
 #### Drivers
 
 - [displaylink-debian](https://github.com/AdnanHodzic/displaylink-debian): DisplayLink driver installer for Debian and Ubuntu based Linux distributions.
 - [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux) on [kali](https://unix.stackexchange.com/questions/288670/how-to-setup-triple-monitors-with-kali-linux) too
-- [FlashFloppy](https://github.com/keirf/FlashFloppy): Floppy drive emulator for Gotek hardware 
+- [FlashFloppy](https://github.com/keirf/FlashFloppy): Floppy drive emulator for Gotek hardware
 - [Writing a pseudo-device driver on Linux](https://lyngvaer.no/log/writing-pseudo-device-driver)
 - [Framework Laptop Embedded Controller (EC)](https://github.com/FrameworkComputer/EmbeddedController)
 - [APFS FUSE Driver for Linux](https://github.com/sgan81/apfs-fuse)
@@ -129,7 +124,7 @@ APFS FUSE Driver for Linux
 - [cartography](https://github.com/lyft/cartography): Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 - [hardinfo](https://github.com/lpereira/hardinfo): System profiler and benchmark tool for Linux systems
 - [hotspot](https://github.com/kdab/hotspot): The Linux perf GUI for performance analysis.
-- [Busychild](https://github.com/h0mbre/busychild): a pstree mod that prints other helpful information and with added functionality 
+- [Busychild](https://github.com/h0mbre/busychild): a pstree mod that prints other helpful information and with added functionality
 - Sysmon on Linux:
   - [Automating the deployment of Sysmon for Linux 🐧 and Azure Sentinel in a lab environment](https://techcommunity.microsoft.com/t5/azure-sentinel/automating-the-deployment-of-sysmon-for-linux-and-azure-sentinel/ba-p/2847054)
   - [Install SysinternalsEBPF](https://github.com/Sysinternals/SysinternalsEBPF/blob/main/INSTALL.md)
@@ -183,7 +178,7 @@ APFS FUSE Driver for Linux
 - [Red Hat Remote Exams - Create a Live USB using Red Hat Enterprise Linux](https://www.redhat.com/pt-br/about/videos/red-hat-remote-exams-create-live-usb-using-rhel)
 - [RPM Packages of Sequoia PGP for Fedora](https://github.com/ironthree/sequoia-rpms)
 
-### Debian 
+### Debian
 
 - [Introduction to AppArmor](https://debian-handbook.info/browse/stable/sect.apparmor.html) - The Debian Administrator's Handbook
 - Ubuntu
@@ -297,12 +292,13 @@ APFS FUSE Driver for Linux
 [group:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
+
 - [A Tutorial for Learning Adhoc Commands in Ansible](https://www.linode.com/docs/applications/configuration-management/ansible-adhoc-commands/)
 - [vmware_rest](https://github.com/ansible-collections/vmware_rest): Ansible Collection for VMWare (REST modules)
 - [ansible-aci](https://github.com/CiscoDevNet/ansible-aci): Cisco ACI Ansible Collection
-- [infoblox-ansible](https://github.com/infobloxopen/infoblox-ansible): Ansible modules for interfacing to Infoblox systems 
+- [infoblox-ansible](https://github.com/infobloxopen/infoblox-ansible): Ansible modules for interfacing to Infoblox systems
 - [Community Network Collection](https://github.com/ansible-collections/community.network): The Community Network collection includes community maintained content to help automate network appliances.
-- [Zuul](https://github.com/ansible/project-config) configuration files for the Ansible tenant. 
+- [Zuul](https://github.com/ansible/project-config) configuration files for the Ansible tenant.
 - [Community Sops Collection](https://github.com/ansible-collections/community.sops): Simple and flexible tool for managing secrets
 - [CentOS.org Ansible Infra playbooks](https://github.com/CentOS/ansible-infra-playbooks): Just a placeholder for the Ansible playbooks used in the CentOS Infrastructure.
 - [Infrastructure](https://github.com/rocky-linux/infrastructure): The infrastructure monorepo for The Rocky Linux Foundation
@@ -453,11 +449,11 @@ ansible_python_interpreter=/usr/bin/python3
 ### Privacy
 
 - [Privacy and Anonimity Tools](https://twitter.com/hackermaderas/status/1222179758202662918)
-- [pi-hole]():
+- [pi-hole](https://pi-hole.net/):
   - [Public ad-blocking DNS service built on Pi-hole.](https://pi-dns.com/)
   - [AdBlocking VPN Proxy Server](https://blog.richardcrosby.co.uk/adblocking-vpn-proxy-server-pi-hole-wireguard-privoxy-unbound/)(Pi-hole, Wireguard, Privoxy, Unbound)
-  - [Pihole Adlist Tool](https://github.com/yubiuser/pihole_adlist_tool): An tool to analyse how your pihole adlists cover you browsing behavior 
-  - [Internal Domains with DNSMasq and Pi-Hole ](https://dev.to/stjohnjohnson/internal-domains-with-dnsmasq-and-pi-hole-4cof) [files](https://gist.github.com/stjohnjohnson/d441e26e4d77a975fd3ebb4e6f19e3d6)
+  - [Pihole Adlist Tool](https://github.com/yubiuser/pihole_adlist_tool): An tool to analyse how your pihole adlists cover you browsing behavior
+  - [Internal Domains with DNSMasq and Pi-Hole](https://dev.to/stjohnjohnson/internal-domains-with-dnsmasq-and-pi-hole-4cof) [files](https://gist.github.com/stjohnjohnson/d441e26e4d77a975fd3ebb4e6f19e3d6)
 - [Bootable and Encrypted Whonix VM on 8GB USB Stick](https://torforum.org/newbies/tutorial-bootable-and-encrypted-whonix-vm-on-8gb-usb-stick.htm)
 - [DNSCrypt-Proxy + Unbound + OpenVPN](https://mydarkerego.blogspot.com/2015/03/dnscrypt-proxy-unbound-openvpn.html)
 - [Tails OS](https://prefuse.org/tails-os) – An Actionable Guide for Regular Folks
@@ -468,7 +464,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [NSABlocklist](https://github.com/CHEF-KOCH/NSABlocklist): HOSTS file and research project to block all known NSA / GCHQ / C.I.A. / F.B.I. spying server
 - [Anonymising your traffic with linux](https://gendersec.tacticaltech.org/wiki/index.php/Anonymising_your_traffic_with_linux)
 - [EndWare](https://github.com/endwall2/endware): is a collection of scripts and configuration files geared towards promoting computer security, anonymity, and privacy. These tools will grow overtime.
-- [The ultimative collection of Free and Open Source Android apps](https://github.com/CHEF-KOCH/Android-Privacy-Data-Protection-Tools-Mega-Thread): 
+- [The ultimative collection of Free and Open Source Android apps](https://github.com/CHEF-KOCH/Android-Privacy-Data-Protection-Tools-Mega-Thread):
 - [Host your own .onion site using nginx and Tor](https://chown.io/guide-host-your-own-onion-site-tor-nginx/)
 - [Ultra low budget wifi crypt router](https://geebee.org/blog?req=1&post_id=NzM=)
 - [Lamphone](https://www.nassiben.com/lamphone): Real-Time Passive Sound Recovery from Light Bulb Vibrations
@@ -479,7 +475,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [One Bad Apple](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html)
 - ["You have zero privacy anyway, get over it."](https://anchisesbr.blogspot.com/2021/08/seguranca-o-fim-da-privacidade-em-1999.html)
 - [GlobaLeaks](https://github.com/globaleaks/GlobaLeaks) is free, open source software enabling anyone to easily set up and maintain a secure whistleblowing platform.
-- [snowflake](https://snowflake.torproject.org/) is a system to defeat internet censorship. 
+- [snowflake](https://snowflake.torproject.org/) is a system to defeat internet censorship.
 
 ### Messaging
 
@@ -511,16 +507,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Examples and customization tricks](https://docs.pytest.org/en/latest/example/index.html)
 - [An introduction to deterministic builds with C/C++](https://blog.conan.io/2019/09/02/Deterministic-builds-with-C-C++.html)
 - [bazel](https://bazel.build): Build and test software of any size, quickly and reliably. [Bazel is a fast, scalable, multi-language and extensible build system](https://github.com/bazelbuild/bazel)
-<<<<<<< HEAD
 - [k6](https://github.com/loadimpact/k6): A modern load testing tool, using Go and JavaScript
-=======
 - [Open Source Insights](https://deps.dev/): Open Source Insights is an experimental service developed and hosted by [Google](https://opensource.googleblog.com/2021/06/introducing-open-source-insights-project.html) to help developers better understand the structure, construction, and security of open source software packages.
 - [Repositories Reports](https://github.com/GuillaumeFalourd/repositories-reports): Repository with weekly insights reports for personal repositories using Github Actions and Ritchie CLI.
-<<<<<<< HEAD
->>>>>>> 9826cb22dfac24751dce9c7bcb1c78702eed2f31
-=======
 - [Spacelift](https://spacelift.io/): Flexible management platform for Infrastructure as Code
->>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Jenkins
 
@@ -620,22 +610,19 @@ ansible_python_interpreter=/usr/bin/python3
 - [The design of lock_sock() in Linux kernel](https://medium.com/@c0ngwang/the-design-of-lock-sock-in-linux-kernel-69c3406e504b)
 - [Solarflare](https://www.youtube.com/watch?v=BLnHx6Olbng) - What is Kernel Bypass, And Why Is It An Important Concept?
 - [Data Plane Development Kit](https://doc.dpdk.org/guides/prog_guide/overview.html): that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.
-- [Zuul](https://github.com/Netflix/zuul) is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more. 
-<<<<<<< HEAD
+- [Zuul](https://github.com/Netflix/zuul) is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 - [the great internet tcp congestion control census](https://datatracker.ietf.org/meeting/109/materials/slides-109-iccrg-the-great-internet-tcp-congestion-control-census-00)
-=======
 - [gRPC](https://grpc.io/) is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
 - [grpc-tools](https://github.com/bradleyjkemp/grpc-tools): A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
 - [Online Protobuf Decoder.](https://protogen.marcgravell.com/decode)
 - [Things we (finally) know about network queues](https://apenwarr.ca/log/20170814)
->>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Network Troubleshooting
 
 - [10 examples of Linux ss command to monitor network connections](https://www.binarytides.com/linux-ss-command/)
 - [Viewing HAProxy Statistics](http://www.networkinghowtos.com/howto/viewing-haproxy-statistics/)
 - [List all IP addresses connected to your Server](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/)
-- [howmanypeoplearearound](https://github.com/schollz/howmanypeoplearearound): Count the number of people around you  by monitoring wifi signals 
+- [howmanypeoplearearound](https://github.com/schollz/howmanypeoplearearound): Count the number of people around you  by monitoring wifi signals
 - [SS Utility](https://www.cyberciti.biz/files/ss.html): Quick Intro
 - [http toolkit](https://httptoolkit.tech/mock/): Intercept & view all your HTTP(S), Mock endpoints or entire servers, Rewrite, redirect, or inject errors.
 - [quiche](https://github.com/cloudflare/quiche): Savoury implementation of the QUIC transport protocol and HTTP/3
@@ -645,13 +632,13 @@ ansible_python_interpreter=/usr/bin/python3
 - [sparrow-wifi](https://github.com/ghostop14/sparrow-wifi): Next-Gen GUI-based WiFi and Bluetooth Analyzer for Linux.
 - [wavemon](https://github.com/uoaerg/wavemon) is an ncurses-based monitoring application for wireless network devices
 - [echoip](https://github.com/mpolden/echoip): IP address lookup service. [ifconfig.co](https://ifconfig.co/)
-- [trace-cmd](https://github.com/rostedt/trace-cmd): utilities for Linux ftrace 
+- [trace-cmd](https://github.com/rostedt/trace-cmd): utilities for Linux ftrace
 - [WPAD and DoH don't get along](https://twitter.com/ericlaw/status/1359332415215439877)
 
 ### Firewalls
 
 - Some firewall distros/appliances:
-  - [Endian](https://www.endian.com/): is an open-source router, firewall and gateway security Linux distribution developed by the South Tyrolean company Endian. 
+  - [Endian](https://www.endian.com/): is an open-source router, firewall and gateway security Linux distribution developed by the South Tyrolean company Endian.
   - [pfSense](https://www.pfsense.org/): is an open source firewall/router computer software distribution based on FreeBSD.
   - [The securityrouter.org project](http://securityrouter.org/): is a network operating system and software distribution based on OpenBSD, with the main differentiator being the single, revision-managed, clear-text configuration file with soft re-configuration (atomic commits) editable from CLI and web interface, and documented security architecture. [changelog](https://github.com/securityrouter/changelog)
 
@@ -699,7 +686,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Duck DNS](https://www.duckdns.org/): free dynamic DNS hosted on AWS
 - [Namecoin](https://www.namecoin.org/): is an experimental open-source technology which improves decentralization, security, censorship resistance, privacy, and speed of certain components of the Internet infrastructure such as DNS and identities.
 - [Use dnsmasq to provide DNS & DHCP services](https://fedoramagazine.org/dnsmasq-provide-dns-dhcp-services/)
-- [dog](https://github.com/ogham/dog): Command-line DNS client 
+- [dog](https://github.com/ogham/dog): Command-line DNS client
 - [Unbound DNS Blacklist](https://vermaden.wordpress.com/2020/11/18/unbound-dns-blacklist/)
 - [short dns record ttl and centralization are serious risks for the internet](https://techblog.bozho.net/short-dns-ttl-and-centralization-are-serious-risks-for-the-internet/)
 - [The world's shortest domain names](http://www.dirk-loss.de/short-domains.htm)
@@ -735,7 +722,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [scapy-tcp-extractor](https://github.com/deeso/scapy-tcp-extractor):  reassemble tcp streams using scapy
 - [Analyzing Packet Captures with Python](https://vnetman.github.io/pcap/python/pyshark/scapy/libpcap/2018/10/25/analyzing-packet-captures-with-python-part-1.html)
-- [PyPCAPKit](https://github.com/JarryShaw/PyPCAPKit): Python multi-engine PCAP analysis kit. 
+- [PyPCAPKit](https://github.com/JarryShaw/PyPCAPKit): Python multi-engine PCAP analysis kit.
 - [NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. [repo](https://github.com/networkx/networkx)
 
 ## Shell
@@ -814,9 +801,9 @@ ansible_python_interpreter=/usr/bin/python3
 - [Grep OR – Grep AND – Grep NOT – Match Multiple Patterns](https://www.shellhacks.com/grep-or-grep-and-grep-not-match-multiple-patterns/)
 - [asdf-vm](https://asdf-vm.com/): [Manage multiple runtime versions with a single CLI tool](https://github.com/asdf-vm/asdf)
 - [treating errors in bash scripts](https://twitter.com/b0rk/status/1314345978963648524/photo/1) by b0rk
-  - ```  set -e ``` : stops the script on errors
-  - ```  set -u ``` : stops the script on unset variables
-  - ```  set -o pipefail``` : stops the script on a run in pipe
+  - ```set -e``` : stops the script on errors
+  - ```set -u``` : stops the script on unset variables
+  - ```set -o pipefail``` : stops the script on a run in pipe
 - [Fork() Bomb](https://www.geeksforgeeks.org/fork-bomb/): ``` :(){ :|: & };: ```
 - [eDEX-UI](https://github.com/GitSquared/edex-ui): A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
 - [How To Use Bash Parameter Substitution Like A Pro](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
@@ -838,7 +825,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [pynubank](https://github.com/andreroggeri/pynubank): Acesse seus extratos do Nubank pelo Python
 - [IPython as a system shell](https://ipython.readthedocs.io/en/stable/interactive/shell.html)
 - [sw](https://github.com/coryfklein/sw): Terminal stopwatch.
-- [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html): We make very careful considerations about the interface and operation of the GNU coreutils, but unfortunately due to backwards compatibility reasons, some behaviours or defaults of these utilities can be confusing. 
+- [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html): We make very careful considerations about the interface and operation of the GNU coreutils, but unfortunately due to backwards compatibility reasons, some behaviours or defaults of these utilities can be confusing.
 - [cheat.sh](https://github.com/chubin/cheat.sh): the only cheat sheet you need.
 - [Explainshell](https://explainshell.com/): write down a command-line to see the help text that matches each argument. [repo](https://github.com/idank/explainshell)
 
@@ -858,7 +845,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [SubEthaEdit](https://github.com/kubernetes-sigs/kind): Code, Write, Edit. Together. [github](https://github.com/subethaedit/SubEthaEdit)
 - [Open source collaborative text editors](https://juretriglav.si/open-source-collaborative-text-editors/)
 - [vscodium](https://github.com/VSCodium/vscodium): binary releases of VS Code without MS branding/telemetry/licensing
-- [A succinct cheat sheet for newbie linux coders and system administrators, documenting some of the more obscure and useful gems of linux lore. Intended to be viewed in emacs org-mode, or VimOrganizer, though any text editor will suffice. ](https://github.com/kevinthew/linuxgems)
+- [A succinct cheat sheet for newbie linux coders and system administrators, documenting some of the more obscure and useful gems of linux lore. Intended to be viewed in emacs org-mode, or VimOrganizer, though any text editor will suffice.](https://github.com/kevinthew/linuxgems)
 
 #### Vim/vi
 
@@ -881,7 +868,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Hasklig](https://github.com/i-tu/Hasklig): a code font with monospaced ligatures
 - [Iosevka](https://typeof.net/Iosevka/)
 - [Monoid](https://larsenwork.com/monoid/): Open Source Coding Font
-- [Victor Mono](https://rubjo.github.io/victor-mono/): Victor Mono is a free programming font with optional semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters. 
+- [Victor Mono](https://rubjo.github.io/victor-mono/): Victor Mono is a free programming font with optional semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/): A typeface for developers_
 - [nerd-fonts](https://github.com/ryanoasis/nerd-fonts): Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more
 
@@ -937,8 +924,8 @@ ansible_python_interpreter=/usr/bin/python3
 - [NetBSD code study](http://silas.net.br/codereading/netbsd-code.html)
 - [File Descriptor Transfer over Unix Domain Sockets](https://medium.com/@copyconstruct/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec)
 - [macOS to FreeBSD migration a.k.a why I left macOS](https://antranigv.am/weblog_en/posts/macos_to_freebsd/)
-- [lvgl](https://github.com/lvgl/lvgl): Powerful and easy-to-use embedded GUI with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash). 
-- [illumos](https://github.com/illumos/ipd): illumos Project Discussion 
+- [lvgl](https://github.com/lvgl/lvgl): Powerful and easy-to-use embedded GUI with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash).
+- [illumos](https://github.com/illumos/ipd): illumos Project Discussion
 - OpenBSD:
   - [Running OpenBSD on Raspberry Pi 3](https://www.tumfatig.net/20180706/running-openbsd-on-raspberry-pi-3/)
   - [OpenBSD 6.8 on RaspberryPi 4 B](https://github.com/AshyIsMe/openbsd-rpi4)
@@ -1071,7 +1058,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Policy Controller for Kubernetes
   - [Kubernetes Networking: Behind the scenes](https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb)
   - [Scaling Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
-  - [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper/): Mirror images into your own registry and swap image references automatically. 
+  - [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper/): Mirror images into your own registry and swap image references automatically.
   - [BotKube](https://github.com/infracloudio/botkube)
 - Lambda
   - [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/?hH)
@@ -1164,7 +1151,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [live sysinternals](https://live.sysinternals.com/): This is a file share allowing access to all Sysinternals utilities. We have developed this to test an alternate distribution mechanism for our utilities.
 - [Windows 10 and Server 2019 Secure Baseline GPO](https://github.com/mxk/win10-secure-baseline-gpo): Windows 10 and Server 2016 Secure Baseline Group Policy
 - [How to manage the changes in Netlogon secure channel connections associated with CVE-2020-1472](https://support.microsoft.com/en-us/help/4557222/how-to-manage-the-changes-in-netlogon-secure-channel-connections-assoc)
-- [BadBlood](https://github.com/davidprowe/BadBlood) by @davidprowe, Secframe.com, fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world. After BadBlood is ran on a domain, security analysts and engineers can practice using tools to gain an understanding and prescribe to securing Active… 
+- [BadBlood](https://github.com/davidprowe/BadBlood) by @davidprowe, Secframe.com, fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world. After BadBlood is ran on a domain, security analysts and engineers can practice using tools to gain an understanding and prescribe to securing Active…
 - [Visio-to-PNG](https://github.com/ghostinthewires/Visio-to-PNG): Powershell script that exports Visio drawings in the current directory to png
 - [Useful File Manipulation Scripts](https://github.com/ghostinthewires/Useful-File-Manipulation-Scripts).
 - [BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo): It automatically displays relevant information about a Windows computer on the desktop's background.
@@ -1237,10 +1224,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Hublin](https://github.com/linagora/hublin): An easy and free video conference service based on WebRTC
 - [PeerTube](https://github.com/Chocobozzz/PeerTube): Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
 - [Vialer-js](https://github.com/vialer/vialer-js): Open-source WebRTC communication platform.
-- [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet), 
-    - [Jitsi Meet](https://meet.jit.si/)
-    - [manual-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/manual-install.md)
-    - [quick-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/quick-install.md)
+- [Jitsi](https://jitsi.org/): Multi-platform open-source [video conferencing](https://github.com/jitsi/jitsi-meet),
+  - [Jitsi Meet](https://meet.jit.si/)
+  - [manual-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/manual-install.md)
+  - [quick-install](https://github.com/jitsi/jitsi-meet/blob/master/doc/quick-install.md)
 - [webtty](https://github.com/maxmcd/webtty): Share a terminal session over WebRTC
 - [webrtc-qr](https://github.com/AquiGorka/webrtc-qr): WebRTC Connect [Experiment](https://webrtc-qr.surge.sh/)
 - [Talk](https://github.com/vasanthv/talk): A group video call for the web. No signups. No downloads.
@@ -1333,7 +1320,7 @@ ansible_python_interpreter=/usr/bin/python3
 - PDF Files:
   - [How to merge or split pdf files using convert](https://linuxcommando.blogspot.com/2015/03/how-to-merge-or-split-pdf-files-using.html)
   - [OpenPDF](https://github.com/LibrePDF/OpenPDF): is a free Java library for creating and editing PDF files with a LGPL and MPL open source license. OpenPDF is based on a fork of iText. We welcome contributions from other developers. Please feel free to submit pull-requests and bugreports to this GitHub repository.
-  - [PDF Arranger](https://github.com/pdfarranger/pdfarranger): Small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface 
+  - [PDF Arranger](https://github.com/pdfarranger/pdfarranger): Small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface
 - [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer):Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [robotjs](https://github.com/octalmage/robotjs): Node.js Desktop Automation.
 - [Whatsapp Automation](https://github.com/mnkgrover08/whatsapp_automation) is a collection of APIs that interact with WhatsApp messenger runn
@@ -1369,16 +1356,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [glsnip](https://github.com/bradwood/glsnip): copy and paste across machines
 - [Notable](https://notable.app/): [markdown app](https://github.com/notable/notable): The Markdown-based note-taking app that doesn't suck.
 - [octocrabby](https://github.com/travisbrown/octocrabby): Tools for managing GitHub block lists.
-<<<<<<< HEAD
 - [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates .
-=======
 - [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates ￼.
 - [tenacity](https://github.com/tenacityteam/tenacity): FLOSS Audacity Fork · No telemetry, crash reports and other shenanigans like that!
-<<<<<<< HEAD
->>>>>>> 9826cb22dfac24751dce9c7bcb1c78702eed2f31
-=======
 - [12ft](https://12ft.io/) Show me a 10ft paywall, I’ll show you a 12ft ladder.
->>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 ### Rescue
 
@@ -1471,7 +1452,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [cypress](https://github.com/cypress-io/cypress): Fast, easy and reliable testing for anything that runs in a browser.
 - [jira_clone](https://github.com/oldboyxx/jira_clone): A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress.
 - [svg2nvg](https://github.com/ollix/svg2nvg): A tool for converting SVG files to nanovg source code
-- [tslib](https://github.com/microsoft/tslib): Runtime library for TypeScript helpers. 
+- [tslib](https://github.com/microsoft/tslib): Runtime library for TypeScript helpers.
 - [Eric Lathrop / Living in Syndication](https://gitlab.com/ericlathrop/living_in_syndication)
 - [hnapi](https://github.com/FormerlyChucks/hnapi): Python Hacker News API Wrapper
 
@@ -1575,7 +1556,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Things I Wish I’d Known About CSS](https://cssfordesigners.com/articles/things-i-wish-id-known-about-css)
 - [DIY Video Hosting](https://tyler.io/diy-video-hosting/): vimeo + AWS.
 - [3D Book Image CSS Generator](https://3d-book-css.netlify.app/)
-- [Hit Counter](https://github.com/brentvollebregt/hit-counter): Easily count hits  on a website by requesting a SVG displaying hit count 
+- [Hit Counter](https://github.com/brentvollebregt/hit-counter): Easily count hits  on a website by requesting a SVG displaying hit count
 - [Google Fonts Plugin](https://github.com/SirPole/google-fonts-plugin): Webpack plugin that downloads fonts from Google Fonts and encodes them to base64
 - [kratos](https://github.com/ory/kratos): Never build user login, user registration, 2fa, profile management ever again! Works on any operating system, cloud, with any programming language, user interface, and user experience! Written in Go.
 - [CobWeb](https://github.com/cloudflare/cobweb): COBOL to WebAssembly compiler.
@@ -1648,17 +1629,14 @@ ansible_python_interpreter=/usr/bin/python3
 - [HTML is the Web](https://www.petelambert.com/journal/html-is-the-web)
 - [The New Able Editor](https://able.bio/rhett/the-new-able-editor--596ha6x). [suggestion-box](https://github.com/able-bio/suggestion-box): A place to submit issues for bugs, feature requests and other ideas related to Able.
 - [wobaka](https://wobaka.com/): is the CRM system that will make you smile.
-<<<<<<< HEAD
 - [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
 - [Hosted Comments Service | Remarkbox](https://www.remarkbox.com/remarkbox-is-now-pay-what-you-can.html)
-=======
 - Twitter:
   - [accountanalysis](http://accountanalysis.app/): This tool enables you to evaluate Twitter accounts. For example how automated they are, how many Retweets they post, or which websites they link to most often.
   - [How To Get Tweets From A Twitter Account Using Python And Tweepy](https://labsblog.f-secure.com/2018/01/26/how-to-get-tweets-from-a-twitter-account-using-python-and-tweepy/)
   - [Automatically delete your old tweets, except for the ones you want to keep](https://semiphemeral.com/)
   - [semiephemeral](https://semiphemeral.com/): Automatically delete your old tweets, except for the ones you want to keep. [repo](https://github.com/micahflee/semiphemeral)
   - [Tweak New Twitter](https://github.com/insin/tweak-new-twitter/): Browser extension which removes algorithmic content from Twitter, hides news & trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements.
->>>>>>> 219d1d7a9747cc62a947160dca17d124b2697420
 
 #### Graphics
 
@@ -1864,7 +1842,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Snake in a QR code](https://itsmattkc.com/etc/snakeqr/)
 - [telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages): Delete all your messages in supergroups with python script.
 - [The Web 2.0 Bullshit Generator™](http://emptybottle.org/bullshit/index.php)(is still in Beta!)
-- [Posters, drawings... ](https://github.com/corkami/pics)
+- [Posters, drawings...](https://github.com/corkami/pics)
 - [discord-logo](https://github.com/NNTin/discord-logo)
 - [Minecraft as a k8s admin tool](https://medium.com/@eric.jadi/minecraft-as-a-k8s-admin-tool-cf16f890de42) [KubeCraftAdmin](https://github.com/erjadi/kubecraftadmin)
 - [Zulu and UTC: the story behind aviation’s time zone](https://www.flightradar24.com/blog/zulu-and-utc-the-story-behind-aviations-time-zone/)
@@ -1900,13 +1878,13 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
 - [The 100:10:1 method: my approach to open source](http://blog.fogus.me/2015/11/04/the-100101-method-my-approach-to-open-source/)
 - [Cartola](https://cartola.org/): a lot of free software related resourses.
-- [Is there a way to see the remaining battery life of your keyboard/mouse on Ubuntu/Linux?](https://unix.stackexchange.com/questions/465084/is-there-a-way-to-see-the-remaining-battery-life-of-your-keyboard-mouse-on-ubunt): _upower --dump_
+- [Is there a way to see the remaining battery life of your keyboard/mouse on Ubuntu/Linux?](https://unix.stackexchange.com/questions/465084/is-there-a-way-to-see-the-remaining-battery-life-of-your-keyboard-mouse-on-ubunt): *upower --dump*
 - [Convert any .pdf file 📚 into an audio 🔈 book with Python](https://dev.to/mustafaanaskh99/convert-any-pdf-file-into-an-audio-book-with-python-1gk4)
 - [Sigil](https://github.com/Sigil-Ebook/Sigil): is a multi-platform EPUB ebook editor.
 - [Ham radio is dying! No it’s not, it’s evolving](http://k0lwc.com/ham-radio-is-dying-no-its-not-its-evolving/)
 - [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon
 - [Twitch Line Highlighter VS Code Extension](https://github.com/clarkio/vscode-twitch-highlighter): This is a VS Code extension that will allow your Twitch chat to highlight a line of code via a command message. Example: `!line 8 server.js`. See master branch README.md for more details
-- [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon 
+- [Safety Sign Generator](https://observatory.db.erau.edu/generators/signs/) and [Lab Door Safety Sign Generator](https://observatory.db.erau.edu/generators/doorsigns/) by Damon
 - [Awesome Made by Brazilians](https://github.com/felipefialho/awesome-made-by-brazilians)
 - [Pi-KVM](https://pikvm.org/): Open and cheap DIY IP-KVM on Raspberry Pi
 - [Helios server](https://github.com/benadida/helios-server): Helios is an end-to-end verifiable voting system.
@@ -1915,7 +1893,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [lalboard](https://github.com/JesusFreke/lalboard): A 3D-printed keyboard inspired by the DataHand.
 - [Software disenchantment](https://tonsky.me/blog/disenchantment/)
 - [Bob Cassette Rewinder](https://github.com/dekuNukem/bob_cassette_rewinder): Defeating Dishwasher Detergents DRM, Renew and Refill Bob Cassettes for 98% cost saving!
-- [Start Your Own ISP ](https://startyourownisp.com/): This site is dedicated to helping you start your own Internet Service Provider. Specifically this guide is about building a Wireless ISP (WISP).
+- [Start Your Own ISP](https://startyourownisp.com/): This site is dedicated to helping you start your own Internet Service Provider. Specifically this guide is about building a Wireless ISP (WISP).
 - [Como remover o ruído do seu microfone em chamadas no Linux](https://diolinux.com.br/sistemas-operacionais/remover-ruido-do-microfone-no-linux.html)
 - [Rescue sheets](http://rescuesheet.info/index.html): a standardised A4 "rescue sheet" including information on the location of cabin reinforcements, tank, the battery, airbags, gas generators, control units etc. - and indicating adequate cutting points must be used to save lives in car accidents.
 - [Ninja Tool Collection](https://www.youtube.com/watch?v=G_Q9MW032ks)
