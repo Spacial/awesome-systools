@@ -476,6 +476,7 @@ ansible_python_interpreter=/usr/bin/python3
 - ["You have zero privacy anyway, get over it."](https://anchisesbr.blogspot.com/2021/08/seguranca-o-fim-da-privacidade-em-1999.html)
 - [GlobaLeaks](https://github.com/globaleaks/GlobaLeaks) is free, open source software enabling anyone to easily set up and maintain a secure whistleblowing platform.
 - [snowflake](https://snowflake.torproject.org/) is a system to defeat internet censorship.
+- [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/): 🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 
 ### Messaging
 
@@ -1170,6 +1171,10 @@ ansible_python_interpreter=/usr/bin/python3
 - [Schedule tasks from command line](https://www.windows-commandline.com/schedule-tasks-command-line/)
 - [Windows 2000 Modernization Guide](https://w2k.phreaknet.org/guide): So, you want to use Windows 2000 in 2021?
 - [VirtualKD-Redux](https://github.com/4d61726b/VirtualKD-Redux): A revival and modernization of VirtualKD.
+- [The Ultimate Windows Development Environment Guide](https://unicorn-utterances.com/posts/ultimate-windows-development-environment-guide#terminal-usage)
+- [chocolatey](https://chocolatey.org/): a third party package manager that's been around since 2011.
+- [cmder](https://github.com/cmderdev/cmder):  is a software package created out of pure frustration over absence of usable console emulator on Windows.
+- [winget](https://github.com/microsoft/winget-cli): Windows Package Manager CLI (aka winget).
 
 ### Windows Dev
 
@@ -1793,6 +1798,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [micropython-coffee](https://github.com/andrequeiroz2/micropython-coffee)
 - [Disque](https://github.com/antirez/disque) is a distributed message broker
 - [TDengine](https://tdengine.com/). [repo](https://github.com/taosdata/TDengine)
+- [Raspberry pi firmwares- developing with this lk overlay](https://github.com/librerpi/lk-overlay)
 
 ### Pub/Sub
 
