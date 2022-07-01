@@ -1452,7 +1452,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
 - [Handesk](https://github.com/BadChoice/handesk): A Powerful Laravel Help Desk and Lead Management App
 - [qrpicture](https://github.com/xyzzy/qrpicture): Photo realistic QR codes hosted on www.qrpicture.com.
-- [Archivy](https://github.com/Uzay-G/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
+- [Archivy](https://github.com/archivy/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
 - [RSSHub](https://github.com/DIYgod/RSSHub): Everything is RSSible
 - [cypress](https://github.com/cypress-io/cypress): Fast, easy and reliable testing for anything that runs in a browser.
 - [jira_clone](https://github.com/oldboyxx/jira_clone): A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress.
