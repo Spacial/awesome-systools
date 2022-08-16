@@ -1593,6 +1593,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [three.js](https://www.npmjs.com/package/three): The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
 - [JavaScript is C](https://v4.chriskrycho.com/2018/javascript-is-c.html): Maintaining invariants the most painful way possible.
 - [nazca](https://github.com/Qinti/nazca): A new way of creating GUI in the web
+- [Calculator in JavaScript](https://www.scaler.com/topics/calculator-in-javascript/)
 
 ##### JavaScript Tools
 
