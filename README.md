@@ -13,6 +13,7 @@
 - [Istio on GKE](https://www.linkedin.com/pulse/istio-gke-googles-sre-box-ganesan-janarthanam-jana-/)- Google's SRE in a Box!
 - [The 5 Things I Learned About ICS Operations From Jurassic Park](https://medium.com/@hexadecim8/the-5-things-i-learned-about-ics-operations-from-jurassic-park-8d38b6081142)
 - [Post-Mortems-Template](https://github.com/ghostinthewires/Post-Mortems-Template)
+- [A Brief History of High Availability](https://www.cockroachlabs.com/blog/brief-history-high-availability/)
 
 ## Licensing
 
@@ -40,6 +41,7 @@
 - [Asahi Linux](https://asahilinux.org/) aims to bring you a polished Linux® experience on Apple Silicon Macs.
 - [Pop!_OS](https://github.com/pop-os/beta)
 - [kwin-tiling](https://github.com/kwin-scripts/kwin-tiling): Tiling script for kwin
+- [AV Linux MX Edition](http://www.bandshed.net/avlinux/)
 
 #### Tiny ones
 
@@ -116,6 +118,7 @@ APFS FUSE Driver for Linux
 - [Linux Applications Performance: Introduction](https://unixism.net/2019/04/linux-applications-performance-introduction/)
 - [Comparison of Rust async and Linux thread context switch time and memory use](https://github.com/jimblandy/context-switch)
 - [How Netflix uses eBPF flow logs at scale for network insight](https://netflixtechblog.com/how-netflix-uses-ebpf-flow-logs-at-scale-for-network-insight-e3ea997dca96)
+- Rewriting sysctl(8) in Rust: [systeroid](https://blog.orhun.dev/rewriting-sysctl-in-rust/). [repo](https://github.com/orhun/systeroid)
 
 #### Monitoring
 
@@ -132,6 +135,7 @@ APFS FUSE Driver for Linux
   - [Install-Sysmon-For-Linux.sh](https://github.com/OTRF/Blacksmith/blob/master/resources/scripts/bash/Install-Sysmon-For-Linux.sh)
   - [Sysmon For Linux Lab Environment](https://github.com/OTRF/Azure-Sentinel2Go/tree/master/grocery-list/Linux/demos/Sysmon-For-Linux)
 - [An intro to finding things in Linux](https://www.madebygps.com/an-intro-to-finding-things-in-linux/)
+- [magic-trace](https://github.com/janestreet/magic-trace):  collects and displays high-resolution traces of what a process is doing.
 
 ### Red Hat/Fedora
 
@@ -184,6 +188,7 @@ APFS FUSE Driver for Linux
 - Ubuntu
   - [Improving Bluetooth Audio Quality on Ubuntu Linux](https://kn100.me/improving-bluetooth-audio-linux/)
   - [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
+- [Firmware - what are we going to do about it?](https://blog.einval.com/2022/04/19#firmware-what-do-we-do): firmware support in Debian sucks, and we need to change this. See the "My preference, and rationale" Section below.
 
 ### Packaging
 
@@ -381,6 +386,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [firejail](https://github.com/netblue30/firejail): Linux namespaces and seccomp-bpf [sandbox](https://wiki.archlinux.org/title/firejail).
 - [Awesome Windows Domain Hardening](https://github.com/PaulSec/awesome-windows-domain-hardening): A curated list of awesome Security Hardening techniques for Windows.
 - [CHAPS](https://github.com/cutaway-security/chaps): Configuration Hardening Assessment PowerShell Script (CHAPS)
+- [VideoLan Robots.txt](https://www.videolan.org/robots.txt)
 
 ### WebServers
 
@@ -540,6 +546,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The I&O Leader’s Guide to Chaos Engineering](https://www.gartner.com/smarterwithgartner/the-io-leaders-guide-to-chaos-engineering)
 - [DevOps Roadmap](https://roadmap.sh/devops): Step by step guide for DevOps, SRE or any other Operations Role in 2022.
 - [How to Become a DevOps Engineer in Six Months](https://spacelift.io/blog/how-to-become-devops-engineer)
+- [The GitLab team handbook](https://about.gitlab.com/handbook/): is the central repository for how we run the company.
 
 ## Interfaces
 
@@ -617,6 +624,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [grpc-tools](https://github.com/bradleyjkemp/grpc-tools): A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
 - [Online Protobuf Decoder.](https://protogen.marcgravell.com/decode)
 - [Things we (finally) know about network queues](https://apenwarr.ca/log/20170814)
+- Monitoring and Tuning the Linux Networking Stack: [Sending Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-sending-data/)/[Receiving Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-receiving-data/)
 
 ### Network Troubleshooting
 
@@ -808,6 +816,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Fork() Bomb](https://www.geeksforgeeks.org/fork-bomb/): ``` :(){ :|: & };: ```
 - [eDEX-UI](https://github.com/GitSquared/edex-ui): A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
 - [How To Use Bash Parameter Substitution Like A Pro](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
+- [Use Bash Strict Mode (Unless You Love Debugging)](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
 
 ### Shell Utils
 
@@ -829,6 +838,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html): We make very careful considerations about the interface and operation of the GNU coreutils, but unfortunately due to backwards compatibility reasons, some behaviours or defaults of these utilities can be confusing.
 - [cheat.sh](https://github.com/chubin/cheat.sh): the only cheat sheet you need.
 - [Explainshell](https://explainshell.com/): write down a command-line to see the help text that matches each argument. [repo](https://github.com/idank/explainshell)
+- [The only Linux command you need to know](https://opensource.com/article/22/6/linux-cheat-command): cheat. [Simple cheatsheet viewer](https://gitlab.com/slackermedia/cheat) [cheatsheets](https://github.com/cheat/cheatsheets)
 
 ### Regex
 
@@ -932,6 +942,8 @@ ansible_python_interpreter=/usr/bin/python3
   - [OpenBSD 6.8 on RaspberryPi 4 B](https://github.com/AshyIsMe/openbsd-rpi4)
   - [OpenBSD on the Raspberry Pi 3B](https://brainsnapped.com/2020/10/22/openbsd-on-the-raspberry-pi-3-model-b/)
   - [Getting OpenBSD running on Raspberry Pi 3](https://undeadly.org/cgi?action=article&sid=20170409123528)
+  - [Managing OpenBSD installed packages declaratively](https://dataswamp.org/~solene/2022-05-05-openbsd-declarative-packages-with-pkgset.html)
+  - [Using a game engine to write a graphical interface to the OpenBSD package manager](https://dataswamp.org/~solene/2022-05-05-i-wrote-a-gui-frontend-with-a-game-engine.html)
 - Nvidia (CUDA):
   - NVIDIA [tensorflow](https://github.com/NVIDIA/tensorflow)
   - [Kernel module signing facility](https://www.kernel.org/doc/html/v4.10/admin-guide/module-signing.html)
@@ -1080,6 +1092,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex): A Pokedex app using ViewModel, LiveData, Room and Navigation
 - [NewPipe](https://newpipe.schabi.org/): The lightweight YouTube experience for Android - [code](https://github.com/TeamNewPipe/NewPipe)
 - [Android and Kotlin conference videos](https://github.com/igorwojda/android-kotlin-conference-videos)
+- [LineageOS 19](https://lineageos.org/Changelog-26/)
 
 ## Mac/iOS
 
@@ -1175,6 +1188,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [chocolatey](https://chocolatey.org/): a third party package manager that's been around since 2011.
 - [cmder](https://github.com/cmderdev/cmder):  is a software package created out of pure frustration over absence of usable console emulator on Windows.
 - [winget](https://github.com/microsoft/winget-cli): Windows Package Manager CLI (aka winget).
+- [Microsoft 3D Movie Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker): This is the source code for the original Microsoft 3D Movie Maker released in 1995. This is not supported software.
 
 ### Windows Dev
 
@@ -1365,6 +1379,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Reddit-User-Media-Downloader-Public](https://github.com/MonkeyMaster64/Reddit-User-Media-Downloader-Public): Download all the picture/video posts from a particular user on Reddit, for uh...reasons. Automatically removes duplicates ￼.
 - [tenacity](https://github.com/tenacityteam/tenacity): FLOSS Audacity Fork · No telemetry, crash reports and other shenanigans like that!
 - [12ft](https://12ft.io/) Show me a 10ft paywall, I’ll show you a 12ft ladder.
+- [screenly-ose](https://github.com/Screenly/screenly-ose): The most popular digital signage project on Github!
 
 ### Rescue
 
@@ -1799,6 +1814,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Disque](https://github.com/antirez/disque) is a distributed message broker
 - [TDengine](https://tdengine.com/). [repo](https://github.com/taosdata/TDengine)
 - [Raspberry pi firmwares- developing with this lk overlay](https://github.com/librerpi/lk-overlay)
+- [ESP32 SSH Server](https://github.com/gojimmypi/wolfssh/tree/ESP32_Development/examples/ESP32-SSH-Server)
 
 ### Pub/Sub
 
@@ -1903,6 +1919,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Como remover o ruído do seu microfone em chamadas no Linux](https://diolinux.com.br/sistemas-operacionais/remover-ruido-do-microfone-no-linux.html)
 - [Rescue sheets](http://rescuesheet.info/index.html): a standardised A4 "rescue sheet" including information on the location of cabin reinforcements, tank, the battery, airbags, gas generators, control units etc. - and indicating adequate cutting points must be used to save lives in car accidents.
 - [Ninja Tool Collection](https://www.youtube.com/watch?v=G_Q9MW032ks)
+- [velox](https://engineering.fb.com/2022/08/31/open-source/velox/): An open source unified execution engine.
 
 ## News
 
@@ -1932,6 +1949,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Apple is a true business innovator: For more than a decade, they have been steadily perfecting an obscure anticompetitive tactic, turning a petty grift invented by console games companies into a global, cross-industry mechanism for extracting rents and centralizing control.](https://twitter.com/doctorow/status/1388934048072953857)
 - [Liquid Cooling Next-Gen Servers Getting Hands-on with 3 Options](https://www.servethehome.com/liquid-cooling-next-gen-servers-getting-hands-on-3-options-supermicro/5/)
 - [New 5D Storage to Offer 10,000x the Density of Blu-Ray](https://www.tomshardware.com/news/5d-storage-optical-data-cube)
+- [Swarming drones autonomously navigate a dense forest (and chase a human)](https://techcrunch.com/2022/05/04/swarming-drones-autonomously-navigate-a-dense-forest-and-chase-a-human/)
 
 ## Making Conferences
 

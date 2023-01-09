@@ -144,6 +144,7 @@ Nice projects to try. Let's do it!
 - [Digikey](https://www.digikey.com/)
 - [Mouser](https://www.mouser.com)
 - [DIY Boat Monitoring WiFi](https://l-36.com/DIY-WiFi.php)
+- [Using Python to vectorize artwork for PCBs](https://blog.thea.codes/raster-vectorization-with-python/)
 
 ## Comparison
 
