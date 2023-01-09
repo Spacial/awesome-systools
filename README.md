@@ -1467,7 +1467,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [gifcap](https://gifcap.dev): Create animated GIFs from a screen recording.
 - [Handesk](https://github.com/BadChoice/handesk): A Powerful Laravel Help Desk and Lead Management App
 - [qrpicture](https://github.com/xyzzy/qrpicture): Photo realistic QR codes hosted on www.qrpicture.com.
-- [Archivy](https://github.com/Uzay-G/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
+- [Archivy](https://github.com/archivy/archivy): is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.
 - [RSSHub](https://github.com/DIYgod/RSSHub): Everything is RSSible
 - [cypress](https://github.com/cypress-io/cypress): Fast, easy and reliable testing for anything that runs in a browser.
 - [jira_clone](https://github.com/oldboyxx/jira_clone): A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress.
@@ -1608,6 +1608,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [three.js](https://www.npmjs.com/package/three): The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
 - [JavaScript is C](https://v4.chriskrycho.com/2018/javascript-is-c.html): Maintaining invariants the most painful way possible.
 - [nazca](https://github.com/Qinti/nazca): A new way of creating GUI in the web
+- [Calculator in JavaScript](https://www.scaler.com/topics/calculator-in-javascript/)
 
 ##### JavaScript Tools
 
