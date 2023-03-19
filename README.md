@@ -766,6 +766,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Lambda Shell](http://www.lambdashell.com/)
 - [Understanding Bash fork() Bomb ~ :(){ :|:& };:](https://www.cyberciti.biz/faq/understanding-bash-fork-bomb/)
 - [bat](https://github.com/sharkdp/bat): A cat(1) clone with wings.
+- [Clipboard](https://github.com/Slackadays/Clipboard): Cut, copy, and paste anything, anytime, anywhere.
 - [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 - [kitty](https://sw.kovidgoyal.net/kitty/) - the fast, featureful, GPU based terminal emulator. [github](https://github.com/kovidgoyal/kitty)
 - [xsv](https://github.com/BurntSushi/xsv): A fast CSV command line toolkit written in Rust.
