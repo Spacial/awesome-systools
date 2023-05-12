@@ -267,6 +267,7 @@ APFS FUSE Driver for Linux
 - [Rapid YAML](https://github.com/biojppm/rapidyaml)
 - [How To Use Terraform with DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean)
 - [Opta](https://github.com/run-x/opta): is a new kind of Infrastructure-As-Code framework where you work with high-level constructs instead of getting lost in low level cloud configuration.
+- [Nekton.ai](https://nekton.ai): Automate your workflows with AI. Write a checklist in plain English, and then AI will convert it to code and run it in the cloud.
 
 ### Ansible
 
