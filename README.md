@@ -1139,6 +1139,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [libimobiledevice](https://libimobiledevice.org/): A cross-platform FOSS library written in C to communicate with iOS devices natively.
 - [Kingfisher](https://github.com/onevcat/Kingfisher): A lightweight, pure-Swift library for downloading and caching images from the web.
 - [Maestral](https://github.com/SamSchott/maestral): Open-source Dropbox client for macOS and Linux.
+- [LinearMouse](https://linearmouse.app/pt-BR/):  The mouse and trackpad utility for Mac. [repo](https://github.com/linearmouse/linearmouse)
 
 ## Windows
 
@@ -1571,6 +1572,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [CSS Zen Garden](http://www.csszengarden.com): The Beauty of CSS Design
 - [react-ultimate-resume](https://github.com/welovedevs/react-ultimate-resume): 💼 🎨 A modern software developer resume built with React and JSONResume
 - [analytics](https://github.com/plausible/analytics): Simple and privacy-friendly alternative to Google Analytics.
+- [GoatCounter](https://www.goatcounter.com/): GoatCounter is an open source web analytics platform available as a hosted service (free for non-commercial use) or self-hosted app.
 - [Brython](https://brython.info/index.html): A Python 3 implementation for client-side web programming.
 - [decentraleyes](https://decentraleyes.org/): Local CDN Emulation. [Decentraleyes](https://git.synz.io/Synzvato/decentraleyes) a web browser extension that emulates Content Delivery Networks to improve your online privacy.
 - [Things I Wish I’d Known About CSS](https://cssfordesigners.com/articles/things-i-wish-id-known-about-css)
@@ -1667,6 +1669,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [X Window System Basics](https://magcius.github.io/xplain/article/x-basics.html)
 - [PaperView](https://glouw.com/2020/08/02/Paperview.html), repo:[PAPERVIEW](https://github.com/glouw/paperview): A high performance X11 animated wallpaper setter
 - [The Fastest, Safest PNG Decoder in the World](https://nigeltao.github.io/blog/2021/fastest-safest-png-decoder.html)
+- [superwhite](https://github.com/dtinth/superwhite): display a very bright white color on HDR-enabled displays
 
 #### CMS
 
@@ -1816,6 +1819,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [TDengine](https://tdengine.com/). [repo](https://github.com/taosdata/TDengine)
 - [Raspberry pi firmwares- developing with this lk overlay](https://github.com/librerpi/lk-overlay)
 - [ESP32 SSH Server](https://github.com/gojimmypi/wolfssh/tree/ESP32_Development/examples/ESP32-SSH-Server)
+- [Linux-based CPE for Telia's (AS3249) "Koduinternet" service](https://github.com/tonusoo/koduinternet-cpe)
 
 ### Pub/Sub
 
@@ -1921,6 +1925,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Rescue sheets](http://rescuesheet.info/index.html): a standardised A4 "rescue sheet" including information on the location of cabin reinforcements, tank, the battery, airbags, gas generators, control units etc. - and indicating adequate cutting points must be used to save lives in car accidents.
 - [Ninja Tool Collection](https://www.youtube.com/watch?v=G_Q9MW032ks)
 - [velox](https://engineering.fb.com/2022/08/31/open-source/velox/): An open source unified execution engine.
+- [The Matt Curve](https://matt.sh/matt-curve)
 
 ## News
 
@@ -1951,6 +1956,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [Liquid Cooling Next-Gen Servers Getting Hands-on with 3 Options](https://www.servethehome.com/liquid-cooling-next-gen-servers-getting-hands-on-3-options-supermicro/5/)
 - [New 5D Storage to Offer 10,000x the Density of Blu-Ray](https://www.tomshardware.com/news/5d-storage-optical-data-cube)
 - [Swarming drones autonomously navigate a dense forest (and chase a human)](https://techcrunch.com/2022/05/04/swarming-drones-autonomously-navigate-a-dense-forest-and-chase-a-human/)
+- [Nvidia H100 and A100 GPUs - comparing available capacity at GPU cloud providers](https://llm-utils.org/Nvidia+H100+and+A100+GPUs+-+comparing+available+capacity+at+GPU+cloud+providers)
 
 ## Making Conferences
 
