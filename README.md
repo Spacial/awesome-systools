@@ -945,6 +945,7 @@ ansible_python_interpreter=/usr/bin/python3
   - [Getting OpenBSD running on Raspberry Pi 3](https://undeadly.org/cgi?action=article&sid=20170409123528)
   - [Managing OpenBSD installed packages declaratively](https://dataswamp.org/~solene/2022-05-05-openbsd-declarative-packages-with-pkgset.html)
   - [Using a game engine to write a graphical interface to the OpenBSD package manager](https://dataswamp.org/~solene/2022-05-05-i-wrote-a-gui-frontend-with-a-game-engine.html)
+  - [OpenBSD workstation hardening](https://dataswamp.org/~solene/2023-12-31-hardened-openbsd-workstation.html)
 - Nvidia (CUDA):
   - NVIDIA [tensorflow](https://github.com/NVIDIA/tensorflow)
   - [Kernel module signing facility](https://www.kernel.org/doc/html/v4.10/admin-guide/module-signing.html)
@@ -1959,6 +1960,7 @@ Access price, inventory, unique market intelligence and advanced analytics for a
 - [New 5D Storage to Offer 10,000x the Density of Blu-Ray](https://www.tomshardware.com/news/5d-storage-optical-data-cube)
 - [Swarming drones autonomously navigate a dense forest (and chase a human)](https://techcrunch.com/2022/05/04/swarming-drones-autonomously-navigate-a-dense-forest-and-chase-a-human/)
 - [Nvidia H100 and A100 GPUs - comparing available capacity at GPU cloud providers](https://llm-utils.org/Nvidia+H100+and+A100+GPUs+-+comparing+available+capacity+at+GPU+cloud+providers)
+- [Microsoft keeps shooting itself in the foot with Edge](https://www.xda-developers.com/microsoft-shooting-itself-foot-edge/)
 
 ## Making Conferences
 
