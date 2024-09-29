@@ -1192,6 +1192,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [cmder](https://github.com/cmderdev/cmder):  is a software package created out of pure frustration over absence of usable console emulator on Windows.
 - [winget](https://github.com/microsoft/winget-cli): Windows Package Manager CLI (aka winget).
 - [Microsoft 3D Movie Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker): This is the source code for the original Microsoft 3D Movie Maker released in 1995. This is not supported software.
+- [Microsoft Activation Scripts (MAS)](https://github.com/massgravel/Microsoft-Activation-Scripts): Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting. [site](https://massgrave.dev/#download--how-to-use-it)
 
 ### Windows Dev
 
