@@ -419,6 +419,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [A new security header: Feature Policy](https://scotthelme.co.uk/a-new-security-header-feature-policy/)
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
 - [dotdotslash](https://github.com/jcesarstef/dotdotslash): An tool to help you search for Directory Traversal Vulnerabilities
+- [Vulert](https://www.vulert.com): Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more.|
 - [ENVOY](https://www.envoyproxy.io/) is an open source edge and service proxy, designed for cloud-native applications. [code](https://github.com/envoyproxy/envoy)
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
