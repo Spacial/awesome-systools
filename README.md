@@ -570,6 +570,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The Log File Navigator](https://lnav.org/downloads/) ([github](https://github.com/tstack/lnav))
 - [Logging best practices to get the most out of application level logging](https://geshan.com.np/blog/2019/03/follow-these-logging-best-practices-to-get-the-most-out-of-application-level-logging-slides/)
 - [honeyd-syslogger.sh](https://gist.github.com/lopes/81b90d86b30e2730df241c90cc323837): Parses honeyd logfiles to syslog and sends them to a SIEM.
+- [RisingWave](https://github.com/risingwavelabs/risingwave): Real-time event streaming platform. real-time data ingestion, stream processing, online serving, and data management.
 
 ### Benchmarks
 
@@ -1219,12 +1220,12 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater): Script to remove Windows 10 bloatware.
 - [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/) (thread from 04/2019)
-- [Windows-10-Super-Minimal](https://github.com/prclaunchky/Windows-10-Super-Minimal)
 - [Windows 10 Lite 9.0](https://www.majorgeeks.com/files/details/windows_10_lite.html)
 - [Create custom Windows 10 installations with MSMG Toolkit](https://www.ghacks.net/2017/05/02/create-custom-windows-10-installations-with-msmg-toolkit/), [MSMG ToolKit](https://www.majorgeeks.com/mg/getmirror/msmg_toolkit,1.html) creates a slimmed down, or bloat free Windows by customizing, adding or removing features and components as well as enabling or disabling features to Microsoft Windows 7, 8, and 10.
 - [How to slim Windows 10 and make it superfast](https://malwaretips.com/threads/how-to-slim-windows-10-and-make-it-superfast.91924/)
 - A lot of powershell scripts:
   - [Windows-10-Super-Minimal](https://github.com/prclaunchky/Windows-10-Super-Minimal)
+  - []
 - [Windows 10 Decrapifier](https://gist.github.com/gvlx/b4d4c5681900ca965276fc5c16fe8520)
 - [Windows Decrapifier](https://github.com/n1snt/Windows-Decrapifier)
 - [How to: Shoehorn Decrapifier into your MDT task!](https://community.spiceworks.com/how_to/150455-shoehorn-decrapifier-into-your-mdt-task) - not tested.
