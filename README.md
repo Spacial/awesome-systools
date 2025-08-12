@@ -272,6 +272,7 @@ APFS FUSE Driver for Linux
 - [Rapid YAML](https://github.com/biojppm/rapidyaml)
 - [How To Use Terraform with DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean)
 - [Opta](https://github.com/run-x/opta): is a new kind of Infrastructure-As-Code framework where you work with high-level constructs instead of getting lost in low level cloud configuration.
+- [Nekton.ai](https://nekton.ai): Automate your workflows with AI. Write a checklist in plain English, and then AI will convert it to code and run it in the cloud.
 
 ### Ansible
 
@@ -419,6 +420,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [A new security header: Feature Policy](https://scotthelme.co.uk/a-new-security-header-feature-policy/)
 - [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum)
 - [dotdotslash](https://github.com/jcesarstef/dotdotslash): An tool to help you search for Directory Traversal Vulnerabilities
+- [Vulert](https://www.vulert.com): Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more.|
 - [ENVOY](https://www.envoyproxy.io/) is an open source edge and service proxy, designed for cloud-native applications. [code](https://github.com/envoyproxy/envoy)
 - [ghp](https://github.com/CurtisLusmore/ghp): A simple web server for serving static GitHub Pages locally
 - [LEAR](https://github.com/Glorf/lear): Linux Engine for Asset Retrieval
@@ -1193,6 +1195,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [cmder](https://github.com/cmderdev/cmder):  is a software package created out of pure frustration over absence of usable console emulator on Windows.
 - [winget](https://github.com/microsoft/winget-cli): Windows Package Manager CLI (aka winget).
 - [Microsoft 3D Movie Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker): This is the source code for the original Microsoft 3D Movie Maker released in 1995. This is not supported software.
+- [Microsoft Activation Scripts (MAS)](https://github.com/massgravel/Microsoft-Activation-Scripts): Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting. [site](https://massgrave.dev/#download--how-to-use-it)
 
 ### Windows Dev
 
