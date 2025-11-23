@@ -119,6 +119,7 @@ APFS FUSE Driver for Linux
 - [Comparison of Rust async and Linux thread context switch time and memory use](https://github.com/jimblandy/context-switch)
 - [How Netflix uses eBPF flow logs at scale for network insight](https://netflixtechblog.com/how-netflix-uses-ebpf-flow-logs-at-scale-for-network-insight-e3ea997dca96)
 - Rewriting sysctl(8) in Rust: [systeroid](https://blog.orhun.dev/rewriting-sysctl-in-rust/). [repo](https://github.com/orhun/systeroid)
+- [Systems Report](https://automattic.com/2024/03/14/systems-report-linux-performance-regression/): Diagnosing a Linux Performance Regression
 
 #### Monitoring
 
