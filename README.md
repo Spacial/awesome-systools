@@ -1705,6 +1705,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Color Hunt](https://colorhunt.co/): is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes
 - [Paletton](https://paletton.com/): is an online application located on the internet.
 - [Colormind](http://colormind.io/): is a color scheme generator that uses deep learning.
+-  [Combination Color Generator](https://www.coloried.com/combination-generator): is combination color palette generator, users can add base color or sample color, it will generate palette and its downloadable too.
 - [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
 - [ffflux](https://fffuel.co/ffflux/)
 
