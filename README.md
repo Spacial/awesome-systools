@@ -1194,6 +1194,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The Ultimate Windows Development Environment Guide](https://unicorn-utterances.com/posts/ultimate-windows-development-environment-guide#terminal-usage)
 - [chocolatey](https://chocolatey.org/): a third party package manager that's been around since 2011.
 - [cmder](https://github.com/cmderdev/cmder):  is a software package created out of pure frustration over absence of usable console emulator on Windows.
+- [KKTerm](https://github.com/ryantsai/KKTerm): Windows-first, local-first terminal for managing connections, sessions, and workspaces.
 - [winget](https://github.com/microsoft/winget-cli): Windows Package Manager CLI (aka winget).
 - [Microsoft 3D Movie Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker): This is the source code for the original Microsoft 3D Movie Maker released in 1995. This is not supported software.
 - [Microsoft Activation Scripts (MAS)](https://github.com/massgravel/Microsoft-Activation-Scripts): Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting. [site](https://massgrave.dev/#download--how-to-use-it)
