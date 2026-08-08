@@ -1105,6 +1105,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Using AppleScript how do I click a button in a dialog within a window that has no name/title?](https://stackoverflow.com/questions/7355763/using-applescript-how-do-i-click-a-button-in-a-dialog-within-a-window-that-has-n)
 - [Making the Touch Bar finally useful](http://vas3k.com/blog/touchbar/)
 - [iTerm2](https://github.com/gnachman/iTerm2) is a terminal emulator for Mac OS X that does amazing things.
+- [Nexus Shell](https://nexusshell.app/) is a native macOS SSH client with terminal, SFTP, key management, Docker tools, and server monitoring.
 - [kemon](https://github.com/didi/kemon): An Open-Source Pre and Post Callback-Based Framework for macOS Kernel Monitoring.
 - [linuxify](https://github.com/fabiomaia/linuxify): 🍏🐧 Transparently transform the macOS CLI into a fresh GNU/Linux CLI experience.
 - [MicroMDM](https://micromdm.io/)
