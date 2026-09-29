@@ -1240,6 +1240,7 @@ ansible_python_interpreter=/usr/bin/python3
 
 - [The Datacenter as a Computer: Designing Warehouse-Scale Machines, Third Edition](https://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046)
 - [Automating Datacenter Operations at Dropbox](https://blogs.dropbox.com/tech/2019/01/automating-datacenter-operations-at-dropbox/)
+- [K&K Data Center Reference Drawings](https://www.kkdatasvc.com/lab/downloads/) - Electrical, structural and network reference designs for a GPU hall; three PDFs, 316 pages, Design Development Public Edition P1.
 
 ## Support
 
