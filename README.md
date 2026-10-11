@@ -124,6 +124,7 @@ APFS FUSE Driver for Linux
 #### Monitoring
 
 - [netdata](https://my-netdata.io/): Real-time performance monitoring, done right! [github](https://github.com/netdata/netdata).
+- [SolidPing](https://www.solidping.io/): Self-hosted uptime and synthetic monitoring (HTTP, DNS, TCP, ICMP, TLS, databases, heartbeats) with status pages and alerting. Single Go binary or Docker image. [github](https://github.com/fclairamb/solidping).
 - [Watchman](https://github.com/facebook/watchman): Watches files and records, or triggers actions, when they change.
 - [cartography](https://github.com/lyft/cartography): Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 - [hardinfo](https://github.com/lpereira/hardinfo): System profiler and benchmark tool for Linux systems
