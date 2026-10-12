@@ -1771,6 +1771,7 @@ $INDEX
 - [Awesome Azure Learning](https://github.com/ddneves/awesome-azure-learning): This repo includes plenty of references for Azure learning, especially for the Azure certs and Azure architecture, and any other learning materials e.g. security and automation topics.
 - [Awesome Cloud Native](https://github.com/rootsongjc/awesome-cloud-native):  A curated list for awesome cloud native tools, software and tutorials.
 - [Software for Open Networking in the Cloud - SONiC](https://github.com/Azure/sonic-mgmt): Configuration management examples for SONiC.
+- [Spinifex](https://github.com/mulgadc/spinifex): Open-source, AWS-compatible cloud you run on your own hardware. Runs EC2, EBS, S3, VPC and IAM on KVM for bare-metal, edge and on-premises sites, and works with the existing AWS CLI, SDKs and Terraform. [docs](https://docs.mulgadc.com)
 
 ### AWS
 
