@@ -1095,6 +1095,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Don't kill my app!](https://dontkillmyapp.com/): To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless.
 - [Project description](https://github.com/igorwojda/android-showcase): gemAndroid application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 - [scrcpy](https://github.com/Genymobile/scrcpy): Display and control your Android device
+- [Oh My Android](https://github.com/ateymoori/oh-my-android): Native macOS control panel for the Android Emulator and adb devices: one-click dark mode, font scale, RTL, TalkBack, network throttling and GPS mock, plus a Layout Inspector in dp and a built-in MCP server.
 - [Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex): A Pokedex app using ViewModel, LiveData, Room and Navigation
 - [NewPipe](https://newpipe.schabi.org/): The lightweight YouTube experience for Android - [code](https://github.com/TeamNewPipe/NewPipe)
 - [Android and Kotlin conference videos](https://github.com/igorwojda/android-kotlin-conference-videos)
