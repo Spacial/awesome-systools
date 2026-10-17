@@ -580,6 +580,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [test-profiles](https://github.com/phoronix-test-suite/test-profiles): A read-only Git copy of the OpenBenchmarking.org test profiles.
 - [hardware-effects](https://github.com/Kobzol/hardware-effects): Demonstration of various hardware effects.
 - [PrIM](https://github.com/CMU-SAFARI/prim-benchmarks)(Processing-In-Memory Benchmarks) is the first benchmark suite for a real-world processing-in-memory (PIM) architecture. PrIM is developed to evaluate, analyze, and characterize the first publicly-available real-world PIM architecture, the UPMEM PIM architecture. Described by Gómez-Luna et al. [preliminary version](https://arxiv.org/abs/2105.03814)
+- [vhr-bench](https://github.com/vpshostreview/vhr-vps-benchmark): Single-file Bash script that benchmarks a Linux server's CPU, memory (sysbench) and 4k random disk IOPS (fio) in about a minute.
 
 ## Services
 
