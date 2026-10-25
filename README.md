@@ -704,6 +704,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [short dns record ttl and centralization are serious risks for the internet](https://techblog.bozho.net/short-dns-ttl-and-centralization-are-serious-risks-for-the-internet/)
 - [The world's shortest domain names](http://www.dirk-loss.de/short-domains.htm)
 - DNSLog[](http://www.dnslog.cn/): helping dns troubleshooting with dinamyc subdomains and query logs.
+- [WebToolBench DNS Checker](https://www.webtoolbench.com/dns-checker): free online lookup of A, AAAA, MX, TXT, NS, CNAME, SOA and CAA records, queried from the authoritative nameservers with each record type explained.
 
 ### LoadBalancers
 
