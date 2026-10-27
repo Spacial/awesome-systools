@@ -1133,6 +1133,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [macOS-Fortress](https://github.com/essandess/macOS-Fortress): Firewall and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers with Anti-Virus On-Demand and On-Access Scanning (PF, squid, privoxy, hphosts, dshield, emergingthreats, hostsfile, PAC file, clamav).
 - [BitBar](https://github.com/matryer/bitbar): Put the output from any script or program in your Mac OS X Menu Bar.
 - [AppleScript](https://daringfireball.net/2020/01/quit_confirmation_for_safari_on_macos) to Warn before quiting.
+- [LayoutKeeper](https://github.com/tumingke0/LayoutKeeper): Free, open-source (GPL-3.0) menu-bar app that restores window positions and Spaces when an external monitor is reconnected, with DDC brightness and volume control on Apple Silicon.
 - [pdfinverter](https://github.com/rootVIII/pdfinverter): darken (or lighten) a PDF on macOS
 - [macOS has checked app signatures online for over 2 years](https://eclecticlight.co/2020/11/25/macos-has-checked-app-signatures-online-for-over-2-years/)
 - [Better than Time Machine: backup your Mac with rsync](https://www.haykranen.nl/2008/05/05/rsync/)
