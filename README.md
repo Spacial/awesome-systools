@@ -1716,6 +1716,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe): Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
 - [P.A.I.F](https://github.com/T635/P.A.I.F): automatic facebook image poster.
 - [Python and the Web](https://github.com/Python-World/Python_and_the_Web): Build Bots, Scrape a website or use an API to solve a problem.
+- [CurlShot](https://curlshot.com/): Screenshot API that renders any URL in a real browser (Playwright/Chromium) to PNG, JPEG, WebP, PDF or video. Commercial, free plan with 100 screenshots/month.
 
 ## Journalism
 
