@@ -521,6 +521,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Open Source Insights](https://deps.dev/): Open Source Insights is an experimental service developed and hosted by [Google](https://opensource.googleblog.com/2021/06/introducing-open-source-insights-project.html) to help developers better understand the structure, construction, and security of open source software packages.
 - [Repositories Reports](https://github.com/GuillaumeFalourd/repositories-reports): Repository with weekly insights reports for personal repositories using Github Actions and Ritchie CLI.
 - [Spacelift](https://spacelift.io/): Flexible management platform for Infrastructure as Code
+- [Buddy](https://buddy.works): CI/CD pipelines, sandbox VMs and app hosting for developers and AI coding agents
 
 ### Jenkins
 
