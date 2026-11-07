@@ -563,6 +563,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers
 - [rbspy](https://rbspy.github.io/): Have a running Ruby program that you want to profile without restarting it? Want to profile a Ruby command line program really easily? You want rbspy! rbspy can profile any Ruby program by running 1 command.
 - [drltrace](https://github.com/mxmssh/drltrace): Drltrace is a library calls tracer for Windows and Linux applications.
+- [RMM agent upgrade failed or stuck troubleshooting checklist](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-agent-upgrade-failed-stuck-troubleshooting-checklist.html): Vendor-neutral Windows checklist for preserving installer evidence, isolating package and state conflicts, repairing one pilot, and validating an agent upgrade rollout.
 
 ### Logs
 
