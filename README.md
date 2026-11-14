@@ -137,6 +137,7 @@ APFS FUSE Driver for Linux
   - [Sysmon For Linux Lab Environment](https://github.com/OTRF/Azure-Sentinel2Go/tree/master/grocery-list/Linux/demos/Sysmon-For-Linux)
 - [An intro to finding things in Linux](https://www.madebygps.com/an-intro-to-finding-things-in-linux/)
 - [magic-trace](https://github.com/janestreet/magic-trace):  collects and displays high-resolution traces of what a process is doing.
+- [Cyberdog](https://github.com/pickywawa/cyberdog): Desktop SSH/SFTP client with an agentless server health dashboard (CPU, memory, disks, services, Docker) and a built-in terminal.
 
 ### Red Hat/Fedora
 
