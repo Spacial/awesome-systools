@@ -388,6 +388,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [firejail](https://github.com/netblue30/firejail): Linux namespaces and seccomp-bpf [sandbox](https://wiki.archlinux.org/title/firejail).
 - [Awesome Windows Domain Hardening](https://github.com/PaulSec/awesome-windows-domain-hardening): A curated list of awesome Security Hardening techniques for Windows.
 - [CHAPS](https://github.com/cutaway-security/chaps): Configuration Hardening Assessment PowerShell Script (CHAPS)
+- [Vibe Security Checklist](https://github.com/zColdWater/vibe-security-checklist): MIT web server & deployment hardening templates (Nginx, Cloudflare Workers, Vercel, Next.js, Supabase RLS) plus a zero-dependency bundle secret scanner and passive HTTP security verifier.
 - [VideoLan Robots.txt](https://www.videolan.org/robots.txt)
 
 ### WebServers
