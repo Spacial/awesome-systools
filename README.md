@@ -389,6 +389,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [Awesome Windows Domain Hardening](https://github.com/PaulSec/awesome-windows-domain-hardening): A curated list of awesome Security Hardening techniques for Windows.
 - [CHAPS](https://github.com/cutaway-security/chaps): Configuration Hardening Assessment PowerShell Script (CHAPS)
 - [VideoLan Robots.txt](https://www.videolan.org/robots.txt)
+- [vps-first-boot](https://github.com/bigdomainhost/vps-first-boot): Hardens a fresh Ubuntu or Debian VPS: sudo user with SSH key, ufw, fail2ban, unattended-upgrades, then key-only SSH after a login check.
 
 ### WebServers
 
