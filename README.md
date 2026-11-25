@@ -684,6 +684,7 @@ ansible_python_interpreter=/usr/bin/python3
 - [The Confused Mailman](https://ezh.es/blog/2020/08/the-confused-mailman-sending-spf-and-dmarc-passing-mail-as-any-gmail-or-g-suite-customer/): Sending SPF and DMARC passing mail as any Gmail or G Suite customer
 - [0x4447_product_s3_email](https://github.com/0x4447/0x4447_product_s3_email): mailbox A serverless email server on AWS using S3 and SES.
 - [Learn and Test DMARC](https://www.learndmarc.com/): Visualizing the communication between email servers will help you understand what SPF, DKIM, and DMARC do and how these mechanisms work.
+- [postmaster-of-puppets](https://github.com/randyesperben/postmaster-of-puppets): Checks a domain's MX, SPF, DKIM and DMARC records and says whether anyone can send email as the domain, with the records that fix it. MIT, TypeScript.
 
 ### DNS
 
